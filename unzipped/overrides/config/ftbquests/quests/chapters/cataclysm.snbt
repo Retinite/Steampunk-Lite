@@ -1,0 +1,1029 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "7439B6455A597DD4"
+	icon: "cataclysm:ignitium_ingot"
+	id: "05F2BC2B9CA452BF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3BBE11E0CD23C76B"]
+			id: "43DF27CE014208B8"
+			shape: "hexagon"
+			tasks: [{
+				icon: "cataclysm:altar_of_fire"
+				id: "1E4D85B6157E0BEF"
+				structure: "cataclysm:burning_arena"
+				title: "Find the Burning Arena"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43DF27CE014208B8"]
+			id: "24D8EB0701036BB9"
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2092D81FCD7B7742"
+				title: "Slay Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["628A4492D4595E37"]
+			id: "34315B1B5C0C3C89"
+			shape: "hexagon"
+			tasks: [{
+				icon: "cataclysm:altar_of_abyss"
+				id: "09D74CF9D7F8A3EE"
+				structure: "cataclysm:sunken_city"
+				title: "Find the Sunken City"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34315B1B5C0C3C89"]
+			id: "472FB4307A8EDF85"
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyssal_sacrifice"
+				id: "7E1DFA0060370E1D"
+				title: "Slay the Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["266BB5ACFB296507"]
+			id: "3A2368FDFE40AEF3"
+			shape: "hexagon"
+			tasks: [{
+				icon: "cataclysm:cursed_tombstone"
+				id: "6EFCAEDCA00ADA99"
+				structure: "cataclysm:frosted_prison"
+				title: "Find the Frosted Prison"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A2368FDFE40AEF3"]
+			id: "2908B2125440F472"
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "159641D4E76A28FA"
+				title: "Slay Maledictus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37784AC7357E78BC"]
+			id: "615D366CA321770E"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:chiseled_polished_blackstone"
+				id: "22F8F58B495DD06B"
+				structure: "cataclysm:soul_black_smith"
+				title: "Find the Soul Forge"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["615D366CA321770E"]
+			id: "158ADA4D17A57CF4"
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_effigy"
+				id: "6DB0A80C5891CAC3"
+				title: "Slay the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E8EA2444E13F53D"]
+			id: "01161EF6B666545C"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:chiseled_sandstone"
+				id: "2E7466F66C6F4931"
+				structure: "cataclysm:cursed_pyramid"
+				title: "Find the Cursed Pyramid"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01161EF6B666545C"]
+			id: "79343430C86EDFC1"
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "0B03066B82B7E553"
+				title: "Slay the Ancient Remnant"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["297F92936604A8C8"]
+			id: "513AAC47E228D04B"
+			shape: "hexagon"
+			tasks: [{
+				icon: "cataclysm:chiseled_obsidian_bricks"
+				id: "5ACED3A1B1E53DC1"
+				structure: "cataclysm:ruined_citadel"
+				title: "Find the Ruined Citadel"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["513AAC47E228D04B"]
+			id: "5871ACC96CAD791B"
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:void_lantern_block"
+				id: "7E4ACB72E421B9C6"
+				title: "Slay the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02BF0CB89C1F3842"]
+			id: "16C1BDA85AA30FB6"
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:sculk_catalyst"
+				id: "5A769ECA286D536A"
+				structure: "cataclysm:ancient_factory"
+				title: "Find the Ancient Factory"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16C1BDA85AA30FB6"]
+			id: "7A21C8888B6189C0"
+			shape: "octagon"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "ars_nouveau:glyph_wither"
+				id: "2D342DA2C5A0FB09"
+				title: "Slay the Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "0C50E0851298AB9E"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "5A157BDA0285BBB5"
+				title: "Visit the Overworld"
+				type: "dimension"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "454041D02584CDFA"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "minecraft:netherrack"
+				id: "14174BDDC56A1BE1"
+				title: "Visit the Nether"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			disable_toast: true
+			id: "46FE6D405789D17D"
+			shape: "hexagon"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				disable_toast: true
+				icon: "minecraft:end_stone"
+				id: "32A5AB67734D2CCC"
+				title: "Visit the End"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C50E0851298AB9E"]
+			id: "1E8EA2444E13F53D"
+			tasks: [{
+				id: "66D35DDCAA1D6151"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C50E0851298AB9E"]
+			id: "628A4492D4595E37"
+			tasks: [{
+				id: "06D55442ED34F6DC"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C50E0851298AB9E"]
+			id: "02BF0CB89C1F3842"
+			tasks: [{
+				id: "5F7F41351D717547"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C50E0851298AB9E"]
+			id: "266BB5ACFB296507"
+			tasks: [{
+				id: "151B7F53547462D3"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["454041D02584CDFA"]
+			id: "37784AC7357E78BC"
+			tasks: [{
+				id: "1806DCE47D56048D"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["454041D02584CDFA"]
+			id: "3BBE11E0CD23C76B"
+			tasks: [{
+				id: "7A0C66CED0952E27"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46FE6D405789D17D"]
+			id: "297F92936604A8C8"
+			tasks: [{
+				id: "4D0A705DDC143E91"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "526908611DC801BB"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6080432B4C7D2847"
+				item: "cataclysm:sticky_gloves"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79343430C86EDFC1"]
+			id: "78EEE4C7A7A2EBDD"
+			shape: "rsquare"
+			tasks: [{
+				id: "78F46F29B9BED995"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EEE4C7A7A2EBDD"]
+			id: "468D508C614EE79D"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2638B982B77E81EF"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "701AEA427C0847FD"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bone Reptile Armor"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EEE4C7A7A2EBDD"]
+			id: "50D325F44291727A"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7359069F27B5EF19"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2908B2125440F472"]
+			id: "25226FDC2F25A3EC"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "490998E7738547C0"
+					item: "cataclysm:black_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "394DFFC07B79AFD7"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+			]
+			title: "Black Steel \\& Cursium Ingots"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25226FDC2F25A3EC"]
+			id: "5253259E93EA5416"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3448A1F14D146947"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0B08F387CA833130"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29F300EB7B68B024"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BBA78F63CC2B78A"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E766B9F7901E319"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cursium Armor"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25226FDC2F25A3EC"]
+			id: "57E55D2C77B6EFFB"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "404AC74ED6E11E91"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25226FDC2F25A3EC"]
+			hide_dependent_lines: true
+			id: "33CD42C2176CB5BF"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "71A4CA56B178324A"
+				item: "cataclysm:the_annihilator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25226FDC2F25A3EC"]
+			hide_dependent_lines: true
+			id: "3F0F3E18DEC412C9"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "0FBA8A0A0C2F2F70"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34315B1B5C0C3C89"]
+			id: "07FBD6D460A04BE4"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6BF96B64DC220505"
+				item: {
+					Count: 1
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79343430C86EDFC1"]
+			hide_dependent_lines: true
+			id: "46D42D2EC020B734"
+			tasks: [{
+				id: "7DC24CF69AE4E8FD"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["472FB4307A8EDF85"]
+			id: "74A6841E8A7AE07D"
+			tasks: [{
+				id: "0AD28D7A9C8FC908"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A21C8888B6189C0"]
+			id: "3916F877E1BD1D16"
+			shape: "rsquare"
+			tasks: [{
+				id: "6A6C51E423658FCF"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24D8EB0701036BB9"]
+			id: "5C5D51C890424BB5"
+			shape: "rsquare"
+			tasks: [{
+				id: "5C65B6D4A0AF75DD"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["158ADA4D17A57CF4"]
+			hide_dependent_lines: true
+			id: "4A568D0FB49B98E2"
+			tasks: [{
+				id: "35C39E74319CD853"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["158ADA4D17A57CF4"]
+			id: "517FC4E19F4B2BFA"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "547596911D27DF43"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C5D51C890424BB5"]
+			hide_dependent_lines: true
+			id: "28E77E6208F189E3"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4B89BEFF489EA859"
+					item: "cataclysm:ignitium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "334EA854B704DFAA"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A1D2BDDF3734FB1"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "636749567086FE15"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78C4AD0859ED0B40"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ignitium Armor"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C5D51C890424BB5"]
+			id: "6986E568F3BDE74E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "21AB7D7B766A8A1A"
+				item: "cataclysm:blazing_grips"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C5D51C890424BB5"]
+			hide_dependent_lines: true
+			id: "314A173D7B0E30DD"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6BD3BBACDC3A8F64"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C5D51C890424BB5"]
+			id: "32F2A9672EDF2F6E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3BA309BB5444E6A5"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["513AAC47E228D04B"]
+			hide_dependent_lines: true
+			id: "5B87ACF94CFA38CE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "120E3C341A62A5B1"
+				item: "cataclysm:void_core"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5871ACC96CAD791B"]
+			hide_dependent_lines: true
+			id: "1D6A43186C3EE776"
+			tasks: [{
+				id: "4B414CB447C7E1BF"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3916F877E1BD1D16"]
+			hide_dependency_lines: true
+			id: "37F8829ED94C4B54"
+			shape: "square"
+			tasks: [{
+				id: "56F8148977B40B94"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3916F877E1BD1D16"]
+			hide_dependent_lines: true
+			id: "40808A9C90ACCE40"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6726DA5A277A627D"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3916F877E1BD1D16"]
+			id: "10E12A6A98830A52"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2714F1B95E7FA0D3"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Charged: 0b
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3916F877E1BD1D16"]
+			id: "1EA1B83AFE56A2D1"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "29369C970C9558CA"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37F8829ED94C4B54"
+				"1D6A43186C3EE776"
+				"314A173D7B0E30DD"
+			]
+			id: "04AC5F317020DE7D"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6F3B77896A2D21FC"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"37F8829ED94C4B54"
+				"33CD42C2176CB5BF"
+				"5C5D51C890424BB5"
+			]
+			hide_dependency_lines: true
+			id: "68CB06ABE74F27C9"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "19BDB1D4A17C1686"
+				item: "cataclysm:the_immolator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"37F8829ED94C4B54"
+				"28E77E6208F189E3"
+			]
+			id: "1E522E56FD0143F2"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "60C99A68416564ED"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"37F8829ED94C4B54"
+				"1D6A43186C3EE776"
+				"46D42D2EC020B734"
+			]
+			id: "586C1797D7F20E0D"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "14784A8A510BE242"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"37F8829ED94C4B54"
+				"4A568D0FB49B98E2"
+				"5B87ACF94CFA38CE"
+			]
+			id: "2C1F0E2BA6E77F9C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "5B28B168C117DA40"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"37F8829ED94C4B54"
+				"3F0F3E18DEC412C9"
+				"46D42D2EC020B734"
+			]
+			id: "67A74EB1CD9BE47C"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "750C698847B2CB75"
+				item: {
+					Count: 1
+					id: "cataclysm:wrath_of_the_desert"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"37F8829ED94C4B54"
+				"40808A9C90ACCE40"
+				"5B87ACF94CFA38CE"
+			]
+			id: "449B22A74A9B2DC3"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "34DA32123F52A81E"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["472FB4307A8EDF85"]
+			description: [
+				"Place in water, tame with &oTropical Fish&r."
+				""
+				"Can be picked up with a &oBucket&r."
+			]
+			id: "421B6D7A27D2AAC9"
+			subtitle: "Friend!"
+			tasks: [{
+				id: "7702A4C63D121165"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["158ADA4D17A57CF4"]
+			description: [
+				"Tame with &oLava Power Cells&r."
+				""
+				"Can be picked up with a &oBucket&r."
+			]
+			id: "164DFA89D6EC964D"
+			optional: true
+			shape: "diamond"
+			subtitle: "Friend!"
+			tasks: [{
+				id: "624157B5DC5120EA"
+				item: "cataclysm:netherite_effigy"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79343430C86EDFC1"]
+			description: [
+				"Tame with &oBrushes&r."
+				""
+				"Can be picked up with a &oBucket&r."
+			]
+			id: "6A70254BFD582704"
+			subtitle: "Friend!"
+			tasks: [{
+				id: "4223D5FE9ABFB451"
+				item: "cataclysm:remnant_skull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Cataclysm"
+}

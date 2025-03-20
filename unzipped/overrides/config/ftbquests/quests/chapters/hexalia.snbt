@@ -1,0 +1,649 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexalia"
+	group: "3F97C92F70B34FFC"
+	icon: "hexalia:verdant_grimoire"
+	id: "438336C75888997A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1AD557503B34C6F3"
+			tasks: [{
+				id: "7777FAD3A66C0CBA"
+				item: "hexalia:hex_focus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["Note: &oGhost Ferns&r only spawn in &oEnchanted Bayou&r biomes. &oEnchanted Bayous&r also contain all 3 other Magical Herbs too (but they can also be found in other biomes)!"]
+			id: "6D030675349A264E"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4B032356E541BC65"
+					item: "hexalia:spirit_bloom"
+					type: "item"
+				}
+				{
+					id: "25182EA2BEDF1EA7"
+					item: "hexalia:dreamshroom"
+					type: "item"
+				}
+				{
+					id: "7101B194B7DC2E4B"
+					item: "hexalia:siren_kelp"
+					type: "item"
+				}
+				{
+					id: "0E7516D45662B048"
+					item: "hexalia:ghost_fern"
+					type: "item"
+				}
+			]
+			title: "Magical Herbs"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "466174B36F349AB6"
+			tasks: [{
+				id: "48EAADA628B35905"
+				item: {
+					Count: 1
+					id: "hexalia:mortar_and_pestle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: ["Tilling &lInfused Dirt&r allows you to farm Magical Herbs."]
+			id: "0CD4760AD368300D"
+			optional: true
+			shape: "diamond"
+			subtitle: "Magical Herb Soil"
+			tasks: [{
+				id: "2BBE4F794776452C"
+				item: "hexalia:infused_dirt"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6D030675349A264E"
+				"466174B36F349AB6"
+			]
+			id: "2636766DF3A47714"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5850965DBDB047A3"
+					item: "hexalia:spirit_powder"
+					type: "item"
+				}
+				{
+					id: "0375FE623204BCC4"
+					item: "hexalia:dream_paste"
+					type: "item"
+				}
+				{
+					id: "18EFAB9D85E01E11"
+					item: "hexalia:siren_paste"
+					type: "item"
+				}
+				{
+					id: "77CBAC4D4433A1AF"
+					item: "hexalia:ghost_powder"
+					type: "item"
+				}
+			]
+			title: "Magical Reagents"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: ["Holding '&bRight Click&r' with a &oMandrake&r in hand will cause it to scream, paralyzing nearby mobs for a few seconds."]
+			id: "4170614740A6EA70"
+			shape: "rsquare"
+			subtitle: "Found in the Wild"
+			tasks: [
+				{
+					id: "2743B7A9AC871719"
+					item: "hexalia:mandrake"
+					type: "item"
+				}
+				{
+					id: "1302A8AAD756C6A0"
+					item: "hexalia:mandrake_seeds"
+					type: "item"
+				}
+				{
+					id: "29FE99A91252F969"
+					item: "hexalia:sunfire_tomato"
+					type: "item"
+				}
+				{
+					id: "04A4208EB003E3A1"
+					item: "hexalia:sunfire_tomato_seeds"
+					type: "item"
+				}
+				{
+					id: "7B2CA96434FF9872"
+					item: "hexalia:chillberries"
+					type: "item"
+				}
+				{
+					id: "17CB1DCA03DF1AF6"
+					item: "hexalia:saltsprout"
+					type: "item"
+				}
+			]
+			title: "New Crops"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AD557503B34C6F3"]
+			description: ["Just '&bRight Click&r' a block of &lDeepslate&r with the &oHex Focus&r in hand!"]
+			id: "708C383FDD0BAE5B"
+			subtitle: "Deepslate Required"
+			tasks: [{
+				id: "1216DCBE7719E6AA"
+				item: "hexalia:ritual_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Found in a Salt Oasis feature in a Desert biome, or made by crushing &oSalt Sprouts&r."]
+			id: "7770AF977569B614"
+			shape: "rsquare"
+			tasks: [{
+				id: "5457306B70526224"
+				item: "hexalia:salt"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Use the &oStone Dagger&r on a &lDark Oak Log&r to strip it and produce &oTree Resin&r."
+				""
+				"Use the &oStone Dagger&r on *almost* any planks block to create a &oRitual Brazier&r."
+			]
+			id: "6FB31EB3B368B6C9"
+			shape: "rsquare"
+			subtitle: "Dark Oak Required"
+			tasks: [
+				{
+					id: "4B05A36C8F1F6FF1"
+					item: {
+						Count: 1
+						id: "hexalia:stone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "474661E81F86D95A"
+					item: "hexalia:tree_resin"
+					type: "item"
+				}
+				{
+					id: "7E0DDC11D9389C5E"
+					item: "hexalia:ritual_brazier"
+					type: "item"
+				}
+			]
+			title: "Stone Dagger"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7770AF977569B614"
+				"2636766DF3A47714"
+			]
+			id: "3156A73F5762C752"
+			optional: true
+			shape: "diamond"
+			subtitle: "Remove Debuffs"
+			tasks: [{
+				id: "1EA1E104F55B2AA4"
+				item: "hexalia:purifying_salts"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "0A0189BD55FEB4F3"
+			shape: "rsquare"
+			tasks: [{
+				id: "549679793A4039A5"
+				item: "hexalia:silk_fiber"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0A0189BD55FEB4F3"
+				"6D030675349A264E"
+			]
+			id: "4076BE92A321CA00"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4048266A305466A1"
+					item: {
+						Count: 1
+						id: "hexalia:earplugs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3911F42BBCE3E02D"
+					item: {
+						Count: 1
+						id: "hexalia:ghostveil"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43A0E3ACA2AF8E57"
+					item: {
+						Count: 1
+						id: "hexalia:bogged_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Camouflage"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0A0189BD55FEB4F3"
+				"389097A45669F254"
+				"446E25C49D9663BA"
+			]
+			id: "2A887AD85EF361ED"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5EBC9842D8322522"
+					item: "hexalia:silk_idol"
+					type: "item"
+				}
+				{
+					id: "5C35C3F1BDACA1A8"
+					item: "hexalia:rain_idol"
+					type: "item"
+				}
+				{
+					id: "618E1144913644D8"
+					item: "hexalia:clear_idol"
+					type: "item"
+				}
+				{
+					id: "0F10A0984114C887"
+					item: "hexalia:storm_idol"
+					type: "item"
+				}
+			]
+			title: "Weather Idols"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Valid heating blocks are: &lRustic Oven&r, &lMagma Block&r, &lFire&r, &lCampfire&r, and &lLava&r."
+				""
+				"The &lBrew Shelf&r can store up to 27 brews!"
+			]
+			id: "7E11FDFA54F333EF"
+			optional: true
+			shape: "diamond"
+			subtitle: "Heating Block Below"
+			tasks: [
+				{
+					id: "3A5170CC619681F1"
+					item: "hexalia:small_cauldron"
+					type: "item"
+				}
+				{
+					id: "31F3EF36255B6A90"
+					item: "hexalia:rustic_bottle"
+					type: "item"
+				}
+				{
+					id: "3D4C446CF0292634"
+					item: "hexalia:brew_shelf"
+					type: "item"
+				}
+			]
+			title: "Brewing"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"2636766DF3A47714"
+				"4170614740A6EA70"
+			]
+			id: "389097A45669F254"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4327CF9B508D9EA1"
+					item: "hexalia:fire_node"
+					type: "item"
+				}
+				{
+					id: "0BC1BA33D44FF1A8"
+					item: "hexalia:water_node"
+					type: "item"
+				}
+				{
+					id: "740BF11ADCFA3865"
+					item: "hexalia:air_node"
+					type: "item"
+				}
+				{
+					id: "70F0944F56D0ACC0"
+					item: "hexalia:earth_node"
+					type: "item"
+				}
+			]
+			title: "Elemental Nodes"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6FB31EB3B368B6C9"
+				"708C383FDD0BAE5B"
+				"7770AF977569B614"
+			]
+			description: [
+				"Clear a 5x5 area and place the &lRitual Table&r at the center."
+				""
+				"In each of the 2x2 corners, place *any* farmland below and plant *any* crops."
+				""
+				"Place 4 &lRitual Braziers&r between the crops on the edge of the 5x5 area, leaving 1 block between the &lRitual Braziers&r and the &lRitual Table&r."
+				""
+				"{@pagebreak}"
+				"To conduct the ritual, &a&oall crops must be fully grown&r, and &e&osalt must be used on each &lRitual Brazier&r. Each ritual will consume 4 &osalt&r and the fully grown crops (leaving freshly planted ones)."
+				""
+				"Place the required items on the braziers in no particular order. When ready, use the &oHex Focus&r on the &lRitual Table&r."
+			]
+			icon: {
+				Count: 1
+				id: "ars_additions:dispel_protection_charm"
+				tag: {
+					charges: 3
+				}
+			}
+			id: "50B6683E91798495"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Crops Required!"
+			tasks: [{
+				id: "12C6A30ED946A81D"
+				title: "Click Me"
+				type: "checkmark"
+			}]
+			title: "Ritual of Transmutation"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["708C383FDD0BAE5B"]
+			description: ["Just place your reagent on a &lRitual Table&r overnight! Must be in &odirect&r moonlight to work."]
+			icon: "ars_nouveau:ritual_moonfall"
+			id: "10EF1F30C98659F1"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Rest in the Moonlight"
+			tasks: [{
+				id: "273A3A83FD4F3DD2"
+				title: "Click Me"
+				type: "checkmark"
+			}]
+			title: "Moonlight Ritual"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10EF1F30C98659F1"]
+			id: "717C076CD51E2C35"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "46527977700E4F2B"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "01A5DA5DFE1512C6"
+					item: "hexalia:moon_berries"
+					type: "item"
+				}
+			]
+			title: "Moon Berries"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["10EF1F30C98659F1"]
+			id: "446E25C49D9663BA"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "324DBE3634FA4E33"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "728E2286FB9EA859"
+					item: "hexalia:moon_crystal"
+					type: "item"
+				}
+			]
+			title: "Moon Crystal"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"389097A45669F254"
+			]
+			id: "59674F62596304CF"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "63C4517F5421DE64"
+					item: "hexalia:ancient_seed"
+					type: "item"
+				}
+				{
+					id: "12619A0558DF12FD"
+					item: {
+						Count: 1
+						id: "hexalia:kelpweave_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"2636766DF3A47714"
+			]
+			id: "14695DFE82174948"
+			optional: true
+			shape: "diamond"
+			subtitle: "It Bleeds!"
+			tasks: [
+				{
+					id: "0ED793BE2D249E4A"
+					item: "hexalia:rabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "6C7C1FC275E59348"
+					item: "hexalia:rabbage"
+					type: "item"
+				}
+			]
+			title: "Rabbage"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"389097A45669F254"
+				"446E25C49D9663BA"
+			]
+			description: ["Feed it a &oMoon Crystal&r at night, and it will apply bonemeal to nearby plants for the next 2 minutes."]
+			id: "43ADF3B4602FFF2B"
+			subtitle: "Moonlighter"
+			tasks: [{
+				id: "52769BFAF151DE9E"
+				item: "hexalia:lunar_lily"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"389097A45669F254"
+			]
+			description: [
+				"'&bRight Click&r' with a &oHex Focus&r to activate."
+				""
+				"Eliminates any projectiles entering (but not leaving) a 5x5 area around the flower."
+			]
+			id: "71F87F166BF4DC8C"
+			subtitle: "Projectile Shield"
+			tasks: [{
+				id: "70A967F49DB45258"
+				item: "hexalia:windsong"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"389097A45669F254"
+			]
+			description: [
+				"'&bRight Click&r' with a &oHex Focus&r to activate."
+				""
+				"Provides &oConduit Power&r in a radius of 16 blocks for 2 minutes when activated."
+			]
+			id: "7DA3E00BE8BAB09E"
+			subtitle: "Conduit Flower"
+			tasks: [{
+				id: "71F4CC2A91200D35"
+				item: "hexalia:nautilite"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"389097A45669F254"
+			]
+			description: [
+				"'&bRight Click&r' with a &oHex Focus&r to activate."
+				""
+				"Turns nearby &oSkeletons&r into &oWither Skeletons&r, and similar with &lSkeleton Skulls&r into &lWither Skeleton Skulls&r."
+			]
+			id: "7B698075F39A6364"
+			subtitle: "Witherifier"
+			tasks: [{
+				id: "0514084B1644C9BE"
+				item: "hexalia:grimshade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"50B6683E91798495"
+				"389097A45669F254"
+			]
+			description: [
+				"Transforms the 9x9 blocks below the flower into other blocks:"
+				""
+				"Magma Block -> Lava"
+				"Snow Block -> Packed Ice"
+				"Soul Sand -> Soul Soil"
+				"Dirt -> Podzol"
+				"Sand -> Red Sand"
+				"Diorite -> Granite"
+				"Granite -> Andesite"
+				"Andesite -> Diorite"
+				"Ice -> Blue Ice"
+				"Blackstone -> Calcite"
+			]
+			id: "5DDFA660CD0532AD"
+			subtitle: "Transmutator"
+			tasks: [{
+				id: "45246575FCBDC864"
+				item: "hexalia:morphora"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+	]
+	title: "Hexalia"
+}

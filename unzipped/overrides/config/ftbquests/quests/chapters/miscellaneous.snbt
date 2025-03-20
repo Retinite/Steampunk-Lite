@@ -1,0 +1,843 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miscellaneous"
+	group: ""
+	icon: "minecraft:oak_sign"
+	id: "25B0E4C893B5C56E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6&lSteampunk Lite&r is designed to be a smaller, more stable, and more feedback-oriented version of the popular &oSteam Punk [LPS]&r modpack. This &ocustom made&r questbook serves as an introduction to the larger and more impactful mods. Good luck, and have fun!"
+				""
+				"~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+				""
+				"If you are new to &lFTB Quests&r, continue to the next page by &bScrolling&r, pressing '&bPage Down&r', or clicking on the arrow below."
+				""
+				"Basic &lFTB Teams&r information is on page 4."
+				""
+				"{@pagebreak}"
+				"The &3&oQuest Book&r item is just a shortcut. You can access your quests at any time from the top left of your inventory screen."
+				""
+				"Your questbook is divided into &ochapters&r, with each chapter containing multiple &oquests&r. You can browse the chapters by hovering over the left edge of the quest navigation screen."
+				""
+				"Most quests require collecting specific items in your inventory to complete, but some may have other requirements. &aYou can click on the quest's individual \"Tasks\" for more information.&r &lIf you don't know how to craft a required item, press '&b&lR&r&l' (default) to view its recipe!&r"
+				""
+				"{@pagebreak}"
+				"Most quests list other quests as prerequisites, hence all the connecting lines between quests. When viewing a quest, you can view its prerequisites by clicking on the arrow in the top left, which may be flashing &4red&r if the prerequisites are not met. Similarly, you can use the arrow in the top right to view a quest's dependants."
+				""
+				"The shape of the quest icon is arbitrary, but each modpack tends to come up with their own guidelines for the easiest readability. Here, &ogenerally&r:"
+				" &7gear&r = &cimportant information&r"
+				" &7square&r = &8machine/functional block&r"
+				" &7rounded square&r = &2resource&r"
+				" &7circle&r = &6equipment&r"
+				" &7diamond&r = &3optional&r"
+				""
+				"{@pagebreak}"
+				"&lFTB Teams&r allows players to create and join teams. You can access your teams menu at any time from the top left of your inventory screen."
+				""
+				"When on a team:"
+				" - Most quest progress is shared"
+				" - Most quest rewards are reduced"
+				" - Team chat is available"
+				" - Other teams can be \"allied\""
+				""
+				"Note that &lFTB Chunks&r is not included in this modpack because there is no ability in this version to disable the included map (or even change its hotkey) in favor of using JourneyMap."
+			]
+			icon: "ftbquests:book"
+			id: "318126553F4ED0EC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamerule disableElytraMovementCheck true"
+					id: "18D46B2F5A3545E1"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add Deaths deathCount"
+					id: "737BDF29181E4CD6"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives setdisplay list Deaths"
+					id: "36F0305409F69D55"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives add kills playerKillCount \"Player Kills\""
+					id: "18549C78F700A468"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/scoreboard objectives setdisplay sidebar kills"
+					id: "0686DF084FD1C62C"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/recipe give @p *"
+					id: "09EBA26FD26FEC29"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					id: "630E3F72190C5AE0"
+					item: "ftbquests:book"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "72CC4F140159C870"
+					item: "enigmaticlegacy:cursed_ring"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Read Me!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "hammerlib:gears/copper"
+				id: "24E28B11CBCF508B"
+				title: "Begin Your Adventure"
+				type: "dimension"
+			}]
+			title: "Welcome!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5097E3B0ED6E5814"]
+			description: [
+				"&c&lWaystones&r adds a variety of teleportation items and blocks."
+				""
+				"A &lWaystone&r, once '&bRight Clicked&r', becomes &odiscovered&r and allows you to teleport from it to any other discovered teleportation targets. &lWaystones&r may be crafted, found naturally in most village centers, or may be found randomly in the wild. Naturally generating &lWaystones&r may not be moved, destroyed, or edited."
+				""
+				"Further away destinations may require up to 3 &alevels&r to teleport to. Any currently leashed animals may also teleport with you, for a higher &alevel&r cost."
+				""
+				"{@pagebreak}"
+				"The player who places a &lWaystone&r may edit its name by '&bShift&r + &bRight Clicking&r'. Players in creative mode may also make a &lWaystone&r \"global\", i.e. automatically discovered by all players."
+				""
+				"&d&lCreate Waystones Recipes&r replaces the standard &lWaystone&r recipes with ones that require &lMechanical Crafters&r more fitting of a steampunk theme."
+				""
+				"{@pagebreak}"
+				"A &lSharestone&r automatically has all of its locations shared globally, but you may only teleport to or from a &lSharestone&r of the same color. Perfect for teams!"
+				""
+				"A &lPortstone&r allows you to teleport &ofrom&r it, but never &oto&r it."
+				""
+				"A &lWarp Plate&r lets you set up automatic point-to-point directional teleportation. Just place the &oAttuned Shard&r that comes with each &lWarp Plate&r into the center of another &lWarp Plate&r to link the latter to the former. You can create additional &oAttuned Shards&r with &oFlint&r and &oWarp Dust&r."
+				""
+				"{@pagebreak}"
+				"A &oReturn Scroll&r teleports you to the nearest discovered location at the cost of the scroll. Easy to craft, and perfect for emergencies."
+				""
+				"A &oBound Scroll&r must be bound to a &lWaystone&r with '&bRight Click&r' first. Using it consumes the scroll and teleports you to the bound &lWaystone&r."
+				""
+				"A &oWarp Scroll&r allows you to teleport to any discovered location at the cost of the scroll."
+				""
+				"A &oWarp Stone&r is like a reusable &oWarp Scroll&r but with a 30-second cooldown."
+			]
+			id: "492B5CBB563D5951"
+			shape: "gear"
+			subtitle: "Fast Travel"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "71B724E75B1A7B12"
+				observe_type: 1
+				timer: 0L
+				title: "Find any Waystone"
+				to_observe: "waystones:is_teleport_target"
+				type: "observation"
+			}]
+			title: "Waystones"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5097E3B0ED6E5814"]
+			description: [
+				"&c&lAlex's Caves&r adds 6 new unique and extreme cave biomes, such as magnetic caves and primordial caves. You will need to find &oCave Tablets&r to locate these biomes, as they are disabled in &oNature's Compass&r. &c&lYUNG's Cave Biomes&r also adds 2 new rare cave biomes."
+				""
+				"&c&lEldritch End&r and &c&lOuter End&r together add 5 new biomes to The End, plus new structures, mobs, and equipment."
+				""
+				"&c&lIncendium&r"
+				""
+				"&c&lOh The Biomes We've Gone&r adds many new fantastical biomes to the overworld, complete with 24 new types of wood! &c&lArs Nouveau&r, &d&lArs Elemental&r, and &c&lQuark&r (among the many things these mods do) also add new biomes, trees, and other terrain features."
+				""
+				"&c&lTectonic&r radically changes terrain height in world generation to form much more dramatic hills, mountains, and rivers."
+				""
+				"{@pagebreak}"
+				"&c&lLootr (Forge \\& NeoForge)&r replaces all chests/barrels in generated structures with per-player loot chests/barrels. If you really want to destroy them, hold '&bShift&r' while breaking. You could also just move them with &c&lCarry On&r."
+				""
+				"&d&lLoot Integrations&r allows loot tables to be recursive. Basically, gives mods more control over what loot spawns in chests."
+				""
+				"Specific integrations:"
+				"&d&lLoot Integrations: Dungeon Crawl&r"
+				"&d&lLoot Integrations: L_Ender's Cataclysm&r"
+				"&d&lLoot Integrations: Structory \\& Towers&r"
+				"&d&lLoot Integrations: Towns and Towers&r"
+				"&d&lYung Structures Addon for Loot Integrations&r"
+				""
+				"{@pagebreak}"
+				"List of structure mods:"
+				""
+				"&c&lDungeon Crawl&r"
+				"&c&lExplorify - Dungeons \\& Structures&r"
+				"&c&lFormations Nether&r"
+				"&c&lRepurposed Structures (Neoforge/Forge)&r"
+				"&c&lStructory&r"
+				"&c&lTowns and Towers&r"
+				"&c&lYUNG's Better Desert Temples (Forge)&r"
+				"&c&lYUNG's Better Dungeons (Forge)&r"
+				"&c&lYUNG's Better End Island (Forge)&r"
+				"&c&lYUNG's Better Jungle Temples (Forge)&r"
+				"&c&lYUNG's Better Mineshafts (Forge)&r"
+				"&c&lYUNG's Better Nether Fortresses (Forge)&r"
+				"&c&lYUNG's Better Ocean Monuments (Forge)&r"
+				"&c&lYUNG's Better Strongholds (Forge)&r"
+				"&c&lYUNG's Better Witch Huts (Forge)&r"
+				"&c&lYUNG's Bridges (Forge)&r"
+				"&c&lYUNG's Cave Biomes (Forge)&r"
+				"&c&lYUNG's Extras (Forge)&r"
+			]
+			icon: "biomeswevegone:witch_hazel_sapling"
+			id: "6E199B99E1322C22"
+			shape: "rsquare"
+			subtitle: "And Loot!"
+			tasks: [{
+				id: "30B84EC41E18C547"
+				title: "Click Me"
+				type: "checkmark"
+			}]
+			title: "New Biomes \\& Structures"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5097E3B0ED6E5814"]
+			description: [
+				"&c&lExplorer's Compass&r can be used to locate any structure. Some structures, like those from &lCataclysm&r, have been blacklisted from discovery."
+				""
+				"&c&lNature's Compass&r can be used to locate any biome. Some biomes, like those from &lAlex's Caves&r, have been blacklisted from discovery."
+				""
+				"Note that you can use the same special characters when searching as in JEI! For example, prefixing a search with '&a@&r' will allow you to search by mod names!"
+			]
+			id: "52245F2774030D89"
+			shape: "gear"
+			subtitle: "Find (Almost) Anything"
+			tasks: [
+				{
+					id: "76E9293AC7CCD90E"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6254C2E77486A013"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "New Compasses"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["318126553F4ED0EC"]
+			description: [
+				"The following are some useful hotkeys:"
+				""
+				"'&bJ&r' - Open fullscreen map"
+				"'&bControl&r + &bJ&r' - Toggle minimap"
+				"'&bN&r' - Open waypoint manager"
+				"'&b[&r' - Change minimap type"
+				"'&b\\\\ &r' - Toggle minimap shape"
+				"'&bC&r' in fullscreen mode - copy and paste the coordinates at your curser into chat"
+				"'&bB&r' in fullscreen mode - create a waypoint at your curser"
+				""
+				"Normally there is a hotkey to create a waypoint where you are standing, however this has been disabled because you can do the same from the waypoint manager with just one more click. Feel free to reset that hotkey, but mind the key conflicts."
+			]
+			icon: {
+				Count: 1
+				id: "supplementaries:cartographers_quill"
+				tag: {
+					decoration: "minecraft:red_x"
+					display: {
+						Name: "{\"translate\":\"filled_map.buried_treasure\"}"
+					}
+					maxSearchRadius: 40
+					skinKnown: 0b
+					targetStructure: "minecraft:buried_treasure"
+					zoomLevel: 1
+				}
+			}
+			id: "5097E3B0ED6E5814"
+			shape: "gear"
+			subtitle: "Read for Guide"
+			tasks: [{
+				id: "599B22F9B551AA4E"
+				title: "Click Me"
+				type: "checkmark"
+			}]
+			title: "JourneyMap"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["318126553F4ED0EC"]
+			description: [
+				"'&bU&r' on an item - view uses"
+				"'&bR&r' on an item - view recipes"
+				"'&bA&r' on an item - (un/)bookmark"
+				"'&bCtrl&r + &bF&r' - quick search"
+				"'&bRight Click&r' on search bar - quick clear"
+				"'&a@&r' in search bar - filter by mod"
+				"'&a#&r' in search bar - search by tooltip"
+				"'&a\\&&r' in search bar - search by ID"
+				"'&a$&r' in search bar - search by oredict"
+				"'&a%&r' in search bar - sort by creativetab"
+				"'&a^&r' in search bar - search by color"
+				"'&a|&r' in search bar - combine queries"
+				""
+				"Thanks to &c&lFTB XMod Compat&r, clicking on a task that requires an item will direct you to the recipe for that item, and if a quest is entirely just checking for one singular item, you can press '&bR&r' on that quest to view that item's recipe."
+			]
+			icon: "create:clipboard"
+			id: "65FE9691D766BBEB"
+			shape: "gear"
+			subtitle: "Read for Guide"
+			tasks: [{
+				id: "03D897A5D80FB4D1"
+				title: "Click Me"
+				type: "checkmark"
+			}]
+			title: "Just Enough Items"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["318126553F4ED0EC"]
+			description: [
+				"&4&lSpice of Life: Apple Pie Edition&r rewards you with a number of semi-permanent buffs when you &6&ofrequently&r eat &6&odiverse&r and &6&ofilling&r meals."
+				""
+				"{@pagebreak}"
+				"Every food in the game now displays a Food Diversity score, which is a combination of that food's &6hunger&r and &esaturation&r values. Most Food Diversity scores range from 0 to 5."
+				""
+				"Your total Food Diversity will give you certain buffs when it passes certain thresholds, and these buffs even persist after death! Consult the &lFood Book&r for more info. &cNote that your Food Diversity total can go down!&r"
+				""
+				"{@pagebreak}"
+				"&6Only the 32 most recent foods eaten contribute to your total Food Diversity score&r, and &cthe less-recently eaten, the less it contributes&r. You can view the 32 most recently eaten meals and their current contributions in the &lFood Book&r."
+				""
+				"Eating the same meal multiple times resets the Food Diversity contribution of that food type to the original value, but it only contributes once to your total (effectively adding a 0 Diversity food to your list)!"
+			]
+			id: "438984E9BCAD3575"
+			rewards: [{
+				id: "2CC0F7141F11E9D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 5
+						}
+					}
+					id: "solapplepie:lunchbag"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Good Eats = Buffs"
+			tasks: [{
+				id: "7AACAE56CC107A26"
+				item: "solapplepie:food_book"
+				type: "item"
+			}]
+			title: "SoL: Apple Pie Edition"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["438984E9BCAD3575"]
+			description: [
+				"The Lunchbag/Lunchbox gives you several slots to store food. You can open the inventory by '&bShift&r + &bRight Clicking&r'. By \"eating\" the Lunchbag/Lunchbox, you will automatically be eating the food with the highest Food Diversity contained within."
+				""
+				"Although these recipes are disabled in JEI by default, you can in fact craft all 3 of these items."
+			]
+			id: "0F7F7B3F14D8BF63"
+			rewards: [{
+				id: "53447133BE66A24B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 14
+						}
+					}
+					id: "solapplepie:golden_lunchbox"
+				}
+				team_reward: false
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Smart Food Storage"
+			tasks: [{
+				id: "2B6CA4252364C816"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "solapplepie:lunchbox"
+				}
+				type: "item"
+			}]
+			title: "Lunchboxes"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["318126553F4ED0EC"]
+			description: [
+				"&c&lImprovable Skills 3&r adds a variety of passive skills and abilities that can seriously increase your productivity and survivability. Your skills can be accessed via the &oSkills Book&r, or, after being crafted, the button in your inventory next to your crafting grid. Passive skills require an exponential amount of experience to level up."
+				""
+				"You start with 11 passive skills, and another 16 passive skills can be found from a variety of loot chests and activities. All 6 abilities can be crafted and accessed through the \"Abilities\" tab in the skills menu."
+			]
+			id: "11B32AD0125BB4B3"
+			shape: "gear"
+			subtitle: "Craft the Book First!"
+			tasks: [{
+				id: "119E573CC5A287B0"
+				item: "improvableskills:skills_book"
+				type: "item"
+			}]
+			title: "Improvable Skills"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65FE9691D766BBEB"]
+			description: [
+				"&aBundles&r (from vanilla Minecraft!) allow you to store up to one mixed stack of items! The crafting recipe is disabled, so you'll have to find these in loot chests, but these can really help de-clutter your inventory!"
+				""
+				"&c&lCarry On&r allows you to '&bShift&r + &bRight Click&r' most mobs and blocks with inventories to pick them up and transport them. While carrying something, you are slowed down and cannot use any items or open your inventory. Use '&bRight Click&r' to place your held object."
+				""
+				"&c&lClean Swing Through Grass&r will prevent you from destroying grass while engaging in melee combat."
+				""
+				"&c&lFTB Ultimine (Forge)&r lets you mine up to 64 blocks at once by holding the '&b`&r' (grave) key. Hold '&bShift&r + &b`&r' (tilde) to switch the mining mode."
+				""
+				"&c&lJust Hammers&r adds Hammers."
+				""
+				"&c&lSpyglass Improvements&r allows you to put your Spyglass in your Curio belt slot. When equipped, press '&bX&r' (default) to use your Spyglass any time. You can also use your scroll wheel to zoom in and out while using the Spyglass."
+				""
+				"&c&lTrash Cans&r allow you to conveniently rid yourself of unwanted items, fluids, or even energy! You can also apply whitelists or blacklists for more control over what is deleted."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:bundle"
+				tag: {
+					Items: [{
+						Count: 1b
+						id: "ftbquests:book"
+					}]
+				}
+			}
+			id: "02C9DCC8588929EB"
+			shape: "gear"
+			subtitle: "You Should Really Read These!"
+			tasks: [{
+				id: "20D8F3EC97F0504C"
+				title: "Click Me"
+				type: "checkmark"
+			}]
+			title: "Miscellaneous Items \\& Abilities"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["438984E9BCAD3575"]
+			description: [
+				"&c&lFarmer's Delight&r adds a variety of new recipes and kitchenware to help you create delicious meals! There are also a variety of addons to help you reach your Food Diversity goals."
+				""
+				"A &lStove&r is effectively a campfire with 6 slots for cooking food."
+				""
+				"The &lCooking Pot&r and &lSkillet&r can be '&bShift&r + &bRight Clicked&r' onto either a &lCampfire&r or &lStove&r. The &lSkillet&r can store up to one stack of cookable food at once (although it will only cook the items one at a time). You can also enchant the &lSkillet&r with &5Fire Aspect&r to make it cook food faster!"
+				""
+				"{@pagebreak}"
+				"&d&lAlex's Delight&r"
+				"&d&lAquaculture Delight (A Farmer's Delight Add-On)&r"
+				"&d&lArs Nouveau's Flavors and Delight&r"
+				"&d&lEngineers Delight&r [sic]"
+				"&d&lNether's Delight&r"
+				"&d&lOcean's Delight&r"
+				"&d&lQuark Delight&r"
+			]
+			id: "53132FC55CC8F52D"
+			shape: "gear"
+			subtitle: "Many Much Munchies"
+			tasks: [
+				{
+					id: "51F33C1D7C735028"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "1FFB0C2C6BE7CDC1"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "0B86159466751511"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06E627488A3CD974"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+			]
+			title: "Farmer's Delight"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65FE9691D766BBEB"]
+			description: [
+				"&c&lAquaculture 2&r adds over 30 new types of fish, new rods, hooks, and bait, and a new set of water-themed diamond-level equipment!"
+				""
+				"Fish sizes are enabled, telling you how much each caught fish weighs. Note that this prevents the fish from stacking until cooked or fileted. Good luck, and get fishing!"
+			]
+			icon: {
+				Count: 1
+				id: "aquaculture:neptunium_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5B9916016D4A3F29"
+			shape: "rsquare"
+			subtitle: "New Fish \\& Rewards"
+			tasks: [{
+				id: "73D04942340C791F"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Aquaculture 2"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65FE9691D766BBEB"]
+			description: ["&c&lEasy Villagers&r allows you to pick up Villagers as items ('&bM&r' by default) and place them in new blocks that handle everything without hassle! You can have them breed, trade, farm, and be converted to/from Zombie Villagers (for lowered trade prices). There is even a station for automatically farming Iron Golems!"]
+			id: "6815E1AC8F261DFF"
+			shape: "gear"
+			subtitle: "More Ethical?"
+			tasks: [{
+				id: "10F0B12682152FDE"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			title: "Easy Villagers"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11B32AD0125BB4B3"]
+			id: "3907677EAAB7AE6A"
+			tasks: [
+				{
+					id: "6BBF75605FCB2E61"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_ability"
+						tag: {
+							Ability: "improvableskills:anvil"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "661E5C62387E6230"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_ability"
+						tag: {
+							Ability: "improvableskills:auto_xp_bank"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F0A6CBACB7807E2"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_ability"
+						tag: {
+							Ability: "improvableskills:cowboy"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72FFFE4CEA5ADCBC"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_ability"
+						tag: {
+							Ability: "improvableskills:crafter"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00B6691CDE8A1224"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_ability"
+						tag: {
+							Ability: "improvableskills:enchanting"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3A640FCD8FB43C"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_ability"
+						tag: {
+							Ability: "improvableskills:magnetism"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craftable Skills"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11B32AD0125BB4B3"]
+			id: "35B81172764BCD9D"
+			tasks: [
+				{
+					id: "0406584CCDC225D5"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:alchemist"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BC6FED748D8594A"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:atkdmg_ranged"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "103D4D8EC3B9B7BE"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:dexterous_arms"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C93141AEDBB1A7D"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:enchanter"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "525C12D42D5E6820"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:ender_manipulator"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D1650F85ADE956C"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:generic_protection"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7544CFBB48EBC8D0"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:growth"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E48E2EEE12B3D8B"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:health"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "777E6C22F830B824"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:huckster"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A4D3954EBA413CE"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:luck_of_the_sea"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4777F4B6D2C22DF9"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:mob_repellent"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A87B12B5AA7E241"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:obsidian_skin"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "089F057A67C16A62"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:silent_foot"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "696D90AD74D7F330"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:soul_speed"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B4DDC054BD679EC"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:treasure_sands"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F773AC3C3005316"
+					item: {
+						Count: 1
+						id: "improvableskills:scroll_normal"
+						tag: {
+							Skill: "improvableskills:xp_plus"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Findable Skills"
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Please Read!"]
+	title: "Miscellaneous"
+}

@@ -1,0 +1,475 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "7439B6455A597DD4"
+	icon: "aquamirae:rune_of_the_storm"
+	id: "74CCBF70653C45C6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "18134AED7425367A"
+			shape: "hexagon"
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				icon: "minecraft:blue_ice"
+				id: "13EE5C786EA6BAC6"
+				title: "Find an Ice Maze"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39F4A0E0C423E52E"]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10070D4CBDA978E4"
+			shape: "octagon"
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					icon: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "44922BE803B6A028"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "57E44F56361116AC"
+					item: "aquamirae:frozen_key"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "39F4A0E0C423E52E"
+			tasks: [{
+				id: "0F25BC6D727BC2BB"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10070D4CBDA978E4"]
+			id: "5B3BB58A552206ED"
+			shape: "hexagon"
+			tasks: [{
+				icon: "aquamirae:frozen_chest"
+				id: "0A6E9D4109E52354"
+				structure: "aquamirae:shelter"
+				title: "Find a Shelter"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "6C097C3A37E2E7C1"
+			tasks: [
+				{
+					id: "4BD89D0CB1E2132C"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6563D8AE14E3245E"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40F7501A82CF25BC"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BDB58AEDD4FFC2F"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Terrible Armor"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "7CE10173A300A780"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2D5EE97B071D9C97"
+				item: {
+					Count: 1
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "5D29BF5FA9728DDE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "1EF0F90C2CA57E45"
+				item: {
+					Count: 1
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "71999FED97CBB878"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "5F82EC37DA04D71D"
+				item: {
+					Count: 1
+					id: "aquamirae:poisoned_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "329DF0DE1EDCEE67"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "65D3A5767AC74119"
+				item: {
+					Count: 1
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10070D4CBDA978E4"]
+			id: "2977E11D2BCBF9AF"
+			tasks: [
+				{
+					id: "78DCABDCBB2872BA"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40528D9647C26E34"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "498C8C4249171CDA"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7004801AF49CB993"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Three-Bolt Suit"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "2BEA59809D7486DC"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3A9F485DAB2B40C1"
+				item: {
+					Count: 1
+					id: "aquamirae:poisoned_chakra"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10070D4CBDA978E4"]
+			id: "18A47BE553834242"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "54E12C9264ADA768"
+				item: {
+					Count: 1
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B3BB58A552206ED"]
+			id: "3A8D01C09912CB3A"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "705F1E6CD93AA329"
+				item: {
+					Count: 1
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B3BB58A552206ED"]
+			id: "0BA6AF8BC0BD8BD3"
+			tasks: [
+				{
+					id: "47451E9E7119D1B9"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "aquamirae:abyssal_heaume"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "aquamirae:abyssal_tiara"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Either Abyssal Helmet"
+					type: "item"
+				}
+				{
+					id: "6A05A492948AF2F3"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E81D137ABFA51A7"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "315BA0DC6AA0FA0D"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blinding Abyss Armor"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "0ED504FD3178138D"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "08A8476B0360B7C1"
+				item: {
+					Count: 1
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "079FE6BE3BE9CCA9"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "24F02B395F338351"
+				item: {
+					Count: 1
+					id: "aquamirae:whisper_of_the_abyss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18134AED7425367A"]
+			id: "6BC37C1F55D3D0D5"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "5F894A1AE1F95691"
+				item: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Aquamirae"
+}

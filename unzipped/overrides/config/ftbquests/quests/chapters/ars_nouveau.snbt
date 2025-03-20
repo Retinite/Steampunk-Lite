@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "3F97C92F70B34FFC"
+	icon: "ars_nouveau:apprentice_spell_book"
+	id: "4CACB2B2787B7DEC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30520F3E6DE3BC7D"
+			tasks: [{
+				id: "6D82E578F007B221"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30520F3E6DE3BC7D"]
+			id: "0A476B84EB6FF749"
+			tasks: [{
+				id: "694E52C380AF5049"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A476B84EB6FF749"]
+			id: "46DE628A03493180"
+			tasks: [{
+				id: "58A7273C5D4E03A4"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2DD82137921E76A7"
+			tasks: [{
+				id: "116CED5DDC69710D"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Ars Nouveau"
+}

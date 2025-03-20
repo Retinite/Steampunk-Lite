@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "6AE7A4CB14BF3633"
+	icon: "create:wrench"
+	id: "03FB9062F3800355"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create"
+}

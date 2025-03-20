@@ -1,0 +1,356 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_remastered"
+	group: "7439B6455A597DD4"
+	icon: "minecraft:ender_eye"
+	id: "4AD16530235CBEEB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "4BBDA8CC26083BA2"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "2F2BE7873973A1F0"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "185ACE4828061014"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "087EE16D1695E3A1"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			disable_toast: true
+			id: "2D9D16DEC88C2B99"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "315215B55A1F8A0B"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			id: "11A3D3C4F111783D"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "669B9A4641BC7E15"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "0555F5F6AD983CD0"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "5B4EFE98F049806E"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "65088D5AA893608A"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "6DA51F8C09D64AB1"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "54B18D4000BD979D"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "7B38644EB80A21FC"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "557E6830F6A922FE"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "616C5F7FAD356FDE"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "7A7EBBBA20974182"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "44220380089A7C65"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			id: "2EC4CAFB2CB3223A"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "13A938CEA2033B47"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			id: "55D24C91DDCED714"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "037D96E2619A762A"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			disable_toast: true
+			id: "2A21C488CD653F07"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "3A2AA9C7744928E1"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			disable_toast: true
+			id: "71ACC02FF39DE539"
+			optional: true
+			shape: "hexagon"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "7364CFB14CED976F"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			disable_toast: true
+			id: "6D874C0E28F0366C"
+			optional: true
+			shape: "hexagon"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "6A0A1D161BDAD69A"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "51FFF9A2CADB0261"
+			optional: true
+			shape: "hexagon"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "2C39AEFC6069DD9C"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			id: "5204D73D3FC4BA82"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "30C2143273B82D8E"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"185ACE4828061014"
+				"71ACC02FF39DE539"
+				"51FFF9A2CADB0261"
+				"11A3D3C4F111783D"
+				"0555F5F6AD983CD0"
+				"65088D5AA893608A"
+				"2A21C488CD653F07"
+				"54B18D4000BD979D"
+				"7A7EBBBA20974182"
+				"6D874C0E28F0366C"
+				"2D9D16DEC88C2B99"
+				"2EC4CAFB2CB3223A"
+				"557E6830F6A922FE"
+				"55D24C91DDCED714"
+				"4BBDA8CC26083BA2"
+				"5204D73D3FC4BA82"
+			]
+			disable_toast: true
+			id: "1C4E8634082EA133"
+			min_required_dependencies: 12
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Gather 12 Unique Eyes"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:end_portal_frame"
+				id: "7316D3D97E306025"
+				title: "Visit The End"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "End Remastered"
+}

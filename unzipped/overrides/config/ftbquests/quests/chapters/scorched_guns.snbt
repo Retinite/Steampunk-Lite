@@ -1,0 +1,1993 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "scorched_guns"
+	group: ""
+	icon: {
+		Count: 1
+		id: "scguns:flintlock_pistol"
+		tag: {
+			AmmoCount: 1
+			Damage: 0
+		}
+	}
+	id: "484472C0A759DD2B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A note on blueprints: the crafting recipe is used to &oduplicate&r blueprints. Blueprints are &nnot&r consumed when crafting a gun, nor are they consumed when crafting the &oScorched Blueprint&r."
+				""
+				"You can use &lMechanical Crafters&r instead of the &lGun Bench&r to craft, but there is no functional difference."
+			]
+			id: "0E66419342BB6947"
+			shape: "gear"
+			subtitle: "Where It Begins"
+			tasks: [{
+				id: "5526DA1C60D2CDDB"
+				item: "scguns:gun_bench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "1A187579F5189F78"
+			tasks: [{
+				id: "12BCE4F6A7C205CB"
+				item: {
+					Count: 1
+					id: "scguns:handcannon"
+					tag: {
+						Damage: 0
+						GeckoLibID: 2L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "457FD2054C9C746C"
+			tasks: [{
+				id: "14E28309D4C5E538"
+				item: {
+					Count: 1
+					id: "scguns:blunderbuss"
+					tag: {
+						Damage: 0
+						GeckoLibID: 3L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "78D37AB9A405766B"
+			tasks: [{
+				id: "287FD8511E32E01F"
+				item: {
+					Count: 1
+					id: "scguns:flintlock_pistol"
+					tag: {
+						Damage: 0
+						GeckoLibID: 4L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "526D07A7762A63DA"
+			tasks: [{
+				id: "797A6DA0DE54DA87"
+				item: {
+					Count: 1
+					id: "scguns:musket"
+					tag: {
+						Damage: 0
+						GeckoLibID: 5L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "0E33E196230112A0"
+			tasks: [{
+				id: "7FB839C65B513D49"
+				item: {
+					Count: 1
+					id: "scguns:repeating_musket"
+					tag: {
+						Damage: 0
+						GeckoLibID: 6L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			disable_toast: true
+			id: "12703B19755DD9C2"
+			subtitle: "No Blueprints Required"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:totem_of_undying"
+				id: "300310F31D5850A9"
+				title: "Nothing Required!"
+				type: "dimension"
+			}]
+			title: "Anti-Illager Arms"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "0DE0819B5A178F2D"
+			tasks: [{
+				id: "062F44F379B08176"
+				item: {
+					Count: 1
+					id: "scguns:big_bore"
+					tag: {
+						Damage: 0
+						GeckoLibID: 8L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "41FFC30ABDDA46DC"
+			tasks: [{
+				id: "1151F1D7E07C5C98"
+				item: {
+					Count: 1
+					id: "scguns:saketini"
+					tag: {
+						Damage: 0
+						GeckoLibID: 9L
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "5341D695D2C1F8B3"
+			tasks: [{
+				id: "7A9AF39E90DA0E3A"
+				item: {
+					Count: 1
+					id: "scguns:pax"
+					tag: {
+						Damage: 0
+						GeckoLibID: 10L
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "7C4EFB3155EB3E15"
+			tasks: [{
+				id: "63EF382F9709D964"
+				item: {
+					Count: 1
+					id: "scguns:callwell"
+					tag: {
+						Damage: 0
+						GeckoLibID: 12L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "07B0B15BB3179125"
+			tasks: [{
+				id: "72B069D11237C83C"
+				item: {
+					Count: 1
+					id: "scguns:winnie"
+					tag: {
+						Damage: 0
+						GeckoLibID: 13L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "672CBDE992F2748B"
+			tasks: [{
+				id: "61E824F9A9FC2A6E"
+				item: {
+					Count: 1
+					id: "scguns:callwell_conversion"
+					tag: {
+						Damage: 0
+						GeckoLibID: 11L
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "29AEBF1A65F60B2C"
+			tasks: [{
+				id: "63EFD206DB34BD75"
+				item: {
+					Count: 1
+					id: "scguns:laser_musket"
+					tag: {
+						Damage: 0
+						GeckoLibID: 14L
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "76452C5375ACCCB5"
+			tasks: [{
+				id: "4323E5008125F282"
+				item: {
+					Count: 1
+					id: "scguns:plasmabuss"
+					tag: {
+						Damage: 0
+						GeckoLibID: 15L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "6C2EF5E9E51F8339"
+			tasks: [{
+				id: "49E1523529DA9E83"
+				item: "scguns:copper_blueprint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "013DFF0F8A9783D3"
+			tasks: [{
+				id: "0444C21435D0BF86"
+				item: "scguns:iron_blueprint"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "065B34EEB70F1626"
+			tasks: [{
+				id: "5F9D81876922F06D"
+				item: "scguns:treated_brass_blueprint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "122EDBAF225EC4DE"
+			tasks: [{
+				id: "0A86DE387FC47700"
+				item: "scguns:diamond_steel_blueprint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "39290E989611A20C"
+			subtitle: "Adv. Fire"
+			tasks: [{
+				id: "24C601D1F4F755EC"
+				item: "scguns:ocean_blueprint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "37CD4243B54E2A5A"
+			subtitle: "Adv. Wither"
+			tasks: [{
+				id: "6B6658C2E117FFAB"
+				item: "scguns:piglin_blueprint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "47ABF11703E65DB2"
+			tasks: [{
+				id: "13B21215BFAB8B32"
+				item: "scguns:deep_dark_blueprint"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0E66419342BB6947"]
+			id: "2357525DE7F7C364"
+			tasks: [{
+				id: "6879E68CC802DA38"
+				item: "scguns:end_blueprint"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6C2EF5E9E51F8339"
+				"122EDBAF225EC4DE"
+				"013DFF0F8A9783D3"
+				"47ABF11703E65DB2"
+				"2357525DE7F7C364"
+				"37CD4243B54E2A5A"
+				"065B34EEB70F1626"
+				"39290E989611A20C"
+			]
+			hide_dependency_lines: true
+			id: "25523E5183D8274C"
+			tasks: [{
+				id: "6265605AA4D75CFD"
+				item: "scguns:scorched_blueprint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "6ECF0FDA97C0643F"
+			tasks: [{
+				id: "545F084F03CC6C25"
+				item: {
+					Count: 1
+					id: "scguns:rusty_gnat"
+					tag: {
+						Damage: 0
+						GeckoLibID: 16L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "0B2380E9B224F506"
+			tasks: [{
+				id: "6CD6428560B0E8A5"
+				item: {
+					Count: 1
+					id: "scguns:scrapper"
+					tag: {
+						Damage: 0
+						GeckoLibID: 17L
+						IsDrawing: 1b
+						MagazinePosition: 1.0f
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "0C8142EF373BF737"
+			tasks: [{
+				id: "2B575D15916779E6"
+				item: {
+					Count: 1
+					id: "scguns:bruiser"
+					tag: {
+						Damage: 0
+						GeckoLibID: 18L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "6A477E20AD470DC6"
+			tasks: [{
+				id: "6D3931694B2080B4"
+				item: {
+					Count: 1
+					id: "scguns:llr_director"
+					tag: {
+						Damage: 0
+						GeckoLibID: 19L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "071B97033668227F"
+			tasks: [{
+				id: "1B5F1F0EF55BCCF0"
+				item: {
+					Count: 1
+					id: "scguns:arc_worker"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 20L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "6B95C7F682A88715"
+			tasks: [{
+				id: "18E6D190AFC07D45"
+				item: {
+					Count: 1
+					id: "scguns:makeshift_rifle"
+					tag: {
+						Damage: 0
+						GeckoLibID: 21L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "63EA2DCAB20303AE"
+			tasks: [{
+				id: "75F35114C7E29F7C"
+				item: {
+					Count: 1
+					id: "scguns:umax_pistol"
+					tag: {
+						Damage: 0
+						GeckoLibID: 22L
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C2EF5E9E51F8339"]
+			id: "029F279F5159BB4A"
+			tasks: [{
+				id: "6E608E6F9D3D6852"
+				item: {
+					Count: 1
+					id: "scguns:boomstick"
+					tag: {
+						Damage: 0
+						GeckoLibID: 23L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "01ABC1913E8FD1F0"
+			subtitle: "Healing Shots"
+			tasks: [{
+				id: "16F29B75E4423E0F"
+				item: {
+					Count: 1
+					id: "scguns:crusader"
+					tag: {
+						Damage: 0
+						GeckoLibID: 33L
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "796ACE4D73F6E2CD"
+			tasks: [{
+				id: "6A90AB7FE6C13D64"
+				item: {
+					Count: 1
+					id: "scguns:gyrojet_pistol"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 38L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "418C3E05539FA401"
+			tasks: [{
+				id: "36DE755124839B4E"
+				item: {
+					Count: 1
+					id: "scguns:greaser_smg"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 30L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "613A2C4C88A4C252"
+			tasks: [{
+				id: "45B43D7138DC1FC9"
+				item: {
+					Count: 1
+					id: "scguns:defender_pistol"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 28L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "65EC08BC87CE4EB2"
+			tasks: [{
+				id: "37F26E4043187262"
+				item: {
+					Count: 1
+					id: "scguns:pulsar"
+					tag: {
+						Damage: 0
+						DrawnTick: 23
+						GeckoLibID: 29L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "6CC2D6E85995B070"
+			tasks: [{
+				id: "630BBB4DBD882093"
+				item: {
+					Count: 1
+					id: "scguns:trenchur"
+					tag: {
+						Damage: 0
+						DrawnTick: 24
+						GeckoLibID: 40L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "7568264FFCF36C96"
+			tasks: [{
+				id: "12962950B392FC3F"
+				item: {
+					Count: 1
+					id: "scguns:m3_carabine"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 26L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "35D6900826E098A6"
+			tasks: [{
+				id: "4D4D1F1D9B6D423D"
+				item: {
+					Count: 1
+					id: "scguns:mk43_rifle"
+					tag: {
+						Damage: 0
+						DrawnTick: 23
+						GeckoLibID: 36L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "1DF323BA85919EA2"
+			tasks: [{
+				id: "3B890F04BA86C540"
+				item: {
+					Count: 1
+					id: "scguns:rocket_rifle"
+					tag: {
+						Damage: 0
+						DrawnTick: 54
+						GeckoLibID: 32L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "0A09CE64AA85CBF7"
+			tasks: [{
+				id: "0A5C3D310A3FBDAB"
+				item: {
+					Count: 1
+					id: "scguns:iron_javelin"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 35L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "70D70D1C130DD668"
+			tasks: [{
+				id: "3A7993B0B7D8CA11"
+				item: {
+					Count: 1
+					id: "scguns:auvtomag"
+					tag: {
+						Damage: 0
+						DrawnTick: 21
+						GeckoLibID: 39L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "76E11C0D597B8900"
+			tasks: [{
+				id: "704B590461D9A655"
+				item: {
+					Count: 1
+					id: "scguns:venturi"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 25L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "2927F7F9EAF8F8DD"
+			tasks: [{
+				id: "4A106762640B5E25"
+				item: {
+					Count: 1
+					id: "scguns:combat_shotgun"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 27L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "4303ECAA105703D9"
+			tasks: [{
+				id: "4C65F84076D013AE"
+				item: {
+					Count: 1
+					id: "scguns:iron_spear"
+					tag: {
+						Damage: 0
+						DrawnTick: 25
+						GeckoLibID: 34L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "21639AD9F8158AB7"
+			tasks: [{
+				id: "42FE3CF8EE7D703F"
+				item: {
+					Count: 1
+					id: "scguns:brawler"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 37L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["013DFF0F8A9783D3"]
+			id: "3F171D51EC568613"
+			tasks: [{
+				id: "719A464AE4B34454"
+				item: {
+					Count: 1
+					id: "scguns:ultra_knight_hawk"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 31L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "7A5656D4B57C6A40"
+			tasks: [{
+				id: "7FCBBC23F672E394"
+				item: {
+					Count: 1
+					id: "scguns:cr4k_mining_laser"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 41L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "3FF523F6AFB016EB"
+			tasks: [{
+				id: "781DBE507A31A528"
+				item: {
+					Count: 1
+					id: "scguns:gattaler"
+					tag: {
+						Attachments: { }
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 42L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "32FEF4447F0348AB"
+			tasks: [{
+				id: "4638DD6D83572F05"
+				item: {
+					Count: 1
+					id: "scguns:cogloader"
+					tag: {
+						Damage: 0
+						GeckoLibID: 43L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "54E2311982CCFB39"
+			tasks: [{
+				id: "3843513D41C5F34E"
+				item: {
+					Count: 1
+					id: "scguns:spitfire"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 44L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "7C2456BFC0EC8119"
+			tasks: [{
+				id: "5D45608EDC086230"
+				item: {
+					Count: 1
+					id: "scguns:grandle"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 45L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "268E7449BC011EBE"
+			subtitle: "Semi-Auto Crossbow"
+			tasks: [{
+				id: "38BC84FA817EAD64"
+				item: {
+					Count: 1
+					id: "scguns:niami"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 46L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "44E5412F106FE383"
+			tasks: [{
+				id: "2D08CD197F08CB5E"
+				item: {
+					Count: 1
+					id: "scguns:gale"
+					tag: {
+						Damage: 0
+						GeckoLibID: 47L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "195F6E58B35A61F1"
+			tasks: [{
+				id: "09930860F7057999"
+				item: {
+					Count: 1
+					id: "scguns:waltz_conversion"
+					tag: {
+						Damage: 0
+						GeckoLibID: 48L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "5515C86A1B445F31"
+			tasks: [{
+				id: "5042909C91E88734"
+				item: {
+					Count: 1
+					id: "scguns:m22_waltz"
+					tag: {
+						Damage: 0
+						GeckoLibID: 49L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "75B3249F2470405A"
+			tasks: [{
+				id: "620FD59672D2D06D"
+				item: {
+					Count: 1
+					id: "scguns:dozier_rl"
+					tag: {
+						Damage: 0
+						GeckoLibID: 50L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "5865F96B8DF103AE"
+			tasks: [{
+				id: "59FF73BFBA2C3F04"
+				item: {
+					Count: 1
+					id: "scguns:jackhammer"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 51L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "1C0F43CAA848F264"
+			tasks: [{
+				id: "0D2AAE80A567DCCA"
+				item: {
+					Count: 1
+					id: "scguns:thunderhead"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 52L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "1987BAE5A3E9AD47"
+			tasks: [{
+				id: "149269FE8AB5B65C"
+				item: {
+					Count: 1
+					id: "scguns:osgood_50"
+					tag: {
+						Damage: 0
+						GeckoLibID: 53L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "727444BD66EF58B6"
+			tasks: [{
+				id: "31C63D386776CB0E"
+				item: {
+					Count: 1
+					id: "scguns:gauss_rifle"
+					tag: {
+						Damage: 0
+						GeckoLibID: 54L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "7227F71C9DCA0FA5"
+			tasks: [{
+				id: "62FC47164F76978D"
+				item: {
+					Count: 1
+					id: "scguns:scratches"
+					tag: {
+						Damage: 0
+						GeckoLibID: 55L
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "53917510E3CD9E1C"
+			tasks: [{
+				id: "3895CAA77EF3B1B5"
+				item: {
+					Count: 1
+					id: "scguns:howler_conversion"
+					tag: {
+						Damage: 0
+						GeckoLibID: 56L
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["065B34EEB70F1626"]
+			id: "58E3DC005BECB6DD"
+			tasks: [{
+				id: "11D801C8D69C2DB9"
+				item: {
+					Count: 1
+					id: "scguns:howler"
+					tag: {
+						Damage: 0
+						GeckoLibID: 57L
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "6B598663C91ACC3F"
+			tasks: [{
+				id: "3CB7BCB9085822D1"
+				item: {
+					Count: 1
+					id: "scguns:soul_drummer"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 58L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "0F1FF9B3BE580C5E"
+			tasks: [{
+				id: "16B173DF4F58BAE5"
+				item: {
+					Count: 1
+					id: "scguns:shard_culler"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 59L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "5D0E0FF2CCDF2C17"
+			tasks: [{
+				id: "749C47E66AFD9390"
+				item: {
+					Count: 1
+					id: "scguns:prush_gun"
+					tag: {
+						Damage: 0
+						GeckoLibID: 60L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "58EA27F1FD1F05C7"
+			tasks: [{
+				id: "2362F016BDD5A181"
+				item: {
+					Count: 1
+					id: "scguns:valora"
+					tag: {
+						Damage: 0
+						GeckoLibID: 61L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "231610FD73B8B55A"
+			tasks: [{
+				id: "00D5C751483329FE"
+				item: {
+					Count: 1
+					id: "scguns:krauser"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 62L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "68EAA6BBD9B940EA"
+			tasks: [{
+				id: "7274DBA39991EE56"
+				item: {
+					Count: 1
+					id: "scguns:lockewood"
+					tag: {
+						Damage: 0
+						GeckoLibID: 63L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "0DF82320C8A7B02A"
+			tasks: [{
+				id: "3B3AC99B84494FB0"
+				item: {
+					Count: 1
+					id: "scguns:cyclone"
+					tag: {
+						Damage: 0
+						GeckoLibID: 64L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "4AE8227471696CAC"
+			tasks: [{
+				id: "1105054586DAE509"
+				item: {
+					Count: 1
+					id: "scguns:plasgun"
+					tag: {
+						Damage: 0
+						GeckoLibID: 65L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "4D555F9F98EF8CD4"
+			tasks: [{
+				id: "38EE168D8C5CF454"
+				item: {
+					Count: 1
+					id: "scguns:mas_55"
+					tag: {
+						Damage: 0
+						GeckoLibID: 66L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "3A09941E4E61B64A"
+			tasks: [{
+				id: "619E08FE42B9507F"
+				item: {
+					Count: 1
+					id: "scguns:uppercut"
+					tag: {
+						Damage: 0
+						GeckoLibID: 67L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["122EDBAF225EC4DE"]
+			id: "5BB8ADE91854EB30"
+			tasks: [{
+				id: "045206B108596017"
+				item: {
+					Count: 1
+					id: "scguns:inertial"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 68L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39290E989611A20C"]
+			id: "0D4AAD5C1DABF0AE"
+			tasks: [{
+				id: "639D5A86AB442A73"
+				item: {
+					Count: 1
+					id: "scguns:marlin"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 71L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39290E989611A20C"]
+			id: "52C16801A075E442"
+			tasks: [{
+				id: "6F4DCB181A7CC39A"
+				item: {
+					Count: 1
+					id: "scguns:floundergat"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 69L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39290E989611A20C"]
+			id: "37F1A12F15E6E648"
+			tasks: [{
+				id: "1837F3810AF6B020"
+				item: {
+					Count: 1
+					id: "scguns:bomb_lance"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 70L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39290E989611A20C"]
+			id: "4CE0D034F13B937B"
+			tasks: [{
+				id: "3D85C71E5545D2EE"
+				item: {
+					Count: 1
+					id: "scguns:sequoia"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 72L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["37CD4243B54E2A5A"]
+			description: ["Use the &oEmpty Blasphemy&r on a &lBlaze Spawner&r to create &6&oBlasphemy&r."]
+			icon: {
+				Count: 1
+				id: "scguns:blasphemy"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+				}
+			}
+			id: "681F41B0BEEA9B79"
+			tasks: [
+				{
+					id: "3A77359CF7CD6F8A"
+					item: "scguns:empty_blasphemy"
+					type: "item"
+				}
+				{
+					id: "22E00D787F778657"
+					item: {
+						Count: 1
+						id: "scguns:blasphemy"
+						tag: {
+							AmmoCount: 10
+							Damage: 0
+							GeckoLibID: 78L
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blasphemy"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["37CD4243B54E2A5A"]
+			id: "6ABFB42F4ADA7A5C"
+			tasks: [{
+				id: "23811263505F75AE"
+				item: {
+					Count: 1
+					id: "scguns:freyr"
+					tag: {
+						Damage: 0
+						GeckoLibID: 73L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37CD4243B54E2A5A"]
+			id: "1F69669A4DC8A85E"
+			tasks: [{
+				id: "40E7BE980AC29723"
+				item: {
+					Count: 1
+					id: "scguns:vulcanic_repeater"
+					tag: {
+						Damage: 0
+						GeckoLibID: 75L
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37CD4243B54E2A5A"]
+			id: "787D7699CE94C017"
+			tasks: [{
+				id: "5FB431EFF30249F2"
+				item: {
+					Count: 1
+					id: "scguns:pyroclastic_flow"
+					tag: {
+						Damage: 0
+						GeckoLibID: 74L
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37CD4243B54E2A5A"]
+			id: "5D4EB4C325074105"
+			tasks: [{
+				id: "1F22842B7720152D"
+				item: {
+					Count: 1
+					id: "scguns:mangalitsa"
+					tag: {
+						Damage: 0
+						GeckoLibID: 76L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47ABF11703E65DB2"]
+			id: "0E9E1AB674C25D8D"
+			tasks: [{
+				id: "48FD1EB43E40CBE7"
+				item: {
+					Count: 1
+					id: "scguns:whispers"
+					tag: {
+						Damage: 0
+						DrawnTick: 21
+						GeckoLibID: 82L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["47ABF11703E65DB2"]
+			id: "28566423C7B5426D"
+			tasks: [{
+				id: "1F49FC987FD92C5E"
+				item: {
+					Count: 1
+					id: "scguns:forlorn_hope"
+					tag: {
+						Damage: 0
+						DrawnTick: 21
+						GeckoLibID: 81L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47ABF11703E65DB2"]
+			id: "2E37B61885539655"
+			tasks: [{
+				id: "16D7F465B4B3FE37"
+				item: {
+					Count: 1
+					id: "scguns:echoes_2"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 79L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["47ABF11703E65DB2"]
+			id: "7869D2DFF63CB041"
+			tasks: [{
+				id: "2BF71684C8B21A28"
+				item: {
+					Count: 1
+					id: "scguns:sculk_resonator"
+					tag: {
+						Damage: 0
+						GeckoLibID: 80L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2357525DE7F7C364"]
+			id: "5F5C568DE0FA9A85"
+			tasks: [{
+				id: "58F628C78B5E4DBA"
+				item: {
+					Count: 1
+					id: "scguns:carapice"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 83L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2357525DE7F7C364"]
+			id: "26E5728D11E60CA6"
+			tasks: [{
+				id: "640D5C53DA6E530C"
+				item: {
+					Count: 1
+					id: "scguns:shellurker"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 84L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2357525DE7F7C364"]
+			id: "47E9CB26A1A8B218"
+			tasks: [{
+				id: "18309544893B96D6"
+				item: {
+					Count: 1
+					id: "scguns:dark_matter"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 86L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2357525DE7F7C364"]
+			id: "2ABF3E386C5AD33C"
+			tasks: [{
+				id: "40F42F9EAEA3D813"
+				item: {
+					Count: 1
+					id: "scguns:lone_wonder"
+					tag: {
+						Damage: 0
+						GeckoLibID: 87L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2357525DE7F7C364"]
+			id: "48FBD1C95B0B8FD0"
+			tasks: [{
+				id: "66AA1E876FF612BB"
+				item: {
+					Count: 1
+					id: "scguns:raygun"
+					tag: {
+						Damage: 0
+						DrawnTick: 25
+						GeckoLibID: 85L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "6290F319938CE068"
+			tasks: [{
+				id: "296BF4C1D393BC57"
+				item: {
+					Count: 1
+					id: "scguns:flayed_god"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 88L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "2A3B0BA688D6F202"
+			tasks: [{
+				id: "230760769E7EAFC4"
+				item: {
+					Count: 1
+					id: "scguns:earths_corpse"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 89L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "79396E0BD66D09CB"
+			tasks: [{
+				id: "7172D1AFAE822587"
+				item: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						Damage: 0
+						GeckoLibID: 90L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "16DD276C17761890"
+			tasks: [{
+				id: "65B052BA86375620"
+				item: {
+					Count: 1
+					id: "scguns:locust"
+					tag: {
+						Damage: 0
+						GeckoLibID: 91L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "14B8629B6A3B2E5B"
+			tasks: [{
+				id: "6BC077650C5A45D6"
+				item: {
+					Count: 1
+					id: "scguns:rat_king_and_queen"
+					tag: {
+						Damage: 0
+						GeckoLibID: 92L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "37B7F18752980F36"
+			tasks: [{
+				id: "6D54533E32318862"
+				item: {
+					Count: 1
+					id: "scguns:nervepinch"
+					tag: {
+						Damage: 0
+						GeckoLibID: 93L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "20DB2759E8B24E7F"
+			tasks: [{
+				id: "1DC92AD198015A5B"
+				item: {
+					Count: 1
+					id: "scguns:newborn_cyst"
+					tag: {
+						Damage: 0
+						GeckoLibID: 94L
+						IsDrawing: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["25523E5183D8274C"]
+			id: "38EF20DE46E4D22A"
+			tasks: [{
+				id: "57FBDFFA3933752F"
+				item: {
+					Count: 1
+					id: "scguns:astella"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 95L
+						IsDrawing: 1b
+						IsDrawn: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "5399E08E22CFE23E"
+			subtitle: "Found, Not Crafted"
+			tasks: [{
+				id: "4FC9AEBBBCAED5A9"
+				item: {
+					Count: 1
+					id: "scguns:super_shotgun"
+					tag: {
+						Damage: 0
+						GeckoLibID: 97L
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Raison D'Etre"]
+	title: "Scorched Guns"
+}

@@ -1,0 +1,1750 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "engimatic_legacy"
+	group: "3F97C92F70B34FFC"
+	icon: "enigmaticlegacy:the_acknowledgment"
+	id: "2A8819126ECC8C6E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "41B128B8DD6FD84E"
+			tasks: [{
+				id: "6718CD71B8BB1DD6"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"41B128B8DD6FD84E"
+				"099C72B38F81089B"
+			]
+			id: "6A0E75FC26269C99"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2A5F385915DB851F"
+				item: "enigmaticaddons:false_justice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"41B128B8DD6FD84E"
+				"6D80F4A8EEE9CC4B"
+				"099C72B38F81089B"
+			]
+			id: "4E375ADC7A242463"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "5AB3F72C8E1FE35B"
+				item: "enigmaticaddons:the_bless"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"41B128B8DD6FD84E"
+				"7ED2E05F4E493810"
+				"099C72B38F81089B"
+			]
+			id: "0BC18BCD2B55F958"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "764E1C163C47E258"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "3816E8C6DD7BED8C"
+			tasks: [{
+				id: "49406BD268B2C56B"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3816E8C6DD7BED8C"
+				"6E32CDC0A9E5F8BF"
+			]
+			id: "14DEB6DD885F68A7"
+			tasks: [{
+				id: "016A23683225E1BB"
+				item: "enigmaticaddons:ode_to_living"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "317258D39212F619"
+			tasks: [{
+				id: "6A7A29F3D357E2FE"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"317258D39212F619"
+				"7ED2E05F4E493810"
+			]
+			id: "2F0F09202CAC7756"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7D2C763AF7995786"
+				item: "enigmaticaddons:sanguinary_handbook"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0BC18BCD2B55F958"
+				"6610708F9B859623"
+				"099C72B38F81089B"
+				"0BBDDF5EF0C9C754"
+				"473D1DAC02DD8C14"
+			]
+			id: "4D4409696E28C3AA"
+			optional: true
+			tasks: [{
+				id: "728554BC18B8788B"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6AEA5B5860ADD637"]
+			hide_dependent_lines: true
+			id: "6E32CDC0A9E5F8BF"
+			shape: "rsquare"
+			tasks: [{
+				id: "5247B903E6C5F45B"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: {
+						isTainted: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6E32CDC0A9E5F8BF"
+				"76A4FBC39580AA87"
+				"015877B51E1A6F22"
+			]
+			hide_dependent_lines: true
+			id: "7ED2E05F4E493810"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "0B3E3040EE559444"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6E32CDC0A9E5F8BF"
+				"76A4FBC39580AA87"
+				"3C9940D324E98034"
+				"015877B51E1A6F22"
+			]
+			hide_dependent_lines: true
+			id: "6D80F4A8EEE9CC4B"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "13F4CE1E4CBAE5C9"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The &5Ring of the Seven Curses&r makes gameplay &lmuch harder&r in exchange for seven blessings. Hold '&bShift&r' while hovering over the ring for more info."
+				""
+				"&c&lOnce you put the ring on, you cannot take it off&r (until much, much later)&c&l!!&r"
+				""
+				"Although the curses are generally not worthwhile, there are some &4&lvery powerful items&r that can only be crafted while wearing the ring. &d&lMost of these items can only be used if you have spent at least &699.5\\% &d&lof your time in this world wearing the ring! &cWaiting even 1 hour to equip this item means spending 200 hours total!!&r"
+				""
+				"{@pagebreak}"
+				"&eBaubles&r offer a variety of new equipment slots that you can access by clicking on the circle in the top left of your character portrait in your inventory screen. Alternatively, you can press '&bG&r' (default). Once your \"Curios Inventory\" is open, you can '&bShift + Click&r' most Baubles into their respective slots. Some Baubles may support '&bRight Clicking&r' while holding them to equip them automatically."
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "04323735ECC49052"
+			subtitle: "DECIDE ASAP"
+			tasks: [{
+				id: "1F1F06729AFD4A7B"
+				item: "enigmaticlegacy:cursed_ring"
+				type: "item"
+			}]
+			title: "READ THIS QUEST"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "2F031F5124B63CA5"
+			tasks: [{
+				id: "77A8FAD30D80C3FC"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F031F5124B63CA5"]
+			hide_dependent_lines: true
+			id: "41D0B52B14559094"
+			tasks: [{
+				id: "715807BFEF9AB071"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F031F5124B63CA5"]
+			id: "474D6AE57400D685"
+			tasks: [{
+				id: "6797D9E039A66BBC"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F031F5124B63CA5"]
+			id: "04AA0A6ECF87FE99"
+			tasks: [{
+				id: "5B3454CB645ED1AD"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["04AA0A6ECF87FE99"]
+			id: "642524546E620646"
+			tasks: [{
+				id: "4239AE27467814C3"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"41D0B52B14559094"
+				"76A4FBC39580AA87"
+			]
+			id: "11293E73819FC3BA"
+			tasks: [{
+				id: "0E2953959FE5A32C"
+				item: "enigmaticaddons:quartz_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			id: "5F045E2354F0BA2B"
+			shape: "rsquare"
+			tasks: [{
+				id: "67753D7B28E142D8"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F045E2354F0BA2B"]
+			hide_dependent_lines: true
+			id: "5E991A83E73E764B"
+			tasks: [{
+				id: "1C8CAC671EC94A00"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5F045E2354F0BA2B"
+				"0CE2CCFAC0522849"
+			]
+			id: "24E6C306D313FF08"
+			tasks: [{
+				id: "3C922C7BDFCE9E0D"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5F045E2354F0BA2B"
+				"64D636B454262A86"
+			]
+			hide_dependent_lines: true
+			id: "6B72388F545F9F0C"
+			tasks: [{
+				id: "540F994775763120"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6B72388F545F9F0C"
+				"0DEAC4150E273F5E"
+				"4B64EAEC474A7FF9"
+				"50AC522E4F77BFDB"
+			]
+			id: "1E92DA7C2EDF3CDD"
+			tasks: [{
+				id: "4FC58969BF5C214C"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "31ADC94BA9D70E7E"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "02A41DF300C53ACD"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6E32CDC0A9E5F8BF"
+				"76A4FBC39580AA87"
+			]
+			hide_dependent_lines: true
+			id: "7A5CC709FF203AA9"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "0B2FDCAC1FD520D0"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "60A26E0A7564ED14"
+			subtitle: "Craftable"
+			tasks: [
+				{
+					id: "1D007B27F9BC7B5E"
+					item: "enigmaticlegacy:lore_inscriber"
+					type: "item"
+				}
+				{
+					id: "1A816EE43E21A889"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:lore_fragment"
+						tag: {
+							display: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6E32CDC0A9E5F8BF"
+				"76A4FBC39580AA87"
+			]
+			id: "1EE63D7A4C65FB37"
+			tasks: [{
+				id: "5F5AF8AF544995DD"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "2B0530CAEE2F5824"
+			tasks: [{
+				id: "22C63D2A528329A1"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0CE2CCFAC0522849"
+			tasks: [{
+				id: "1FCCA3CD90ECC515"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "09F1B115CC867517"
+			tasks: [{
+				id: "1A090D9C6F1992F1"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50AC522E4F77BFDB"]
+			id: "6C26001A9CEC8F4F"
+			tasks: [{
+				id: "58DA4E999750F242"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "36739590B1F3AF6A"
+			tasks: [{
+				id: "5882658755587A93"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "64D636B454262A86"
+			tasks: [{
+				id: "7658E0777E71FB24"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "5996F1757E7C4FE6"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "5E8CAC36B5BE5035"
+				item: "enigmaticlegacy:monster_charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "6D32172F57EB79EA"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "76B6A8D6E54BDECF"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:insignia"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			id: "3378D283314B8EDB"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "1D4069A380664361"
+				item: "enigmaticaddons:adventure_charm"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "13F87145DA16E59D"
+			tasks: [{
+				id: "083D1D03F113B6FC"
+				item: "enigmaticaddons:forgotten_ice"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			id: "44153415CA23034A"
+			tasks: [{
+				id: "2C7925F139EB20C6"
+				item: "enigmaticaddons:revival_leaf"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "5F2CC8D9CCCF94CE"
+			tasks: [{
+				id: "266E6CADB07DBC49"
+				item: "enigmaticaddons:lost_engine"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "310EF684AD98098E"
+			tasks: [{
+				id: "48CC0E317038D940"
+				item: "enigmaticaddons:hell_blade_charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "6377B047F980EA25"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "15F45C483DA4B54A"
+				item: "enigmaticaddons:forger_gem"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2B0530CAEE2F5824"
+				"3087CD4834C5196B"
+				"4B64EAEC474A7FF9"
+			]
+			id: "5E5A04071012C44A"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "7377514440DC3DDA"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:etherium_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "7767435B719F6B74"
+			tasks: [{
+				id: "2CE499CF1EF57F8F"
+				item: "enigmaticaddons:antique_bag"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "3F498858667ED2CC"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "772EBB4C52310EB0"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:disaster_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "18EE07704DB2B746"
+			tasks: [{
+				id: "09C94E61CEAA0723"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50AC522E4F77BFDB"]
+			id: "3D24926C731DF77E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4B13A5E798A5B1A4"
+				item: "enigmaticlegacy:astral_fruit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0CE2CCFAC0522849"
+				"64D636B454262A86"
+				"0DEAC4150E273F5E"
+				"50AC522E4F77BFDB"
+			]
+			id: "434DF36D9C818E70"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "2BA12A2047AA444F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"64D636B454262A86"
+				"0CE2CCFAC0522849"
+				"2B0530CAEE2F5824"
+				"09F1B115CC867517"
+				"36739590B1F3AF6A"
+				"6C26001A9CEC8F4F"
+				"6610708F9B859623"
+			]
+			id: "3B06FC06A934BF1E"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "2232ABB458859FEA"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6610708F9B859623"]
+			id: "44507D9D7DC093F2"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "2B9F958F02F0EA08"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50AC522E4F77BFDB"]
+			hide_dependent_lines: true
+			id: "4B64EAEC474A7FF9"
+			shape: "rsquare"
+			tasks: [{
+				id: "114BB439916BFC82"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B64EAEC474A7FF9"]
+			id: "3E6354E0FC5C1987"
+			tasks: [{
+				id: "39EF7CFA238FCC93"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B64EAEC474A7FF9"]
+			id: "47FC2F1CABF53600"
+			tasks: [{
+				id: "5DD182D008B37B56"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:astral_potion"
+					tag: {
+						isDrunk: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B64EAEC474A7FF9"]
+			hide_dependent_lines: true
+			id: "6610708F9B859623"
+			shape: "rsquare"
+			subtitle: "Craftable"
+			tasks: [{
+				id: "14ADB4E454EDB061"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0CE2CCFAC0522849"
+				"0DEAC4150E273F5E"
+				"50AC522E4F77BFDB"
+			]
+			id: "0F572C710FDAB036"
+			tasks: [{
+				id: "0BBACD7CAE9FB87D"
+				item: "enigmaticlegacy:end_anchor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50AC522E4F77BFDB"]
+			hide_dependent_lines: true
+			id: "0DEAC4150E273F5E"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "53E28A8C22F58CD8"
+					item: "enigmaticlegacy:etherium_ore"
+					type: "item"
+				}
+				{
+					id: "3D310382AFD437D0"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+			]
+			title: "Etherium"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DEAC4150E273F5E"]
+			id: "3087CD4834C5196B"
+			tasks: [
+				{
+					id: "64BFE0B9CA660A87"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57F880A627A182BC"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0499E8D4B18A6897"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3981872C6CCE8E"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Etherium Armor"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0DEAC4150E273F5E"
+				"4B64EAEC474A7FF9"
+			]
+			id: "29E32AEDE8442B42"
+			tasks: [
+				{
+					id: "0C23EA644446DB97"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F53FAA76CC537AA"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C72A9422D7ACF67"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43C0653E0ADCF5FA"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08E9BE1DF3A0F72F"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["29E32AEDE8442B42"]
+			id: "6D5C1AF784F7F647"
+			tasks: [{
+				id: "24C907F84B8DD63B"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29E32AEDE8442B42"]
+			id: "64B10C6C101D8AA0"
+			tasks: [{
+				id: "4D4B1661C8DDA22C"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:astral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B64EAEC474A7FF9"]
+			id: "61F7229069FBF055"
+			tasks: [{
+				id: "319301DB598C2366"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:dragon_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0DEAC4150E273F5E"
+				"6610708F9B859623"
+			]
+			id: "78F8DF37AC0B5D51"
+			tasks: [{
+				id: "5204E92A9EA9ACF1"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "76A4FBC39580AA87"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "0769ACBEA25E38E3"
+				title: "Visit the Nether"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "50AC522E4F77BFDB"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "0E34F83C1C3CF40E"
+				title: "Visit the End"
+				type: "dimension"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50AC522E4F77BFDB"]
+			id: "773FA2D4FB1A6F4F"
+			tasks: [{
+				id: "717608B8486BEBBE"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AEA5B5860ADD637"]
+			hide_dependent_lines: true
+			id: "3C9940D324E98034"
+			shape: "rsquare"
+			tasks: [{
+				id: "6E88576BAD34250F"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C9940D324E98034"]
+			id: "2FE7A81DE74BC10C"
+			tasks: [{
+				id: "387B217EADDFE25E"
+				item: "enigmaticaddons:ichoroot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3C9940D324E98034"
+				"76A4FBC39580AA87"
+			]
+			id: "0565D9611644CC41"
+			tasks: [{
+				id: "6697EF5F637D494C"
+				item: "enigmaticaddons:ichor_spear"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "17E01797BB23EB89"
+			tasks: [{
+				id: "5901C582DF1ACC4F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:void_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "5FB1636E7C164614"
+			tasks: [{
+				id: "05C1956434AA22A9"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "1DD02FA9E071BA86"
+			tasks: [{
+				id: "796903A52929A853"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0FBC70954EDB2299"
+			tasks: [{
+				id: "300B36D194C748FC"
+				item: "enigmaticlegacy:unholy_grail"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "7D464C07D3B82203"
+			tasks: [
+				{
+					id: "65579F344878DD79"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:enigmatic_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "777D5222B23AA9A9"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:enigmatic_eye"
+						tag: {
+							ActivationAnimation: -1
+							IsDormant: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "360636269DD55924"
+			tasks: [{
+				id: "79E46C723495A2B3"
+				item: "enigmaticlegacy:forbidden_fruit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"360636269DD55924"
+				"0FBC70954EDB2299"
+				"015877B51E1A6F22"
+			]
+			id: "4B5E2985FF4C8DCD"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/unholy_grail_worthy"
+				criterion: ""
+				id: "178915AC6922566F"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04323735ECC49052"]
+			hide_dependent_lines: true
+			id: "015877B51E1A6F22"
+			optional: true
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				id: "4CA95C153AD1DDEA"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			id: "36CACAEC24C3E97D"
+			tasks: [{
+				id: "6D6E5966079AE89E"
+				item: "enigmaticlegacy:ichor_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "230982650E4352CE"
+			tasks: [{
+				id: "10F541A6ACBA1FA6"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "7C74C78CB0CFB148"
+			tasks: [{
+				id: "15D32A40006CF105"
+				item: "enigmaticaddons:void_tome"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["015877B51E1A6F22"]
+			id: "46361544D6670A0E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4F9D1E966046BC76"
+				item: "enigmaticlegacy:guardian_heart"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"76A4FBC39580AA87"
+				"015877B51E1A6F22"
+			]
+			hide_dependent_lines: true
+			id: "099C72B38F81089B"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3A3B4AD04D7E029F"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"50AC522E4F77BFDB"
+				"015877B51E1A6F22"
+			]
+			hide_dependent_lines: true
+			id: "473D1DAC02DD8C14"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3FB3E27D647B482E"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["099C72B38F81089B"]
+			id: "095C245667482E1F"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4C1D88B75DCFC531"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5E991A83E73E764B"
+				"7ED2E05F4E493810"
+				"099C72B38F81089B"
+			]
+			id: "096B4BF6C19FE1AC"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "378D9684D81735A4"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:cursed_xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["099C72B38F81089B"]
+			hide_dependent_lines: true
+			id: "0BBDDF5EF0C9C754"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2FC61C7ECE3260B5"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"18EE07704DB2B746"
+				"099C72B38F81089B"
+			]
+			id: "584694C1BDBCA251"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "37A40B461EA4DF3E"
+				item: "enigmaticlegacy:curse_transposer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"099C72B38F81089B"
+				"7ED2E05F4E493810"
+			]
+			id: "38C17960004929E9"
+			optional: true
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "24224A256CDAE22E"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["099C72B38F81089B"]
+			id: "0FE98328DCC3AD82"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "0849DF73CD6AA2FB"
+				item: "enigmaticaddons:totem_of_malice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"099C72B38F81089B"
+				"473D1DAC02DD8C14"
+				"6610708F9B859623"
+				"6C26001A9CEC8F4F"
+				"41D0B52B14559094"
+			]
+			id: "7135FBA896F17ED1"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7A5E761708FCEA7B"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["099C72B38F81089B"]
+			hide_dependent_lines: true
+			id: "37763C2E4E4E0876"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "202EEF4E8541D3FE"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"473D1DAC02DD8C14"
+				"37763C2E4E4E0876"
+				"6C26001A9CEC8F4F"
+				"6610708F9B859623"
+			]
+			id: "6AFB214512DF4597"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "51FC06AC96A41254"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"37763C2E4E4E0876"
+				"6610708F9B859623"
+				"17E01797BB23EB89"
+			]
+			id: "78C53F8395268132"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "363BC0BAECD733D5"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"37763C2E4E4E0876"
+				"4B64EAEC474A7FF9"
+			]
+			id: "6EC0AED1A1BFF704"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6873694C228C63C4"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:evil_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76A4FBC39580AA87"]
+			id: "1A2D1BDED68E5A50"
+			shape: "rsquare"
+			tasks: [{
+				id: "2B121893D464923F"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A2D1BDED68E5A50"
+				"7ED2E05F4E493810"
+				"41D0B52B14559094"
+			]
+			id: "09F78F5BAF68FC42"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2A94126CD7DC6F66"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1A2D1BDED68E5A50"
+				"7ED2E05F4E493810"
+			]
+			id: "673E833DD39DB1A6"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "5BBF5E9D9AE67B6F"
+				item: "enigmaticaddons:night_scroll"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1A2D1BDED68E5A50"
+				"36739590B1F3AF6A"
+				"6D80F4A8EEE9CC4B"
+			]
+			id: "1DD7B4E355E9B200"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7A56DC4697247626"
+				item: "enigmaticaddons:thunder_scroll"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1A2D1BDED68E5A50"
+				"7ED2E05F4E493810"
+			]
+			id: "6F4B8C643904F893"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "60FDA082A312AB26"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7ED2E05F4E493810"
+				"230982650E4352CE"
+			]
+			id: "7A759BC06C615301"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "0949C29D684E86F4"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7ED2E05F4E493810"]
+			id: "39980ACC302BF12E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "0C7A2314A304B2F6"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7ED2E05F4E493810"]
+			id: "19F0C863B0986542"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "098155C4A9E275E3"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7ED2E05F4E493810"]
+			id: "00A2B900D4C64EF5"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "6F5163BBB4603575"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"41D0B52B14559094"
+				"7A5CC709FF203AA9"
+				"6610708F9B859623"
+				"7ED2E05F4E493810"
+				"6D80F4A8EEE9CC4B"
+			]
+			id: "19D644766A5E720F"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "0EFD9D014668FFD5"
+				item: "enigmaticaddons:earth_promise"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7ED2E05F4E493810"
+				"78F8DF37AC0B5D51"
+				"099C72B38F81089B"
+				"473D1DAC02DD8C14"
+			]
+			id: "63557A3452D442DD"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "736AECA1FAC58C02"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"09F1B115CC867517"
+				"6D80F4A8EEE9CC4B"
+			]
+			id: "136EAC665775E4FE"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "416A304451F01FDC"
+				item: "enigmaticaddons:scorched_charm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"18EE07704DB2B746"
+				"6D80F4A8EEE9CC4B"
+			]
+			id: "4FA7FDC11AD8EA16"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "09A92AA095EB5B8D"
+				item: "enigmaticaddons:bless_amplifier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"38C17960004929E9"
+				"6D80F4A8EEE9CC4B"
+				"6610708F9B859623"
+			]
+			id: "1F5DC910BF10A87F"
+			optional: true
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1C01B1927E2EA778"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:bless_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F5DC910BF10A87F"]
+			id: "418DE62ADBC9CCEF"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "05BF04E51805EA0F"
+				item: "enigmaticaddons:bless_ring"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			id: "6AEA5B5860ADD637"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "3A8286349EFAF0F7"
+				title: "Visit the Overworld"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+	]
+	title: "Engimatic Legacy"
+}
