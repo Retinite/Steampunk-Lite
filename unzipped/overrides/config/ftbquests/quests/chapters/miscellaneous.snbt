@@ -173,7 +173,7 @@
 				""
 				"&c&lEldritch End&r and &c&lOuter End&r together add 5 new biomes to The End, plus new structures, mobs, and equipment."
 				""
-				"&c&lIncendium&r"
+				"&c&lIncendium&r adds some vanilla-friendly Nether biomes and structures, and also increases the Nether ceiling!"
 				""
 				"&c&lOh The Biomes We've Gone&r adds many new fantastical biomes to the overworld, complete with 24 new types of wood! &c&lArs Nouveau&r, &d&lArs Elemental&r, and &c&lQuark&r (among the many things these mods do) also add new biomes, trees, and other terrain features."
 				""
@@ -590,6 +590,7 @@
 							Ability: "improvableskills:anvil"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -601,6 +602,7 @@
 							Ability: "improvableskills:auto_xp_bank"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -612,6 +614,7 @@
 							Ability: "improvableskills:cowboy"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -623,6 +626,7 @@
 							Ability: "improvableskills:crafter"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -634,6 +638,7 @@
 							Ability: "improvableskills:enchanting"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -645,6 +650,7 @@
 							Ability: "improvableskills:magnetism"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]
@@ -665,6 +671,7 @@
 							Skill: "improvableskills:alchemist"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -676,6 +683,7 @@
 							Skill: "improvableskills:atkdmg_ranged"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -687,6 +695,7 @@
 							Skill: "improvableskills:dexterous_arms"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -698,6 +707,7 @@
 							Skill: "improvableskills:enchanter"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -709,6 +719,7 @@
 							Skill: "improvableskills:ender_manipulator"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -720,6 +731,7 @@
 							Skill: "improvableskills:generic_protection"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -731,6 +743,7 @@
 							Skill: "improvableskills:growth"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -742,6 +755,7 @@
 							Skill: "improvableskills:health"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -753,6 +767,7 @@
 							Skill: "improvableskills:huckster"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -764,6 +779,7 @@
 							Skill: "improvableskills:luck_of_the_sea"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -775,6 +791,7 @@
 							Skill: "improvableskills:mob_repellent"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -786,6 +803,7 @@
 							Skill: "improvableskills:obsidian_skin"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -797,6 +815,7 @@
 							Skill: "improvableskills:silent_foot"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -808,6 +827,7 @@
 							Skill: "improvableskills:soul_speed"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -819,6 +839,7 @@
 							Skill: "improvableskills:treasure_sands"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -830,6 +851,7 @@
 							Skill: "improvableskills:xp_plus"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]

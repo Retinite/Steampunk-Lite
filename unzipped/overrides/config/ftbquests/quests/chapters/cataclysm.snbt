@@ -228,7 +228,7 @@
 			id: "0C50E0851298AB9E"
 			shape: "hexagon"
 			tasks: [{
-				dimension: "minecraft:the_end"
+				dimension: "minecraft:overworld"
 				disable_toast: true
 				icon: "minecraft:grass_block"
 				id: "5A157BDA0285BBB5"

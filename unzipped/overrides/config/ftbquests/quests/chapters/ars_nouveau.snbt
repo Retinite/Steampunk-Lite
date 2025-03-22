@@ -9,7 +9,24 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"All spellbooks from &c&lArs Nouveau&r include the &oWorn Notebook&r's documentation within as an extra tab, but for technical reasons the mod requires the spellbook to be a separate item from the documentation."
+				""
+				"Press '&bC&r' (default) to open the spellbook. Each spellbook has 10 spellslots. You can cycle between which spellslot is active with '&bX&r' and '&bZ&r' (default), which displays as the number just above your mana bar in the bottom left."
+				""
+				"{@pagebreak}"
+				"When crafting a spell, you must first select the &oForm&r. A spell may only have one &oForm&r, and it must be the first glyph you select."
+				""
+				"After the &oForm&r is selected, any number of &oEffect&r and &oAugment&r glyphs may be added."
+				""
+				"Glyphs range from tier 1 to tier 3, and the more you have unlocked, the more max mana and mana regeneration you will have. Higher tier glyphs give you more of a bonus!"
+				""
+				"{@pagebreak}"
+				"Spellbooks can be colored, and any color you choose will carry over when you upgrade your spellbook to a higher level!"
+			]
 			id: "30520F3E6DE3BC7D"
+			shape: "gear"
+			subtitle: "Includes Documentation"
 			tasks: [{
 				id: "6D82E578F007B221"
 				item: "ars_nouveau:novice_spell_book"
@@ -21,6 +38,7 @@
 		{
 			dependencies: ["30520F3E6DE3BC7D"]
 			id: "0A476B84EB6FF749"
+			subtitle: "Tier 2 Spells"
 			tasks: [{
 				id: "694E52C380AF5049"
 				item: "ars_nouveau:apprentice_spell_book"
@@ -32,6 +50,7 @@
 		{
 			dependencies: ["0A476B84EB6FF749"]
 			id: "46DE628A03493180"
+			subtitle: "Tier 3 Spells"
 			tasks: [{
 				id: "58A7273C5D4E03A4"
 				item: "ars_nouveau:archmage_spell_book"
@@ -42,6 +61,9 @@
 		}
 		{
 			id: "2DD82137921E76A7"
+			optional: true
+			shape: "diamond"
+			subtitle: "Documentation"
 			tasks: [{
 				id: "116CED5DDC69710D"
 				item: "ars_nouveau:worn_notebook"
@@ -49,6 +71,504 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			id: "3872812432B12EAE"
+			shape: "rsquare"
+			tasks: [{
+				id: "5B6041137B061FB1"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3872812432B12EAE"]
+			id: "34CD29A8FD6E86DD"
+			optional: true
+			shape: "diamond"
+			subtitle: "Gotta Get 'Em All!"
+			tasks: [
+				{
+					id: "657F724216B8DAE6"
+					item: "ars_elemental:yellow_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "1C858DB391594D6C"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "2A02DC6AE57EEE51"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "3F8E80FD68B4ABD5"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "66C806C320E679BD"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
+			title: "Archwood Saplings"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "4E03983FFB4F560E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "4A53C0815B62A286"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3872812432B12EAE"]
+			description: [
+				"Recipes require &5source&r to craft."
+				""
+				"&oSource&r is generated naturally at a slow rate, but you can use &lSourcelinks&r to generate source much faster. Each &lSourcelink&r generates &5source&r under different circumstances!"
+				""
+				"The &lImbuement Chamber&r cannot absorb &5source&r from &lSourcelinks&r directly. Instead, you must collect &5source&r in &lSource Jars&r and place any jars within 2 blocks of the &lImbuement Chamber&r."
+				""
+				"{@pagebreak}"
+				"The &lImbuement Chamber&r, as well as other crafting stations added in &c&lArs Nouveau&r, may require &lArcane Pedestals&r within 3 blocks to hold extra items for some recipes."
+			]
+			id: "07A44B539BD90C22"
+			shape: "gear"
+			subtitle: "Energy Crafting"
+			tasks: [{
+				id: "499CE809EA03A0FA"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07A44B539BD90C22"]
+			id: "401D061E9B20ADA8"
+			shape: "rsquare"
+			tasks: [{
+				id: "266B1B14158364C4"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["401D061E9B20ADA8"]
+			description: [
+				"&lEnchanting Apparatus&r recipes require a multiblock setup as follows:"
+				""
+				"Place the &lEnchanting Apparatus&r on top of the &lArcane Core&r. Then, place the &lArcane Pedestals&r within 3 blocks from the &lApparatus&r."
+				""
+				"Different recipes may use as few as 1 &lArcane Pedestal&r or as many as 8."
+				""
+				"{@pagebreak}"
+				"The &lEnchanting Apparatus&r also includes recipes to enchant any item or book with any vanilla enchantment!"
+				""
+				"Just look up the recipes for &oEnchanted Books&r, and know that you can replace the book in the center of the recipe with &oany&r item or equipment that can accept that enchantment."
+			]
+			id: "6A9CBF3E12B78B26"
+			shape: "gear"
+			subtitle: "Normal-ish Crafting"
+			tasks: [
+				{
+					id: "0F81E45E7EFBD3A2"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "6D1C7E3F90B5B005"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "4CDE179F0C8879B8"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A9CBF3E12B78B26"]
+			id: "6D669F3815F78B28"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5284A7D1CC182E14"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "4105D238F13BF8AA"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+				{
+					id: "0799498636BD1C94"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+			]
+			title: "Magebloom"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3872812432B12EAE"]
+			id: "1C3A33A6E3FDB5A0"
+			shape: "square"
+			subtitle: "Make New Glyphs"
+			tasks: [{
+				id: "4FA367C075A2CE58"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["069B8A8EFD3632A8"]
+			description: [
+				"This &lSourcelink&r generates &5source&r when crops and saplings grow (without using &oBonemeal&r) within 15 blocks."
+				""
+				"Generates extra &5source&r when &c&lArs Nouveau&r crops and saplings grow."
+			]
+			id: "27EDC65D46CC49E0"
+			shape: "diamond"
+			subtitle: "Crop Source"
+			tasks: [{
+				id: "526CB3D092F2D4A3"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["069B8A8EFD3632A8"]
+			description: [
+				"This &lSourcelink&r generates &5source&r by consuming food items on nearby &lArcane Pedistals&r. More &5source&r is generated for more filling foods, and a hefty bonus is given for &oSourceberry&r foods."
+				""
+				"&lGrass&r and &lDirt&r in the 3x3 below the &lSourcelink&r will gradually convert to &lMycelium&r, and mushrooms will grow nearby if possible."
+			]
+			id: "3275E7E061B780DB"
+			shape: "diamond"
+			subtitle: "Food Source"
+			tasks: [
+				{
+					id: "5B2EC996E3510EBF"
+					item: "ars_nouveau:mycelial_sourcelink"
+					type: "item"
+				}
+				{
+					id: "78F141E63B2072A6"
+					item: "ars_nouveau:arcane_pedestal"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["069B8A8EFD3632A8"]
+			description: [
+				"This &lSourcelink&r generates &5source&r when nearby mobs die or animals breed."
+				""
+				"Baby animals near the &lSourcelink&r will provide passive &5source&r generation, and their growth will be sped up."
+			]
+			id: "1B10845BDBC33E9D"
+			shape: "diamond"
+			subtitle: "Life Source"
+			tasks: [{
+				id: "03B4DD7D6A453C18"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1DF252BDF8663EF3"
+				"069B8A8EFD3632A8"
+			]
+			description: [
+				"This &lSourcelink&r generates &5source&r by consuming the potions contained in nearby &lPotion Jars&r."
+				""
+				"More &5source&r is generated for potions that are longer, stronger, and require more steps to brew. The potion's effect may also vary the amount of &5source&r generated."
+			]
+			id: "0BF9308FEF59E326"
+			shape: "diamond"
+			subtitle: "Potion Source"
+			tasks: [
+				{
+					id: "08CFED68DBE2426E"
+					item: "ars_nouveau:alchemical_sourcelink"
+					type: "item"
+				}
+				{
+					id: "01629F905FA8B996"
+					item: "ars_nouveau:potion_jar"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["069B8A8EFD3632A8"]
+			description: [
+				"This &lSourcelink&r generates &5source&r by consuming burnable items. Extra &5source&r is generated when consuming &lArchwood&r, especially &lFlaming Archwood&r."
+				""
+				"The 3x3 blocks below the &lVolcanic Sourcelink&r may occasionally transmute, with &lStone&r turning into &lMagma&r turning into &lLava&r. Any &lLava&r may spawn a &lLava Lilly&r on top."
+			]
+			id: "6C1491309918977F"
+			shape: "diamond"
+			subtitle: "Heat Source"
+			tasks: [{
+				id: "799410A5D387E8AD"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["401D061E9B20ADA8"]
+			id: "1DF252BDF8663EF3"
+			shape: "rsquare"
+			subtitle: "Essential"
+			tasks: [
+				{
+					id: "6080458B71EFC401"
+					item: "ars_elemental:anima_essence"
+					type: "item"
+				}
+				{
+					id: "1B0C81FCBECBE2B2"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "494130212C3D3E72"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "6A8B9BD6EB5360E2"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "4EDD512EB400CF2B"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "5F9C4971F8674E03"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "0D2979D157B1206F"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "499E4927035F6791"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			title: "Essences"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A9CBF3E12B78B26"]
+			id: "754C9E328DCDC279"
+			subtitle: "Magical Wrench"
+			tasks: [{
+				id: "0A3E598CC000AD50"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["754C9E328DCDC279"]
+			description: [
+				"Use the &oRod of Dominion&r between 2 &lSource Relays&r, or between &lSource Relays&r and &lSource Jars&r to cause &5source&r to flow (but only in 1 direction)."
+				""
+				"&lSource Relays&r can connect to other &lSource Relays&r within 30 blocks, and &lSource Jars&r within 5 blocks."
+			]
+			id: "56F8952EA876DFC5"
+			optional: true
+			shape: "square"
+			subtitle: "Transfer Source"
+			tasks: [{
+				id: "37EA252A67438552"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56F8952EA876DFC5"]
+			description: ["Automatically absorbs &5source&r from &nall&r &lSource Jars&r within 5 blocks without needing to be linked to them."]
+			id: "1B451BF1F8618B53"
+			optional: true
+			shape: "diamond"
+			subtitle: "Auto-Collector"
+			tasks: [{
+				id: "213AA5AD06C4ECB0"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56F8952EA876DFC5"]
+			description: ["Automatically deposits &5source&r into &nall&r &lSource Jars&r within 5 blocks without needing to be linked to them."]
+			id: "245554F81068D0ED"
+			optional: true
+			shape: "diamond"
+			subtitle: "Auto-Depositor"
+			tasks: [{
+				id: "4FB2E4A9E5B43FD5"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["56F8952EA876DFC5"]
+			description: ["Can connect to multiple &lSource Jars&r at once for either input or output, and has a higher &5source&r throughput compared to a normal &lSource Relay&r."]
+			id: "75CBB2F2B50875AA"
+			optional: true
+			shape: "diamond"
+			subtitle: "Better Relay"
+			tasks: [{
+				id: "13C6AE543400E60D"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56F8952EA876DFC5"]
+			description: [
+				"Two &lWarped Relays&r can be connected over &oany&r distance, even across dimensions!"
+				""
+				"However, some &5source&r is lost in the transfer."
+			]
+			id: "53903CC3C00F93C0"
+			optional: true
+			shape: "diamond"
+			subtitle: "Infinite Relay"
+			tasks: [{
+				id: "0F1275202DDB965B"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6A9CBF3E12B78B26"
+				"1DF252BDF8663EF3"
+			]
+			description: [
+				"With the &aProtection of the 4 Elements&r, your spellbook can never be destroyed! It can still despawn or fall into the void though."
+				""
+				"And just like with coloring your spellbook, this protection stays with your spellbook even if you upgrade it to a higher level!"
+			]
+			id: "551A245C70918F32"
+			optional: true
+			shape: "diamond"
+			subtitle: "Spellbook Upgrade"
+			tasks: [
+				{
+					id: "7BBB4BA6D046958A"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "3D2632444F5322BF"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "76BA18D055234181"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "25F2721E06619A06"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					id: "769C95D28AC38225"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "Protection of the 4 Elements"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["401D061E9B20ADA8"]
+			description: ["&lSource Jars&r absorb &5source&r from &lSourcelinks&r within 5 blocks, and automatically transfer &5source&r to &lImbuement Chambers&r within 2 blocks."]
+			id: "069B8A8EFD3632A8"
+			shape: "square"
+			subtitle: "Source Storage"
+			tasks: [{
+				id: "2850775AE14D2A49"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "7C13791A5C7DB349"
+			shape: "gear"
+			subtitle: "Item Transfer"
+			tasks: [{
+				id: "45234CABF0D79935"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
 		}
 	]
 	title: "Ars Nouveau"
