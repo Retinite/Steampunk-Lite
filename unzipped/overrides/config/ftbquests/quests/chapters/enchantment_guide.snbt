@@ -1,0 +1,2008 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enchantment_guide"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:enchanted_book"
+		tag: {
+			StoredEnchantments: [{
+				id: "minecraft:protection"
+				lvl: 4s
+			}]
+		}
+	}
+	id: "4A69B98027AE9606"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Modded enchantments rarely get the documentation they deserve, so this page aims to be that documentation. Only max-level enchantments are listed, and enchantments are divided up by mod (or sometimes subdivided by equipment)."]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "3665726D37B6B744"
+			tasks: [{
+				disable_toast: true
+				id: "0891807E06A74CF0"
+				title: "Click Me"
+				type: "checkmark"
+			}]
+			title: "Info"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"On the &oSlingshot&r, &dStasis&r makes projectiles ignore gravity (until they hit their maximum range)."
+				""
+				"&dStasis&r can also be applied to the &oBubble Blower&r, which allows it to create &lBubble Blocks&r in midair. These blocks pop after being stepped on or punched."
+			]
+			icon: {
+				Count: 1
+				id: "supplementaries:slingshot"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "490C0B8488A369FA"
+			tasks: [{
+				id: "75064B4EBA0A5831"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "supplementaries:stasis"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Supplementaries"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: ["Nothing to see here. This page will be removed if I ever figure out how to disable selected enchantments."]
+			icon: "outer_end:azure_chest"
+			id: "5FA8ABF4789FDE5A"
+			optional: true
+			subtitle: "No Uses"
+			tasks: [{
+				id: "1E76FECB0D200601"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "azurelib:incendiaryenchantment"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "AzureLib"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dMystical Enlightenment&r can only be applied to &oSwords&r and &oScythes&r. When &0The Wither&r is killed with a &dMystical Enlightenment&r weapon, &6&oCognizant Dust&r will drop."
+				""
+				"&dSoul Siphoner&r can only be applied to &oSoulium Daggers&r, and each level collects 10\\% more souls from any killed mob."
+			]
+			icon: "mysticalagriculture:inferium_essence"
+			id: "01F30431F83ABEFF"
+			tasks: [
+				{
+					id: "3D1CA7D4B4CAE2C2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "mysticalagriculture:mystical_enlightenment"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7530EA7F0B269E50"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "mysticalagriculture:soul_siphoner"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mystical Agriculture"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: ["&dBackstabbing&r can only be applied to &oKnives&r and increases all damage by 40\\% &oper level&r when attacking the back of a mob."]
+			icon: {
+				Count: 1
+				id: "farmersdelight:iron_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "38FC2EEAAC227E35"
+			tasks: [{
+				id: "4ED436ED06400928"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "farmersdelight:backstabbing"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Farmer's Delight"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			icon: "ars_nouveau:apprentice_spell_book"
+			id: "34410145735574CC"
+			tasks: [
+				{
+					id: "415D77EB72B0F89A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_nouveau:mana_boost"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4080628CE56B3619"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_nouveau:mana_regen"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ars Nouveau"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dFire Protection&r, &dProjectile Protection&r, and &dProtection&r can be crafted up to level 5 using the &lEnchanting Apparatus&r. Note that protection enchantments cap out at total level of 12 across all 4 armor slots, so these level 5 protection enchantments are not very useful. Also, &dBlast Protection&r has no level 5 recipe."
+				""
+				"&dReactive&r &nmust be crafted&r, because the enchantment is tied to the spell stored on the the &oSpell Parchment&r used in its recipe. Each level adds a 25\\% chance of firing the stored spell when the equipment takes durability damage."
+				""
+				"Note that you can use the &lEnchanting Apparatus&r to directly upgrade the level of an enchanted item by replacing the &oEnchanted Book&r in the recipe."
+			]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "7F847EBB2F976DD8"
+			subtitle: "Ars Nouveau Crafting"
+			tasks: [
+				{
+					id: "1EE2F5801D6265D1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17A983D2F4FEA939"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C7E3F170CEB661D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D6592BA185B8C0"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_nouveau:reactive"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Enchanting Apparatus"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dSoulbound&r allows equipment to stay with you when you revive, meaning you won't have to retrieve it from your grave."
+				""
+				"&dSpell Reflection&r can only be applied to the &oEnchanter's Shield&r, and each level increases the chance of reflecting incoming spells while blocking with the shield."
+			]
+			icon: "ars_elemental:debug"
+			id: "3C96F603225014CD"
+			tasks: [
+				{
+					id: "631BC609D679EC51"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_elemental:soulbound"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F320765C04B9A1C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ars_elemental:mirror_shield"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ars Elemental"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dCapacity&r increases the duration of the &oBacktank&r by 5 minutes per level. So, at &dCapacity III&r, a &oBacktank&r and &oDiving Helmet&r together provide 30 minutes of water breathing."
+				""
+				"&dPotato Recovery&r gives a chance of ammo being recoverable after shooting. Level 1 yields a 25\\% chance, level 2 a 33\\% chance, and level 3 a 50\\% chance."
+			]
+			icon: "create:wrench"
+			id: "3C8D994DD8FEDFB8"
+			tasks: [
+				{
+					id: "2B5F7D2BE736A676"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "create:capacity"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B1A13C2B7F34656"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "create:potato_recovery"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Create"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dLavawaxed&r gives the rider &6Fire Resistance&r."
+				""
+				"&dReturning Board&r causes any broken &oStraddleboard&r to instantly return to the inventory of the player who placed it when broken."
+				""
+				"&dSerpent Charmer&r prevents Bone Serpents from attacking the rider."
+				""
+				"&dStraddle Jump&r increases the jump height of the &oStraddleboard&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:straddleboard"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2FEA5D84C2BDC3F0"
+			subtitle: "Straddleboards"
+			tasks: [
+				{
+					id: "5F5E5E4DE001DEEF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexsmobs:lavawax"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25845F7345373F17"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexsmobs:board_return"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B51AAB3E1980B9C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexsmobs:serpentfriend"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F846DC1B93D62EC"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexsmobs:straddle_jump"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Alex's Mobs"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dCeaseless&r &c(&oCrossbows&r&c)&r is equivalent to the &dInfinity&r enchantment for &oCrossbows&r."
+				""
+				"&dSharpshooter&r &c(&oCrossbows&r&c)&r increases arrow damage and reduces arrow damage variation."
+				""
+				"&dSlayer&r &c(&oSwords&r&c, &oAxes&r&c)&r increases damage against hostile mobs."
+				""
+				"&dTorrent&r &c(&oTridents&r&c)&r increases damage against Nether mobs."
+				""
+				"&dWrath&r &c(&oTridents&r&c)&r is equivalent to the &dSharpness&r enchantment for &oTridents&r."
+			]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:earth_heart"
+				tag: {
+					isTainted: 1b
+				}
+			}
+			id: "56AEEF20DB1230E8"
+			tasks: [
+				{
+					id: "1D9CBA3CE4A53C4C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:ceaseless"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FC757799486578B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:sharpshooter"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62015ED4C5096CCC"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:slayer"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09487C30106DDD44"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:torrent"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71CE606BDAE1A678"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:wrath"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Enigmatic Legacy"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&cCurse of Eternal Binding&r combines &cCurse of Binding&r with &dSoulbound&r. Hopefully you can wear the durability out."
+				""
+				"&cCurse of Nemesis&r deals 25\\% of your melee damage back to you."
+				""
+				"&cCurse of Redemption&r causes you to take 4\\% more damage from all sources per cursed item. If you wear the &6&oRing of Redemption&r, the curse becomes the &6Blessing of Redemption&r, causing you to take 4\\% &oless&r damage from all sources per cursed item."
+				""
+				"&cCurse of Sorrow&r sometimes applies random debuffs when taking damage."
+			]
+			icon: "enigmaticlegacy:twisted_heart"
+			id: "1A322B30E081196A"
+			subtitle: "Legacy \\& Addons"
+			tasks: [
+				{
+					id: "716C4CD939D9849B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:eternal_binding"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27B28EA98C1BD412"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:nemesis"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73A0D7815318F2D7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticaddons:redemption_curse"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C10E804A1BF5A5D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:sorrow"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Enigmatic Curses"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dFrost Aspect&r &c(&oSwords&r&c)&r applies &7Slowness&r and &7Weakness&r to targets."
+				""
+				"&dFrost Protection&r reduces damage from \"cold\" sources."
+				""
+				"&dFrost Shattering&r &c(&oAxes&r&c)&r applies &7Slowness&r and &7Weakness&r when disabling an opponent's shield."
+			]
+			icon: "enigmaticaddons:pure_heart"
+			id: "0B8BA44343ED5120"
+			tasks: [
+				{
+					id: "60B76273EEBB9D1C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticaddons:frost_aspect"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47ADF841DE1ED19B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticaddons:frost_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B306EFD8C955651"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticaddons:frost_shattering"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Enigmatic Addons"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dHeavy Shot&r increases damage but lowers fire rate and velocity."
+				""
+				"&dHot Barrel&r causes more frequent firing to increase damage and fire rate at the cost of increased recoil and weapon spread."
+				""
+				"&dHyper Velocity&r increases bullet velocity and damage."
+				""
+				"&dLight Frame&r increases ADS speed."
+				""
+				"&dPhantom Rounds&r adds a chance of not consuming ammo."
+				""
+				"&dSharpshooter&r adds a chance of critical damage."
+				""
+				"&dSwift Reloader&r increases reload speed."
+			]
+			icon: {
+				Count: 1
+				id: "scguns:flintlock_pistol"
+				tag: {
+					AmmoCount: 1
+					Damage: 0
+					GeckoLibID: 100L
+				}
+			}
+			id: "578D9DE3752975B6"
+			subtitle: "Generic Enchantments"
+			tasks: [
+				{
+					id: "77D873BB88EDFF8C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:heavy_shot"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3255ECDFEBC44D6B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:hot_barrel"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "710677C023FDF3EF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:accelerator"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33445D018B0D9EBB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:lightweight"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "742575C666B855C4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:reclaimed"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B7AE5748F5936C1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:puncturing"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "460FEAFFF8D768B6"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:quick_hands"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Scorched Guns I"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dBanzai&r &c(&oBayonets&r&c only)&r increases melee damage while moving."
+				""
+				"&dElemental Pop&r &c(no flintlock guns, except for the &oRepeating Musket&r&c)&r adds random effects to bullets fired."
+				""
+				"&dLead Finger&r &c(only a few guns)&r increases fire rate."
+				""
+				"&dPerforator&r &c(no rockets and only some microjets)&r allows bullets to travel through multiple enemies."
+				""
+				"&dShell Catcher&r &c(no &oBacktank&r&c guns, no flamethrowers, no flintlock guns, except for the &oRepeating Musket&r&c)&r &cBUGGED - DOES NOT WORK AS OF VERSION 0.4.0+&r increases the number of spent shell casings recovered after firing."
+				""
+				"&dTight Seal&r &c(no flintlock guns, no flamethrowers)&r no observable effect???"
+			]
+			icon: {
+				Count: 1
+				id: "scguns:blasphemy"
+				tag: {
+					AmmoCount: 10
+					Damage: 0
+					GeckoLibID: 103L
+				}
+			}
+			id: "4CD5C367A564A74B"
+			subtitle: "Specific Enchantments"
+			tasks: [
+				{
+					id: "57FEE41983A75F69"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:banzai"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A15CE394039AFFA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:elemental_pop"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22E3C723514405E9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:trigger_finger"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "791BAE7A4375D271"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:collateral"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "751CCBD57F87FC94"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:shell_catcher"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "023609E2A9530F9D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "scguns:waterproof"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Scorched Guns II"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			disable_toast: true
+			id: "410F29431ECD6B4C"
+			subtitle: "Just Visual Organization"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "alexscaves:cave_book"
+				id: "4819C5CC099E2DE5"
+				title: "No Requirements"
+				type: "dimension"
+			}]
+			title: "Alex's Caves"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dChomping Spirit&r increases the bite damage of the Tremorsaurus spirit."
+				""
+				"&dHerd Phalanx&r summons extra Grottoceratops spirits while charging."
+				""
+				"&dPlummeting Flight&r increases the duration of the Subterranodon spirit."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:extinction_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "15594C30389227BB"
+			subtitle: "Primordial Caves"
+			tasks: [
+				{
+					id: "118536BC7CCD3B27"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:chomping_spirit"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4676371902AD5D4D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:herd_phalanx"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D456A0F36F73DCE"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:plummeting_flight"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Extinction Spear"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dBonking&r gives the club a 66\\% chance of dropping a mob head when killing that mob."
+				""
+				"&dDazing Sweep&r allows the club to deal AoE damage and AoE stun."
+				""
+				"&dSwiftwood&r increases the attack speed."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:primitive_club"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60E29E6CB06E8573"
+			subtitle: "Primordial Caves"
+			tasks: [
+				{
+					id: "6F81D1556B84F8D4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:bonking"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E3C2C2C25412649"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:dazing_sweep"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "684BADFCB08CA602"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:swiftwood"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Primitive Club"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dArrow Inducing&r converts deflected arrows into &oSeeking Arrows&r."
+				""
+				"&dHeavy Slam&r increases the initial slam damage."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:resistor_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1279F4AD3AACFAFC"
+			subtitle: "Magnetic Caves"
+			tasks: [
+				{
+					id: "21452B83616D16A8"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:arrow_inducting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EFDFE6EA00CC35E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:heavy_slam"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Resistor Shield"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dCrystallization&r allows &oDiamonds&r, &oDiamond Tools&r, &oDiamond Weapons&r, &oNether Quartz&r, and &oAmethyst Shards&r to be used with the gauntlet."
+				""
+				"&dFerrous Haste&r makes attacking and mining with the gauntlet faster."
+				""
+				"&dField Extension&r increases the range by 5 blocks per level."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:galena_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B6D856313148307"
+			subtitle: "Magnetic Caves"
+			tasks: [
+				{
+					id: "5746DBEE5E941057"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:crystallization"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "724ECC623F1286E6"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:ferrous_haste"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3928EFE3C9B048C7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:field_extension"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Galena Gauntlet"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dEnergy Efficiency&r decreases the rate of charge depletion, similar to &dUnbreaking&r."
+				""
+				"&dGamma&r increases beam damage and causes the beam to inflict &aIrradiated V&r for 40 seconds. Incompatible with &dX-Ray&r."
+				""
+				"&dSolar&r allows the &oRaygun&r to slowly recharge while being held in daylight."
+				""
+				"&dX-Ray&r allows the beam to pass through blocks (but not pierce enemies). Incompatible with &dGamma&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:raygun"
+				tag: { }
+			}
+			id: "5C4126EFFF80FE35"
+			subtitle: "Toxic Caves"
+			tasks: [
+				{
+					id: "4FF447ED30A533BB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:energy_efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5590C46E4B959329"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:gamma_ray"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EAAD7B5ACA326AD"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:solar"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F70DE31217D907F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:x_ray"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Raygun"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dFlinging&r increases the flinging distance by 1-3 blocks per level."
+				""
+				"&dSea Swing&r summons one small wave when doing a standard melee attack."
+				""
+				"&dSecond Wave&r launches 2-9 extra waves after the first waves. Incompatible with &dTsunami&r."
+				""
+				"&dTsunami&r replaces the multiple waves generated by flinging with one large wave that deals increased damage and knockback. Incompativle with &dSecond Wave&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:ortholance"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4809E1C19D98B8F5"
+			subtitle: "Abyssal Chasm"
+			tasks: [
+				{
+					id: "5C944D189EB9FE07"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:flinging"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42BAA86A89A7BA7F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:sea_swing"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31904C3B4C3BD875"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:second_wave"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AEEAB256E6661BE"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:tsunami"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ortholance"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dCharting Call&r increases the number of Deep Ones summoned."
+				""
+				"&dLasting Morale&r increases the summoned time of the Deep Ones by 20 seconds per level."
+				""
+				"&dTaxing Bellow&r prevents durability loss in exchange for -2 reputation with the Deep Ones with each use."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:magic_conch"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E29BE4036948D88"
+			subtitle: "Abyssal Chasm"
+			tasks: [
+				{
+					id: "2C2BF409A830E4E0"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:charting_call"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EF94DF41FE3ACF4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:lasting_morale"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47523992175EF243"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:taxing_bellow"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Magic Conch"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dBouncing Bolt&r makes the water bolt ricochet off of a target and arc towards another. Incompatible with &dTriple Slash&r."
+				""
+				"&dEnveloping Bubble&r inflicts &7Bubbled&r on targets for 10 seconds (&7Slowness&r and &1Drowning&r)."
+				""
+				"&dSeapairing&r slowly repairs the &oSea Staff&r when standing in water or rain."
+				""
+				"&dSoak Seeking&r increases the speed of the water bolt."
+				""
+				"&dTriple Slash&r shoots 3 water bolts at once. Incompatible with &dBouncing Bolt&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:sea_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "78223EDE664FDAF4"
+			subtitle: "Abyssal Chasm"
+			tasks: [
+				{
+					id: "15D6275EEF8C43D9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:bouncing_bolt"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "651BE64596C08C0A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:enveloping_bubble"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CA6153A2D69745D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:seapairing"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33D3B5E307D0F262"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:soak_seeking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B2FCC0D20D0EDD"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:triple_splash"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sea Staff"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dAstral Transferring&r swaps possession targets if the mob being attacked has more health than the current possession target (and is not a boss). Incompatible with &dDetonating Death&r."
+				""
+				"&dDetonating Death&r causes possessed mobs to explode on death. Does not destroy blocks. Incompatible with &dAstral Transferring&r"
+				""
+				"&dRapid Possession&r increases the speed of possessed mobs."
+				""
+				"&dSightless&r removes the need for a direct line of sight between the player and the possessed mob."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:totem_of_possession"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23AFE5AEE406A48C"
+			subtitle: "Forlorn Hollows"
+			tasks: [
+				{
+					id: "7F6FD6BA55B0298B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:astral_transferring"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3352EF0B9BF6CDB2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:detonating_death"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EE89C0047E4B641"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:rapid_possession"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7323F3B09F7F2982"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:sightless"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Totem of Possession"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dDouble Stab&r summons 2 ghostly daggers instead of 1. Incompatible with &dImpending Stab&r."
+				""
+				"&dImpending Stab&r increases the damage of ghostly daggers, but increases their attack delay. Incompatible with &dDouble Stab&r."
+				""
+				"&dSated Blade&r increases your &esaturation&r when a ghostly dagger strikes a target."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:desolate_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60383F27FB4E02C1"
+			subtitle: "Forlorn Hollows"
+			tasks: [
+				{
+					id: "05F2C888C7977F44"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:double_stab"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "327D5C898AC74739"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:impending_stab"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E8B52672A8C5D2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:sated_blade"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Desolate Dagger"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dDark Nock&r decreases the charge time. Incompatible with &dRelentless Darkness&r."
+				""
+				"&dPrecise Volley&r improves the accuracy of summoned arrows at the cost of reduced damage. Incompatible with &dRelentless Darkness&r."
+				""
+				"&dRelentless Darkness&r removes the arrow summoning ability of the &oDreadbow&r, converting it into a rapid auto-bow. Incompatible with &dDark Nock&r, &dPrecise Volley&r, and &dTwilight Perfection&r."
+				""
+				"&dShaded Respite&r prevents durability loss and regular arrow consumption when used in light level 11 or less."
+				""
+				"&dTwilight Perfection&r adds a window of time for dealing double damage if released shortly after fully charging. Higher levels increase the window. Incompatible with &dRelentless Darkness&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:dreadbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "169ABCF89EAC8900"
+			subtitle: "Forlorn Hollows"
+			tasks: [
+				{
+					id: "114E63A9FF4BB2F7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:dark_nock"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23FADE406AFA3C94"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:precise_volley"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D95D5C82F0FEA9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:relentless_darkness"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "053F845D3F9C5E59"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:shaded_respite"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C8A6FA19AE856BB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:twilight_perfection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Dreadbow"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dBouncy Ball&r &cNO DATA AVAILABLE&r"
+				""
+				"&dExplosive Flavor&r &cNO DATA AVAILABLE&r"
+				""
+				"&dTargeted Ricochet&r &cNO DATA AVAILABLE&r"
+				""
+				"&dTriple Split&r &cNO DATA AVAILABLE&r"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:shot_gum"
+				tag: { }
+			}
+			id: "36BECDFF6019B5FC"
+			subtitle: "Candy Cavity"
+			tasks: [
+				{
+					id: "06B3A59070A46E5E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:bouncy_ball"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42700AC16582D367"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:explosive_flavor"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E9B820AA2F54917"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:targeted_ricochet"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AF514A3B6FBA1DB"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:triple_split"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shot Gum"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dFar Flung&r increases the distance thrown."
+				""
+				"&dSharp Cane&r increases the damage."
+				""
+				"&dStraight Hook&r causes the hook to briefly defy gravity."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:candy_cane_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1892F994709D9973"
+			subtitle: "Candy Cavity"
+			tasks: [
+				{
+					id: "1A908DB2676B532F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:far_flung"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30CEFF60BBDB57A4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:sharp_cane"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CF0E584F48B32C7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:straight_hook"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Candy Cane Hook"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["410F29431ECD6B4C"]
+			description: [
+				"&dHumungous Hex&r &cNO DATA AVAILABLE&r"
+				""
+				"&dMultiple Mint&r &cNO DATA AVAILABLE&r"
+				""
+				"&dPeppermint Punting&r &cNO DATA AVAILABLE&r"
+				""
+				"&dSeekcandy&r &cNO DATA AVAILABLE&r"
+				""
+				"&dSpell Lasting&r &cNO DATA AVAILABLE&r"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:sugar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "465743EFB1CBEF37"
+			subtitle: "Candy Cavity"
+			tasks: [
+				{
+					id: "0CDB1A96716BE735"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:humungous_hex"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2558938250638D8F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:multiple_mint"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "263E00752C470AC8"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:peppermint_punting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0902DC3F60D0997B"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:seekcandy"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6865E233E647D493"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "alexscaves:spell_lasting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sugar Staff"
+			x: 5.5d
+			y: 1.5d
+		}
+	]
+	title: "Enchantment Guide"
+}

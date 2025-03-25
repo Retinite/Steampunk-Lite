@@ -4,7 +4,21 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.resource.ResourceLocation;
+// import mods.immersiveengineering.MetalPress;
+import mods.create.CuttingManager;
 import mods.jeitweaker.Jei;
+
+// remove Create: New Age wires & connectors due to bug
+craftingTable.remove(<item: create_new_age:electrical_connector>);
+Jei.hideIngredient(<item: create_new_age:electrical_connector>);
+<recipetype:create:cutting>.remove(<item: create_new_age:copper_wire>);
+Jei.hideIngredient(<item: create_new_age:copper_wire>);
+<recipetype:create:cutting>.remove(<item: create_new_age:overcharged_iron_wire>);
+Jei.hideIngredient(<item: create_new_age:overcharged_iron_wire>);
+<recipetype:create:cutting>.remove(<item: create_new_age:overcharged_golden_wire>);
+Jei.hideIngredient(<item: create_new_age:overcharged_golden_wire>);
+<recipetype:create:sequenced_assembly>.remove(<item: create_new_age:overcharged_diamond_wire>);
+Jei.hideIngredient(<item: create_new_age:overcharged_diamond_wire>);
 
 // HammerLib
 craftingTable.remove(<item: hammerlib:gears/wooden>);
@@ -24,6 +38,9 @@ Jei.hideIngredient(<item: hammerlib:gears/netherite>);
 craftingTable.remove(<item: hammerlib:wrench>);
 Jei.hideIngredient(<item: hammerlib:wrench>);
 Jei.hideIngredient(<item: hammerlib:test_machine>);
+<recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/copper>);
+<recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/iron>);
+<recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/gold>);
 
 // Mystical Agradditions
 Jei.hideIngredient(<item: mysticalagradditions:molten_inferium_bucket>);

@@ -9,7 +9,8 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BBE11E0CD23C76B"]
+			dependencies: ["454041D02584CDFA"]
+			hide_dependency_lines: true
 			id: "43DF27CE014208B8"
 			shape: "hexagon"
 			tasks: [{
@@ -44,7 +45,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["628A4492D4595E37"]
+			dependencies: ["0C50E0851298AB9E"]
+			hide_dependency_lines: true
 			id: "34315B1B5C0C3C89"
 			shape: "hexagon"
 			tasks: [{
@@ -58,7 +60,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["34315B1B5C0C3C89"]
+			dependencies: [
+				"34315B1B5C0C3C89"
+				"462ED88CF65E1895"
+			]
 			id: "472FB4307A8EDF85"
 			shape: "octagon"
 			tasks: [{
@@ -73,7 +78,8 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["266BB5ACFB296507"]
+			dependencies: ["0C50E0851298AB9E"]
+			hide_dependency_lines: true
 			id: "3A2368FDFE40AEF3"
 			shape: "hexagon"
 			tasks: [{
@@ -108,7 +114,8 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["37784AC7357E78BC"]
+			dependencies: ["454041D02584CDFA"]
+			hide_dependency_lines: true
 			id: "615D366CA321770E"
 			shape: "hexagon"
 			tasks: [{
@@ -137,7 +144,8 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1E8EA2444E13F53D"]
+			dependencies: ["0C50E0851298AB9E"]
+			hide_dependency_lines: true
 			id: "01161EF6B666545C"
 			shape: "hexagon"
 			tasks: [{
@@ -166,7 +174,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["297F92936604A8C8"]
+			dependencies: ["46FE6D405789D17D"]
+			hide_dependency_lines: true
 			id: "513AAC47E228D04B"
 			shape: "hexagon"
 			tasks: [{
@@ -195,7 +204,8 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["02BF0CB89C1F3842"]
+			dependencies: ["0C50E0851298AB9E"]
+			hide_dependency_lines: true
 			id: "16C1BDA85AA30FB6"
 			shape: "hexagon"
 			tasks: [{
@@ -271,6 +281,8 @@
 		{
 			dependencies: ["0C50E0851298AB9E"]
 			id: "1E8EA2444E13F53D"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "66D35DDCAA1D6151"
 				item: "cataclysm:desert_eye"
@@ -282,6 +294,8 @@
 		{
 			dependencies: ["0C50E0851298AB9E"]
 			id: "628A4492D4595E37"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "06D55442ED34F6DC"
 				item: "cataclysm:abyss_eye"
@@ -293,6 +307,8 @@
 		{
 			dependencies: ["0C50E0851298AB9E"]
 			id: "02BF0CB89C1F3842"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "5F7F41351D717547"
 				item: "cataclysm:mech_eye"
@@ -304,6 +320,8 @@
 		{
 			dependencies: ["0C50E0851298AB9E"]
 			id: "266BB5ACFB296507"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "151B7F53547462D3"
 				item: "cataclysm:cursed_eye"
@@ -315,6 +333,8 @@
 		{
 			dependencies: ["454041D02584CDFA"]
 			id: "37784AC7357E78BC"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "1806DCE47D56048D"
 				item: "cataclysm:monstrous_eye"
@@ -326,6 +346,8 @@
 		{
 			dependencies: ["454041D02584CDFA"]
 			id: "3BBE11E0CD23C76B"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "7A0C66CED0952E27"
 				item: "cataclysm:flame_eye"
@@ -337,6 +359,8 @@
 		{
 			dependencies: ["46FE6D405789D17D"]
 			id: "297F92936604A8C8"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "4D0A705DDC143E91"
 				item: "cataclysm:void_eye"
@@ -547,7 +571,11 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["34315B1B5C0C3C89"]
+			description: [
+				"Amethyst Crabs are a miniboss that rarely spawns in Lush Cave biomes."
+				""
+				"&oAmethyst Crab Meat&r can be taken to an &lAltar of Amethyst&r in a Sunken City to create &oBlessed Amethyst Crab Meat&r, which helps counter the boss's debuffs."
+			]
 			id: "07FBD6D460A04BE4"
 			optional: true
 			shape: "diamond"
@@ -1023,6 +1051,76 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			id: "01E79D78B94D6536"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7676465C8E6E754C"
+				item: {
+					Count: 1
+					id: "cataclysm:khopesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "462ED88CF65E1895"
+			tasks: [{
+				id: "4806C23D7E81539B"
+				item: {
+					Count: 1
+					id: "cataclysm:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "6034DBB7AF1DBB60"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "2B7C819A00705138"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "2C69EFC2602612F6"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "23447A26A0EFC5EE"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_bardiche"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
 		}
 	]
 	title: "Cataclysm"

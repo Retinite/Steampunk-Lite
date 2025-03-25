@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:oak_sign"
 	id: "25B0E4C893B5C56E"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

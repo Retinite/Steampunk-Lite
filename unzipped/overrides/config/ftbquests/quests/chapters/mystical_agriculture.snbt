@@ -5,7 +5,7 @@
 	group: ""
 	icon: "mysticalagriculture:inferium_essence"
 	id: "193E4D0BC55AD43E"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
