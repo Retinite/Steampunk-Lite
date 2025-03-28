@@ -13,7 +13,7 @@
 	maximumBaseXpCost = 3.0
 	#How much xp is needed per leashed animal to travel with you
 	#Range: > -2147483648
-	xpCostPerLeashed = 0
+	xpCostPerLeashed = 1
 	#The base xp level cost when travelling between dimensions. Ignores block distance.
 	#Range: > -2147483648
 	dimensionalWarpXpCost = 3
@@ -22,13 +22,13 @@
 	globalWaystoneXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpStoneXpCostMultiplier = 0.0
+	warpStoneXpCostMultiplier = 2.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	waystoneXpCostMultiplier = 0.0
+	waystoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	sharestoneXpCostMultiplier = 0.0
+	sharestoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from a portstone.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	portstoneXpCostMultiplier = 0.0
@@ -37,7 +37,7 @@
 	warpPlateXpCostMultiplier = 0.0
 	#The multiplier applied to the base xp cost when teleporting via the inventory button.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	inventoryButtonXpCostMultiplier = 0.0
+	inventoryButtonXpCostMultiplier = 1.0
 
 [restrictions]
 	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.

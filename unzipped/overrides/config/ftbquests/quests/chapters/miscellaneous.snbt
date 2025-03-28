@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:oak_sign"
 	id: "25B0E4C893B5C56E"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -466,6 +466,19 @@
 				}
 			}
 			id: "02C9DCC8588929EB"
+			rewards: [{
+				id: "2BEE5565F45472A6"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "You Should Really Read These!"
 			tasks: [{
@@ -660,6 +673,7 @@
 		}
 		{
 			dependencies: ["11B32AD0125BB4B3"]
+			description: ["Note: &aFast Growth&r has been disabled due to &lMystical Agriculture&r and &lArs Nouveau&r exploitation and general bugginess on multiplayer servers."]
 			id: "35B81172764BCD9D"
 			tasks: [
 				{
@@ -729,18 +743,6 @@
 						id: "improvableskills:scroll_normal"
 						tag: {
 							Skill: "improvableskills:generic_protection"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-				{
-					id: "7544CFBB48EBC8D0"
-					item: {
-						Count: 1
-						id: "improvableskills:scroll_normal"
-						tag: {
-							Skill: "improvableskills:growth"
 						}
 					}
 					match_nbt: true
@@ -861,5 +863,5 @@
 		}
 	]
 	subtitle: ["Please Read!"]
-	title: "Miscellaneous"
+	title: "Introduction"
 }

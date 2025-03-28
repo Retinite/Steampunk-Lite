@@ -6,7 +6,25 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.resource.ResourceLocation;
 // import mods.immersiveengineering.MetalPress;
 import mods.create.CuttingManager;
+import mods.create.DeployerApplicationManager;
+import mods.farmersdelight.CookingPot;
 import mods.jeitweaker.Jei;
+
+// add Potion of Redemption recipe, as suggested by the MCMod.cn wiki
+<recipetype:farmersdelight:cooking>.addRecipe("enigmaticlegacy.redemption_potion", <item: enigmaticlegacy:redemption_potion>,
+	[<item: minecraft:honey_bottle>, <item: enigmaticlegacy:forbidden_fruit>, <item: enigmaticaddons:ichor_droplet>,
+	 <item: enigmaticlegacy:astral_dust>, <item: minecraft:fermented_spider_eye>],
+	<constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, <item: minecraft:glass_bottle>, 100.0, 1200);
+
+// remove duplicate Raw Uranium recipe, add alternate crafting recipe
+craftingTable.removeByName("alexscaves:uranium_shard_from_uranium");
+craftingTable.removeByName("alexscaves:uranium_from_shard");
+craftingTable.removeByName("alexscaves:uranium_from_block");
+craftingTable.removeByName("alexscaves:block_of_uranium");
+craftingTable.addShaped("mysticalagriculture.essence/common/raw_uranium", <item: immersiveengineering:raw_uranium> * 2,
+	[[<item: mysticalagriculture:uranium_essence>, IIngredientEmpty.getInstance(),              <item: mysticalagriculture:uranium_essence>],
+	 [<item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>],
+	 [<item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>]]);
 
 // remove Create: New Age wires & connectors due to bug
 craftingTable.remove(<item: create_new_age:electrical_connector>);
@@ -19,6 +37,31 @@ Jei.hideIngredient(<item: create_new_age:overcharged_iron_wire>);
 Jei.hideIngredient(<item: create_new_age:overcharged_golden_wire>);
 <recipetype:create:sequenced_assembly>.remove(<item: create_new_age:overcharged_diamond_wire>);
 Jei.hideIngredient(<item: create_new_age:overcharged_diamond_wire>);
+
+// change Create: New Age circuit recipe to use Create Crafts & Additions wires
+<recipetype:create:deploying>.remove(<item: create_new_age:copper_circuit>);
+<recipetype:create:deploying>.addRecipe("create_new_age.copper_circuit_a",
+	<item: create_new_age:blank_circuit>, <item: createaddition:copper_spool>, [<item: create_new_age:copper_circuit> % 100]);
+<recipetype:create:deploying>.addRecipe("create_new_age.copper_circuit_b",
+	<item: create_new_age:blank_circuit>, <item: immersiveengineering:wirecoil_copper>, [<item: create_new_age:copper_circuit> % 100]);
+
+// remove gold wire for increased compatability with Immersive Engineering
+Jei.hideIngredient(<item: createaddition:gold_wire>);
+<recipetype:createaddition:rolling>.remove(<item: createaddition:gold_wire>);
+<recipetype:immersiveengineering:metal_press>.remove(<item: createaddition:gold_wire>);
+Jei.hideIngredient(<item: createaddition:gold_spool>);
+craftingTable.remove(<item: createaddition:gold_spool>);
+craftingTable.removeByName("createaddition:crafting/modular_accumulator_gold");
+
+/* EXPLOITABLE SINCE 4 WIRES DROP WHEN BROKEN WITHOUT SPOOL IN INVENTORY
+// adjust Create Crafts & Additions spool recipes to match Immersive Engineering costs
+craftingTable.remove(<item: createaddition:copper_spool>);
+craftingTable.addShapeless("createaddition.crafting/copper_spool", <item: createaddition:copper_spool>,
+	[<item: createaddition:spool>, <tag:items:forge:wires/copper>]);
+craftingTable.remove(<item: createaddition:electrum_spool>);
+craftingTable.addShapeless("createaddition.crafting/electrum_spool", <item: createaddition:electrum_spool>,
+	[<item: createaddition:spool>, <tag:items:forge:wires/electrum>]);
+*/
 
 // HammerLib
 craftingTable.remove(<item: hammerlib:gears/wooden>);

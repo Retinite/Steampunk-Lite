@@ -5,7 +5,7 @@
 	group: ""
 	icon: "mysticalagriculture:inferium_essence"
 	id: "193E4D0BC55AD43E"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,6 +21,7 @@
 				item: "mysticalagriculture:wand"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "The Crafting Scheme"
 			tasks: [
 				{
@@ -2522,7 +2523,14 @@
 		}
 		{
 			dependencies: ["2289A3CB93E4EF79"]
+			description: [
+				"Tier 6 seeds alone &nnever&r produce bonus seeds on harvest, even when you use tier 6 farmland."
+				""
+				"As a reminder, even tier 6 seeds will grow on tier 1 farmland (so long as you have the appropriate &lCrux&r beneath)!"
+			]
 			id: "3E22EEF2DDD153F7"
+			shape: "gear"
+			subtitle: "No Extra Seeds!"
 			tasks: [{
 				id: "6C537298DF4D1084"
 				item: "mysticalagradditions:insanium_essence"
@@ -2650,9 +2658,14 @@
 			y: 0.5d
 		}
 		{
-			description: ["The higher tier the farmland the better, as crops will grow faster, and &oInferium Seeds&r will yield more &oInferium Essence&r."]
+			description: [
+				"All seeds (aside from tier 6 seeds) have a 10\\% chance of yielding extra seeds on harvest, and unlike previous versions of &lMystical Agriculture&r, &ayou may plant any tier seed on any tier farmland!&r &cUsing higher tier farmland doesn't even increase the growth rate!&r"
+				""
+				"But, matching the tier of the farmland with the tier of the seed gives you a &b+10\\% chance of extra seeds on harvest!&r Also, the higher tier the farmland, the more &oInferium Essence&r your &oInferium Seeds&r will yield (by +50\\% per tier)."
+			]
 			id: "0858FB49E074E651"
-			subtitle: "Better = Faster"
+			shape: "gear"
+			subtitle: "Match for More!"
 			tasks: [
 				{
 					id: "3C567581DF850F81"
@@ -3211,5 +3224,6 @@
 			y: 4.5d
 		}
 	]
+	subtitle: ["Renewable Resources"]
 	title: "Mystical Agriculture"
 }

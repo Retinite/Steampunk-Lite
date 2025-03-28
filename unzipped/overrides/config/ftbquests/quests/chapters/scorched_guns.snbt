@@ -12,7 +12,7 @@
 		}
 	}
 	id: "484472C0A759DD2B"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -124,16 +124,15 @@
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
+			description: ["&oAnthralite&r required though."]
 			disable_toast: true
 			id: "12703B19755DD9C2"
+			shape: "rsquare"
 			subtitle: "No Blueprints Required"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				disable_toast: true
-				icon: "minecraft:totem_of_undying"
-				id: "300310F31D5850A9"
-				title: "Nothing Required!"
-				type: "dimension"
+				id: "1337416F60417CB4"
+				item: "scguns:anthralite_ingot"
+				type: "item"
 			}]
 			title: "Anti-Illager Arms"
 			x: 0.0d
@@ -287,90 +286,170 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "6C2EF5E9E51F8339"
-			tasks: [{
-				id: "49E1523529DA9E83"
-				item: "scguns:copper_blueprint"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "49E1523529DA9E83"
+					item: "scguns:copper_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "27D15F371FADB3C8"
+					item: "minecraft:copper_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "013DFF0F8A9783D3"
-			tasks: [{
-				id: "0444C21435D0BF86"
-				item: "scguns:iron_blueprint"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0444C21435D0BF86"
+					item: "scguns:iron_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "5DBE1866D7436614"
+					item: "scguns:treated_iron_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "065B34EEB70F1626"
-			tasks: [{
-				id: "5F9D81876922F06D"
-				item: "scguns:treated_brass_blueprint"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5F9D81876922F06D"
+					item: "scguns:treated_brass_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1A2B152BC26D6C7F"
+					item: "scguns:treated_brass_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "122EDBAF225EC4DE"
-			tasks: [{
-				id: "0A86DE387FC47700"
-				item: "scguns:diamond_steel_blueprint"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0A86DE387FC47700"
+					item: "scguns:diamond_steel_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "347580D85EF58B17"
+					item: "scguns:diamond_steel_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "39290E989611A20C"
+			shape: "rsquare"
 			subtitle: "Adv. Fire"
-			tasks: [{
-				id: "24C601D1F4F755EC"
-				item: "scguns:ocean_blueprint"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24C601D1F4F755EC"
+					item: "scguns:ocean_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1AF7DCE02FB31302"
+					item: "scguns:treated_brass_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "37CD4243B54E2A5A"
+			shape: "rsquare"
 			subtitle: "Adv. Wither"
-			tasks: [{
-				id: "6B6658C2E117FFAB"
-				item: "scguns:piglin_blueprint"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B6658C2E117FFAB"
+					item: "scguns:piglin_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "55D608F77E484B0C"
+					item: "scguns:vehement_coal"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "47ABF11703E65DB2"
-			tasks: [{
-				id: "13B21215BFAB8B32"
-				item: "scguns:deep_dark_blueprint"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "13B21215BFAB8B32"
+					item: "scguns:deep_dark_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "066D48C6651319B7"
+					item: "scguns:diamond_steel_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "2357525DE7F7C364"
-			tasks: [{
-				id: "6879E68CC802DA38"
-				item: "scguns:end_blueprint"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6879E68CC802DA38"
+					item: "scguns:end_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "179A022F4C534A25"
+					item: "scguns:diamond_steel_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -3.0d
 		}
@@ -387,11 +466,21 @@
 			]
 			hide_dependency_lines: true
 			id: "25523E5183D8274C"
-			tasks: [{
-				id: "6265605AA4D75CFD"
-				item: "scguns:scorched_blueprint"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6265605AA4D75CFD"
+					item: "scguns:scorched_blueprint"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "35B47FE35583F2E6"
+					item: "scguns:scorched_ingot"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -7.0d
 		}
@@ -1986,6 +2075,1257 @@
 			}]
 			x: -2.0d
 			y: -2.0d
+		}
+		{
+			id: "27454F22A634C34C"
+			tasks: [
+				{
+					id: "07B086EC47C6A623"
+					item: "scguns:grenade"
+					type: "item"
+				}
+				{
+					id: "5F956682BB5D9E20"
+					item: "scguns:stun_grenade"
+					type: "item"
+				}
+				{
+					id: "140DA365641DFD6A"
+					item: "scguns:molotov_cocktail"
+					type: "item"
+				}
+				{
+					id: "3250AFFF6692138C"
+					item: "scguns:choke_bomb"
+					type: "item"
+				}
+				{
+					id: "5EBC3B7458B3F5FB"
+					item: "scguns:swarm_bomb"
+					type: "item"
+				}
+				{
+					id: "2DCC5C7D3DA16C2C"
+					item: "scguns:gas_grenade"
+					type: "item"
+				}
+			]
+			title: "Throwables"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"58C076AF0ACA64DB"
+				"50842DC8DC08B7CA"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Grants several seconds of &6&oFire Resistance&r and puts you out if on fire."]
+			id: "655CA6BF6EA1DD99"
+			subtitle: "Fire-Away!"
+			tasks: [{
+				id: "684F71E0AB3DA59F"
+				item: "scguns:cold_pack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "28196A065E7606C9"
+			subtitle: "Instant Health"
+			tasks: [
+				{
+					id: "42C38A0455E707A1"
+					item: "scguns:basic_poultice"
+					type: "item"
+				}
+				{
+					id: "562ADBA087EDB9AE"
+					item: "scguns:honey_sulfur_poultice"
+					type: "item"
+				}
+				{
+					id: "500EB10DE80CEEF9"
+					item: "scguns:enchanted_bandage"
+					type: "item"
+				}
+				{
+					id: "52314385EDB8D67D"
+					item: "scguns:dragon_salve"
+					type: "item"
+				}
+			]
+			title: "Emergency Aid"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"&aNote: all guns will pull from equipped ammo boxes first, then from ammo boxes in your inventory, then any ammo in your inventory.&r"
+				""
+				"&cNote: there are no ammo boxes for &oSyringes&r&c, &oArrows&r&c, or &oOsborne Slugs&r&c."
+				""
+				"&oSpecial Ammo Box&r stores up to &b8&r stacks of &7&oPowder and Ball&r and &7&oGrapeshot&r ammo."
+				""
+				"&oPistol Ammo Box&r stores up to &b16&r stacks of &c&oCompact Copper&r, &6&oCompact Advanced&r, and &e&oHog&r rounds."
+				""
+				"&oRifle Ammo Box&r stores up to &b12&r stacks of &c&oStandard Copper&r, &6&oAdvanced&r, &2&oKrāhg&r, and &3&oGibbs&r rounds."
+				""
+				"&oShotgun Ammo Box&r stores up to &b12&r stacks of &c&oShotgun Shells&r, &5&oBearpack Shells&r, and &d&oShulkshot&r."
+				""
+				"&oMagnum Ammo Box&r stores up to &b8&r stacks of &3&oRamrod&r and &b&oBeowulf&r rounds."
+				""
+				"&oEnergy Ammo Box&r stores up to &b12&r stacks of &6&oBlaze Fuel&r, &7&oShock&r, &a&oPlasma&r, and &3&oSculk&r cells."
+				""
+				"&oRocket Ammo Box&r stores up to &b4&r stacks of &7&oMicrojets&r and &7&oRockets&r."
+			]
+			id: "1FAE0EF9786A7975"
+			shape: "gear"
+			subtitle: "Extra Inventory"
+			tasks: [
+				{
+					id: "6B7E6641D201E6E5"
+					item: "scguns:special_ammo_box"
+					type: "item"
+				}
+				{
+					id: "26FC28424153A921"
+					item: "scguns:pistol_ammo_box"
+					type: "item"
+				}
+				{
+					id: "1CC7EBBA95349D53"
+					item: "scguns:rifle_ammo_box"
+					type: "item"
+				}
+				{
+					id: "6778C5BDA931871A"
+					item: "scguns:shotgun_ammo_box"
+					type: "item"
+				}
+				{
+					id: "3C984A2021345E65"
+					item: "scguns:magnum_ammo_box"
+					type: "item"
+				}
+				{
+					id: "004565936AF48F7D"
+					item: "scguns:energy_ammo_box"
+					type: "item"
+				}
+				{
+					id: "5CA7F9293E91760F"
+					item: "scguns:rocket_ammo_box"
+					type: "item"
+				}
+			]
+			title: "Ammo Boxes"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"&oEmpty Casing Pouch&r stores up to &b32&r stacks of empty casings for you! &c(Not that this really matters, as guns are bugged and don't produce empty casings as of Scorched Guns version 0.4.0+)&r"
+				""
+				"&oDishes Pouch&r stores up to &b8&r stacks of &oBowls&r and &oGlass Bottles&r."
+				""
+				"&oRock Pouch&r stores up to &b64&r stacks of &lStone&r, &lCobblestone&r, &lGranite&r, and &lDiorite&r!"
+			]
+			id: "3E2AB7A0AF8A7114"
+			shape: "gear"
+			subtitle: "Hold Your Things"
+			tasks: [
+				{
+					id: "6A1AE73E8B607BB8"
+					item: "scguns:empty_casing_pouch"
+					type: "item"
+				}
+				{
+					id: "10A8946DF0019B3F"
+					item: "scguns:dishes_pouch"
+					type: "item"
+				}
+				{
+					id: "0B6BC7BC66079AB8"
+					item: "scguns:rock_pouch"
+					type: "item"
+				}
+			]
+			title: "Pouches"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"58C076AF0ACA64DB"
+				"50842DC8DC08B7CA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&lPowder Kegs&r are similar to &lTNT&r, but deal more damage to entities."
+				""
+				"&lNitro Kegs&r are similar to &lPowder Kegs&r, but have twice the explosion radius."
+				""
+				"&lPenetrators&r need a redstone signal to activate, and instantly destroy a 3x3x10 tunnel in the direction of the orange face."
+			]
+			id: "58DEFFD9C90E6724"
+			shape: "gear"
+			tasks: [
+				{
+					id: "5944978639BB242D"
+					item: "scguns:powder_keg"
+					type: "item"
+				}
+				{
+					id: "19493FB276BBC7ED"
+					item: "scguns:nitro_keg"
+					type: "item"
+				}
+				{
+					id: "54E77645EFE23DD6"
+					item: "scguns:penetrator"
+					type: "item"
+				}
+			]
+			title: "Controlled Explosives"
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "38D9C3F2498D3E5D"
+			subtitle: "Use Anvil"
+			tasks: [{
+				id: "54571F7D945AA69F"
+				item: "scguns:repair_kit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"&cTame with &oAncient Brass&r&c!&r"
+				""
+				"These mobile chests have 3 modes - sitting, following, or patrolling."
+				""
+				"While following or patrolling, &oSupply Scamps&r will move towards and pick up any nearby dropped items, and if patrolling, will deposit those items into a selected inventory."
+				""
+				"You can use dye to change their faces!"
+			]
+			id: "46308045100166B5"
+			shape: "gear"
+			subtitle: "Friendly Chests"
+			tasks: [
+				{
+					id: "367B09D740E663D1"
+					item: "scguns:scamp_package"
+					type: "item"
+				}
+				{
+					id: "602F2E5347C8FB97"
+					item: "scguns:scamp_controller"
+					type: "item"
+				}
+			]
+			title: "Supply Scamps"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["300E7BF7CA2494D8"]
+			id: "092D9E64086DEA7E"
+			subtitle: "Max of 200 Blocks"
+			tasks: [{
+				id: "302E4FD8F88C7050"
+				item: "scguns:range_finder"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "300E7BF7CA2494D8"
+			subtitle: "Zoom"
+			tasks: [
+				{
+					id: "186BD97CC2E8AA7C"
+					item: {
+						Count: 1
+						id: "scguns:reflex_sight"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18786467C1B95DD1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "scguns:laser_sight"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2296F043AB5BE4CF"
+					item: {
+						Count: 1
+						id: "scguns:medium_scope"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CD95FA511D1C899"
+					item: {
+						Count: 1
+						id: "scguns:long_scope"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sights \\& Scopes"
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "2A51752238AA15DB"
+			subtitle: "Reduce Recoil"
+			tasks: [
+				{
+					id: "19FE83F44732C39C"
+					item: {
+						Count: 1
+						id: "scguns:light_stock"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40E5ECC034428138"
+					item: {
+						Count: 1
+						id: "scguns:weighted_stock"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AD34003CD842790"
+					item: {
+						Count: 1
+						id: "scguns:wooden_stock"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stocks"
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			description: ["&cNote: gunfire draws in nearby hostile mobs. Silencers reduce this effect!&r"]
+			id: "1928B8A915250825"
+			tasks: [
+				{
+					id: "10C220A95AA00446"
+					item: {
+						Count: 1
+						id: "scguns:silencer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42CB7DE5A6F205E8"
+					item: {
+						Count: 1
+						id: "scguns:advanced_silencer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D3F7B1597AD05B7"
+					item: {
+						Count: 1
+						id: "scguns:extended_barrel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "502133B054BCD595"
+					item: {
+						Count: 1
+						id: "scguns:muzzle_brake"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Silencers+"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "4A896403D98E6AEB"
+			tasks: [
+				{
+					id: "4B8A9A79FA231C78"
+					item: {
+						Count: 1
+						id: "scguns:light_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "549016B27BAD417A"
+					item: {
+						Count: 1
+						id: "scguns:vertical_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "097A6F1800AB7D0D"
+					item: {
+						Count: 1
+						id: "scguns:iron_bayonet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F70A5AD5FA6F124"
+					item: {
+						Count: 1
+						id: "scguns:anthralite_bayonet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D934B6A3D7509E7"
+					item: {
+						Count: 1
+						id: "scguns:diamond_bayonet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B72FD5669BA0F2A"
+					item: {
+						Count: 1
+						id: "scguns:netherite_bayonet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Grips \\& Bayonets"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "570F2AB4CE92E214"
+			tasks: [
+				{
+					id: "457E7F8C350E9A81"
+					item: {
+						Count: 1
+						id: "scguns:extended_mag"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76AFFCC9E78CC92A"
+					item: {
+						Count: 1
+						id: "scguns:speed_mag"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Magazines"
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Produces various &oBlends&r as an alternative to &lCreate&r (super) heated mixing."
+				""
+				"The &lPowered Macerator&r automatically pulls power from adjacent blocks."
+			]
+			id: "394F4F5AD4841AA7"
+			shape: "square"
+			tasks: [{
+				id: "290E46E8BA86C50F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "scguns:macerator"
+							}
+							{
+								Count: 1b
+								id: "scguns:powered_macerator"
+							}
+						]
+					}
+				}
+				title: "Either Macerator"
+				type: "item"
+			}]
+			title: "Macerators"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"Produces &oCasings&r, &oAmmo&r, &oGun Parts&r, and &oMusic Discs&r."
+				""
+				"The &lPowered Stamping Press&r automatically pulls power from adjacent blocks."
+			]
+			id: "6D539DD2489B4F36"
+			shape: "square"
+			tasks: [{
+				id: "4F06F63C455AE12A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "scguns:mechanical_press"
+							}
+							{
+								Count: 1b
+								id: "scguns:powered_mechanical_press"
+							}
+						]
+					}
+				}
+				title: "Either Stamping Press"
+				type: "item"
+			}]
+			title: "Stamping Presses"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["41A6563FD6A95AEE"]
+			description: ["Converts burnable fuel into &7FE&r. Automatically pushes energy into adjacent blocks."]
+			id: "6013043B3DCD68F3"
+			shape: "square"
+			subtitle: "Basic Generator"
+			tasks: [{
+				id: "2A578F6615915ADB"
+				item: "scguns:polar_generator"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			icon: "scguns:lightning_battery"
+			id: "0ABF03515DB2B5AC"
+			shape: "square"
+			subtitle: "Battery + Energizer"
+			tasks: [
+				{
+					id: "68251261334C40E1"
+					item: "scguns:lightning_battery"
+					type: "item"
+				}
+				{
+					id: "2AC769C4A8DE6A36"
+					item: "scguns:lightning_rod_connector"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			description: [
+				"Freeze nearby water and melt nearby stone into lava."
+				""
+				"Why? Why not? ¯\\_(ツ)_/¯"
+			]
+			id: "507C87D3D577DF61"
+			shape: "square"
+			subtitle: "Block Conversions"
+			tasks: [
+				{
+					id: "0649151D219F6AA1"
+					item: "scguns:cryoniter"
+					type: "item"
+				}
+				{
+					id: "2DEF2FA2DCB74D19"
+					item: "scguns:thermolith"
+					type: "item"
+				}
+			]
+			title: "Hot \\& Cold"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "50842DC8DC08B7CA"
+			shape: "square"
+			subtitle: "Niter \\& Phosphor"
+			tasks: [{
+				id: "4F46ECE959C296F6"
+				item: "scguns:advanced_composter"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"Place over &lGeothermal Vents&r in the ocean to obtain &oNiter&r, or &lSulfuric Vents&r in the Nether to obtain &oSulfur&r."
+				""
+				"You can move &lVents&r with &dSilk Touch&r. For maximal yield, each &lVent&r should be 5 blocks tall. &lGeothermal Vents&r must be placed in water. Both must have &lMagma Blocks&r below them to function."
+				""
+				"Requires &lWool&r or &oComposite Filters&r to function."
+			]
+			id: "58C076AF0ACA64DB"
+			shape: "square"
+			subtitle: "Renewable Niter/Sulfur"
+			tasks: [{
+				id: "6940D2BF8666CE79"
+				item: "scguns:vent_collector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7568264FFCF36C96"
+				"0B0CDB383264B61B"
+			]
+			id: "751949239BE0BEDF"
+			shape: "square"
+			tasks: [{
+				id: "0B5CD4F6C87DE0AF"
+				item: "scguns:basic_turret"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"418C3E05539FA401"
+				"0B0CDB383264B61B"
+			]
+			id: "27226FBCE031D93A"
+			shape: "square"
+			tasks: [{
+				id: "16F5C6C5719E814E"
+				item: "scguns:auto_turret"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2927F7F9EAF8F8DD"
+				"0B0CDB383264B61B"
+			]
+			id: "1AD8773E94D5313D"
+			shape: "square"
+			tasks: [{
+				id: "23768011DB246688"
+				item: "scguns:shotgun_turret"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"All modules must be placed adjaced to a turret, meaning that any turret may have up to 4 modules."
+				""
+				"You &ocould&r place a 5th module above the turret, however this would severely limit the turret's cone of fire. Likewise, you &ocould&r place a 6th module below the turret, but keep in mind that all turrets require a &4redstone&r signal to operate."
+				""
+				"&cMultiple modules of the same type do not stack their effects (aside from the &lAmmo Turret Module&r&c).&r"
+			]
+			id: "0B0CDB383264B61B"
+			shape: "gear"
+			subtitle: "\\& Module Information"
+			tasks: [{
+				id: "3E7EFC9652233CE7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "scguns:hostile_turret_targeting_module"
+							}
+							{
+								Count: 1b
+								id: "scguns:player_turret_targeting_module"
+							}
+							{
+								Count: 1b
+								id: "scguns:turret_targeting_module"
+							}
+						]
+					}
+				}
+				title: "Any Turret Targeting Module"
+				type: "item"
+			}]
+			title: "Targeting Instructions"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0CDB383264B61B"]
+			description: [
+				"Must be used in combination with a &lTargeting Module&r."
+				""
+				"'&bRight Click&r' on a &nspecific entity&r to add it to the log (i.e. &nthis&r zombie versus &nthat&r zombie)."
+				""
+				"'&bShift&r + &bRight Click&r' on an entity to add that entity type to the log (i.e. &nall&r zombies)."
+			]
+			id: "62F9DE9EA9A07470"
+			subtitle: "Whitelist/Blacklist"
+			tasks: [{
+				id: "4EAE3015FE067E52"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "scguns:team_log"
+							}
+							{
+								Count: 1b
+								id: "scguns:enemy_log"
+							}
+						]
+					}
+				}
+				title: "Either Log"
+				type: "item"
+			}]
+			title: "Specific Instructions"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0CDB383264B61B"]
+			description: ["&cNote: the &lAuto Turret&r&c may fire too quickly and lose ammo due to I-frames.&r"]
+			id: "3A9A0E9FE3151B4D"
+			shape: "square"
+			tasks: [{
+				id: "1D82AC3064663479"
+				item: "scguns:fire_rate_turret_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B0CDB383264B61B"]
+			id: "427C4D4AFEB117A8"
+			shape: "square"
+			tasks: [{
+				id: "37A3CDCCD5468EDC"
+				item: "scguns:damage_turret_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B0CDB383264B61B"]
+			id: "5EC4F58F3ED688EA"
+			shape: "square"
+			tasks: [{
+				id: "6D77EEB58B3052E4"
+				item: "scguns:range_turret_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0CDB383264B61B"]
+			description: ["&lTurrets&r seem to recover 75\\% of their spent casings by default."]
+			id: "51DEEA479BA986AD"
+			shape: "square"
+			tasks: [{
+				id: "0227C4C2B7936157"
+				item: "scguns:shell_catcher_turret_module"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B0CDB383264B61B"]
+			id: "4880832AE0AA1B9D"
+			shape: "square"
+			tasks: [{
+				id: "73F6D2E2D4128801"
+				item: "scguns:ammo_turret_module"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12703B19755DD9C2"]
+			id: "41A6563FD6A95AEE"
+			tasks: [{
+				id: "2715A92F75F60CC5"
+				item: "scguns:blank_mold"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"12703B19755DD9C2"
+				"22C5D0CC9054B4D7"
+			]
+			description: ["You can also make &oAnthralite Tools&r, which are slightly better than &oIron Tools&r."]
+			hide_dependency_lines: true
+			id: "3BF671C95478697F"
+			subtitle: "Iron+"
+			tasks: [
+				{
+					id: "178EFD8F10937185"
+					item: {
+						Count: 1
+						id: "scguns:anthralite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "601A98EE96F30C54"
+					item: {
+						Count: 1
+						id: "scguns:anthralite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76AF3D1D104C30A4"
+					item: {
+						Count: 1
+						id: "scguns:anthralite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E6604EF7F2AD980"
+					item: {
+						Count: 1
+						id: "scguns:anthralite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Anthralite Armor"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"013DFF0F8A9783D3"
+				"22C5D0CC9054B4D7"
+			]
+			hide_dependency_lines: true
+			id: "3DF3D60C9106E83F"
+			subtitle: "Iron++"
+			tasks: [
+				{
+					id: "13BA2F2BCFBE3C47"
+					item: {
+						Count: 1
+						id: "scguns:adrien_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055458C4D9F0E47E"
+					item: {
+						Count: 1
+						id: "scguns:adrien_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23D45D9BC80B39E6"
+					item: {
+						Count: 1
+						id: "scguns:adrien_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0974721FBB624049"
+					item: {
+						Count: 1
+						id: "scguns:adrien_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Adrien Armor"
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Despite the more invovled recipes, &lScorched Guns&r armor provides less armor than some of the similar vanilla armor sets. In exchange, these new armor sets provide &oKnockback Resistance&r, which is particularly useful when firing powerful guns."
+				""
+				"On the bright side, some of these sets look really good in your &oCosmetic Armor&r slots!"
+				""
+				"Also note that &oAnthralite&r tools and armor are made via the &lSmithing Table&r."
+			]
+			id: "22C5D0CC9054B4D7"
+			shape: "gear"
+			subtitle: "Weak, but Resist Knockback"
+			tasks: [{
+				icon: "minecraft:smithing_table"
+				id: "64BEA24D6B808A1C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:smithing_table"
+				type: "observation"
+			}]
+			title: "A Note on Armor"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "7FF96D4121C7C155"
+			tasks: [
+				{
+					id: "0E32548A5F4D9FA2"
+					item: {
+						Count: 1
+						id: "scguns:cog_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55179E1F1AA973A6"
+					item: {
+						Count: 1
+						id: "scguns:cog_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C4E0C9904AD69B3"
+					item: {
+						Count: 1
+						id: "scguns:cog_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "093B4711ACEC802B"
+					item: {
+						Count: 1
+						id: "scguns:cog_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"065B34EEB70F1626"
+				"22C5D0CC9054B4D7"
+			]
+			hide_dependency_lines: true
+			id: "04E3E49A19A91314"
+			tasks: [
+				{
+					id: "212F8DF4E8260315"
+					item: {
+						Count: 1
+						id: "scguns:treated_brass_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AC37E1EA52D18E7"
+					item: {
+						Count: 1
+						id: "scguns:treated_brass_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "057E9CBB96D7D29C"
+					item: {
+						Count: 1
+						id: "scguns:treated_brass_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E9BFFAFB01F818D"
+					item: {
+						Count: 1
+						id: "scguns:treated_brass_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"122EDBAF225EC4DE"
+				"22C5D0CC9054B4D7"
+			]
+			hide_dependency_lines: true
+			id: "4B83C2F46F257795"
+			tasks: [
+				{
+					id: "3CD23CFD141240E2"
+					item: {
+						Count: 1
+						id: "scguns:diamond_steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F146BADE4E14038"
+					item: {
+						Count: 1
+						id: "scguns:diamond_steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30EBD65F40BDA50E"
+					item: {
+						Count: 1
+						id: "scguns:diamond_steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64D7BE0D9F62DA73"
+					item: {
+						Count: 1
+						id: "scguns:diamond_steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "5FE02C7225FE3D69"
+			tasks: [{
+				id: "7DC37CC2C13C8B3A"
+				item: {
+					Count: 1
+					id: "scguns:brass_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "1202755F86DA2E5F"
+			tasks: [{
+				id: "1712F7A46840896E"
+				item: {
+					Count: 1
+					id: "scguns:ridgetop"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"12703B19755DD9C2"
+				"22C5D0CC9054B4D7"
+			]
+			hide_dependency_lines: true
+			id: "68FAF51F302C7403"
+			subtitle: "Protects Against Sulfur Gas!"
+			tasks: [
+				{
+					id: "69AA04AA17A2483B"
+					item: {
+						Count: 1
+						id: "scguns:anthralite_respirator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07F414FF079F8DB1"
+					item: {
+						Count: 1
+						id: "scguns:netherite_respirator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Raison D'Etre"]

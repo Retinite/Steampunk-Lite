@@ -2256,7 +2256,7 @@
 			description: [
 				"&6&oCopper Spools&r can transfer up to 1KFE/t."
 				""
-				"&e&oGold&r and &e&oElectrum Spools&r can each transfer up to 5KFE/t."
+				"&e&oGold&r and &e&oElectrum Spools&r can each transfer up to 5KFE/t. &e&oGold Spools&r have been removed from this modpack for more compatability with &lImmersive Engineering&r."
 			]
 			hide_dependent_lines: true
 			id: "7EC0CC2296C8B019"
@@ -2268,28 +2268,12 @@
 					type: "item"
 				}
 				{
-					id: "4EDEE7452FCED6C2"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "createaddition:gold_spool"
-								}
-								{
-									Count: 1b
-									id: "createaddition:electrum_spool"
-								}
-							]
-						}
-					}
-					title: "Gold or Electrum Spools"
+					id: "5D11A65C730FA438"
+					item: "createaddition:electrum_spool"
 					type: "item"
 				}
 				{
-					id: "24C9051BE291B082"
+					id: "070CDC5C66208967"
 					item: "createaddition:festive_spool"
 					optional_task: true
 					type: "item"
@@ -2335,7 +2319,17 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["08BE3B7B1078566F"]
+			dependencies: [
+				"08BE3B7B1078566F"
+				"498C4D94CABA5FB2"
+			]
+			description: [
+				"Note: the &lGenerator Coil&r has an efficiency ranging from &b4%&r to &b92.3%&r when converting &7&ospeed&r into &7FE/t&r depending on the surrounding magnets. Compare this to the &lCreate Crafts \\& Additions&r &lAlternator&r, which has an efficiency of &b66.7%&r."
+				""
+				"A total &oMagnetic Force&r of 48 or higher (all &lLayered Magnets&r or better) is required to achieve an efficiency of &b66.7%&r or better."
+				""
+				"&aAlso: each &lCarbon Brush&r&a can generate power from up to 8 connected &lGenerator Coils&r&a.&r"
+			]
 			id: "22B604DDBB7E59B6"
 			shape: "square"
 			subtitle: "Rotation -> Electricity"
@@ -2355,7 +2349,11 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["22B604DDBB7E59B6"]
+			description: [
+				"The higher the total &oMagnetic Force&r surrounding a single &lGenerator Coil&r, the more efficiently it converts &7&ospeed&r into &7FE/t&r."
+				""
+				"The exact formula is MF/(MF + 24), and the highest possible efficiency is 92.3% with 12 &lNetherite Magnets&r."
+			]
 			id: "498C4D94CABA5FB2"
 			shape: "rsquare"
 			subtitle: "How do they Work?"
@@ -2458,6 +2456,11 @@
 		}
 		{
 			dependencies: ["77248B043F975183"]
+			description: [
+				"Note: the &lStrong Motor&r is roughly equivalent in output and efficiency to the &lElectric Motor&r from &lCreate Crafts \\& Additions&r."
+				""
+				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
+			]
 			id: "5915B9485B45911F"
 			shape: "square"
 			subtitle: "Electricity -> Rotation"
@@ -2566,6 +2569,11 @@
 				"7EC0CC2296C8B019"
 				"220C373B431363A2"
 			]
+			description: [
+				"Note: the &lElectric Motor&r is roughly equivalent in output and efficiency to the &lStrong Motor&r from &lCreate: New Age&r."
+				""
+				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
+			]
 			id: "3B996CEF67EA93FB"
 			shape: "square"
 			subtitle: "Electricity -> Rotation"
@@ -2582,6 +2590,7 @@
 				"7EC0CC2296C8B019"
 				"220C373B431363A2"
 			]
+			description: ["Note: the &lAlternator&r has an efficiency of &b66.7%&r when converting &7&ospeed&r into &7FE/t&r. Compare this to the &lCreate: New Age&r &lGenerator Coil&r, which has an efficiency ranging from &b4%&r to &b92.3%&r depending on the surrounding magnets."]
 			id: "79674A00E39F4384"
 			shape: "square"
 			subtitle: "Rotation -> Electricity"
@@ -2594,5 +2603,6 @@
 			y: 6.5d
 		}
 	]
+	subtitle: ["The Classic"]
 	title: "Create"
 }

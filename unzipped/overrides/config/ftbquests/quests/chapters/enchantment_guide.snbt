@@ -14,14 +14,25 @@
 		}
 	}
 	id: "4A69B98027AE9606"
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			description: ["Modded enchantments rarely get the documentation they deserve, so this page aims to be that documentation. Only max-level enchantments are listed, and enchantments are divided up by mod (or sometimes subdivided by equipment)."]
 			disable_toast: true
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
 			id: "3665726D37B6B744"
+			shape: "gear"
 			tasks: [{
 				disable_toast: true
 				id: "0891807E06A74CF0"
@@ -447,13 +458,13 @@
 			description: [
 				"&dCeaseless&r &c(&oCrossbows&r&c)&r is equivalent to the &dInfinity&r enchantment for &oCrossbows&r."
 				""
-				"&dSharpshooter&r &c(&oCrossbows&r&c)&r increases arrow damage and reduces arrow damage variation."
+				"&dSharpshooter&r &c(&oCrossbows&r&c)&r increases arrow damage. Incompatable with &dMultishot&r and &dPiercing&r."
 				""
-				"&dSlayer&r &c(&oSwords&r&c, &oAxes&r&c)&r increases damage against hostile mobs."
+				"&dSlayer&r &c(&oSwords&r&c, &oAxes&r&c)&r increases damage by 1.5 against all \"monster\" mobs. This generally includes most hostile mobs. This enchantment is better than &dSharpness&r, but worse than &dSmite&r or &dBane of Arthropods&r. As expected, &dSlayer&r is incompatible with these."
 				""
-				"&dTorrent&r &c(&oTridents&r&c)&r increases damage against Nether mobs."
+				"&dTorrent&r &c(&oTridents&r&c)&r increases damage by 2.5 against mobs that are either fire immune or water sensative. This generally includes Nether mobs and Endermen."
 				""
-				"&dWrath&r &c(&oTridents&r&c)&r is equivalent to the &dSharpness&r enchantment for &oTridents&r."
+				"&dWrath&r &c(&oTridents&r&c)&r is equivalent to the &dSharpness&r enchantment for &oTridents&r, increasing base damage by 1.25 per level."
 			]
 			icon: {
 				Count: 1
@@ -544,7 +555,7 @@
 			description: [
 				"&cCurse of Eternal Binding&r combines &cCurse of Binding&r with &dSoulbound&r. Hopefully you can wear the durability out."
 				""
-				"&cCurse of Nemesis&r deals 25\\% of your melee damage back to you."
+				"&cCurse of Nemesis&r deals 25\\% of your melee damage back to you. &aCannot kill you.&r"
 				""
 				"&cCurse of Redemption&r causes you to take 4\\% more damage from all sources per cursed item. If you wear the &6&oRing of Redemption&r, the curse becomes the &6Blessing of Redemption&r, causing you to take 4\\% &oless&r damage from all sources per cursed item."
 				""
@@ -618,11 +629,11 @@
 		{
 			dependencies: ["3665726D37B6B744"]
 			description: [
-				"&dFrost Aspect&r &c(&oSwords&r&c)&r applies &7Slowness&r and &7Weakness&r to targets."
+				"&dFrost Aspect&r &c(&oSwords&r&c)&r gradually &bFreezes&r targets (slowing them down and possibly dealing damage over time). Incompatible with &dFire Aspect&r."
 				""
-				"&dFrost Protection&r reduces damage from \"cold\" sources."
+				"&dFrost Protection&r reduces damage from \"cold\" sources, and allows you to resist being &bFrozen&r longer. Incompatible with other &dProtection&r enchantments."
 				""
-				"&dFrost Shattering&r &c(&oAxes&r&c)&r applies &7Slowness&r and &7Weakness&r when disabling an opponent's shield."
+				"&dFrost Shattering&r &c(&oAxes&r&c)&r gradually &bFreezes&r targets (slowing them down and possibly dealing damage over time). Deals increased critical damage to &bFrozen&r targets. Incompatible with &dFire Aspect&r."
 			]
 			icon: "enigmaticaddons:pure_heart"
 			id: "0B8BA44343ED5120"
@@ -926,6 +937,7 @@
 			dependencies: ["3665726D37B6B744"]
 			disable_toast: true
 			id: "410F29431ECD6B4C"
+			shape: "hexagon"
 			subtitle: "Just Visual Organization"
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -2004,5 +2016,6 @@
 			y: 1.5d
 		}
 	]
+	subtitle: ["Documentation!"]
 	title: "Enchantment Guide"
 }

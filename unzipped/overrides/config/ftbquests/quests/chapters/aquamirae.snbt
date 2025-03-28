@@ -269,27 +269,17 @@
 			optional: true
 			shape: "diamond"
 			tasks: [{
-				id: "3A9F485DAB2B40C1"
+				id: "4C523BFD58A43B49"
 				item: {
 					Count: 1
 					id: "aquamirae:poisoned_chakra"
 					tag: {
 						Damage: 0
-						Enchantments: [
-							{
-								id: "obscure_api:distance"
-								lvl: 3s
-							}
-							{
-								id: "obscure_api:fast_spin"
-								lvl: 5s
-							}
-						]
 					}
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 2.0d
 		}
 		{
@@ -447,29 +437,55 @@
 			optional: true
 			shape: "diamond"
 			tasks: [{
-				id: "5F894A1AE1F95691"
+				id: "50E84AC2358C037D"
 				item: {
 					Count: 1
 					id: "aquamirae:maze_rose"
 					tag: {
 						Damage: 0
-						Enchantments: [
-							{
-								id: "obscure_api:distance"
-								lvl: 3s
-							}
-							{
-								id: "obscure_api:fast_spin"
-								lvl: 5s
-							}
-						]
 					}
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2BEA59809D7486DC"
+				"6BC37C1F55D3D0D5"
+			]
+			description: [
+				"These enchantments, added by &lObscure API&r, can only be applied to the &oPoisoned Chakram&r and the &oMaze Rose&r. It also &oshould be impossible&r to obtain these enchantments on &oEnchanted Books&r, which is why this quest is not located in the &lEnchantment Guide&r chapter."
+				""
+				"&dDistance&r (goes up to level V) increases the maximum orbital distance of the &oChakram&r (it still moves close to you while orbiting)."
+				""
+				"&dFast Spin&r (goes up to level III) increases the speed with which the &oChakram&r orbits. Does not decrease the total active time for the &oChakram&r's ability."
+				""
+				"&dMirror&r creates a second &oChakram&r opposite the first."
+			]
+			id: "7075A8B3CE0FA4A3"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "05E5EC0FFC779B36"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Chakram Enchantments"
+			x: 1.5d
 			y: 2.0d
 		}
 	]
+	subtitle: ["Scary Ice Water"]
 	title: "Aquamirae"
 }
