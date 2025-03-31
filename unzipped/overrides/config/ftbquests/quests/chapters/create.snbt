@@ -10,9 +10,15 @@
 	quests: [
 		{
 			id: "2CF32DEA0BCCEAB3"
+			rewards: [{
+				count: 4
+				id: "7991D6717339D8B0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Basic Machines"
+			subtitle: "Simple Machines"
 			tasks: [
 				{
 					id: "45DADA362A10D17E"
@@ -31,6 +37,12 @@
 		}
 		{
 			id: "11462C50ED95A75C"
+			rewards: [{
+				count: 4
+				id: "522BF6480AAD60F8"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Fluid Handling"
@@ -57,6 +69,12 @@
 			]
 			hide_dependent_lines: true
 			id: "1125F214A19CCF0B"
+			rewards: [{
+				count: 4
+				id: "3449D50E5500D8D9"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Advanced Machines"
@@ -83,6 +101,12 @@
 			]
 			hide_dependent_lines: true
 			id: "49FE19459C03AFB9"
+			rewards: [{
+				count: 4
+				id: "4709BE05FA229BCC"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Trains!"
@@ -105,6 +129,11 @@
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			hide_dependent_lines: true
 			id: "7611528BE6C6F5F6"
+			rewards: [{
+				id: "70FB9D19148AC2A4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -118,6 +147,11 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "5F85714371165315"
+			rewards: [{
+				id: "1B7F8B396CB91556"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "582E63E60A4E8AE0"
@@ -135,6 +169,12 @@
 			]
 			hide_dependent_lines: true
 			id: "4D0E521B0763FDE0"
+			rewards: [{
+				count: 4
+				id: "456D0AA70ECFA1EE"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -156,6 +196,12 @@
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			hide_dependent_lines: true
 			id: "08BE3B7B1078566F"
+			rewards: [{
+				count: 16
+				id: "19DC0F421CC61140"
+				item: "create:shaft"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -203,6 +249,11 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "57AA287B7A5C98BD"
+			rewards: [{
+				id: "427B969806C7EB62"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -226,6 +277,11 @@
 				"7611528BE6C6F5F6"
 			]
 			id: "427F790DF4A52008"
+			rewards: [{
+				id: "4D8B37E09D8396C0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0C423F8B5ED1FF9C"
@@ -238,6 +294,11 @@
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			id: "19522B38C1264E66"
+			rewards: [{
+				id: "64EDB515DCF59B5D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -258,6 +319,12 @@
 		{
 			dependencies: ["08BE3B7B1078566F"]
 			id: "39DC1CBCEA07A3BB"
+			rewards: [{
+				count: 4
+				id: "27CFD80C367D4F2B"
+				item: "create:water_wheel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -279,8 +346,14 @@
 			dependencies: ["7611528BE6C6F5F6"]
 			hide_dependent_lines: true
 			id: "69FA91616D433B13"
+			rewards: [{
+				id: "45FCABF185A6ADD9"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Also Decorative!"
 			tasks: [
 				{
 					id: "50A9782E23742D5E"
@@ -301,6 +374,13 @@
 			dependencies: ["220C373B431363A2"]
 			hide_dependent_lines: true
 			id: "36445D62CD71EE9D"
+			rewards: [{
+				count: 8
+				id: "3569D2959A1EE562"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
 			size: 2.0d
 			tasks: [{
 				count: 2L
@@ -314,6 +394,12 @@
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			id: "7ADBC567D9A8ACA1"
+			rewards: [{
+				count: 2
+				id: "452E93DA655FAD76"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "59B659887C12C04B"
@@ -326,6 +412,12 @@
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			id: "4C3D6133BEB7FAFD"
+			rewards: [{
+				count: 3
+				id: "4A275CC90D518809"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "332A7078D76DB7C0"
@@ -338,6 +430,12 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "61F3D78B132E6393"
+			rewards: [{
+				count: 2
+				id: "08064D451881137E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6C043792DEEF59C1"
@@ -350,6 +448,11 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "687F5459EB680D92"
+			rewards: [{
+				id: "14F3D0F770047205"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "22AECFE48E72BCB6"
@@ -366,6 +469,11 @@
 			]
 			hide_dependent_lines: true
 			id: "790495EE6636D531"
+			rewards: [{
+				id: "61B366F51A30D7B0"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "09810998D03E5C02"
@@ -379,6 +487,12 @@
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			hide_until_deps_complete: false
 			id: "6D83C02799C4467B"
+			rewards: [{
+				count: 4
+				id: "2AD43169F6849DB2"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -399,6 +513,11 @@
 		{
 			dependencies: ["36445D62CD71EE9D"]
 			id: "47AD9EC8F1540805"
+			rewards: [{
+				id: "36C188B777764994"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7D77257511486857"
@@ -411,6 +530,11 @@
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			id: "2B965400E4F18242"
+			rewards: [{
+				id: "75925941AC402F36"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "426D344E92AB0114"
@@ -424,6 +548,12 @@
 			dependencies: ["08BE3B7B1078566F"]
 			hide_dependent_lines: true
 			id: "1AC8AD2D0C94F50A"
+			rewards: [{
+				count: 4
+				id: "719FEC450DA1E114"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -459,6 +589,12 @@
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			id: "1A5C700E6135D3B0"
+			rewards: [{
+				count: 4
+				id: "2C54CEB48786F6D3"
+				item: "create:item_vault"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -478,6 +614,12 @@
 		{
 			dependencies: ["427F790DF4A52008"]
 			id: "2C8CA39BAB00F6A4"
+			rewards: [{
+				count: 2
+				id: "34A38AC085A24835"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "13EA51E24A5BD361"
@@ -493,6 +635,11 @@
 				"08BE3B7B1078566F"
 			]
 			id: "3459301B7767DD46"
+			rewards: [{
+				id: "6113004A5AB40632"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "15BCEF35D86E2C8A"
@@ -505,6 +652,11 @@
 		{
 			dependencies: ["08BE3B7B1078566F"]
 			id: "35D4FCFB4724C630"
+			rewards: [{
+				id: "2C06581E9572815A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "76D6D35BC0D15EA2"
@@ -517,6 +669,11 @@
 		{
 			dependencies: ["08BE3B7B1078566F"]
 			id: "000A36D512E55FA6"
+			rewards: [{
+				id: "1EEE6FA17A6AD8ED"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -536,6 +693,12 @@
 		{
 			dependencies: ["08BE3B7B1078566F"]
 			id: "33369E85F02DEE43"
+			rewards: [{
+				count: 2
+				id: "3CE9B73D882DA4ED"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -563,6 +726,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "00D30A9AC748F996"
+			rewards: [{
+				count: 2
+				id: "1D9FCA6E9767914D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -599,6 +768,11 @@
 		{
 			dependencies: ["1AC8AD2D0C94F50A"]
 			id: "56FD57F917242591"
+			rewards: [{
+				id: "510F874217DCB1BB"
+				item: "create:depot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4E432FCE2FBA70F0"
@@ -611,6 +785,12 @@
 		{
 			dependencies: ["00D30A9AC748F996"]
 			id: "37E6685E23967914"
+			rewards: [{
+				count: 2
+				id: "383151A52F32B7A9"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -639,6 +819,12 @@
 			dependencies: ["11462C50ED95A75C"]
 			hide_dependent_lines: true
 			id: "76FDD3025201FECA"
+			rewards: [{
+				count: 4
+				id: "3F8E216F8A513361"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -662,6 +848,11 @@
 				"1125F214A19CCF0B"
 			]
 			id: "1E74F3688E5D058B"
+			rewards: [{
+				id: "69F5D8CA6AF8702D"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1E93776EF5FEC390"
@@ -677,6 +868,11 @@
 				"7611528BE6C6F5F6"
 			]
 			id: "6DA4C7A21CF61EF9"
+			rewards: [{
+				id: "0A1EE3A2DA00BADC"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "780BDEAE9503DCF9"
@@ -690,6 +886,12 @@
 			dependencies: ["7611528BE6C6F5F6"]
 			hide_dependent_lines: true
 			id: "639B09251903FFF2"
+			rewards: [{
+				count: 3
+				id: "5F17C6D053B2888F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3094ADFC7AE4F819"
@@ -702,6 +904,11 @@
 		{
 			dependencies: ["08BE3B7B1078566F"]
 			id: "555A31944B9D6737"
+			rewards: [{
+				id: "7AE65554EBDEB288"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4052A5BAB690FE8C"
@@ -714,6 +921,12 @@
 		{
 			dependencies: ["76FDD3025201FECA"]
 			id: "19864B1ED37F3C0B"
+			rewards: [{
+				count: 3
+				id: "141D809D64CAF917"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "763AD5097882F4CC"
@@ -726,6 +939,12 @@
 		{
 			dependencies: ["76FDD3025201FECA"]
 			id: "4F99A5F2C08714F4"
+			rewards: [{
+				count: 2
+				id: "392A7D99AC396F0E"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1F3E9090539ADC36"
@@ -738,6 +957,12 @@
 		{
 			dependencies: ["76FDD3025201FECA"]
 			id: "300061CAA2D14809"
+			rewards: [{
+				count: 4
+				id: "3A8D6EDA9B5FB6E5"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0423728AD27103BD"
@@ -753,6 +978,12 @@
 				"76FDD3025201FECA"
 			]
 			id: "4BA65D27F1DBCC85"
+			rewards: [{
+				count: 2
+				id: "36F5A85957C5A8AE"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 2L
@@ -767,6 +998,11 @@
 		{
 			dependencies: ["76FDD3025201FECA"]
 			id: "4850C402022B6AB0"
+			rewards: [{
+				id: "7C0FE1E32CCB65BE"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "39FA07258C9ECDCE"
@@ -779,6 +1015,11 @@
 		{
 			dependencies: ["76FDD3025201FECA"]
 			id: "355E41077F44FB96"
+			rewards: [{
+				id: "403A87FF5E51A6B2"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7A9610F9FAFE7EB5"
@@ -792,6 +1033,11 @@
 			dependencies: ["76FDD3025201FECA"]
 			hide_dependent_lines: true
 			id: "0765608199335E27"
+			rewards: [{
+				id: "7FD3B6D62AF830C7"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6E29A27AA770F812"
@@ -804,6 +1050,12 @@
 		{
 			dependencies: ["300061CAA2D14809"]
 			id: "1707720898FA9ECF"
+			rewards: [{
+				count: 5
+				id: "64EA0E82E28C4E50"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0C8C58B4773E6710"
@@ -816,6 +1068,11 @@
 		{
 			dependencies: ["300061CAA2D14809"]
 			id: "1720AE9F17AE0F0C"
+			rewards: [{
+				id: "64BFEF3A2229DEC6"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7C3003FEC0845ADA"
@@ -827,7 +1084,13 @@
 		}
 		{
 			id: "36CBDB53F8B0330E"
-			shape: "square"
+			optional: true
+			rewards: [{
+				id: "055A0D9756DC5900"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Deployable Structures"
 			tasks: [
 				{
@@ -852,6 +1115,13 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "0004F249B2F5F8D6"
+			optional: true
+			rewards: [{
+				id: "2A12B8A8B47BB41F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "12E68EDC2E93518C"
 				item: "create:clipboard"
@@ -863,7 +1133,13 @@
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			id: "72945CCED55E0796"
-			shape: "square"
+			optional: true
+			rewards: [{
+				id: "01DAFA0EB1FC303E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4894038A06A127D4"
 				item: {
@@ -948,6 +1224,11 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "45D9D6F24EC1476A"
+			rewards: [{
+				id: "34538D91D0632365"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "672D2B6DFB129968"
@@ -961,6 +1242,12 @@
 			dependencies: ["7611528BE6C6F5F6"]
 			hide_dependent_lines: true
 			id: "65D30AAAEBC5C753"
+			rewards: [{
+				count: 4
+				id: "7B79C7B2B9956B91"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			subtitle: "Intelligent Machines"
@@ -1012,8 +1299,16 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["08BE3B7B1078566F"]
+			dependencies: [
+				"08BE3B7B1078566F"
+				"65D30AAAEBC5C753"
+			]
 			id: "62E37A8C29352509"
+			rewards: [{
+				id: "3D35909D72EF77C6"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1043,6 +1338,12 @@
 			]
 			hide_dependent_lines: true
 			id: "220C373B431363A2"
+			rewards: [{
+				count: 4
+				id: "20C9BC8FA0ACCBA5"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [{
@@ -1056,6 +1357,12 @@
 		{
 			dependencies: ["1125F214A19CCF0B"]
 			id: "6E5DF6615E8C903A"
+			rewards: [{
+				count: 4
+				id: "2F440AC7EBD9748C"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3A724EBACE18C098"
@@ -1071,6 +1378,11 @@
 				"65D30AAAEBC5C753"
 			]
 			id: "18F6BEA69FA2A153"
+			rewards: [{
+				id: "5284B92476B86B36"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "09A1D0D637ABAFCD"
@@ -1088,6 +1400,12 @@
 			]
 			hide_dependent_lines: true
 			id: "2D09A3D1E88A1731"
+			rewards: [{
+				count: 2
+				id: "5283039488DE9CFF"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1116,6 +1434,11 @@
 				"65D30AAAEBC5C753"
 			]
 			id: "4ADE4B5ABA1E24E9"
+			rewards: [{
+				id: "33D674339EC50C2E"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1137,6 +1460,11 @@
 			dependencies: ["790495EE6636D531"]
 			hide_dependent_lines: true
 			id: "157C5B4DB90477F5"
+			rewards: [{
+				id: "4352F89785C16A93"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -1153,6 +1481,11 @@
 				"157C5B4DB90477F5"
 			]
 			id: "02EF99F0722F7ED4"
+			rewards: [{
+				id: "0D31C47BE3BE832A"
+				item: "create:railway_casing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1173,6 +1506,12 @@
 		{
 			dependencies: ["157C5B4DB90477F5"]
 			id: "569E5716C212D608"
+			rewards: [{
+				count: 2
+				id: "0D541B2A9119157F"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4A1EBE738DC5F877"
@@ -1185,6 +1524,11 @@
 		{
 			dependencies: ["157C5B4DB90477F5"]
 			id: "2FFE62E5FF8B8872"
+			rewards: [{
+				id: "48CD6204DD942162"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "646C918D1B10196A"
@@ -1197,6 +1541,11 @@
 		{
 			dependencies: ["157C5B4DB90477F5"]
 			id: "3840E2B064B4135F"
+			rewards: [{
+				id: "3511BC7A5496823E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DD2AB1626A3FA04"
 				item: "create:wand_of_symmetry"
@@ -1208,6 +1557,12 @@
 		{
 			dependencies: ["157C5B4DB90477F5"]
 			id: "15390AA942350A1A"
+			rewards: [{
+				count: 3
+				id: "6E2BFC59736831C4"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B8744CD379BA3C8"
 				item: {
@@ -1225,6 +1580,12 @@
 		{
 			dependencies: ["157C5B4DB90477F5"]
 			id: "20FB8535F16810BF"
+			rewards: [{
+				count: 3
+				id: "303F55514FF496C7"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "41F3345BA3885219"
 				item: {
@@ -1242,6 +1603,12 @@
 		{
 			dependencies: ["4D0E521B0763FDE0"]
 			id: "4F01FC3F5284821F"
+			rewards: [{
+				count: 4
+				id: "4DDF79A23CAAB025"
+				item: "create:cardboard"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			subtitle: "NEW! Logistics Network!"
@@ -1256,6 +1623,11 @@
 		{
 			dependencies: ["65D30AAAEBC5C753"]
 			id: "76FA8ABEEC7262DD"
+			rewards: [{
+				id: "28F30F9A0C79FB1A"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "67C3F310B62FB421"
@@ -1268,6 +1640,14 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "7ADBE852D90EB299"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6A4C020EF0909366"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "5CC7C181016DD116"
@@ -1302,6 +1682,11 @@
 		{
 			dependencies: ["1125F214A19CCF0B"]
 			id: "16400A652300558B"
+			rewards: [{
+				id: "7A84CD21148858E4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "25A275E4D55E7DE0"
@@ -1314,6 +1699,12 @@
 		{
 			dependencies: ["1125F214A19CCF0B"]
 			id: "2C1244B36847E9AC"
+			rewards: [{
+				count: 5
+				id: "7F3260341DCA278F"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1333,6 +1724,12 @@
 		{
 			dependencies: ["1125F214A19CCF0B"]
 			id: "2DF15326287A1F5B"
+			rewards: [{
+				count: 2
+				id: "13B4FDAA23033B9B"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1361,6 +1758,12 @@
 				"1125F214A19CCF0B"
 			]
 			id: "60A4FD22037DDF9E"
+			rewards: [{
+				count: 2
+				id: "6C2909B65B57FFDC"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1391,6 +1794,11 @@
 		{
 			dependencies: ["65D30AAAEBC5C753"]
 			id: "46C1E1210B46B562"
+			rewards: [{
+				id: "6272457AE2E8C9CC"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "266E7E38947B8A5A"
@@ -1406,6 +1814,11 @@
 				"65D30AAAEBC5C753"
 			]
 			id: "6443412C5EF9E348"
+			rewards: [{
+				id: "43968196032C18F6"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0997F3A5B33777C1"
@@ -1418,6 +1831,11 @@
 		{
 			dependencies: ["49FE19459C03AFB9"]
 			id: "0911D8B6037B1AB5"
+			rewards: [{
+				id: "01FCA373C1E2065F"
+				item: "create:railway_casing"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1443,6 +1861,12 @@
 		{
 			dependencies: ["49FE19459C03AFB9"]
 			id: "3EFA53A721193767"
+			rewards: [{
+				count: 32
+				id: "14A2FB9D772737FF"
+				item: "create:track"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "44A9CC7007BCCCD0"
@@ -1455,6 +1879,12 @@
 		{
 			dependencies: ["4F01FC3F5284821F"]
 			id: "071CAA1C41C67340"
+			rewards: [{
+				count: 13
+				id: "179208C945FF0A28"
+				item: "create:cardboard"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7729395ABE533D43"
@@ -1516,6 +1946,12 @@
 				"11462C50ED95A75C"
 			]
 			id: "79ABBE5578967F09"
+			rewards: [{
+				count: 11
+				id: "6B63B3CB7C6CA629"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6D106A8814FF1F34"
@@ -1558,6 +1994,12 @@
 		{
 			dependencies: ["79ABBE5578967F09"]
 			id: "6A290478CFD051AE"
+			rewards: [{
+				count: 6
+				id: "1E97CD9E5D3F25B9"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "26B28D55879B4D09"
@@ -1600,6 +2042,20 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "53A9B7A384FD52EB"
+			rewards: [
+				{
+					count: 16
+					id: "115BD5837FAAC961"
+					item: "create:wooden_bracket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1916B3A614F63C6F"
+					item: "create:metal_bracket"
+					type: "item"
+				}
+			]
 			shape: "square"
 			subtitle: "Aesthetics!"
 			tasks: [
@@ -1621,6 +2077,11 @@
 		{
 			dependencies: ["4F01FC3F5284821F"]
 			id: "20FD292CA0044D5A"
+			rewards: [{
+				id: "67196042FACA582B"
+				item: "create:packager"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1646,6 +2107,12 @@
 		{
 			dependencies: ["20FD292CA0044D5A"]
 			id: "06A035B33451D338"
+			rewards: [{
+				count: 4
+				id: "3C90046F6E42CC91"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1666,6 +2133,11 @@
 		{
 			dependencies: ["20FD292CA0044D5A"]
 			id: "5ABA9EDF95E22C42"
+			rewards: [{
+				id: "17DC8EC93C4B7DF5"
+				item: "create:package_frogport"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1686,6 +2158,11 @@
 		{
 			dependencies: ["20FD292CA0044D5A"]
 			id: "61FF996DC72928F3"
+			rewards: [{
+				id: "0CC84658EBCFCA09"
+				item: "create:stock_link"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1788,6 +2265,11 @@
 				"49FE19459C03AFB9"
 			]
 			id: "636C42FC149DB227"
+			rewards: [{
+				id: "08D9AB17CA159741"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6592B19F1F09FE55"
@@ -1873,6 +2355,11 @@
 		{
 			dependencies: ["1125F214A19CCF0B"]
 			id: "7014AFC90E4DFB8E"
+			rewards: [{
+				id: "465159BF72DB2F1A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0E69C811CC80B95A"
@@ -1885,6 +2372,11 @@
 		{
 			dependencies: ["1125F214A19CCF0B"]
 			id: "154395A443BB4D8A"
+			rewards: [{
+				id: "48E65C574439DD73"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1909,6 +2401,14 @@
 		}
 		{
 			id: "72F0CF8972547D02"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "06B1FBFA64DDEAC5"
+				item: "create:tree_fertilizer"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "4513D38254ADCE35"
 				item: "create:tree_fertilizer"
@@ -1919,7 +2419,19 @@
 		}
 		{
 			id: "17F44209F5DCA4F5"
-			shape: "square"
+			optional: true
+			rewards: [{
+				id: "4856A536FA8317FA"
+				item: {
+					Count: 1
+					id: "minecraft:painting"
+					tag: {
+						EntityTag: { }
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "246473410EF46663"
 				item: "create:crafting_blueprint"
@@ -1931,6 +2443,11 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "00009B5949438EA0"
+			rewards: [{
+				id: "6AB527D9BC30186E"
+				item: "create:minecart_coupling"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5851A3A4E71BD670"
@@ -1946,6 +2463,11 @@
 				"0765608199335E27"
 			]
 			id: "54DFD4A196F7C3C1"
+			rewards: [{
+				id: "0372A36832878E87"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
 			tasks: [{
 				id: "160FD4BDC64ECF34"
 				item: "create:blaze_cake"
@@ -1957,6 +2479,11 @@
 		{
 			dependencies: ["1125F214A19CCF0B"]
 			id: "42BD8AF407BE6585"
+			rewards: [{
+				id: "674B8FD773499FBC"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3379782B6E95ABBC"
@@ -1969,6 +2496,11 @@
 		{
 			dependencies: ["49FE19459C03AFB9"]
 			id: "01DD2598FB1A9582"
+			rewards: [{
+				id: "42FD2F4A605F0D99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7FF5A67D7BC65A76"
@@ -2058,6 +2590,13 @@
 				"0765608199335E27"
 			]
 			id: "0814FC76ECF0C822"
+			optional: true
+			rewards: [{
+				id: "28895FD9E52CD11D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "5A94E5EA05C12832"
@@ -2105,6 +2644,8 @@
 				"69FA91616D433B13"
 			]
 			id: "286BA697AEDC0204"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "226CD17E5B90CF79"
 				item: "createaddition:electrum_amulet"
@@ -2119,6 +2660,8 @@
 				"69FA91616D433B13"
 			]
 			id: "270E88651985BDCC"
+			optional: true
+			shape: "diamond"
 			tasks: [
 				{
 					id: "4BF61E95C95DF407"
@@ -2140,6 +2683,11 @@
 				"639B09251903FFF2"
 			]
 			id: "7A3128F4B7DCC5FA"
+			rewards: [{
+				id: "4B22112CB269ECA8"
+				item: "createaddition:straw"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CE8D73CEF2F2EAE"
 				item: "createaddition:straw"
@@ -2151,6 +2699,11 @@
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			id: "10A9F6E55B1E04DC"
+			rewards: [{
+				id: "2273C8DD91D97FD0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "155114D3D89FBD02"
@@ -2163,6 +2716,26 @@
 		{
 			dependencies: ["10A9F6E55B1E04DC"]
 			id: "77248B043F975183"
+			rewards: [
+				{
+					count: 4
+					id: "553A8B02F6CFF5F7"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0277DC171874FFC6"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "33A92AE6AC908C92"
+					item: "create_new_age:overcharged_diamond"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -2188,6 +2761,11 @@
 		{
 			dependencies: ["77248B043F975183"]
 			id: "6B358440EF03F638"
+			rewards: [{
+				id: "6A6AEA98F3A30423"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -2213,6 +2791,12 @@
 				"&oHigh current&r specifically means up to 5KFE/t."
 			]
 			id: "32F2B5029676E7A7"
+			rewards: [{
+				count: 2
+				id: "199357D29ADD70AC"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -2234,6 +2818,11 @@
 			dependencies: ["32F2B5029676E7A7"]
 			description: ["&oSmall Connector with Light&r consumes 1FE/t."]
 			id: "2172FFA26A8F6738"
+			rewards: [{
+				id: "3D7DF3B9723107AB"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -2260,6 +2849,12 @@
 			]
 			hide_dependent_lines: true
 			id: "7EC0CC2296C8B019"
+			rewards: [{
+				count: 16
+				id: "34E124999F6337B0"
+				item: "createaddition:spool"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -2291,6 +2886,11 @@
 				"220C373B431363A2"
 			]
 			id: "1A2D3C38A2808937"
+			rewards: [{
+				id: "7F04D858CBE21F25"
+				item: "create:electron_tube"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "28D17E52C6A21CE2"
@@ -2307,6 +2907,11 @@
 				"1125F214A19CCF0B"
 			]
 			id: "1395F9D35B5EFFAF"
+			rewards: [{
+				id: "6492865ED1645A8A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 2L
@@ -2331,6 +2936,12 @@
 				"&aAlso: each &lCarbon Brush&r&a can generate power from up to 8 connected &lGenerator Coils&r&a.&r"
 			]
 			id: "22B604DDBB7E59B6"
+			rewards: [{
+				count: 5
+				id: "2C6A2996A2D76CB8"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Rotation -> Electricity"
 			tasks: [
@@ -2355,6 +2966,12 @@
 				"The exact formula is MF/(MF + 24), and the highest possible efficiency is 92.3% with 12 &lNetherite Magnets&r."
 			]
 			id: "498C4D94CABA5FB2"
+			rewards: [{
+				count: 4
+				id: "3413EBA4DA34C5DA"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "How do they Work?"
 			tasks: [
@@ -2366,21 +2983,25 @@
 				{
 					id: "74EE1F80181A9A01"
 					item: "create_new_age:redstone_magnet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "707E8F76F56BE9CC"
 					item: "create_new_age:layered_magnet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "39F4C3E3097F4A2D"
 					item: "create_new_age:fluxuated_magnetite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "503467CEEE539528"
 					item: "create_new_age:netherite_magnet"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2391,6 +3012,12 @@
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			id: "2168DD90A98D5A70"
+			rewards: [{
+				count: 16
+				id: "2907044116EEE01C"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -2410,6 +3037,11 @@
 		{
 			dependencies: ["2168DD90A98D5A70"]
 			id: "5CEFD139268AEC4F"
+			rewards: [{
+				id: "2C398423F3DE5CA5"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Heat -> Blaze Burner"
 			tasks: [{
@@ -2423,6 +3055,11 @@
 		{
 			dependencies: ["2168DD90A98D5A70"]
 			id: "3298920DDBCC7294"
+			rewards: [{
+				id: "212E9A61E1360C4D"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Heat -> Rotation"
 			tasks: [{
@@ -2436,6 +3073,11 @@
 		{
 			dependencies: ["2168DD90A98D5A70"]
 			id: "439B90F421A1FD18"
+			rewards: [{
+				id: "33DCEFA63C6B4CA4"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Sunlight -> Heat"
 			tasks: [
@@ -2462,6 +3104,12 @@
 				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
 			]
 			id: "5915B9485B45911F"
+			rewards: [{
+				count: 2
+				id: "6FBF29EE6539512B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Electricity -> Rotation"
 			tasks: [
@@ -2488,6 +3136,12 @@
 		{
 			dependencies: ["5915B9485B45911F"]
 			id: "05E3F1FA113A16D9"
+			rewards: [{
+				count: 2
+				id: "04024C8CB4E59D61"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Increase Stress Capacity"
 			tasks: [
@@ -2514,6 +3168,12 @@
 				"36445D62CD71EE9D"
 			]
 			id: "6B0BE3E87D94EA5E"
+			rewards: [{
+				count: 8
+				id: "55D23E32D4CDA6C2"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "No Coolant Required!"
 			tasks: [
@@ -2555,6 +3215,11 @@
 				"7EC0CC2296C8B019"
 			]
 			id: "6393EDCFBE89C54F"
+			rewards: [{
+				id: "57A7BF3D0840683A"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "188D828687226EA9"
@@ -2575,6 +3240,12 @@
 				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
 			]
 			id: "3B996CEF67EA93FB"
+			rewards: [{
+				count: 3
+				id: "1469CA300F312802"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Electricity -> Rotation"
 			tasks: [{
@@ -2592,6 +3263,12 @@
 			]
 			description: ["Note: the &lAlternator&r has an efficiency of &b66.7%&r when converting &7&ospeed&r into &7FE/t&r. Compare this to the &lCreate: New Age&r &lGenerator Coil&r, which has an efficiency ranging from &b4%&r to &b92.3%&r depending on the surrounding magnets."]
 			id: "79674A00E39F4384"
+			rewards: [{
+				count: 3
+				id: "117836324DEC1FAD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Rotation -> Electricity"
 			tasks: [{

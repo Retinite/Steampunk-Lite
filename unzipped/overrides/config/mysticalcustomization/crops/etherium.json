@@ -1,0 +1,16 @@
+{
+	"name": "Etherium",
+	"type": "mysticalagriculture:resource",
+	"tier": "mysticalagradditions:6",
+	"ingredient": {
+		"item": "enigmaticlegacy:etherium_ingot"
+	},
+	"textures": {
+		"flower": "mysticalagriculture:block/etherium_crop",
+		"essence": "mysticalagriculture:item/essence/etherium_essence",
+		"seeds": "mysticalagriculture:item/seeds/etherium_seeds"
+	},
+	"crux": "enigmaticlegacy:etherium_block",
+	"baseSecondaryChance": 0.0,
+	"respectsEffectiveFarmland": false
+}

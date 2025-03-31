@@ -12,7 +12,13 @@
 			disable_toast: true
 			id: "4BBDA8CC26083BA2"
 			optional: true
+			rewards: [{
+				id: "79DDCC7F70B468E6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Buried Treasure"
 			tasks: [{
 				id: "2F2BE7873973A1F0"
 				item: {
@@ -31,7 +37,13 @@
 			disable_toast: true
 			id: "185ACE4828061014"
 			optional: true
+			rewards: [{
+				id: "6B1DEF00021C2040"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Igloo"
 			tasks: [{
 				id: "087EE16D1695E3A1"
 				item: {
@@ -50,7 +62,13 @@
 			disable_toast: true
 			id: "2D9D16DEC88C2B99"
 			optional: true
+			rewards: [{
+				id: "3B9C1A6832AB60B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Pillager Outpost"
 			tasks: [{
 				id: "315215B55A1F8A0B"
 				item: {
@@ -69,7 +87,13 @@
 			disable_toast: true
 			id: "11A3D3C4F111783D"
 			optional: true
+			rewards: [{
+				id: "2EAA967BA48BA0BD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Mineshaft"
 			tasks: [{
 				id: "669B9A4641BC7E15"
 				item: {
@@ -88,7 +112,13 @@
 			disable_toast: true
 			id: "0555F5F6AD983CD0"
 			optional: true
+			rewards: [{
+				id: "3192E576999082C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Nether Fortress"
 			tasks: [{
 				id: "5B4EFE98F049806E"
 				item: {
@@ -107,7 +137,13 @@
 			disable_toast: true
 			id: "65088D5AA893608A"
 			optional: true
+			rewards: [{
+				id: "444FB22B58BD5DB2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Desert Pyramid"
 			tasks: [{
 				id: "6DA51F8C09D64AB1"
 				item: {
@@ -126,7 +162,13 @@
 			disable_toast: true
 			id: "54B18D4000BD979D"
 			optional: true
+			rewards: [{
+				id: "7458DDE155F16003"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Jungle Pyramid"
 			tasks: [{
 				id: "7B38644EB80A21FC"
 				item: {
@@ -145,7 +187,13 @@
 			disable_toast: true
 			id: "557E6830F6A922FE"
 			optional: true
+			rewards: [{
+				id: "2396EBFCCB5FBBD8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Bastion Remnant"
 			tasks: [{
 				id: "616C5F7FAD356FDE"
 				item: {
@@ -164,7 +212,13 @@
 			disable_toast: true
 			id: "7A7EBBBA20974182"
 			optional: true
+			rewards: [{
+				id: "3FBB079DF8AD5BC8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Master-Level Cleric Villager"
 			tasks: [{
 				id: "44220380089A7C65"
 				item: {
@@ -180,10 +234,17 @@
 			y: 3.0d
 		}
 		{
+			description: ["30% drop chance, unaffected by &dLooting&r."]
 			disable_toast: true
 			id: "2EC4CAFB2CB3223A"
 			optional: true
+			rewards: [{
+				id: "5359A2746A8EBF7F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Elder Guardian"
 			tasks: [{
 				id: "13A938CEA2033B47"
 				item: {
@@ -199,10 +260,17 @@
 			y: 2.5d
 		}
 		{
+			description: ["5% drop chance, unaffected by &dLooting&r."]
 			disable_toast: true
 			id: "55D24C91DDCED714"
 			optional: true
+			rewards: [{
+				id: "756DDEA05056414B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Woodland Mansion / Evoker"
 			tasks: [{
 				id: "037D96E2619A762A"
 				item: {
@@ -218,10 +286,17 @@
 			y: 2.0d
 		}
 		{
+			description: ["99% drop chance, unaffected by &dLooting&r."]
 			disable_toast: true
 			id: "2A21C488CD653F07"
 			optional: true
+			rewards: [{
+				id: "522C497B01AFE3DA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Wither"
 			tasks: [{
 				id: "3A2AA9C7744928E1"
 				item: {
@@ -237,11 +312,17 @@
 			y: 1.0d
 		}
 		{
+			description: ["&oWitch Pupils&r have a 10% drop chance from Witches, unaffected by &dLooting&r."]
 			disable_toast: true
 			id: "71ACC02FF39DE539"
 			optional: true
+			rewards: [{
+				id: "4C29445EBBEF2FA5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
-			subtitle: "Craftable"
+			subtitle: "Witch"
 			tasks: [{
 				id: "7364CFB14CED976F"
 				item: {
@@ -257,11 +338,17 @@
 			y: 0.0d
 		}
 		{
+			description: ["&oUndead Souls&r have a 25% drop chance from Skeleton Horses, unaffected by &dLooting&r."]
 			disable_toast: true
 			id: "6D874C0E28F0366C"
 			optional: true
+			rewards: [{
+				id: "52B9AA1E8F18AD10"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
-			subtitle: "Craftable"
+			subtitle: "Skeleton Horse"
 			tasks: [{
 				id: "6A0A1D161BDAD69A"
 				item: {
@@ -280,6 +367,11 @@
 			disable_toast: true
 			id: "51FFF9A2CADB0261"
 			optional: true
+			rewards: [{
+				id: "020909A9A7F68597"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			subtitle: "Craftable"
 			tasks: [{
@@ -297,10 +389,17 @@
 			y: -2.0d
 		}
 		{
+			description: ["Enchanting items at an &lEnchanting Table&r has a 1/120 (0.83%) chance of spawning a &oCryptic Eye&r."]
 			disable_toast: true
 			id: "5204D73D3FC4BA82"
 			optional: true
+			rewards: [{
+				id: "2A1E5D89467D6222"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
+			subtitle: "Enchanting"
 			tasks: [{
 				id: "30C2143273B82D8E"
 				item: {
@@ -334,6 +433,7 @@
 				"4BBDA8CC26083BA2"
 				"5204D73D3FC4BA82"
 			]
+			description: ["&cNote: each &oEye&r&c still has a 10\\% chance of not dropping when used to locate the Stronghold!&r"]
 			disable_toast: true
 			id: "1C4E8634082EA133"
 			min_required_dependencies: 12

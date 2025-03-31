@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Steampunk Lite",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": "",
   "files": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "projectID": 817709,
-      "fileID": 6212239,
+      "fileID": 6369317,
       "required": true
     },
     {
@@ -131,7 +131,7 @@
     },
     {
       "projectID": 832882,
-      "fileID": 6277111,
+      "fileID": 6361328,
       "required": true
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "projectID": 342584,
-      "fileID": 6271556,
+      "fileID": 6367085,
       "required": true
     },
     {
@@ -446,7 +446,7 @@
     },
     {
       "projectID": 531761,
-      "fileID": 6355147,
+      "fileID": 6362504,
       "required": true
     },
     {
@@ -621,7 +621,7 @@
     },
     {
       "projectID": 551586,
-      "fileID": 6331219,
+      "fileID": 6370058,
       "required": true
     },
     {
@@ -656,7 +656,7 @@
     },
     {
       "projectID": 619320,
-      "fileID": 6217888,
+      "fileID": 6368587,
       "required": true
     },
     {
@@ -711,7 +711,7 @@
     },
     {
       "projectID": 968868,
-      "fileID": 6312779,
+      "fileID": 6363524,
       "required": true
     },
     {
@@ -726,7 +726,7 @@
     },
     {
       "projectID": 618298,
-      "fileID": 6317048,
+      "fileID": 6370947,
       "required": true
     },
     {
@@ -777,6 +777,11 @@
     {
       "projectID": 1111501,
       "fileID": 5991466,
+      "required": true
+    },
+    {
+      "projectID": 280441,
+      "fileID": 5581873,
       "required": true
     },
     {
@@ -973,11 +978,6 @@
       "projectID": 1134260,
       "fileID": 6168640,
       "required": true
-    },
-    {
-      "projectID": 978125,
-      "fileID": 6077107,
-      "required": false
     },
     {
       "projectID": 60028,

@@ -1,0 +1,16 @@
+{
+	"name": "Astral",
+	"type": "mysticalagriculture:resource",
+	"tier": "mysticalagradditions:6",
+	"ingredient": {
+		"item": "enigmaticlegacy:astral_dust"
+	},
+	"textures": {
+		"flower": "mysticalagriculture:block/astral_crop",
+		"essence": "mysticalagriculture:item/essence/astral_essence",
+		"seeds": "mysticalagriculture:item/seeds/astral_seeds"
+	},
+	"crux": "enigmaticlegacy:astral_block",
+	"baseSecondaryChance": 0.0,
+	"respectsEffectiveFarmland": false
+}

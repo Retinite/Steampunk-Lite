@@ -26,6 +26,11 @@
 		{
 			dependencies: ["43DF27CE014208B8"]
 			id: "24D8EB0701036BB9"
+			rewards: [{
+				id: "02B91EB49540EA07"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
 			tasks: [{
 				entity: "cataclysm:ignis"
@@ -65,6 +70,11 @@
 				"462ED88CF65E1895"
 			]
 			id: "472FB4307A8EDF85"
+			rewards: [{
+				id: "65F19579CF9B37C8"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
@@ -95,6 +105,11 @@
 		{
 			dependencies: ["3A2368FDFE40AEF3"]
 			id: "2908B2125440F472"
+			rewards: [{
+				id: "73C8F3F24F4662D2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
 			tasks: [{
 				entity: "cataclysm:maledictus"
@@ -131,6 +146,11 @@
 		{
 			dependencies: ["615D366CA321770E"]
 			id: "158ADA4D17A57CF4"
+			rewards: [{
+				id: "147DDF793D2815D9"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
@@ -161,6 +181,11 @@
 		{
 			dependencies: ["01161EF6B666545C"]
 			id: "79343430C86EDFC1"
+			rewards: [{
+				id: "02FADD132F8E6B38"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
@@ -191,6 +216,11 @@
 		{
 			dependencies: ["513AAC47E228D04B"]
 			id: "5871ACC96CAD791B"
+			rewards: [{
+				id: "6A96E1141D72ADAA"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
@@ -221,6 +251,11 @@
 		{
 			dependencies: ["16C1BDA85AA30FB6"]
 			id: "7A21C8888B6189C0"
+			rewards: [{
+				id: "5ADC9B95D9257A8F"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "octagon"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
@@ -280,9 +315,16 @@
 		}
 		{
 			dependencies: ["0C50E0851298AB9E"]
+			description: ["&lCataclysm&r &oEyes&r cannot be destroyed, are not lost on use, and glow when dropped!"]
 			id: "1E8EA2444E13F53D"
 			optional: true
+			rewards: [{
+				id: "0247349772BFB19C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
+			subtitle: "Only Need One!"
 			tasks: [{
 				id: "66D35DDCAA1D6151"
 				item: "cataclysm:desert_eye"
@@ -293,9 +335,16 @@
 		}
 		{
 			dependencies: ["0C50E0851298AB9E"]
+			description: ["&lCataclysm&r &oEyes&r cannot be destroyed, are not lost on use, and glow when dropped!"]
 			id: "628A4492D4595E37"
 			optional: true
+			rewards: [{
+				id: "6847509E4A953AD5"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
+			subtitle: "Only Need One!"
 			tasks: [{
 				id: "06D55442ED34F6DC"
 				item: "cataclysm:abyss_eye"
@@ -306,9 +355,16 @@
 		}
 		{
 			dependencies: ["0C50E0851298AB9E"]
+			description: ["&lCataclysm&r &oEyes&r cannot be destroyed, are not lost on use, and glow when dropped!"]
 			id: "02BF0CB89C1F3842"
 			optional: true
+			rewards: [{
+				id: "07CF7FF13425AD7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
+			subtitle: "Only Need One!"
 			tasks: [{
 				id: "5F7F41351D717547"
 				item: "cataclysm:mech_eye"
@@ -319,9 +375,16 @@
 		}
 		{
 			dependencies: ["0C50E0851298AB9E"]
+			description: ["&lCataclysm&r &oEyes&r cannot be destroyed, are not lost on use, and glow when dropped!"]
 			id: "266BB5ACFB296507"
 			optional: true
+			rewards: [{
+				id: "5068DF07115C4F4B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
+			subtitle: "Only Need One!"
 			tasks: [{
 				id: "151B7F53547462D3"
 				item: "cataclysm:cursed_eye"
@@ -332,9 +395,16 @@
 		}
 		{
 			dependencies: ["454041D02584CDFA"]
+			description: ["&lCataclysm&r &oEyes&r cannot be destroyed, are not lost on use, and glow when dropped!"]
 			id: "37784AC7357E78BC"
 			optional: true
+			rewards: [{
+				id: "748416046AED01A6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
+			subtitle: "Only Need One!"
 			tasks: [{
 				id: "1806DCE47D56048D"
 				item: "cataclysm:monstrous_eye"
@@ -345,9 +415,16 @@
 		}
 		{
 			dependencies: ["454041D02584CDFA"]
+			description: ["&lCataclysm&r &oEyes&r cannot be destroyed, are not lost on use, and glow when dropped!"]
 			id: "3BBE11E0CD23C76B"
 			optional: true
+			rewards: [{
+				id: "688361539481CA0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
+			subtitle: "Only Need One!"
 			tasks: [{
 				id: "7A0C66CED0952E27"
 				item: "cataclysm:flame_eye"
@@ -358,9 +435,16 @@
 		}
 		{
 			dependencies: ["46FE6D405789D17D"]
+			description: ["&lCataclysm&r &oEyes&r cannot be destroyed, are not lost on use, and glow when dropped!"]
 			id: "297F92936604A8C8"
 			optional: true
+			rewards: [{
+				id: "50321E7B666261EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
+			subtitle: "Only Need One!"
 			tasks: [{
 				id: "4D0A705DDC143E91"
 				item: "cataclysm:void_eye"
@@ -372,6 +456,11 @@
 		{
 			id: "526908611DC801BB"
 			optional: true
+			rewards: [{
+				id: "4AE64EB1B4DBF7B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6080432B4C7D2847"
@@ -397,6 +486,12 @@
 			dependencies: ["78EEE4C7A7A2EBDD"]
 			id: "468D508C614EE79D"
 			optional: true
+			rewards: [{
+				count: 3
+				id: "61465F56E7605150"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -430,6 +525,12 @@
 			dependencies: ["78EEE4C7A7A2EBDD"]
 			id: "50D325F44291727A"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "053B21402847F35D"
+				item: "cataclysm:ancient_metal_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7359069F27B5EF19"
@@ -469,6 +570,12 @@
 			dependencies: ["25226FDC2F25A3EC"]
 			id: "5253259E93EA5416"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "1292E1FC85B6635D"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -529,6 +636,12 @@
 			dependencies: ["25226FDC2F25A3EC"]
 			id: "57E55D2C77B6EFFB"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "4A5F91A0A8748376"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "404AC74ED6E11E91"
@@ -543,6 +656,11 @@
 			hide_dependent_lines: true
 			id: "33CD42C2176CB5BF"
 			optional: true
+			rewards: [{
+				id: "09D518C4924E0042"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "71A4CA56B178324A"
@@ -557,6 +675,11 @@
 			hide_dependent_lines: true
 			id: "3F0F3E18DEC412C9"
 			optional: true
+			rewards: [{
+				id: "723198F86BB7963E"
+				item: "cataclysm:cursium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0FBA8A0A0C2F2F70"
@@ -578,6 +701,11 @@
 			]
 			id: "07FBD6D460A04BE4"
 			optional: true
+			rewards: [{
+				id: "29DCF513C85C7A77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6BF96B64DC220505"
@@ -682,6 +810,12 @@
 			hide_dependent_lines: true
 			id: "28E77E6208F189E3"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "128933FE3EA9A4D1"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -742,6 +876,11 @@
 			dependencies: ["5C5D51C890424BB5"]
 			id: "6986E568F3BDE74E"
 			optional: true
+			rewards: [{
+				id: "1D8E15B70FF151A8"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "21AB7D7B766A8A1A"
@@ -756,6 +895,11 @@
 			hide_dependent_lines: true
 			id: "314A173D7B0E30DD"
 			optional: true
+			rewards: [{
+				id: "46F4F0FE5EB1CA45"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6BD3BBACDC3A8F64"
@@ -769,6 +913,12 @@
 			dependencies: ["5C5D51C890424BB5"]
 			id: "32F2A9672EDF2F6E"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "701FDAF014829335"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3BA309BB5444E6A5"
@@ -822,6 +972,11 @@
 			hide_dependent_lines: true
 			id: "40808A9C90ACCE40"
 			optional: true
+			rewards: [{
+				id: "66614806468ADC25"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6726DA5A277A627D"
@@ -835,6 +990,11 @@
 			dependencies: ["3916F877E1BD1D16"]
 			id: "10E12A6A98830A52"
 			optional: true
+			rewards: [{
+				id: "04AD2992C0AEE512"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2714F1B95E7FA0D3"
@@ -855,6 +1015,11 @@
 			dependencies: ["3916F877E1BD1D16"]
 			id: "1EA1B83AFE56A2D1"
 			optional: true
+			rewards: [{
+				id: "7FD63A8DDBCE3720"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "29369C970C9558CA"
@@ -872,6 +1037,11 @@
 			]
 			id: "04AC5F317020DE7D"
 			optional: true
+			rewards: [{
+				id: "3126C4A082DEE310"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6F3B77896A2D21FC"
@@ -890,6 +1060,11 @@
 			hide_dependency_lines: true
 			id: "68CB06ABE74F27C9"
 			optional: true
+			rewards: [{
+				id: "25FE2BE27EC34A56"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "19BDB1D4A17C1686"
@@ -906,6 +1081,11 @@
 			]
 			id: "1E522E56FD0143F2"
 			optional: true
+			rewards: [{
+				id: "722610CF4A52B26E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "60C99A68416564ED"
@@ -929,6 +1109,11 @@
 			]
 			id: "586C1797D7F20E0D"
 			optional: true
+			rewards: [{
+				id: "6D0454EAECFA1FBD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "14784A8A510BE242"
@@ -946,6 +1131,11 @@
 			]
 			id: "2C1F0E2BA6E77F9C"
 			optional: true
+			rewards: [{
+				id: "60ED0AB853D46206"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5B28B168C117DA40"
@@ -969,6 +1159,11 @@
 			]
 			id: "67A74EB1CD9BE47C"
 			optional: true
+			rewards: [{
+				id: "1C52D35E9E69BA07"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "750C698847B2CB75"
@@ -990,6 +1185,11 @@
 			]
 			id: "449B22A74A9B2DC3"
 			optional: true
+			rewards: [{
+				id: "5BDA97ABD88341F5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "34DA32123F52A81E"
@@ -1007,6 +1207,7 @@
 				"Can be picked up with a &oBucket&r."
 			]
 			id: "421B6D7A27D2AAC9"
+			shape: "gear"
 			subtitle: "Friend!"
 			tasks: [{
 				id: "7702A4C63D121165"
@@ -1025,7 +1226,7 @@
 			]
 			id: "164DFA89D6EC964D"
 			optional: true
-			shape: "diamond"
+			shape: "gear"
 			subtitle: "Friend!"
 			tasks: [{
 				id: "624157B5DC5120EA"
@@ -1043,6 +1244,7 @@
 				"Can be picked up with a &oBucket&r."
 			]
 			id: "6A70254BFD582704"
+			shape: "gear"
 			subtitle: "Friend!"
 			tasks: [{
 				id: "4223D5FE9ABFB451"
@@ -1055,6 +1257,11 @@
 		{
 			id: "01E79D78B94D6536"
 			optional: true
+			rewards: [{
+				id: "7C65036A52BF2F20"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7676465C8E6E754C"
@@ -1089,6 +1296,11 @@
 		{
 			id: "6034DBB7AF1DBB60"
 			optional: true
+			rewards: [{
+				id: "3878E54819929CAD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2B7C819A00705138"
@@ -1107,6 +1319,11 @@
 		{
 			id: "2C69EFC2602612F6"
 			optional: true
+			rewards: [{
+				id: "38216CFA09BCC40C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "23447A26A0EFC5EE"

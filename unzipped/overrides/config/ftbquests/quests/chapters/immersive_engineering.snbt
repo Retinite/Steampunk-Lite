@@ -16,6 +16,17 @@
 	quests: [
 		{
 			id: "4B8DAA329FFFB018"
+			rewards: [{
+				id: "45E814E7ADC6279C"
+				item: {
+					Count: 1
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "2B715E9180B2A36B"
@@ -33,17 +44,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "733065A29AD7662E"
-					item: {
-						Count: 1
-						id: "immersiveengineering:wirecutter"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			title: "Starting Out"
 			x: -7.5d
@@ -54,6 +54,11 @@
 			icon: "immersiveengineering:coke_oven"
 			id: "07A3512BE6820899"
 			progression_mode: "linear"
+			rewards: [{
+				id: "78C25E76602D04BF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Coal -> Coal Coke \\& Creosote Oil"
@@ -83,6 +88,11 @@
 			icon: "immersiveengineering:blast_furnace"
 			id: "00FE0018DAC9530C"
 			progression_mode: "linear"
+			rewards: [{
+				id: "3B44CCD28A0F8290"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Coal Coke + Iron -> Steel"
@@ -110,6 +120,11 @@
 		{
 			dependencies: ["4B8DAA329FFFB018"]
 			id: "78389F626C0EDFC8"
+			rewards: [{
+				id: "26DD6A80D90EBBC4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -137,6 +152,12 @@
 			dependencies: ["78389F626C0EDFC8"]
 			hide_dependent_lines: true
 			id: "69BF8DC77D2B3DEB"
+			rewards: [{
+				count: 4
+				id: "5EB8C8307C00C774"
+				item: "immersiveengineering:insulating_glass"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "21DB896D9C0CC4DE"
@@ -149,7 +170,8 @@
 		{
 			dependencies: ["78389F626C0EDFC8"]
 			id: "0E161AF24CC32B32"
-			shape: "rsquare"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "41E77E6E0A706E24"
 				item: "create:brass_ingot"
@@ -165,6 +187,12 @@
 			]
 			hide_dependent_lines: true
 			id: "1C3885AF22DA0853"
+			rewards: [{
+				count: 4
+				id: "7D648D29A0C266FD"
+				item: "immersiveengineering:ingot_constantan"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "37E407EEE5639242"
@@ -181,6 +209,12 @@
 			]
 			hide_dependent_lines: true
 			id: "04DE8F6A7D03529B"
+			rewards: [{
+				count: 4
+				id: "6986CB0C44038093"
+				item: "immersiveengineering:ingot_electrum"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "48A5408AC2B3B8FD"
@@ -193,6 +227,11 @@
 		{
 			dependencies: ["07A3512BE6820899"]
 			id: "4BDE1FEE00BD3F81"
+			rewards: [{
+				id: "1DDE081A32AE6726"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -204,32 +243,26 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4BDE1FEE00BD3F81"
-				"73876826324C8B80"
-			]
+			dependencies: ["4BDE1FEE00BD3F81"]
 			hide_dependent_lines: true
 			id: "44182A4CB3B6B243"
-			shape: "square"
-			tasks: [
-				{
-					id: "00670B9CFA5A49A2"
-					item: "immersiveengineering:workbench"
-					type: "item"
-				}
-				{
-					id: "1055DF51C93C00A9"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "components"
-						}
+			rewards: [{
+				id: "25CC973882C37501"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
 					}
-					match_nbt: true
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "00670B9CFA5A49A2"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
 			x: -4.5d
 			y: -1.5d
 		}
@@ -255,6 +288,12 @@
 			dependencies: ["0B2E407B7F9ACBF5"]
 			hide_dependent_lines: true
 			id: "20359BE0395FB6A7"
+			rewards: [{
+				count: 4
+				id: "28804A6DF44F0A0F"
+				item: "immersiveengineering:hemp_fabric"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "65AB9FA790B6E957"
@@ -267,6 +306,11 @@
 		{
 			dependencies: ["20359BE0395FB6A7"]
 			id: "3CEC2C6D722748FA"
+			rewards: [{
+				id: "4D07134BE651D2EA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				count: 8L
@@ -280,6 +324,11 @@
 		{
 			dependencies: ["4BDE1FEE00BD3F81"]
 			id: "65ABA8574D5F5BE4"
+			rewards: [{
+				id: "58AAA8A2709786CA"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "38DD5D90126BE908"
@@ -295,6 +344,11 @@
 				"1D6035218BEC3146"
 			]
 			id: "6010D041B437355F"
+			rewards: [{
+				id: "4DF6967EA3BD2045"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "63E4344215DC5F3B"
@@ -342,6 +396,12 @@
 		{
 			dependencies: ["00FE0018DAC9530C"]
 			id: "1D6035218BEC3146"
+			rewards: [{
+				count: 4
+				id: "3EF7D3C4E84DEFB8"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
@@ -359,6 +419,12 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "4BD08447DF919D4C"
+			rewards: [{
+				count: 2
+				id: "3F559D49B7B37AE3"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "12EC2586A643994A"
@@ -377,6 +443,12 @@
 			]
 			hide_dependent_lines: true
 			id: "0E74B67959DF0D91"
+			rewards: [{
+				count: 8
+				id: "447C45C11725C415"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "How To Wire"
 			tasks: [
@@ -407,6 +479,12 @@
 			]
 			hide_dependent_lines: true
 			id: "2E947EF5DBAD37A5"
+			rewards: [{
+				count: 8
+				id: "78937855E049C75F"
+				item: "immersiveengineering:wirecoil_electrum"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -437,6 +515,12 @@
 				"3D142BA53D3DFA89"
 			]
 			id: "66464C4E5548CE13"
+			rewards: [{
+				count: 8
+				id: "474B699CA65E0000"
+				item: "immersiveengineering:wirecoil_steel"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -467,6 +551,20 @@
 			]
 			id: "31DC95734F0D2FA0"
 			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "503030444B0FBBE1"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0263F43CAEC18A76"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -487,6 +585,11 @@
 		{
 			dependencies: ["44182A4CB3B6B243"]
 			id: "61B5F005FEAB4AD3"
+			rewards: [{
+				id: "674657803C59E4AF"
+				item: "immersiveengineering:transformer"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "759436ECF51415CD"
@@ -499,6 +602,11 @@
 		{
 			dependencies: ["44182A4CB3B6B243"]
 			id: "3D142BA53D3DFA89"
+			rewards: [{
+				id: "43B1BEE946828DF4"
+				item: "immersiveengineering:transformer_hv"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4657198732301BAA"
@@ -517,6 +625,11 @@
 			icon: "immersiveengineering:metal_press"
 			id: "62BC4E4F43C8F6A4"
 			progression_mode: "linear"
+			rewards: [{
+				id: "40BA8527D53BF9F6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -566,6 +679,12 @@
 				"20359BE0395FB6A7"
 			]
 			id: "70D43E3DFA8C52E9"
+			rewards: [{
+				count: 16
+				id: "4AD10BE0C11E8830"
+				item: "immersiveengineering:conveyor_basic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -601,27 +720,24 @@
 		{
 			dependencies: ["62BC4E4F43C8F6A4"]
 			id: "080354E89C93A17B"
+			rewards: [{
+				id: "69854FB3843C5EC7"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [
-				{
-					id: "0A3940C845B25BD4"
-					item: "create:iron_sheet"
-					type: "item"
-				}
-				{
-					id: "1D686078E2575BB1"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "molds"
-						}
-					}
-					match_nbt: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0A3940C845B25BD4"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
 			x: 3.0d
 			y: 0.0d
 		}
@@ -629,33 +745,34 @@
 			dependencies: ["62BC4E4F43C8F6A4"]
 			id: "1F010F0A7E421E67"
 			optional: true
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "45656619B6AA0229"
-					item: "immersiveengineering:empty_casing"
-					type: "item"
-				}
-				{
-					id: "66F2DA5639411B71"
-					item: {
-						Count: 1
-						id: "immersiveengineering:blueprint"
-						tag: {
-							blueprint: "bullet"
-						}
+			rewards: [{
+				id: "1481CDCFF86A232D"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "bullet"
 					}
-					match_nbt: true
-					type: "item"
 				}
-			]
-			title: "Guns \\& Ammo"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "45656619B6AA0229"
+				item: "immersiveengineering:empty_casing"
+				type: "item"
+			}]
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			id: "3CC6D84265547A96"
 			optional: true
+			rewards: [{
+				id: "5A36C380E7F391C7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "75D8E4383F8D114F"
@@ -677,6 +794,11 @@
 			dependencies: ["1F010F0A7E421E67"]
 			id: "29433128FFBC9F15"
 			optional: true
+			rewards: [{
+				id: "121775BA9BF3FF11"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "1F9CE4052822C8C9"
@@ -699,6 +821,11 @@
 			icon: "immersiveengineering:squeezer"
 			id: "32D66C3B6FEC83B3"
 			progression_mode: "linear"
+			rewards: [{
+				id: "3A0D02007B9A1611"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -767,6 +894,11 @@
 			icon: "immersiveengineering:crusher"
 			id: "5F4E9B7A1B041E80"
 			progression_mode: "linear"
+			rewards: [{
+				id: "15004798E8143F02"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "square"
 			size: 1.5d
 			tasks: [
@@ -823,6 +955,11 @@
 			icon: "immersiveengineering:silo"
 			id: "19F0A230B962F137"
 			progression_mode: "linear"
+			rewards: [{
+				id: "52415A7469119FD4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			subtitle: "41472 Items"
 			tasks: [
@@ -859,6 +996,11 @@
 			icon: "immersiveengineering:tank"
 			id: "6E857313CB381FB7"
 			progression_mode: "linear"
+			rewards: [{
+				id: "3B49BEB79F6F8EAF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			subtitle: "512 Buckets"
 			tasks: [
@@ -898,6 +1040,11 @@
 			icon: "immersiveengineering:excavator"
 			id: "33DD6C57F683EC72"
 			progression_mode: "linear"
+			rewards: [{
+				id: "73E7BF9370430170"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "square"
 			size: 2.0d
 			subtitle: "Below Bedrock"
@@ -969,6 +1116,11 @@
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "59D37FE10E6C52DE"
 			progression_mode: "linear"
+			rewards: [{
+				id: "350BE8E90F6D3483"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "square"
 			subtitle: "Automated"
 			tasks: [
@@ -1003,6 +1155,11 @@
 			dependencies: ["59D37FE10E6C52DE"]
 			id: "11B8F13FB69E718C"
 			optional: true
+			rewards: [{
+				id: "3964B4737F1A6E45"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			subtitle: "Faster Blasting"
 			tasks: [{
@@ -1019,6 +1176,11 @@
 			icon: "immersiveengineering:arc_furnace"
 			id: "07795E655D858F12"
 			progression_mode: "linear"
+			rewards: [{
+				id: "665A5785D0047120"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1101,6 +1263,11 @@
 			dependencies: ["29F0E4A278B0B713"]
 			id: "57C1055318E294C1"
 			optional: true
+			rewards: [{
+				id: "33CC3B72542DFCCC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "62F3B72FF4A30E32"
@@ -1151,6 +1318,11 @@
 			icon: "immersiveengineering:sawmill"
 			id: "5122A74FE27D1D94"
 			progression_mode: "linear"
+			rewards: [{
+				id: "1D151823EC7CEECC"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1224,6 +1396,11 @@
 			icon: "immersiveengineering:bottling_machine"
 			id: "4EE33B1D13F9F1CE"
 			progression_mode: "linear"
+			rewards: [{
+				id: "4433489B3C3BE511"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1286,6 +1463,11 @@
 			icon: "immersiveengineering:assembler"
 			id: "4BEF6A0762A6E443"
 			progression_mode: "linear"
+			rewards: [{
+				id: "485DDD2C678B76A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			subtitle: "Auto-Crafter Mk. 2"
 			tasks: [
@@ -1353,6 +1535,11 @@
 			icon: "immersiveengineering:auto_workbench"
 			id: "518C7B17F0E5BD58"
 			progression_mode: "linear"
+			rewards: [{
+				id: "414A032B4F837DE6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			subtitle: "Auto-Crafter Mk. 1"
 			tasks: [
@@ -1417,6 +1604,11 @@
 			icon: "immersiveengineering:lightning_rod"
 			id: "6B34D7A76CD3B43D"
 			progression_mode: "linear"
+			rewards: [{
+				id: "27809802106D5A97"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			subtitle: "Free Energy"
 			tasks: [
@@ -1486,6 +1678,11 @@
 			icon: "immersiveengineering:fermenter"
 			id: "589D7002AEE81499"
 			progression_mode: "linear"
+			rewards: [{
+				id: "2D3883B43E0F96A5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1548,6 +1745,11 @@
 			icon: "immersiveengineering:mixer"
 			id: "0C855D518E2051B8"
 			progression_mode: "linear"
+			rewards: [{
+				id: "0D93270AC2A64762"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1609,6 +1811,11 @@
 			icon: "immersiveengineering:refinery"
 			id: "7BCE239C95D3E1BD"
 			progression_mode: "linear"
+			rewards: [{
+				id: "76E481A2238EF314"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1674,6 +1881,11 @@
 			icon: "immersiveengineering:diesel_generator"
 			id: "2A781DAEE2757D11"
 			progression_mode: "linear"
+			rewards: [{
+				id: "1BDF7E0E0F1659F6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -1734,9 +1946,17 @@
 		}
 		{
 			dependencies: ["1F010F0A7E421E67"]
+			description: ["Check out available upgrades at an &lEngineer's Workbench&r!"]
 			hide_dependent_lines: true
 			id: "7CDD2CFF3099069D"
 			optional: true
+			rewards: [{
+				count: 16
+				id: "3384414ED17A7980"
+				item: "immersiveengineering:casull"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2BD37257BA6100A9"
 				item: {
@@ -1752,7 +1972,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1761,6 +1981,13 @@
 				"4EE33B1D13F9F1CE"
 			]
 			id: "0E32ABD217057D7E"
+			optional: true
+			rewards: [{
+				id: "59612279A8A029EF"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "61366206FB9EA3DB"
 				item: {
@@ -1782,6 +2009,12 @@
 			dependencies: ["62BC4E4F43C8F6A4"]
 			id: "7300608F37649385"
 			optional: true
+			rewards: [{
+				id: "13DC455CAF017D27"
+				item: "immersiveengineering:crate"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "27CD132C544ED4E6"
 				item: {
@@ -1804,9 +2037,21 @@
 				"04DE8F6A7D03529B"
 				"62BC4E4F43C8F6A4"
 			]
+			description: [
+				"Check out available upgrades at an &lEngineer's Workbench&r!"
+				""
+				"Must be loaded through a machine with a liquid output, a &lBottling Machine&r, or by '&bRight Clicking&r' the &oChemical Thrower&r on a &lMetal Barrel&r."
+			]
 			hide_dependent_lines: true
 			id: "518D5F88EE6FCA70"
 			optional: true
+			rewards: [{
+				id: "27AFFB5926BE5377"
+				item: "immersiveengineering:metal_barrel"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Fluid Sprayer"
 			tasks: [{
 				id: "70CBBFB1DC985A0D"
 				item: {
@@ -1822,15 +2067,35 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
 				"04DE8F6A7D03529B"
 				"62BC4E4F43C8F6A4"
 			]
+			description: [
+				"Equip a disk or blade at an &lEngineer's Workbench&r. Also check out available upgrades!"
+				""
+				"&oSawblade&r - wood"
+				"&oRockcutter Blade&r - stone"
+				"&oGrinding Disk&r - metal"
+			]
 			id: "501AD114886AB306"
 			optional: true
+			rewards: [{
+				id: "2D46D1D19C3AB94B"
+				item: {
+					Count: 1
+					id: "immersiveengineering:sawblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "3 Modes!"
 			tasks: [{
 				id: "42C99D52241E78E0"
 				item: {
@@ -1853,8 +2118,15 @@
 				"04DE8F6A7D03529B"
 				"62BC4E4F43C8F6A4"
 			]
+			description: ["Check out available upgrades at an &lEngineer's Workbench&r!"]
 			id: "2475830ECCC496A5"
 			optional: true
+			rewards: [{
+				id: "7A25F5D8A9D3A569"
+				item: "immersiveengineering:drillhead_iron"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "207306341A042CA5"
 				item: {
@@ -1879,7 +2151,12 @@
 			]
 			id: "03DAEC1066F753B9"
 			optional: true
-			shape: "square"
+			rewards: [{
+				id: "0141CC5870CBDAEB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "715DFA6A3A53B97D"
 				item: "immersiveengineering:tesla_coil"
@@ -1895,7 +2172,12 @@
 			]
 			id: "0152489D2F19BD8C"
 			optional: true
-			shape: "square"
+			rewards: [{
+				id: "4E9C9519ED2C1F07"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "7FE65390D81083E8"
 				item: "immersiveengineering:turret_chem"
@@ -1911,7 +2193,12 @@
 			]
 			id: "384E12102F65F702"
 			optional: true
-			shape: "square"
+			rewards: [{
+				id: "76250DAE0DCFB280"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "694EC5942D48F9E7"
 				item: "immersiveengineering:turret_gun"
@@ -1924,6 +2211,13 @@
 			dependencies: ["62BC4E4F43C8F6A4"]
 			id: "69F42A427B85D2A9"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "6CDF54D572ED2E3B"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "16CB2823381B69D3"
 				item: {
@@ -1939,7 +2233,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1947,6 +2241,17 @@
 				"20359BE0395FB6A7"
 			]
 			id: "3AF76F9053A9811B"
+			rewards: [{
+				id: "302F0C76D2B76992"
+				item: {
+					Count: 1
+					id: "immersiveengineering:glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "29E8C6FF17889C48"
 				item: {
@@ -1964,6 +2269,11 @@
 		{
 			dependencies: ["080354E89C93A17B"]
 			id: "5D91262DEA7C0482"
+			rewards: [{
+				id: "121B5AB9B5B4CBDC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -1984,17 +2294,65 @@
 		{
 			dependencies: ["080354E89C93A17B"]
 			id: "462615EE3B855253"
+			rewards: [{
+				id: "08A0C3B34D14D92F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Where to Excavate"
 			tasks: [{
-				id: "42038B747AFB76C4"
-				item: "immersiveengineering:sample_drill"
+				id: "16756AF4CEC8E1BB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "immersiveengineering:survey_tools"
+								tag: {
+									Damage: 0
+									veinData: [{
+										data: [
+											{
+												hint: "{\"translate\":\"chat.immersiveengineering.info.survey.hint.1\",\"with\":[{\"translate\":\"desc.immersiveengineering.info.mineral.beryl\"}]}"
+												x: 130
+												z: -78
+											}
+											{
+												hint: "{\"translate\":\"chat.immersiveengineering.info.survey.hint.2\",\"with\":[{\"translate\":\"desc.immersiveengineering.info.mineral.beryl\"},{\"translate\":\"chat.immersiveengineering.info.survey.direction.3\"}]}"
+												x: 116
+												z: -81
+											}
+										]
+										dimension: "minecraft:overworld"
+										x: 109
+										z: -103
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "immersiveengineering:sample_drill"
+							}
+						]
+					}
+				}
+				title: "Any Sampling Tools"
 				type: "item"
 			}]
+			title: "Mineral Sampling"
 			x: 7.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["080354E89C93A17B"]
 			id: "7A3CB9FE9AAA9A6C"
+			rewards: [{
+				id: "39A2ADACA75CB2BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0C0A0673F11E6B1B"
@@ -2007,6 +2365,11 @@
 		{
 			dependencies: ["080354E89C93A17B"]
 			id: "518A84219CBFE3D7"
+			rewards: [{
+				id: "62464B77413D1910"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "379F938BDABB47F0"
@@ -2037,6 +2400,7 @@
 					type: "item"
 				}
 			]
+			title: "Accumulators"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -2046,6 +2410,12 @@
 				"1C3885AF22DA0853"
 			]
 			id: "3393D39B03B1FB2F"
+			rewards: [{
+				count: 2
+				id: "535880EC466C081A"
+				item: "immersiveengineering:connector_lv"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5CC4CE3DE1953770"

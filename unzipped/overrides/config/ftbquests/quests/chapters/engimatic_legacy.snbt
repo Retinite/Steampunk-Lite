@@ -11,6 +11,11 @@
 		{
 			hide_dependent_lines: true
 			id: "41B128B8DD6FD84E"
+			rewards: [{
+				id: "244906B3469C22F1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6718CD71B8BB1DD6"
 				item: "enigmaticlegacy:the_acknowledgment"
@@ -26,8 +31,13 @@
 			]
 			id: "6A0E75FC26269C99"
 			optional: true
+			rewards: [{
+				id: "4140918B9BCFC860"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "2A5F385915DB851F"
 				item: "enigmaticaddons:false_justice"
@@ -44,6 +54,11 @@
 			]
 			id: "4E375ADC7A242463"
 			optional: true
+			rewards: [{
+				id: "34F5F68419E00166"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -62,8 +77,13 @@
 			]
 			id: "0BC18BCD2B55F958"
 			optional: true
+			rewards: [{
+				id: "774F93E9E568F3FE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "764E1C163C47E258"
 				item: "enigmaticlegacy:the_twist"
@@ -75,6 +95,11 @@
 		{
 			hide_dependent_lines: true
 			id: "3816E8C6DD7BED8C"
+			rewards: [{
+				id: "3DAE7F7170CBCB7D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "49406BD268B2C56B"
 				item: "enigmaticlegacy:animal_guidebook"
@@ -89,6 +114,11 @@
 				"6E32CDC0A9E5F8BF"
 			]
 			id: "14DEB6DD885F68A7"
+			rewards: [{
+				id: "44DF118A4FEAF36D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "016A23683225E1BB"
 				item: "enigmaticaddons:ode_to_living"
@@ -100,6 +130,11 @@
 		{
 			hide_dependent_lines: true
 			id: "317258D39212F619"
+			rewards: [{
+				id: "2DDC3B29D57E9457"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6A7A29F3D357E2FE"
 				item: "enigmaticlegacy:hunter_guidebook"
@@ -115,6 +150,11 @@
 			]
 			id: "2F0F09202CAC7756"
 			optional: true
+			rewards: [{
+				id: "0BD52D4FA803709F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -135,6 +175,11 @@
 			]
 			id: "4D4409696E28C3AA"
 			optional: true
+			rewards: [{
+				id: "4425AEF7C9F0DDD5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
 			subtitle: "Requires &cDedication&r"
 			tasks: [{
@@ -149,6 +194,11 @@
 			dependencies: ["6AEA5B5860ADD637"]
 			hide_dependent_lines: true
 			id: "6E32CDC0A9E5F8BF"
+			rewards: [{
+				id: "7B3EEB139C082EF3"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "5247B903E6C5F45B"
@@ -173,6 +223,12 @@
 			hide_dependent_lines: true
 			id: "7ED2E05F4E493810"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "6B638C76FE0772BA"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -193,6 +249,12 @@
 			hide_dependent_lines: true
 			id: "6D80F4A8EEE9CC4B"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "2C5E5E66AB157227"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -216,6 +278,7 @@
 			]
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "04323735ECC49052"
+			shape: "gear"
 			subtitle: "DECIDE ASAP"
 			tasks: [{
 				id: "1F1F06729AFD4A7B"
@@ -228,6 +291,12 @@
 		}
 		{
 			id: "2F031F5124B63CA5"
+			rewards: [{
+				count: 2
+				id: "20840543E7F3E180"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77A8FAD30D80C3FC"
 				item: "enigmaticlegacy:iron_ring"
@@ -240,6 +309,12 @@
 			dependencies: ["2F031F5124B63CA5"]
 			hide_dependent_lines: true
 			id: "41D0B52B14559094"
+			rewards: [{
+				count: 2
+				id: "44420FBADE7098B8"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "715807BFEF9AB071"
 				item: "enigmaticlegacy:golden_ring"
@@ -251,6 +326,13 @@
 		{
 			dependencies: ["2F031F5124B63CA5"]
 			id: "474D6AE57400D685"
+			optional: true
+			rewards: [{
+				id: "5C8B663291D2FFCD"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "6797D9E039A66BBC"
 				item: "enigmaticlegacy:ender_ring"
@@ -262,6 +344,11 @@
 		{
 			dependencies: ["2F031F5124B63CA5"]
 			id: "04AA0A6ECF87FE99"
+			rewards: [{
+				id: "455287B39BFDDB03"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5B3454CB645ED1AD"
 				item: "enigmaticlegacy:magnet_ring"
@@ -273,6 +360,12 @@
 		{
 			dependencies: ["04AA0A6ECF87FE99"]
 			id: "642524546E620646"
+			rewards: [{
+				count: 2
+				id: "3A8DE629FE09A545"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4239AE27467814C3"
 				item: "enigmaticlegacy:super_magnet_ring"
@@ -287,6 +380,12 @@
 				"76A4FBC39580AA87"
 			]
 			id: "11293E73819FC3BA"
+			rewards: [{
+				count: 2
+				id: "5D60D6D9857DBE5A"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E2953959FE5A32C"
 				item: "enigmaticaddons:quartz_ring"
@@ -310,6 +409,12 @@
 			dependencies: ["5F045E2354F0BA2B"]
 			hide_dependent_lines: true
 			id: "5E991A83E73E764B"
+			rewards: [{
+				count: 16
+				id: "3FE39AB0E7304655"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C8CAC671EC94A00"
 				item: {
@@ -328,6 +433,11 @@
 				"0CE2CCFAC0522849"
 			]
 			id: "24E6C306D313FF08"
+			rewards: [{
+				id: "7966B8C18837E26C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "3C922C7BDFCE9E0D"
 				item: "enigmaticlegacy:escape_scroll"
@@ -343,6 +453,11 @@
 			]
 			hide_dependent_lines: true
 			id: "6B72388F545F9F0C"
+			rewards: [{
+				id: "4C90ED1308E0D924"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			tasks: [{
 				id: "540F994775763120"
 				item: "enigmaticlegacy:heaven_scroll"
@@ -359,6 +474,11 @@
 				"50AC522E4F77BFDB"
 			]
 			id: "1E92DA7C2EDF3CDD"
+			rewards: [{
+				id: "6AEE8FF0E924259E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "4FC58969BF5C214C"
 				item: "enigmaticlegacy:fabulous_scroll"
@@ -370,6 +490,11 @@
 		{
 			dependencies: ["76A4FBC39580AA87"]
 			id: "31ADC94BA9D70E7E"
+			rewards: [{
+				id: "4B1B5F5AECF60469"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02A41DF300C53ACD"
 				item: {
@@ -389,6 +514,11 @@
 			]
 			hide_dependent_lines: true
 			id: "7A5CC709FF203AA9"
+			rewards: [{
+				id: "6835CCF057E487B7"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			subtitle: "Craftable"
 			tasks: [{
 				id: "0B2FDCAC1FD520D0"
@@ -404,6 +534,11 @@
 		}
 		{
 			id: "60A26E0A7564ED14"
+			rewards: [{
+				id: "051EED2A4DA1AC50"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craftable/Lootable"
 			tasks: [
 				{
@@ -432,6 +567,11 @@
 				"76A4FBC39580AA87"
 			]
 			id: "1EE63D7A4C65FB37"
+			rewards: [{
+				id: "58CF20D0FE40B4EB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5F5AF8AF544995DD"
 				item: "enigmaticlegacy:infinimeal"
@@ -443,6 +583,11 @@
 		{
 			hide_dependent_lines: true
 			id: "2B0530CAEE2F5824"
+			rewards: [{
+				id: "55B7F7C716B8169C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "22C63D2A528329A1"
 				item: "enigmaticlegacy:golem_heart"
@@ -454,6 +599,11 @@
 		{
 			hide_dependent_lines: true
 			id: "0CE2CCFAC0522849"
+			rewards: [{
+				id: "119D6C3B11F2FE5E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1FCCA3CD90ECC515"
 				item: "enigmaticlegacy:eye_of_nebula"
@@ -465,6 +615,11 @@
 		{
 			hide_dependent_lines: true
 			id: "09F1B115CC867517"
+			rewards: [{
+				id: "1F3316246816324D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1A090D9C6F1992F1"
 				item: "enigmaticlegacy:blazing_core"
@@ -476,6 +631,11 @@
 		{
 			dependencies: ["50AC522E4F77BFDB"]
 			id: "6C26001A9CEC8F4F"
+			rewards: [{
+				id: "327D36BE407088F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "58DA4E999750F242"
 				item: "enigmaticlegacy:void_pearl"
@@ -487,6 +647,11 @@
 		{
 			hide_dependent_lines: true
 			id: "36739590B1F3AF6A"
+			rewards: [{
+				id: "420BE86BD11B7059"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5882658755587A93"
 				item: "enigmaticlegacy:ocean_stone"
@@ -498,6 +663,11 @@
 		{
 			hide_dependent_lines: true
 			id: "64D636B454262A86"
+			rewards: [{
+				id: "56450F2775FF7DE7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7658E0777E71FB24"
 				item: "enigmaticlegacy:angel_blessing"
@@ -509,6 +679,12 @@
 		{
 			dependencies: ["76A4FBC39580AA87"]
 			id: "5996F1757E7C4FE6"
+			rewards: [{
+				count: 2
+				id: "55FCC029B16A5244"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E8CAC36B5BE5035"
 				item: "enigmaticlegacy:monster_charm"
@@ -519,6 +695,11 @@
 		}
 		{
 			id: "6D32172F57EB79EA"
+			rewards: [{
+				id: "47E3ADF9794A901A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
 			tasks: [{
 				id: "76B6A8D6E54BDECF"
 				item: {
@@ -533,6 +714,11 @@
 		}
 		{
 			id: "3378D283314B8EDB"
+			rewards: [{
+				id: "5CA4CF29958C2988"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D4069A380664361"
 				item: "enigmaticaddons:adventure_charm"
@@ -543,6 +729,11 @@
 		}
 		{
 			id: "13F87145DA16E59D"
+			rewards: [{
+				id: "484CEEC95EBF5394"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "083D1D03F113B6FC"
 				item: "enigmaticaddons:forgotten_ice"
@@ -553,6 +744,11 @@
 		}
 		{
 			id: "44153415CA23034A"
+			rewards: [{
+				id: "2A512C60AEDC95D4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2C7925F139EB20C6"
 				item: "enigmaticaddons:revival_leaf"
@@ -563,6 +759,11 @@
 		}
 		{
 			id: "5F2CC8D9CCCF94CE"
+			rewards: [{
+				id: "7118A11AF530FF94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "266E6CADB07DBC49"
 				item: "enigmaticaddons:lost_engine"
@@ -574,6 +775,11 @@
 		{
 			dependencies: ["76A4FBC39580AA87"]
 			id: "310EF684AD98098E"
+			rewards: [{
+				id: "7FCE3F25B044B8BC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "48CC0E317038D940"
 				item: "enigmaticaddons:hell_blade_charm"
@@ -584,6 +790,11 @@
 		}
 		{
 			id: "6377B047F980EA25"
+			rewards: [{
+				id: "0B3E01DD7E3BB110"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craftable/Lootable"
 			tasks: [{
 				id: "15F45C483DA4B54A"
@@ -600,6 +811,11 @@
 				"4B64EAEC474A7FF9"
 			]
 			id: "5E5A04071012C44A"
+			rewards: [{
+				id: "04A7007A74BB42C6"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			tasks: [{
 				id: "7377514440DC3DDA"
 				item: {
@@ -614,6 +830,11 @@
 		}
 		{
 			id: "7767435B719F6B74"
+			rewards: [{
+				id: "39D0F9EE6BFB16E7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2CE499CF1EF57F8F"
 				item: "enigmaticaddons:antique_bag"
@@ -625,6 +846,12 @@
 		{
 			dependencies: ["76A4FBC39580AA87"]
 			id: "3F498858667ED2CC"
+			rewards: [{
+				count: 2
+				id: "3203CBAE81A251C6"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "772EBB4C52310EB0"
 				item: {
@@ -642,6 +869,11 @@
 		{
 			dependencies: ["76A4FBC39580AA87"]
 			id: "18EE07704DB2B746"
+			rewards: [{
+				id: "185DA07D9B038846"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09C94E61CEAA0723"
 				item: "enigmaticlegacy:enchantment_transposer"
@@ -654,6 +886,11 @@
 			dependencies: ["50AC522E4F77BFDB"]
 			id: "3D24926C731DF77E"
 			optional: true
+			rewards: [{
+				id: "7B35DA05A3670978"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -672,6 +909,11 @@
 				"50AC522E4F77BFDB"
 			]
 			id: "434DF36D9C818E70"
+			rewards: [{
+				id: "7F8097D0CA129670"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BA12A2047AA444F"
 				item: {
@@ -697,6 +939,11 @@
 				"6610708F9B859623"
 			]
 			id: "3B06FC06A934BF1E"
+			rewards: [{
+				id: "2079FB4F66426171"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			subtitle: "Recipe in the Book!"
 			tasks: [{
 				id: "2232ABB458859FEA"
@@ -709,6 +956,11 @@
 		{
 			dependencies: ["6610708F9B859623"]
 			id: "44507D9D7DC093F2"
+			rewards: [{
+				id: "61EACE2EB3D8D5D8"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
 			subtitle: "Craftable"
 			tasks: [{
 				id: "2B9F958F02F0EA08"
@@ -722,6 +974,11 @@
 			dependencies: ["50AC522E4F77BFDB"]
 			hide_dependent_lines: true
 			id: "4B64EAEC474A7FF9"
+			rewards: [{
+				id: "288ED977E3EDDF91"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "114BB439916BFC82"
@@ -734,6 +991,11 @@
 		{
 			dependencies: ["4B64EAEC474A7FF9"]
 			id: "3E6354E0FC5C1987"
+			rewards: [{
+				id: "02D9E2B26ADDD3B8"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "39EF7CFA238FCC93"
 				item: "enigmaticlegacy:astral_potato"
@@ -745,6 +1007,11 @@
 		{
 			dependencies: ["4B64EAEC474A7FF9"]
 			id: "47FC2F1CABF53600"
+			rewards: [{
+				id: "39DEC077911AF9CD"
+				item: "enigmaticaddons:astral_potion"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5DD182D008B37B56"
 				item: {
@@ -763,6 +1030,11 @@
 			dependencies: ["4B64EAEC474A7FF9"]
 			hide_dependent_lines: true
 			id: "6610708F9B859623"
+			rewards: [{
+				id: "54B8C48E02267A31"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Craftable"
 			tasks: [{
@@ -784,6 +1056,11 @@
 				"50AC522E4F77BFDB"
 			]
 			id: "0F572C710FDAB036"
+			rewards: [{
+				id: "21DF0C0ACF18D605"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0BBACD7CAE9FB87D"
 				item: "enigmaticlegacy:end_anchor"
@@ -796,6 +1073,11 @@
 			dependencies: ["50AC522E4F77BFDB"]
 			hide_dependent_lines: true
 			id: "0DEAC4150E273F5E"
+			rewards: [{
+				id: "3ED6851DE2E3F9DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -816,6 +1098,12 @@
 		{
 			dependencies: ["0DEAC4150E273F5E"]
 			id: "3087CD4834C5196B"
+			rewards: [{
+				count: 12
+				id: "1E16A4F2CAA4A659"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "64BFE0B9CA660A87"
@@ -872,6 +1160,12 @@
 				"4B64EAEC474A7FF9"
 			]
 			id: "29E32AEDE8442B42"
+			rewards: [{
+				count: 6
+				id: "0D7204DAB55037B1"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0C23EA644446DB97"
@@ -929,12 +1223,19 @@
 					type: "item"
 				}
 			]
+			title: "Etherium Tools"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["29E32AEDE8442B42"]
 			id: "6D5C1AF784F7F647"
+			rewards: [{
+				count: 2
+				id: "3B732265978BC69F"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24C907F84B8DD63B"
 				item: {
@@ -952,6 +1253,12 @@
 		{
 			dependencies: ["29E32AEDE8442B42"]
 			id: "64B10C6C101D8AA0"
+			rewards: [{
+				count: 2
+				id: "7EFFF9E648ECC9E5"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D4B1661C8DDA22C"
 				item: {
@@ -969,6 +1276,11 @@
 		{
 			dependencies: ["4B64EAEC474A7FF9"]
 			id: "61F7229069FBF055"
+			rewards: [{
+				id: "44F8DD0D3D306034"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
 			tasks: [{
 				id: "319301DB598C2366"
 				item: {
@@ -989,6 +1301,11 @@
 				"6610708F9B859623"
 			]
 			id: "78F8DF37AC0B5D51"
+			rewards: [{
+				id: "1E852725FD7A9183"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
 			subtitle: "Recipe in the Book!"
 			tasks: [{
 				id: "5204E92A9EA9ACF1"
@@ -1003,11 +1320,13 @@
 			y: 2.5d
 		}
 		{
+			disable_toast: true
 			id: "76A4FBC39580AA87"
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
 				dimension: "minecraft:the_nether"
+				disable_toast: true
 				icon: "minecraft:netherrack"
 				id: "0769ACBEA25E38E3"
 				title: "Visit the Nether"
@@ -1017,11 +1336,13 @@
 			y: 0.0d
 		}
 		{
+			disable_toast: true
 			id: "50AC522E4F77BFDB"
 			shape: "hexagon"
 			size: 3.0d
 			tasks: [{
 				dimension: "minecraft:the_end"
+				disable_toast: true
 				icon: "minecraft:end_stone"
 				id: "0E34F83C1C3CF40E"
 				title: "Visit the End"
@@ -1033,6 +1354,11 @@
 		{
 			dependencies: ["50AC522E4F77BFDB"]
 			id: "773FA2D4FB1A6F4F"
+			rewards: [{
+				id: "50ADB7423F771001"
+				item: "enigmaticlegacy:mending_mixture"
+				type: "item"
+			}]
 			tasks: [{
 				id: "717608B8486BEBBE"
 				item: "enigmaticlegacy:mending_mixture"
@@ -1045,6 +1371,11 @@
 			dependencies: ["6AEA5B5860ADD637"]
 			hide_dependent_lines: true
 			id: "3C9940D324E98034"
+			rewards: [{
+				id: "019CE0C5A2ACAAD4"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6E88576BAD34250F"
@@ -1057,6 +1388,11 @@
 		{
 			dependencies: ["3C9940D324E98034"]
 			id: "2FE7A81DE74BC10C"
+			rewards: [{
+				id: "32FAEE76A6800935"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "387B217EADDFE25E"
 				item: "enigmaticaddons:ichoroot"
@@ -1071,6 +1407,11 @@
 				"76A4FBC39580AA87"
 			]
 			id: "0565D9611644CC41"
+			rewards: [{
+				id: "44AB018AFC554A41"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6697EF5F637D494C"
 				item: "enigmaticaddons:ichor_spear"
@@ -1082,6 +1423,11 @@
 		{
 			hide_dependent_lines: true
 			id: "17E01797BB23EB89"
+			rewards: [{
+				id: "1FF5BAE1FC26FAB6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5901C582DF1ACC4F"
 				item: {
@@ -1096,6 +1442,11 @@
 		}
 		{
 			id: "5FB1636E7C164614"
+			rewards: [{
+				id: "2A677D863CDBBDA2"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05C1956434AA22A9"
 				item: "enigmaticlegacy:mega_sponge"
@@ -1107,6 +1458,11 @@
 		{
 			dependencies: ["76A4FBC39580AA87"]
 			id: "1DD02FA9E071BA86"
+			rewards: [{
+				id: "56AB97695ABFFEB7"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "796903A52929A853"
 				item: {
@@ -1124,6 +1480,11 @@
 		{
 			hide_dependent_lines: true
 			id: "0FBC70954EDB2299"
+			rewards: [{
+				id: "549FD9466CC8A6D7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "300B36D194C748FC"
 				item: "enigmaticlegacy:unholy_grail"
@@ -1134,6 +1495,11 @@
 		}
 		{
 			id: "7D464C07D3B82203"
+			rewards: [{
+				id: "0AFEECB27BDFC021"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "65579F344878DD79"
@@ -1163,6 +1529,11 @@
 		{
 			dependencies: ["76A4FBC39580AA87"]
 			id: "360636269DD55924"
+			rewards: [{
+				id: "7F5ECAEFC7B48A22"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "79E46C723495A2B3"
 				item: "enigmaticlegacy:forbidden_fruit"
@@ -1179,6 +1550,11 @@
 			]
 			id: "4B5E2985FF4C8DCD"
 			optional: true
+			rewards: [{
+				id: "43A15CDFA00C8BD0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "diamond"
 			tasks: [{
 				advancement: "enigmaticlegacy:main/unholy_grail_worthy"
@@ -1186,7 +1562,7 @@
 				id: "178915AC6922566F"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -1212,7 +1588,13 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["3C9940D324E98034"]
 			id: "36CACAEC24C3E97D"
+			rewards: [{
+				id: "75FAFF515ABABA04"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "6D6E5966079AE89E"
 				item: "enigmaticlegacy:ichor_bottle"
@@ -1224,6 +1606,11 @@
 		{
 			hide_dependent_lines: true
 			id: "230982650E4352CE"
+			rewards: [{
+				id: "4E067649B62D4C4F"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10F541A6ACBA1FA6"
 				item: "enigmaticlegacy:recall_potion"
@@ -1234,6 +1621,11 @@
 		}
 		{
 			id: "7C74C78CB0CFB148"
+			rewards: [{
+				id: "451E776DD7DFF99B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "15D32A40006CF105"
 				item: "enigmaticaddons:void_tome"
@@ -1246,8 +1638,13 @@
 			dependencies: ["015877B51E1A6F22"]
 			id: "46361544D6670A0E"
 			optional: true
+			rewards: [{
+				id: "08555E0B9AA4DDA0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "4F9D1E966046BC76"
 				item: "enigmaticlegacy:guardian_heart"
@@ -1265,7 +1662,7 @@
 			id: "099C72B38F81089B"
 			optional: true
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "3A3B4AD04D7E029F"
 				item: "enigmaticlegacy:evil_essence"
@@ -1287,7 +1684,12 @@
 			hide_dependent_lines: true
 			id: "473D1DAC02DD8C14"
 			optional: true
-			shape: "diamond"
+			rewards: [{
+				id: "697B7066881DF2F2"
+				item: "enigmaticaddons:earth_heart_fragment"
+				type: "item"
+			}]
+			shape: "gear"
 			subtitle: "Requires &cDedication&r"
 			tasks: [{
 				id: "3FB3E27D647B482E"
@@ -1301,8 +1703,13 @@
 			dependencies: ["099C72B38F81089B"]
 			id: "095C245667482E1F"
 			optional: true
+			rewards: [{
+				id: "6A281E59EF6E3992"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "4C1D88B75DCFC531"
 				item: {
@@ -1325,8 +1732,13 @@
 			]
 			id: "096B4BF6C19FE1AC"
 			optional: true
+			rewards: [{
+				id: "6E0CF54CB1557D18"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "378D9684D81735A4"
 				item: {
@@ -1344,6 +1756,11 @@
 			hide_dependent_lines: true
 			id: "0BBDDF5EF0C9C754"
 			optional: true
+			rewards: [{
+				id: "727ADB5BC0B6BC6D"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1361,6 +1778,11 @@
 			]
 			id: "584694C1BDBCA251"
 			optional: true
+			rewards: [{
+				id: "547361290DF92763"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1378,9 +1800,14 @@
 			]
 			id: "38C17960004929E9"
 			optional: true
+			rewards: [{
+				id: "24E7DA0BAEF2FEF6"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "24224A256CDAE22E"
 				item: "enigmaticlegacy:cursed_stone"
@@ -1393,8 +1820,13 @@
 			dependencies: ["099C72B38F81089B"]
 			id: "0FE98328DCC3AD82"
 			optional: true
+			rewards: [{
+				id: "0ECDE982A4C4D2C5"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "0849DF73CD6AA2FB"
 				item: "enigmaticaddons:totem_of_malice"
@@ -1413,6 +1845,11 @@
 			]
 			id: "7135FBA896F17ED1"
 			optional: true
+			rewards: [{
+				id: "1508E300149FC351"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			subtitle: "Requires &cDedication&r"
 			tasks: [{
@@ -1429,7 +1866,7 @@
 			id: "37763C2E4E4E0876"
 			optional: true
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "202EEF4E8541D3FE"
 				item: "enigmaticlegacy:evil_ingot"
@@ -1447,6 +1884,11 @@
 			]
 			id: "6AFB214512DF4597"
 			optional: true
+			rewards: [{
+				id: "3BF1FDB4FA3A2E0E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			subtitle: "Requires &cDedication&r"
 			tasks: [{
@@ -1471,6 +1913,11 @@
 			]
 			id: "78C53F8395268132"
 			optional: true
+			rewards: [{
+				id: "5B39D6C05DD66BBF"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Requires &cDedication&r"
 			tasks: [{
@@ -1494,8 +1941,13 @@
 			]
 			id: "6EC0AED1A1BFF704"
 			optional: true
+			rewards: [{
+				id: "4BD10DFDA89755E2"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "6873694C228C63C4"
 				item: {
@@ -1530,8 +1982,13 @@
 			]
 			id: "09F78F5BAF68FC42"
 			optional: true
+			rewards: [{
+				id: "1968001D63988860"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "2A94126CD7DC6F66"
 				item: "enigmaticlegacy:avarice_scroll"
@@ -1547,6 +2004,11 @@
 			]
 			id: "673E833DD39DB1A6"
 			optional: true
+			rewards: [{
+				id: "194E7DCBDF6AB0B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1565,6 +2027,11 @@
 			]
 			id: "1DD7B4E355E9B200"
 			optional: true
+			rewards: [{
+				id: "690C1A95DF828C17"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1582,8 +2049,13 @@
 			]
 			id: "6F4B8C643904F893"
 			optional: true
+			rewards: [{
+				id: "43058FC5DCABB371"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "60FDA082A312AB26"
 				item: "enigmaticlegacy:cursed_scroll"
@@ -1600,6 +2072,12 @@
 			description: [""]
 			id: "7A759BC06C615301"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "4BC206D0B346BE10"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1614,8 +2092,14 @@
 			dependencies: ["7ED2E05F4E493810"]
 			id: "39980ACC302BF12E"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "488CC1D3C620170C"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "diamond"
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "0C7A2314A304B2F6"
 				item: "enigmaticlegacy:soul_compass"
@@ -1628,6 +2112,12 @@
 			dependencies: ["7ED2E05F4E493810"]
 			id: "19F0C863B0986542"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "727CE8D57AC52849"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1642,6 +2132,12 @@
 			dependencies: ["7ED2E05F4E493810"]
 			id: "00A2B900D4C64EF5"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "63E81C517CBB6D2D"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1668,6 +2164,11 @@
 			]
 			id: "19D644766A5E720F"
 			optional: true
+			rewards: [{
+				id: "0B6724278948F3CC"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1687,6 +2188,11 @@
 			]
 			id: "63557A3452D442DD"
 			optional: true
+			rewards: [{
+				id: "6194AA1F5FA3742C"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Recipe in the Book!\\nRequires &cDedication&r"
 			tasks: [{
@@ -1708,6 +2214,11 @@
 			]
 			id: "136EAC665775E4FE"
 			optional: true
+			rewards: [{
+				id: "52EAAAA626600C97"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1725,6 +2236,11 @@
 			]
 			id: "4FA7FDC11AD8EA16"
 			optional: true
+			rewards: [{
+				id: "0237DBF9D77E67F0"
+				item: "enigmaticaddons:ichor_droplet"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&eRedemption Compatible&r"
 			tasks: [{
@@ -1743,9 +2259,14 @@
 			]
 			id: "1F5DC910BF10A87F"
 			optional: true
+			rewards: [{
+				id: "1B5429A7214464A5"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "&cRedemption Inompatible&r"
+			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
 				id: "1C01B1927E2EA778"
 				item: {
@@ -1760,14 +2281,21 @@
 		}
 		{
 			dependencies: ["1F5DC910BF10A87F"]
+			icon: "enigmaticaddons:bless_ring"
 			id: "418DE62ADBC9CCEF"
 			optional: true
+			rewards: [{
+				id: "16F2980F4AF7B876"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
 			shape: "diamond"
 			tasks: [{
-				id: "05BF04E51805EA0F"
-				item: "enigmaticaddons:bless_ring"
-				type: "item"
+				id: "53903F0B4A624A92"
+				title: "There Really Is No Good Way of Checking That You Actually Got the Ring So a Checkmark Is the Best I Got"
+				type: "checkmark"
 			}]
+			title: "Ring of Redemption"
 			x: 7.5d
 			y: 5.0d
 		}
@@ -1794,6 +2322,11 @@
 				"&6Potion of Molten Heart&r makes you completely immune to fire and lava, instantly extinguishes you if on fire, and improves your vision while in lava."
 			]
 			id: "46A7857066E44D1F"
+			rewards: [{
+				id: "184F5901A91062F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [
 				{
 					id: "28F5785E8592668C"
@@ -1840,6 +2373,11 @@
 			]
 			id: "21879D72DF59BA1C"
 			optional: true
+			rewards: [{
+				id: "2424955324C85A87"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&cRedemption Incompatible&r"
 			tasks: [{
@@ -1850,7 +2388,27 @@
 			x: 1.0d
 			y: 1.5d
 		}
+		{
+			dependencies: [
+				"3C9940D324E98034"
+				"360636269DD55924"
+				"4B64EAEC474A7FF9"
+			]
+			id: "2A43146343FDE3ED"
+			rewards: [{
+				id: "054DF50030275D59"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5A88813EEE128D7A"
+				item: "enigmaticlegacy:redemption_potion"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
 	]
-	subtitle: ["Occult Equipment"]
+	subtitle: ["Occultic Equipment"]
 	title: "Engimatic Legacy"
 }

@@ -35,6 +35,12 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "1A187579F5189F78"
+			rewards: [{
+				count: 16
+				id: "24398AB3ACE9FEB8"
+				item: "scguns:grapeshot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "12BCE4F6A7C205CB"
 				item: {
@@ -53,6 +59,12 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "457FD2054C9C746C"
+			rewards: [{
+				count: 16
+				id: "052240AF7D317D93"
+				item: "scguns:grapeshot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14E28309D4C5E538"
 				item: {
@@ -71,6 +83,12 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "78D37AB9A405766B"
+			rewards: [{
+				count: 16
+				id: "0E275BCB54498952"
+				item: "scguns:powder_and_ball"
+				type: "item"
+			}]
 			tasks: [{
 				id: "287FD8511E32E01F"
 				item: {
@@ -89,6 +107,12 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "526D07A7762A63DA"
+			rewards: [{
+				count: 16
+				id: "55AE59B59EBD3EA5"
+				item: "scguns:powder_and_ball"
+				type: "item"
+			}]
 			tasks: [{
 				id: "797A6DA0DE54DA87"
 				item: {
@@ -107,6 +131,12 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "0E33E196230112A0"
+			rewards: [{
+				count: 16
+				id: "5F95027133E04280"
+				item: "scguns:powder_and_ball"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FB839C65B513D49"
 				item: {
@@ -124,23 +154,29 @@
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
-			description: ["&oAnthralite&r required though."]
+			description: ["Still no blueprints required though."]
 			disable_toast: true
 			id: "12703B19755DD9C2"
 			shape: "rsquare"
-			subtitle: "No Blueprints Required"
+			subtitle: "Adv. Illagers"
 			tasks: [{
 				id: "1337416F60417CB4"
 				item: "scguns:anthralite_ingot"
 				type: "item"
 			}]
-			title: "Anti-Illager Arms"
+			title: "Anthralite Arms"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "0DE0819B5A178F2D"
+			rewards: [{
+				count: 2
+				id: "5A637B1460322E80"
+				item: "scguns:osborne_slug"
+				type: "item"
+			}]
 			tasks: [{
 				id: "062F44F379B08176"
 				item: {
@@ -159,6 +195,12 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "41FFC30ABDDA46DC"
+			rewards: [{
+				count: 16
+				id: "5123CD25210238A1"
+				item: "scguns:standard_copper_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1151F1D7E07C5C98"
 				item: {
@@ -177,6 +219,12 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "5341D695D2C1F8B3"
+			rewards: [{
+				count: 16
+				id: "03E83D07CA56D80B"
+				item: "scguns:compact_copper_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A9AF39E90DA0E3A"
 				item: {
@@ -195,6 +243,12 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "7C4EFB3155EB3E15"
+			rewards: [{
+				count: 16
+				id: "525F1A9157940406"
+				item: "scguns:shotgun_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63EF382F9709D964"
 				item: {
@@ -213,6 +267,12 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "07B0B15BB3179125"
+			rewards: [{
+				count: 16
+				id: "6118DDD43FAF32D5"
+				item: "scguns:standard_copper_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72B069D11237C83C"
 				item: {
@@ -231,6 +291,12 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "672CBDE992F2748B"
+			rewards: [{
+				count: 16
+				id: "71E3394D94EED73E"
+				item: "scguns:shotgun_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61E824F9A9FC2A6E"
 				item: {
@@ -249,6 +315,12 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "29AEBF1A65F60B2C"
+			rewards: [{
+				count: 16
+				id: "44467E705849DBD3"
+				item: "scguns:energy_core"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63EFD206DB34BD75"
 				item: {
@@ -267,6 +339,12 @@
 		{
 			dependencies: ["0E66419342BB6947"]
 			id: "76452C5375ACCCB5"
+			rewards: [{
+				count: 16
+				id: "1AC8C29195A69E5C"
+				item: "scguns:energy_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4323E5008125F282"
 				item: {
@@ -487,6 +565,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "6ECF0FDA97C0643F"
+			rewards: [{
+				count: 16
+				id: "6F06CEA88AD6116D"
+				item: "scguns:compact_copper_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "545F084F03CC6C25"
 				item: {
@@ -506,6 +590,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "0B2380E9B224F506"
+			rewards: [{
+				count: 16
+				id: "3ED646C5E732A29F"
+				item: "scguns:compact_copper_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CD6428560B0E8A5"
 				item: {
@@ -526,6 +616,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "0C8142EF373BF737"
+			rewards: [{
+				count: 16
+				id: "0866F95816232DE6"
+				item: "scguns:ramrod_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B575D15916779E6"
 				item: {
@@ -545,6 +641,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "6A477E20AD470DC6"
+			rewards: [{
+				count: 16
+				id: "7AB9A677D390B1FA"
+				item: "scguns:standard_copper_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D3931694B2080B4"
 				item: {
@@ -564,6 +666,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "071B97033668227F"
+			rewards: [{
+				count: 16
+				id: "11F7AB84EAD1C437"
+				item: "scguns:shock_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1B5F1F0EF55BCCF0"
 				item: {
@@ -585,6 +693,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "6B95C7F682A88715"
+			rewards: [{
+				count: 16
+				id: "580E2BCC87C42A86"
+				item: "scguns:standard_copper_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18E6D190AFC07D45"
 				item: {
@@ -603,6 +717,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "63EA2DCAB20303AE"
+			rewards: [{
+				count: 16
+				id: "591190CBF04605C1"
+				item: "scguns:standard_bullet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75F35114C7E29F7C"
 				item: {
@@ -621,6 +741,12 @@
 		{
 			dependencies: ["6C2EF5E9E51F8339"]
 			id: "029F279F5159BB4A"
+			rewards: [{
+				count: 16
+				id: "6B6D117A0EEEB431"
+				item: "scguns:shotgun_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6E608E6F9D3D6852"
 				item: {
@@ -639,6 +765,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "01ABC1913E8FD1F0"
+			rewards: [{
+				count: 16
+				id: "34AB7225F7D40DC4"
+				item: "scguns:syringe"
+				type: "item"
+			}]
 			subtitle: "Healing Shots"
 			tasks: [{
 				id: "16F29B75E4423E0F"
@@ -658,6 +790,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "796ACE4D73F6E2CD"
+			rewards: [{
+				count: 8
+				id: "624096775BD58617"
+				item: "scguns:microjet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A90AB7FE6C13D64"
 				item: {
@@ -679,6 +817,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "418C3E05539FA401"
+			rewards: [{
+				count: 16
+				id: "40D633AD06F0C281"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "36DE755124839B4E"
 				item: {
@@ -700,6 +844,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "613A2C4C88A4C252"
+			rewards: [{
+				count: 16
+				id: "0F9DC596D4592B70"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45B43D7138DC1FC9"
 				item: {
@@ -721,6 +871,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "65EC08BC87CE4EB2"
+			rewards: [{
+				count: 16
+				id: "58E56A580EC314B6"
+				item: "scguns:shock_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "37F26E4043187262"
 				item: {
@@ -742,6 +898,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "6CC2D6E85995B070"
+			rewards: [{
+				count: 16
+				id: "00688D120AFCC3A5"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "630BBB4DBD882093"
 				item: {
@@ -763,6 +925,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "7568264FFCF36C96"
+			rewards: [{
+				count: 16
+				id: "37692AD9BAAD5B5B"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "12962950B392FC3F"
 				item: {
@@ -784,6 +952,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "35D6900826E098A6"
+			rewards: [{
+				count: 8
+				id: "6AAFBF7015780135"
+				item: "scguns:microjet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D4D1F1D9B6D423D"
 				item: {
@@ -805,6 +979,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "1DF323BA85919EA2"
+			rewards: [{
+				count: 4
+				id: "6CBB1D8005BA63B9"
+				item: "scguns:rocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B890F04BA86C540"
 				item: {
@@ -826,6 +1006,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "0A09CE64AA85CBF7"
+			rewards: [{
+				count: 16
+				id: "590530009F41AFCE"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A5C3D310A3FBDAB"
 				item: {
@@ -847,6 +1033,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "70D70D1C130DD668"
+			rewards: [{
+				count: 16
+				id: "113652DF33F69471"
+				item: "scguns:ramrod_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A7993B0B7D8CA11"
 				item: {
@@ -868,6 +1060,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "76E11C0D597B8900"
+			rewards: [{
+				count: 16
+				id: "3492BB77C7739066"
+				item: "scguns:buckshot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "704B590461D9A655"
 				item: {
@@ -889,6 +1087,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "2927F7F9EAF8F8DD"
+			rewards: [{
+				count: 16
+				id: "3C75A0E1F2319A3D"
+				item: "scguns:shotgun_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A106762640B5E25"
 				item: {
@@ -910,6 +1114,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "4303ECAA105703D9"
+			rewards: [{
+				count: 16
+				id: "124C892520D07CF5"
+				item: "scguns:krahg_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4C65F84076D013AE"
 				item: {
@@ -931,6 +1141,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "21639AD9F8158AB7"
+			rewards: [{
+				count: 16
+				id: "5DD2DEDA5E45BBEE"
+				item: "scguns:bearpack_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42FE3CF8EE7D703F"
 				item: {
@@ -952,6 +1168,12 @@
 		{
 			dependencies: ["013DFF0F8A9783D3"]
 			id: "3F171D51EC568613"
+			rewards: [{
+				count: 2
+				id: "2D7FEBAFB443123C"
+				item: "scguns:osborne_slug"
+				type: "item"
+			}]
 			tasks: [{
 				id: "719A464AE4B34454"
 				item: {
@@ -973,6 +1195,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "7A5656D4B57C6A40"
+			rewards: [{
+				count: 16
+				id: "4A5830F555FC47D7"
+				item: "scguns:energy_core"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FCBBC23F672E394"
 				item: {
@@ -994,6 +1222,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "3FF523F6AFB016EB"
+			rewards: [{
+				count: 16
+				id: "6C3ADB338AE18B50"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "781DBE507A31A528"
 				item: {
@@ -1016,6 +1250,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "32FEF4447F0348AB"
+			rewards: [{
+				count: 16
+				id: "1F14C72528206280"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4638DD6D83572F05"
 				item: {
@@ -1035,6 +1275,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "54E2311982CCFB39"
+			rewards: [{
+				count: 16
+				id: "54F34706EC01F96B"
+				item: "scguns:blaze_fuel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3843513D41C5F34E"
 				item: {
@@ -1056,6 +1302,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "7C2456BFC0EC8119"
+			rewards: [{
+				count: 16
+				id: "691770C153BAA02D"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5D45608EDC086230"
 				item: {
@@ -1077,6 +1329,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "268E7449BC011EBE"
+			rewards: [{
+				count: 16
+				id: "76ECBA840B338CE4"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
 			subtitle: "Semi-Auto Crossbow"
 			tasks: [{
 				id: "38BC84FA817EAD64"
@@ -1099,6 +1357,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "44E5412F106FE383"
+			rewards: [{
+				count: 16
+				id: "1D711A2BB357B949"
+				item: "scguns:hardened_bullet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D08CD197F08CB5E"
 				item: {
@@ -1118,6 +1382,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "195F6E58B35A61F1"
+			rewards: [{
+				count: 16
+				id: "79D9FFBF86CEF8CB"
+				item: "scguns:energy_core"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09930860F7057999"
 				item: {
@@ -1137,6 +1407,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "5515C86A1B445F31"
+			rewards: [{
+				count: 16
+				id: "7F163CC87A729D15"
+				item: "scguns:ramrod_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5042909C91E88734"
 				item: {
@@ -1156,6 +1432,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "75B3249F2470405A"
+			rewards: [{
+				count: 4
+				id: "3DA913F1E69E14D8"
+				item: "scguns:rocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "620FD59672D2D06D"
 				item: {
@@ -1175,6 +1457,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "5865F96B8DF103AE"
+			rewards: [{
+				count: 16
+				id: "1F71DF89E53BE4A2"
+				item: "scguns:shotgun_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "59FF73BFBA2C3F04"
 				item: {
@@ -1196,6 +1484,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "1C0F43CAA848F264"
+			rewards: [{
+				count: 16
+				id: "3FEC3308EFF4415D"
+				item: "scguns:krahg_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D2AAE80A567DCCA"
 				item: {
@@ -1217,6 +1511,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "1987BAE5A3E9AD47"
+			rewards: [{
+				count: 16
+				id: "6786EE79995EDA41"
+				item: "scguns:beowulf_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "149269FE8AB5B65C"
 				item: {
@@ -1235,6 +1535,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "727444BD66EF58B6"
+			rewards: [{
+				count: 16
+				id: "2F5BB94CF644D72A"
+				item: "scguns:energy_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "31C63D386776CB0E"
 				item: {
@@ -1253,6 +1559,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "7227F71C9DCA0FA5"
+			rewards: [{
+				count: 16
+				id: "61AE6CB742C48274"
+				item: "scguns:nitro_buckshot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "62FC47164F76978D"
 				item: {
@@ -1271,6 +1583,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "53917510E3CD9E1C"
+			rewards: [{
+				count: 16
+				id: "6CD74E0AA9B043CE"
+				item: "scguns:krahg_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3895CAA77EF3B1B5"
 				item: {
@@ -1289,6 +1607,12 @@
 		{
 			dependencies: ["065B34EEB70F1626"]
 			id: "58E3DC005BECB6DD"
+			rewards: [{
+				count: 16
+				id: "03B00257C99DF8E7"
+				item: "scguns:krahg_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11D801C8D69C2DB9"
 				item: {
@@ -1307,6 +1631,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "6B598663C91ACC3F"
+			rewards: [{
+				count: 16
+				id: "33577CDAC41839AC"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CB7BCB9085822D1"
 				item: {
@@ -1328,6 +1658,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "0F1FF9B3BE580C5E"
+			rewards: [{
+				count: 16
+				id: "0605666F6593C8CB"
+				item: "scguns:energy_core"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16B173DF4F58BAE5"
 				item: {
@@ -1349,6 +1685,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "5D0E0FF2CCDF2C17"
+			rewards: [{
+				count: 16
+				id: "5EC8850F2034DF63"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "749C47E66AFD9390"
 				item: {
@@ -1368,6 +1710,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "58EA27F1FD1F05C7"
+			rewards: [{
+				count: 16
+				id: "502E4107C737F1F5"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2362F016BDD5A181"
 				item: {
@@ -1387,6 +1735,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "231610FD73B8B55A"
+			rewards: [{
+				count: 16
+				id: "79BB3DF50E7E62BF"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00D5C751483329FE"
 				item: {
@@ -1408,6 +1762,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "68EAA6BBD9B940EA"
+			rewards: [{
+				count: 16
+				id: "7876F5A1B1D84939"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7274DBA39991EE56"
 				item: {
@@ -1427,6 +1787,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "0DF82320C8A7B02A"
+			rewards: [{
+				count: 8
+				id: "620AFCE69B012E08"
+				item: "scguns:microjet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B3AC99B84494FB0"
 				item: {
@@ -1446,6 +1812,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "4AE8227471696CAC"
+			rewards: [{
+				count: 16
+				id: "244978804360D3BD"
+				item: "scguns:energy_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1105054586DAE509"
 				item: {
@@ -1465,6 +1837,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "4D555F9F98EF8CD4"
+			rewards: [{
+				count: 16
+				id: "6928201B2002E894"
+				item: "scguns:gibbs_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38EE168D8C5CF454"
 				item: {
@@ -1484,6 +1862,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "3A09941E4E61B64A"
+			rewards: [{
+				count: 16
+				id: "3A779EF13C88D79F"
+				item: "scguns:beowulf_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "619E08FE42B9507F"
 				item: {
@@ -1503,6 +1887,12 @@
 		{
 			dependencies: ["122EDBAF225EC4DE"]
 			id: "5BB8ADE91854EB30"
+			rewards: [{
+				count: 16
+				id: "4CD3C69A664F5E3C"
+				item: "scguns:bearpack_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "045206B108596017"
 				item: {
@@ -1524,6 +1914,12 @@
 		{
 			dependencies: ["39290E989611A20C"]
 			id: "0D4AAD5C1DABF0AE"
+			rewards: [{
+				count: 16
+				id: "01DA4C06DD1605D6"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "639D5A86AB442A73"
 				item: {
@@ -1545,6 +1941,12 @@
 		{
 			dependencies: ["39290E989611A20C"]
 			id: "52C16801A075E442"
+			rewards: [{
+				count: 16
+				id: "18FEBB9F253EC297"
+				item: "scguns:grapeshot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F4DCB181A7CC39A"
 				item: {
@@ -1566,6 +1968,12 @@
 		{
 			dependencies: ["39290E989611A20C"]
 			id: "37F1A12F15E6E648"
+			rewards: [{
+				count: 8
+				id: "0968F9B2ED2FF39C"
+				item: "scguns:microjet"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1837F3810AF6B020"
 				item: {
@@ -1587,6 +1995,12 @@
 		{
 			dependencies: ["39290E989611A20C"]
 			id: "4CE0D034F13B937B"
+			rewards: [{
+				count: 16
+				id: "44937680F7921511"
+				item: "scguns:beowulf_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D85C71E5545D2EE"
 				item: {
@@ -1617,6 +2031,12 @@
 				}
 			}
 			id: "681F41B0BEEA9B79"
+			rewards: [{
+				count: 16
+				id: "5971F611C0B45A8B"
+				item: "scguns:blaze_fuel"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3A77359CF7CD6F8A"
@@ -1644,6 +2064,12 @@
 		{
 			dependencies: ["37CD4243B54E2A5A"]
 			id: "6ABFB42F4ADA7A5C"
+			rewards: [{
+				count: 16
+				id: "5BD1F9BD5C7F77A1"
+				item: "scguns:hog_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "23811263505F75AE"
 				item: {
@@ -1663,6 +2089,12 @@
 		{
 			dependencies: ["37CD4243B54E2A5A"]
 			id: "1F69669A4DC8A85E"
+			rewards: [{
+				count: 16
+				id: "78D8ABBDAD197559"
+				item: "scguns:hog_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40E7BE980AC29723"
 				item: {
@@ -1681,6 +2113,12 @@
 		{
 			dependencies: ["37CD4243B54E2A5A"]
 			id: "787D7699CE94C017"
+			rewards: [{
+				count: 16
+				id: "5BA30EBC9AD0D136"
+				item: "scguns:blaze_fuel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FB431EFF30249F2"
 				item: {
@@ -1699,6 +2137,12 @@
 		{
 			dependencies: ["37CD4243B54E2A5A"]
 			id: "5D4EB4C325074105"
+			rewards: [{
+				count: 16
+				id: "36625A5A45E83A03"
+				item: "scguns:hog_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F22842B7720152D"
 				item: {
@@ -1718,6 +2162,12 @@
 		{
 			dependencies: ["47ABF11703E65DB2"]
 			id: "0E9E1AB674C25D8D"
+			rewards: [{
+				count: 16
+				id: "4CC15960D25505AD"
+				item: "scguns:sculk_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48FD1EB43E40CBE7"
 				item: {
@@ -1739,6 +2189,12 @@
 		{
 			dependencies: ["47ABF11703E65DB2"]
 			id: "28566423C7B5426D"
+			rewards: [{
+				count: 16
+				id: "00BF96221CB89375"
+				item: "scguns:sculk_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F49FC987FD92C5E"
 				item: {
@@ -1760,6 +2216,12 @@
 		{
 			dependencies: ["47ABF11703E65DB2"]
 			id: "2E37B61885539655"
+			rewards: [{
+				count: 16
+				id: "24F6FD7007FF88A7"
+				item: "scguns:sculk_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16D7F465B4B3FE37"
 				item: {
@@ -1781,6 +2243,12 @@
 		{
 			dependencies: ["47ABF11703E65DB2"]
 			id: "7869D2DFF63CB041"
+			rewards: [{
+				count: 16
+				id: "0F431076D435B6AE"
+				item: "scguns:sculk_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BF71684C8B21A28"
 				item: {
@@ -1800,6 +2268,12 @@
 		{
 			dependencies: ["2357525DE7F7C364"]
 			id: "5F5C568DE0FA9A85"
+			rewards: [{
+				count: 16
+				id: "5B759A7426AE3208"
+				item: "scguns:shulkshot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "58F628C78B5E4DBA"
 				item: {
@@ -1821,6 +2295,12 @@
 		{
 			dependencies: ["2357525DE7F7C364"]
 			id: "26E5728D11E60CA6"
+			rewards: [{
+				count: 16
+				id: "6D9B0774A4D8412D"
+				item: "scguns:shulkshot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "640D5C53DA6E530C"
 				item: {
@@ -1842,6 +2322,12 @@
 		{
 			dependencies: ["2357525DE7F7C364"]
 			id: "47E9CB26A1A8B218"
+			rewards: [{
+				count: 16
+				id: "76648C89088A86DD"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "18309544893B96D6"
 				item: {
@@ -1863,6 +2349,12 @@
 		{
 			dependencies: ["2357525DE7F7C364"]
 			id: "2ABF3E386C5AD33C"
+			rewards: [{
+				count: 16
+				id: "09C830ABD0E85685"
+				item: "scguns:shock_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40F42F9EAEA3D813"
 				item: {
@@ -1882,6 +2374,12 @@
 		{
 			dependencies: ["2357525DE7F7C364"]
 			id: "48FBD1C95B0B8FD0"
+			rewards: [{
+				count: 16
+				id: "055435D6AFAD253F"
+				item: "scguns:energy_cell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "66AA1E876FF612BB"
 				item: {
@@ -1903,6 +2401,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "6290F319938CE068"
+			rewards: [{
+				count: 16
+				id: "488B5A5D795E008F"
+				item: "scguns:energy_core"
+				type: "item"
+			}]
 			tasks: [{
 				id: "296BF4C1D393BC57"
 				item: {
@@ -1924,6 +2428,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "2A3B0BA688D6F202"
+			rewards: [{
+				count: 16
+				id: "42449CA39BCEFF11"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "230760769E7EAFC4"
 				item: {
@@ -1945,6 +2455,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "79396E0BD66D09CB"
+			rewards: [{
+				count: 16
+				id: "292083FAD08B89FE"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7172D1AFAE822587"
 				item: {
@@ -1964,6 +2480,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "16DD276C17761890"
+			rewards: [{
+				count: 16
+				id: "1CB88F606AFC809A"
+				item: "scguns:gibbs_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "65B052BA86375620"
 				item: {
@@ -1983,6 +2505,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "14B8629B6A3B2E5B"
+			rewards: [{
+				count: 16
+				id: "21EC9B2FBEFC42C5"
+				item: "scguns:ramrod_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BC077650C5A45D6"
 				item: {
@@ -2002,6 +2530,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "37B7F18752980F36"
+			rewards: [{
+				count: 16
+				id: "499512D5B46FFE31"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6D54533E32318862"
 				item: {
@@ -2021,6 +2555,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "20DB2759E8B24E7F"
+			rewards: [{
+				count: 16
+				id: "596159C4B50940A1"
+				item: "scguns:bearpack_shell"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1DC92AD198015A5B"
 				item: {
@@ -2040,6 +2580,12 @@
 		{
 			dependencies: ["25523E5183D8274C"]
 			id: "38EF20DE46E4D22A"
+			rewards: [{
+				count: 16
+				id: "3CE7E4105BB69D6F"
+				item: "scguns:krahg_round"
+				type: "item"
+			}]
 			tasks: [{
 				id: "57FBDFFA3933752F"
 				item: {
@@ -2060,6 +2606,12 @@
 		}
 		{
 			id: "5399E08E22CFE23E"
+			rewards: [{
+				count: 16
+				id: "228AAA6286F23DC7"
+				item: "scguns:shotgun_shell"
+				type: "item"
+			}]
 			subtitle: "Found, Not Crafted"
 			tasks: [{
 				id: "4FC9AEBBBCAED5A9"
@@ -2078,35 +2630,75 @@
 		}
 		{
 			id: "27454F22A634C34C"
-			tasks: [
+			optional: true
+			rewards: [
 				{
-					id: "07B086EC47C6A623"
+					count: 8
+					id: "409539A5BC816D1B"
+					item: "scguns:choke_bomb"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "52E37DEEEF846FE8"
+					item: "scguns:gas_grenade"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5ED3C5063C9BD78C"
 					item: "scguns:grenade"
 					type: "item"
 				}
 				{
-					id: "5F956682BB5D9E20"
+					count: 8
+					id: "3A515C6623720772"
+					item: "scguns:molotov_cocktail"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7F1CB4FCBAC0A34A"
 					item: "scguns:stun_grenade"
 					type: "item"
 				}
 				{
-					id: "140DA365641DFD6A"
-					item: "scguns:molotov_cocktail"
+					count: 8
+					id: "07FA54ED22C069A8"
+					item: "scguns:swarm_bomb"
 					type: "item"
 				}
+			]
+			shape: "diamond"
+			tasks: [
 				{
 					id: "3250AFFF6692138C"
 					item: "scguns:choke_bomb"
 					type: "item"
 				}
 				{
-					id: "5EBC3B7458B3F5FB"
-					item: "scguns:swarm_bomb"
+					id: "2DCC5C7D3DA16C2C"
+					item: "scguns:gas_grenade"
 					type: "item"
 				}
 				{
-					id: "2DCC5C7D3DA16C2C"
-					item: "scguns:gas_grenade"
+					id: "27853F0A3FE2DEE8"
+					item: "scguns:grenade"
+					type: "item"
+				}
+				{
+					id: "5BC5F49BFCF04D7C"
+					item: "scguns:molotov_cocktail"
+					type: "item"
+				}
+				{
+					id: "656BE6E0D723B80D"
+					item: "scguns:stun_grenade"
+					type: "item"
+				}
+				{
+					id: "06D1D8C72ECECBDA"
+					item: "scguns:swarm_bomb"
 					type: "item"
 				}
 			]
@@ -2122,6 +2714,14 @@
 			dependency_requirement: "one_completed"
 			description: ["Grants several seconds of &6&oFire Resistance&r and puts you out if on fire."]
 			id: "655CA6BF6EA1DD99"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "54CDDF930696A589"
+				item: "scguns:cold_pack"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Fire-Away!"
 			tasks: [{
 				id: "684F71E0AB3DA59F"
@@ -2133,6 +2733,13 @@
 		}
 		{
 			id: "28196A065E7606C9"
+			optional: true
+			rewards: [{
+				id: "751CB820B29DE1D6"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Instant Health"
 			tasks: [
 				{
@@ -2181,6 +2788,13 @@
 				"&oRocket Ammo Box&r stores up to &b4&r stacks of &7&oMicrojets&r and &7&oRockets&r."
 			]
 			id: "1FAE0EF9786A7975"
+			optional: true
+			rewards: [{
+				count: 7
+				id: "2306C3F1B41B3869"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Extra Inventory"
 			tasks: [
@@ -2233,6 +2847,13 @@
 				"&oRock Pouch&r stores up to &b64&r stacks of &lStone&r, &lCobblestone&r, &lGranite&r, and &lDiorite&r!"
 			]
 			id: "3E2AB7A0AF8A7114"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "6E5668EDC5EA9304"
+				item: "minecraft:leather"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Hold Your Things"
 			tasks: [
@@ -2270,6 +2891,25 @@
 				"&lPenetrators&r need a redstone signal to activate, and instantly destroy a 3x3x10 tunnel in the direction of the orange face."
 			]
 			id: "58DEFFD9C90E6724"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "05549427A5045E17"
+					item: "scguns:powder_keg"
+					type: "item"
+				}
+				{
+					id: "6C415F841DAB22EB"
+					item: "scguns:nitro_keg"
+					type: "item"
+				}
+				{
+					id: "3A15611AC2B606E4"
+					item: "scguns:penetrator"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			tasks: [
 				{
@@ -2294,6 +2934,8 @@
 		}
 		{
 			id: "38D9C3F2498D3E5D"
+			optional: true
+			shape: "diamond"
 			subtitle: "Use Anvil"
 			tasks: [{
 				id: "54571F7D945AA69F"
@@ -2314,6 +2956,12 @@
 				"You can use dye to change their faces!"
 			]
 			id: "46308045100166B5"
+			optional: true
+			rewards: [{
+				id: "54825C7C26FA90D9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Friendly Chests"
 			tasks: [
@@ -2335,6 +2983,13 @@
 		{
 			dependencies: ["300E7BF7CA2494D8"]
 			id: "092D9E64086DEA7E"
+			optional: true
+			rewards: [{
+				id: "6286FB0A9EA4375D"
+				item: "scguns:anthralite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Max of 200 Blocks"
 			tasks: [{
 				id: "302E4FD8F88C7050"
@@ -2347,6 +3002,14 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "300E7BF7CA2494D8"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "47A6B2BAFCBB5E53"
+				item: "scguns:anthralite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Zoom"
 			tasks: [
 				{
@@ -2404,6 +3067,14 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "2A51752238AA15DB"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "5059965CCED144F6"
+				item: "scguns:anthralite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Reduce Recoil"
 			tasks: [
 				{
@@ -2448,6 +3119,13 @@
 			dependencies: ["12703B19755DD9C2"]
 			description: ["&cNote: gunfire draws in nearby hostile mobs. Silencers reduce this effect!&r"]
 			id: "1928B8A915250825"
+			optional: true
+			rewards: [{
+				id: "35DD605DCD13151A"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "10C220A95AA00446"
@@ -2501,6 +3179,14 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "4A896403D98E6AEB"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "0A5EB25121380781"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "4B8A9A79FA231C78"
@@ -2576,6 +3262,14 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "570F2AB4CE92E214"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "48204DA37D350F04"
+				item: "scguns:anthralite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "457E7F8C350E9A81"
@@ -2611,6 +3305,11 @@
 				"The &lPowered Macerator&r automatically pulls power from adjacent blocks."
 			]
 			id: "394F4F5AD4841AA7"
+			rewards: [{
+				id: "6DCE027F9B50CEB9"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "290E46E8BA86C50F"
@@ -2644,6 +3343,11 @@
 				"The &lPowered Stamping Press&r automatically pulls power from adjacent blocks."
 			]
 			id: "6D539DD2489B4F36"
+			rewards: [{
+				id: "225FAEAABBEBC004"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "4F06F63C455AE12A"
@@ -2674,6 +3378,12 @@
 			dependencies: ["41A6563FD6A95AEE"]
 			description: ["Converts burnable fuel into &7FE&r. Automatically pushes energy into adjacent blocks."]
 			id: "6013043B3DCD68F3"
+			rewards: [{
+				count: 2
+				id: "16B9E96A03DB0618"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Basic Generator"
 			tasks: [{
@@ -2688,6 +3398,12 @@
 			description: [""]
 			icon: "scguns:lightning_battery"
 			id: "0ABF03515DB2B5AC"
+			rewards: [{
+				count: 6
+				id: "4556E7F1B9657616"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Battery + Energizer"
 			tasks: [
@@ -2714,7 +3430,13 @@
 				"Why? Why not? ¯\\_(ツ)_/¯"
 			]
 			id: "507C87D3D577DF61"
-			shape: "square"
+			optional: true
+			rewards: [{
+				id: "390CD32223D2E9A3"
+				item: "scguns:vehement_coal"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Block Conversions"
 			tasks: [
 				{
@@ -2734,6 +3456,11 @@
 		}
 		{
 			id: "50842DC8DC08B7CA"
+			rewards: [{
+				id: "2904E377B3E76F34"
+				item: "scguns:advanced_composter"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Niter \\& Phosphor"
 			tasks: [{
@@ -2753,6 +3480,12 @@
 				"Requires &lWool&r or &oComposite Filters&r to function."
 			]
 			id: "58C076AF0ACA64DB"
+			rewards: [{
+				count: 16
+				id: "5DDCAD723C2F4CC1"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Renewable Niter/Sulfur"
 			tasks: [{
@@ -2769,6 +3502,13 @@
 				"0B0CDB383264B61B"
 			]
 			id: "751949239BE0BEDF"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "450BB7214C38CE71"
+				item: "scguns:advanced_round"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0B5CD4F6C87DE0AF"
@@ -2784,6 +3524,13 @@
 				"0B0CDB383264B61B"
 			]
 			id: "27226FBCE031D93A"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "0E4137C343AF7952"
+				item: "scguns:compact_advanced_round"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "16F5C6C5719E814E"
@@ -2799,6 +3546,13 @@
 				"0B0CDB383264B61B"
 			]
 			id: "1AD8773E94D5313D"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "5FB68E4AD8DFC08B"
+				item: "scguns:shotgun_shell"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "23768011DB246688"
@@ -2809,6 +3563,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["12703B19755DD9C2"]
 			description: [
 				"All modules must be placed adjaced to a turret, meaning that any turret may have up to 4 modules."
 				""
@@ -2816,7 +3571,14 @@
 				""
 				"&cMultiple modules of the same type do not stack their effects (aside from the &lAmmo Turret Module&r&c).&r"
 			]
+			hide_dependency_lines: true
 			id: "0B0CDB383264B61B"
+			optional: true
+			rewards: [{
+				id: "396A710FB03E6B32"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "gear"
 			subtitle: "\\& Module Information"
 			tasks: [{
@@ -2858,6 +3620,13 @@
 				"'&bShift&r + &bRight Click&r' on an entity to add that entity type to the log (i.e. &nall&r zombies)."
 			]
 			id: "62F9DE9EA9A07470"
+			optional: true
+			rewards: [{
+				id: "1597E62814064E4E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "diamond"
 			subtitle: "Whitelist/Blacklist"
 			tasks: [{
 				id: "4EAE3015FE067E52"
@@ -2888,6 +3657,12 @@
 			dependencies: ["0B0CDB383264B61B"]
 			description: ["&cNote: the &lAuto Turret&r&c may fire too quickly and lose ammo due to I-frames.&r"]
 			id: "3A9A0E9FE3151B4D"
+			optional: true
+			rewards: [{
+				id: "49B1CBD106D0F45A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "1D82AC3064663479"
@@ -2900,6 +3675,12 @@
 		{
 			dependencies: ["0B0CDB383264B61B"]
 			id: "427C4D4AFEB117A8"
+			optional: true
+			rewards: [{
+				id: "6A7C8CC6E5BCEF72"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "37A3CDCCD5468EDC"
@@ -2912,6 +3693,12 @@
 		{
 			dependencies: ["0B0CDB383264B61B"]
 			id: "5EC4F58F3ED688EA"
+			optional: true
+			rewards: [{
+				id: "214A5C77B8B6C87E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6D77EEB58B3052E4"
@@ -2925,6 +3712,12 @@
 			dependencies: ["0B0CDB383264B61B"]
 			description: ["&lTurrets&r seem to recover 75\\% of their spent casings by default."]
 			id: "51DEEA479BA986AD"
+			optional: true
+			rewards: [{
+				id: "6867B65AFF6AC93E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0227C4C2B7936157"
@@ -2937,6 +3730,12 @@
 		{
 			dependencies: ["0B0CDB383264B61B"]
 			id: "4880832AE0AA1B9D"
+			optional: true
+			rewards: [{
+				id: "1121F6B8D406E2AD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "square"
 			tasks: [{
 				id: "73F6D2E2D4128801"
@@ -2949,6 +3748,11 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			id: "41A6563FD6A95AEE"
+			rewards: [{
+				id: "67D530721C83A8BA"
+				item: "scguns:blank_mold"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2715A92F75F60CC5"
 				item: "scguns:blank_mold"
@@ -2965,6 +3769,14 @@
 			description: ["You can also make &oAnthralite Tools&r, which are slightly better than &oIron Tools&r."]
 			hide_dependency_lines: true
 			id: "3BF671C95478697F"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "69A5DF40F0315C45"
+				item: "scguns:anthralite_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Iron+"
 			tasks: [
 				{
@@ -3023,6 +3835,14 @@
 			]
 			hide_dependency_lines: true
 			id: "3DF3D60C9106E83F"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "13DAA65A1BFDE6E4"
+				item: "scguns:treated_iron_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Iron++"
 			tasks: [
 				{
@@ -3083,6 +3903,7 @@
 				"Also note that &oAnthralite&r tools and armor are made via the &lSmithing Table&r."
 			]
 			id: "22C5D0CC9054B4D7"
+			optional: true
 			shape: "gear"
 			subtitle: "Weak, but Resist Knockback"
 			tasks: [{
@@ -3099,6 +3920,14 @@
 		}
 		{
 			id: "7FF96D4121C7C155"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "0E35F101954B852F"
+				item: "scguns:ancient_brass"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "0E32548A5F4D9FA2"
@@ -3155,6 +3984,14 @@
 			]
 			hide_dependency_lines: true
 			id: "04E3E49A19A91314"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "0C2366E10B2D144D"
+				item: "scguns:treated_brass_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "212F8DF4E8260315"
@@ -3211,6 +4048,14 @@
 			]
 			hide_dependency_lines: true
 			id: "4B83C2F46F257795"
+			optional: true
+			rewards: [{
+				count: 12
+				id: "236342B1881CD604"
+				item: "scguns:diamond_steel_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3CD23CFD141240E2"
@@ -3262,6 +4107,13 @@
 		}
 		{
 			id: "5FE02C7225FE3D69"
+			optional: true
+			rewards: [{
+				id: "2B6317CE8FE92D38"
+				item: "scguns:treated_brass_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "7DC37CC2C13C8B3A"
 				item: {
@@ -3278,6 +4130,13 @@
 		}
 		{
 			id: "1202755F86DA2E5F"
+			optional: true
+			rewards: [{
+				id: "156A696048C85C51"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "1712F7A46840896E"
 				item: {
@@ -3299,6 +4158,14 @@
 			]
 			hide_dependency_lines: true
 			id: "68FAF51F302C7403"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "191607ADF842A295"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			shape: "diamond"
 			subtitle: "Protects Against Sulfur Gas!"
 			tasks: [
 				{

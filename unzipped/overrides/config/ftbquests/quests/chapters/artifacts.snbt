@@ -10,6 +10,11 @@
 	quests: [
 		{
 			id: "284CCEAD17C71FA5"
+			rewards: [{
+				id: "359EF0191C97D8B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "6B094BF3E5EAE978"
 				item: "artifacts:umbrella"
@@ -20,6 +25,11 @@
 		}
 		{
 			id: "1E4D2F19E90F29D0"
+			rewards: [{
+				id: "564B3D9AB02AFED1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "68FF7FEAC5EC7843"
 				item: "artifacts:eternal_steak"
@@ -30,6 +40,11 @@
 		}
 		{
 			id: "5AA8D3836858E17B"
+			rewards: [{
+				id: "76FC5E6E5E3F43F8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				icon: "artifacts:plastic_drinking_hat"
 				id: "6E2FD3E3B699E93A"
@@ -57,6 +72,11 @@
 		}
 		{
 			id: "6DD8CD0AD600B1FA"
+			rewards: [{
+				id: "00C665D2F3CCC36F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "54D164C8F8E4A6CF"
 				item: "artifacts:snorkel"
@@ -67,6 +87,11 @@
 		}
 		{
 			id: "14D901B05A81B815"
+			rewards: [{
+				id: "41FDDF484D53828A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "159800CAD99A58B2"
 				item: "artifacts:night_vision_goggles"
@@ -77,6 +102,11 @@
 		}
 		{
 			id: "4AD27F47810EFFDB"
+			rewards: [{
+				id: "71160A3544391B0D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "62299D10ED7FDF3C"
 				item: "artifacts:villager_hat"
@@ -87,6 +117,11 @@
 		}
 		{
 			id: "635D00D64D83BF37"
+			rewards: [{
+				id: "19832E269DA9F8AC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "266D2A0C2D38322B"
 				item: "artifacts:superstitious_hat"
@@ -97,6 +132,11 @@
 		}
 		{
 			id: "0F3A0DB4D0830AAC"
+			rewards: [{
+				id: "20214EB39FB8AC77"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "5D36380E9A420BE0"
 				item: "artifacts:cowboy_hat"
@@ -107,6 +147,11 @@
 		}
 		{
 			id: "28156CE2776AB92E"
+			rewards: [{
+				id: "7985DC01274B8BDF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0F8D4CE1F856ECEA"
 				item: "artifacts:anglers_hat"
@@ -117,6 +162,11 @@
 		}
 		{
 			id: "3C3C15CCD64F5D66"
+			rewards: [{
+				id: "76FE3C46EDB6EA94"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "011D4B9304E9290A"
 				item: "artifacts:lucky_scarf"
@@ -127,6 +177,11 @@
 		}
 		{
 			id: "0E123CEE83D382AB"
+			rewards: [{
+				id: "296A85B0E45AD1EE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "68BE4F311898FC7A"
 				item: "artifacts:scarf_of_invisibility"
@@ -137,6 +192,11 @@
 		}
 		{
 			id: "1878F552DF74B89E"
+			rewards: [{
+				id: "1B9661F474CB8004"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "66C7751F6EECEAB5"
 				item: "artifacts:cross_necklace"
@@ -147,6 +207,11 @@
 		}
 		{
 			id: "1E65DFFE06716768"
+			rewards: [{
+				id: "741DFCEC145527D3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "07FFA91C60BB9FB5"
 				item: "artifacts:panic_necklace"
@@ -157,6 +222,11 @@
 		}
 		{
 			id: "505E5C919A2D428E"
+			rewards: [{
+				id: "6A3B09DB4C53E225"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3030B7ED18EA659E"
 				item: "artifacts:shock_pendant"
@@ -167,6 +237,11 @@
 		}
 		{
 			id: "5CE1B7C712B81407"
+			rewards: [{
+				id: "2A45AA2B519B8BCC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "197B844E99F956B4"
 				item: "artifacts:flame_pendant"
@@ -177,6 +252,11 @@
 		}
 		{
 			id: "07B18B4C558E34F0"
+			rewards: [{
+				id: "35205359A1DF69DB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2ACB4F0D76E3AE1B"
 				item: "artifacts:thorn_pendant"
@@ -187,6 +267,11 @@
 		}
 		{
 			id: "30FD409F29479B0E"
+			rewards: [{
+				id: "2A70275AC4150BBC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "77540AC03C986DEC"
 				item: "artifacts:charm_of_sinking"
@@ -197,6 +282,11 @@
 		}
 		{
 			id: "21D875CB2895D38D"
+			rewards: [{
+				id: "2754F7961E1F9406"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "31073766417C4DF8"
 				item: "artifacts:cloud_in_a_bottle"
@@ -207,6 +297,11 @@
 		}
 		{
 			id: "17937700577B4A81"
+			rewards: [{
+				id: "0924A9B71E01E999"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "36CFFDE5DC097BA8"
 				item: "artifacts:obsidian_skull"
@@ -217,6 +312,11 @@
 		}
 		{
 			id: "12E8CEDFA056C775"
+			rewards: [{
+				id: "1A2695F959D83173"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "06E6ECB23291099B"
 				item: "artifacts:antidote_vessel"
@@ -227,6 +327,11 @@
 		}
 		{
 			id: "7D5D7A8B1FAEAE8F"
+			rewards: [{
+				id: "646930855F1DA2DC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "53223A40971268F6"
 				item: "artifacts:universal_attractor"
@@ -237,6 +342,11 @@
 		}
 		{
 			id: "7C9884C48C0D5083"
+			rewards: [{
+				id: "58C1E15226D98F9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "0FBE5BBCD087424B"
 				item: "artifacts:crystal_heart"
@@ -247,6 +357,11 @@
 		}
 		{
 			id: "4B2D4455FB5E698A"
+			rewards: [{
+				id: "2B8F557575A63AFC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1D889CCFEA141DBB"
 				item: "artifacts:helium_flamingo"
@@ -257,6 +372,11 @@
 		}
 		{
 			id: "43EE0D0F495352BF"
+			rewards: [{
+				id: "48F5E105C59FF999"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "45C2D8A48D6FA981"
 				item: "artifacts:chorus_totem"
@@ -267,6 +387,11 @@
 		}
 		{
 			id: "6D900FD824983A57"
+			rewards: [{
+				id: "36C79EF91CFB28AE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1C30C4E6C73D219D"
 				item: "artifacts:digging_claws"
@@ -277,6 +402,11 @@
 		}
 		{
 			id: "397B827E411FB263"
+			rewards: [{
+				id: "093CD41AFE69ED22"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2C1F3520B8B4B446"
 				item: "artifacts:feral_claws"
@@ -287,6 +417,11 @@
 		}
 		{
 			id: "4EE6C36CD6427AF1"
+			rewards: [{
+				id: "1F94046AB6CF4A36"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "39C02A23ED395291"
 				item: "artifacts:power_glove"
@@ -297,6 +432,11 @@
 		}
 		{
 			id: "3A89D0960FA28423"
+			rewards: [{
+				id: "3810EFA3E9302915"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "66548EC387061D28"
 				item: "artifacts:fire_gauntlet"
@@ -307,6 +447,11 @@
 		}
 		{
 			id: "57F2E8D5C564EEE4"
+			rewards: [{
+				id: "7085956A6541A529"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "64AA6B007EE6379D"
 				item: "artifacts:pocket_piston"
@@ -317,6 +462,11 @@
 		}
 		{
 			id: "7D2014AA02CCEB89"
+			rewards: [{
+				id: "02462A97500F966C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "055CE3C8E7A202EA"
 				item: "artifacts:vampiric_glove"
@@ -327,6 +477,11 @@
 		}
 		{
 			id: "7ADA35B6544CE1D2"
+			rewards: [{
+				id: "069121DFC020D559"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "4CD618C2BA721CEF"
 				item: "artifacts:golden_hook"
@@ -337,6 +492,11 @@
 		}
 		{
 			id: "67B72E099EFAFC4D"
+			rewards: [{
+				id: "2D7E6B071A9B49A3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "402D588EE2E5636B"
 				item: "artifacts:onion_ring"
@@ -347,6 +507,11 @@
 		}
 		{
 			id: "751D5BEA7E596A0E"
+			rewards: [{
+				id: "7FE56D5219DB1E68"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "02427D70F909952C"
 				item: "artifacts:pickaxe_heater"
@@ -357,6 +522,11 @@
 		}
 		{
 			id: "6C4FEA1125B100B2"
+			rewards: [{
+				id: "03A96984918C9F9B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "59ED877BFD28144F"
 				item: "artifacts:aqua_dashers"
@@ -367,6 +537,11 @@
 		}
 		{
 			id: "69691AE0FEE6028C"
+			rewards: [{
+				id: "55F634DC89E06017"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "01201DB469AE9B5F"
 				item: "artifacts:bunny_hoppers"
@@ -377,6 +552,11 @@
 		}
 		{
 			id: "4B1D18931AAE5BBF"
+			rewards: [{
+				id: "73D3757F6FBA93B8"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "05ADE47471AAE1C4"
 				item: "artifacts:kitty_slippers"
@@ -387,6 +567,11 @@
 		}
 		{
 			id: "212B5996D5671D82"
+			rewards: [{
+				id: "253FE70DB8247CB4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "22F209DD2F78BD2E"
 				item: "artifacts:running_shoes"
@@ -397,6 +582,11 @@
 		}
 		{
 			id: "28F2BCD6BCADC74B"
+			rewards: [{
+				id: "4A58FCAE01B884F2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7B8DEF5972E62924"
 				item: "artifacts:snowshoes"
@@ -407,6 +597,11 @@
 		}
 		{
 			id: "4C8840DFE47C12BA"
+			rewards: [{
+				id: "31A8192EA3F5D41B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2089509FEE386520"
 				item: "artifacts:steadfast_spikes"
@@ -417,6 +612,11 @@
 		}
 		{
 			id: "05C20B0670AA6C9E"
+			rewards: [{
+				id: "6138DEB441480016"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "1FFF8E823259CD30"
 				item: "artifacts:flippers"
@@ -427,6 +627,11 @@
 		}
 		{
 			id: "43152AE0526E40C5"
+			rewards: [{
+				id: "40FC8239BCE5C4C2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "2FFFB9106F280796"
 				item: "artifacts:rooted_boots"
@@ -437,6 +642,11 @@
 		}
 		{
 			id: "772151DB66C36C47"
+			rewards: [{
+				id: "759F08F97EE77406"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "7FAA2D2EB8273268"
 				item: "artifacts:whoopee_cushion"

@@ -1,0 +1,144 @@
+{
+	icon: "improvableskills:skills_book"
+	id: "7598C260412AA910"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:alchemist"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:atkdmg_ranged"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:dexterous_arms"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:enchanter"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:ender_manipulator"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:generic_protection"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:health"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:huckster"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:luck_of_the_sea"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:mob_repellent"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:obsidian_skin"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:silent_foot"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:soul_speed"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:treasure_sands"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "improvableskills:scroll_normal"
+				tag: {
+					Skill: "improvableskills:xp_plus"
+				}
+			}
+		}
+	]
+	title: "Skill"
+}

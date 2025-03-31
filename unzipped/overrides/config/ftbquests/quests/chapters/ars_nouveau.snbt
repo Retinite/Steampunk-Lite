@@ -25,6 +25,11 @@
 				"Spellbooks can be colored, and any color you choose will carry over when you upgrade your spellbook to a higher level!"
 			]
 			id: "30520F3E6DE3BC7D"
+			rewards: [{
+				id: "7F06C3F407F8562E"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Includes Documentation"
 			tasks: [{
@@ -38,6 +43,11 @@
 		{
 			dependencies: ["30520F3E6DE3BC7D"]
 			id: "0A476B84EB6FF749"
+			rewards: [{
+				id: "290FBD8F17F2EE00"
+				item: "ars_additions:lost_codex_entry"
+				type: "item"
+			}]
 			subtitle: "Tier 2 Spells"
 			tasks: [{
 				id: "694E52C380AF5049"
@@ -53,6 +63,11 @@
 				"04127D1A9ED6208D"
 			]
 			id: "46DE628A03493180"
+			rewards: [{
+				id: "526AE0EA8A5E5F26"
+				item: "ars_additions:ancient_codex_entry"
+				type: "item"
+			}]
 			subtitle: "Tier 3 Spells"
 			tasks: [{
 				id: "58A7273C5D4E03A4"
@@ -65,6 +80,11 @@
 		{
 			id: "2DD82137921E76A7"
 			optional: true
+			rewards: [{
+				id: "48AD40D19BCE194E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			subtitle: "Documentation"
 			tasks: [{
@@ -77,6 +97,33 @@
 		}
 		{
 			id: "3872812432B12EAE"
+			rewards: [
+				{
+					id: "6358A6ADBC2E14BB"
+					item: "ars_elemental:yellow_archwood_log"
+					type: "item"
+				}
+				{
+					id: "34BA67F81AF485B9"
+					item: "ars_nouveau:blue_archwood_log"
+					type: "item"
+				}
+				{
+					id: "5276098CE7F8C717"
+					item: "ars_nouveau:red_archwood_log"
+					type: "item"
+				}
+				{
+					id: "6D46236E94EDDF40"
+					item: "ars_nouveau:purple_archwood_log"
+					type: "item"
+				}
+				{
+					id: "562F144AFFD02A3E"
+					item: "ars_nouveau:green_archwood_log"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "5B6041137B061FB1"
@@ -90,6 +137,11 @@
 			dependencies: ["3872812432B12EAE"]
 			id: "34CD29A8FD6E86DD"
 			optional: true
+			rewards: [{
+				id: "52484358670DF390"
+				item: "ars_additions:lost_codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Gotta Get 'Em All!"
 			tasks: [
@@ -126,6 +178,11 @@
 		{
 			id: "4E03983FFB4F560E"
 			optional: true
+			rewards: [{
+				id: "0823C98FBD0A75B3"
+				item: "ars_nouveau:source_berry_pie"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4A53C0815B62A286"
@@ -148,6 +205,11 @@
 				"The &lImbuement Chamber&r, as well as other crafting stations added in &c&lArs Nouveau&r, may require &lArcane Pedestals&r within 3 blocks to hold extra items for some recipes."
 			]
 			id: "07A44B539BD90C22"
+			rewards: [{
+				id: "5A6DD7E417F1764D"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Energy Crafting"
 			tasks: [{
@@ -162,6 +224,11 @@
 			dependencies: ["07A44B539BD90C22"]
 			hide_dependent_lines: true
 			id: "401D061E9B20ADA8"
+			rewards: [{
+				id: "37C2BDD7B1728623"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "266B1B14158364C4"
@@ -187,6 +254,11 @@
 			]
 			hide_dependent_lines: true
 			id: "6A9CBF3E12B78B26"
+			rewards: [{
+				id: "1955254612C7D998"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Normal-ish Crafting"
 			tasks: [
@@ -212,6 +284,11 @@
 		{
 			dependencies: ["6A9CBF3E12B78B26"]
 			id: "6D669F3815F78B28"
+			rewards: [{
+				id: "41BAD74C212A6F5C"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -237,6 +314,11 @@
 		{
 			dependencies: ["3872812432B12EAE"]
 			id: "1C3A33A6E3FDB5A0"
+			rewards: [{
+				id: "49E3F1BDDC4CED8E"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Make New Glyphs"
 			tasks: [{
@@ -256,6 +338,11 @@
 			]
 			id: "27EDC65D46CC49E0"
 			optional: true
+			rewards: [{
+				id: "281C08D6BFC3A7FD"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Crop Source"
 			tasks: [{
@@ -275,6 +362,11 @@
 			]
 			id: "3275E7E061B780DB"
 			optional: true
+			rewards: [{
+				id: "51F28F325D5435F5"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Food Source"
 			tasks: [
@@ -301,6 +393,11 @@
 			]
 			id: "1B10845BDBC33E9D"
 			optional: true
+			rewards: [{
+				id: "39DA57313ECFE233"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Life Source"
 			tasks: [{
@@ -323,6 +420,11 @@
 			]
 			id: "0BF9308FEF59E326"
 			optional: true
+			rewards: [{
+				id: "33FC0AB7132038D4"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Potion Source"
 			tasks: [
@@ -349,6 +451,11 @@
 			]
 			id: "6C1491309918977F"
 			optional: true
+			rewards: [{
+				id: "5DAE4BA314FEAB9A"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Heat Source"
 			tasks: [{
@@ -366,6 +473,11 @@
 			]
 			hide_dependent_lines: true
 			id: "1DF252BDF8663EF3"
+			rewards: [{
+				id: "40499D502A68DAFF"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Essential"
 			tasks: [
@@ -417,6 +529,11 @@
 		{
 			dependencies: ["6A9CBF3E12B78B26"]
 			id: "754C9E328DCDC279"
+			rewards: [{
+				id: "4F58D3B4F8D3EF55"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
 			subtitle: "Magical Wrench"
 			tasks: [{
 				id: "0A3E598CC000AD50"
@@ -438,6 +555,11 @@
 				"&lSource Relays&r can connect to other &lSource Relays&r within 30 blocks, and &lSource Jars&r within 5 blocks."
 			]
 			id: "56F8952EA876DFC5"
+			rewards: [{
+				id: "4731076311A73B10"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Transfer Source"
 			tasks: [{
@@ -453,6 +575,11 @@
 			description: ["Automatically absorbs &5source&r from &nall&r &lSource Jars&r within 5 blocks without needing to be linked to them."]
 			id: "1B451BF1F8618B53"
 			optional: true
+			rewards: [{
+				id: "310340269845D374"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Auto-Collector"
 			tasks: [{
@@ -468,6 +595,11 @@
 			description: ["Automatically deposits &5source&r into &nall&r &lSource Jars&r within 5 blocks without needing to be linked to them."]
 			id: "245554F81068D0ED"
 			optional: true
+			rewards: [{
+				id: "3E088805055F364D"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Auto-Depositor"
 			tasks: [{
@@ -483,6 +615,11 @@
 			description: ["Can connect to multiple &lSource Jars&r at once for either input or output, and has a higher &5source&r throughput compared to a normal &lSource Relay&r."]
 			id: "75CBB2F2B50875AA"
 			optional: true
+			rewards: [{
+				id: "0DFABE8A98C90F5B"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Better Relay"
 			tasks: [{
@@ -502,6 +639,11 @@
 			]
 			id: "53903CC3C00F93C0"
 			optional: true
+			rewards: [{
+				id: "2C4D8E7AEB6AFA6A"
+				item: "ars_nouveau:source_gem_block"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Infinite Relay"
 			tasks: [{
@@ -524,6 +666,11 @@
 			]
 			id: "551A245C70918F32"
 			optional: true
+			rewards: [{
+				id: "027BAD07E86B7ADF"
+				item: "ars_additions:lost_codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Spellbook Upgrade"
 			tasks: [
@@ -561,6 +708,12 @@
 			dependencies: ["401D061E9B20ADA8"]
 			description: ["&lSource Jars&r absorb &5source&r from &lSourcelinks&r within 5 blocks, and automatically transfer &5source&r to &lImbuement Chambers&r within 2 blocks."]
 			id: "069B8A8EFD3632A8"
+			rewards: [{
+				count: 2
+				id: "621133FD26E8CD95"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Source Storage"
 			tasks: [{
@@ -574,6 +727,11 @@
 		{
 			description: ["Seriously read through the guidebook page on Starbuncles, they can do a lot!"]
 			id: "7C13791A5C7DB349"
+			rewards: [{
+				id: "30F9EC64ACF253F6"
+				item: "ars_additions:codex_entry"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Item Transfer"
 			tasks: [{
@@ -589,6 +747,15 @@
 			description: ["Generates as much stress as a basic water wheel. Can be placed anywhere."]
 			id: "67C6DEE7C38ADB93"
 			optional: true
+			rewards: [{
+				id: "4B305DD32FC5B6FF"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Create Compatability"
 			tasks: [{
@@ -609,6 +776,11 @@
 				"You can also use the &lBraziers&r decoratively, especially with colored &olight&r spells!"
 			]
 			id: "5AD9C30195F19E5A"
+			rewards: [{
+				id: "64B769804DEE27C1"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Ritual Crafting"
 			tasks: [{
@@ -623,7 +795,12 @@
 			dependencies: ["5AD9C30195F19E5A"]
 			description: ["Be sure to &oaugment&r the spell with all 3 Wilden drops before activating!"]
 			id: "2D99162A9DEB273B"
-			shape: "pentagon"
+			rewards: [{
+				id: "5F127C43D7FAA2DE"
+				item: "ars_additions:lost_codex_entry"
+				type: "item"
+			}]
+			shape: "octagon"
 			subtitle: "Boss Time!"
 			tasks: [
 				{
@@ -654,6 +831,11 @@
 		{
 			dependencies: ["2D99162A9DEB273B"]
 			id: "04127D1A9ED6208D"
+			rewards: [{
+				id: "0E9942140596366E"
+				item: "ars_additions:ancient_codex_entry"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7A453A41B6FBA19B"
@@ -666,6 +848,11 @@
 		{
 			dependencies: ["04127D1A9ED6208D"]
 			id: "35327615C6A21E53"
+			rewards: [{
+				id: "69F10104002C151B"
+				item: "ars_additions:ancient_codex_entry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CF3DE3D6FFEC98D"
 				item: {
@@ -713,6 +900,11 @@
 				"57FA6881E72F2171"
 			]
 			id: "1D4E4BBDF40E9942"
+			rewards: [{
+				id: "4EFBB258E1E279FB"
+				item: "ars_additions:ancient_codex_entry"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1F32CB10E4198FB5"
@@ -887,6 +1079,11 @@
 			dependencies: ["6D669F3815F78B28"]
 			description: ["Upgradable with &oThreads&r! Different armor sets have different numbers of &oThread&r slots and may have different magical properties too!"]
 			id: "57FA6881E72F2171"
+			rewards: [{
+				id: "71CFFBE9CEDE9AF5"
+				item: "ars_additions:lost_codex_entry"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6DB4E5B07699B8D9"
@@ -1078,6 +1275,11 @@
 			dependencies: ["7DC87FAD3FDC5B96"]
 			id: "5A1B7700352BB745"
 			optional: true
+			rewards: [{
+				id: "54170AC80A00B6DE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3D5AE1401E36C53A"
@@ -1091,6 +1293,11 @@
 			dependencies: ["7DC87FAD3FDC5B96"]
 			id: "258118DBBE16D979"
 			optional: true
+			rewards: [{
+				id: "7E3FAD58C91105D2"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0A13BDEA6950563E"
@@ -1104,6 +1311,11 @@
 			dependencies: ["1A36180F1B05C433"]
 			id: "0F345E9E7E0ADD57"
 			optional: true
+			rewards: [{
+				id: "0513BBF76F9E4B60"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3EA3ECED09D9C987"
@@ -1117,6 +1329,11 @@
 			dependencies: ["1A36180F1B05C433"]
 			id: "5E5743C09FBE22E2"
 			optional: true
+			rewards: [{
+				id: "291C7777BC691B8E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "55B35E6A657D4FF8"
@@ -1130,6 +1347,11 @@
 			dependencies: ["1A36180F1B05C433"]
 			id: "4F959029C28A4FCA"
 			optional: true
+			rewards: [{
+				id: "413F091127074300"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0113E7C045A72F41"
@@ -1143,6 +1365,11 @@
 			dependencies: ["6B6F9302A4B96700"]
 			id: "5F096A66D57FD0C0"
 			optional: true
+			rewards: [{
+				id: "51B299458D3A4EA0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "774680AADE5786A3"
@@ -1156,6 +1383,11 @@
 			dependencies: ["6B6F9302A4B96700"]
 			id: "391C7D6C09316289"
 			optional: true
+			rewards: [{
+				id: "6BDBD96BBE4805E4"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "62E42469D5DE74AB"
@@ -1169,6 +1401,11 @@
 			dependencies: ["391C7D6C09316289"]
 			id: "1B41EB466D04DF37"
 			optional: true
+			rewards: [{
+				id: "206CF3567B5F8ED6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "299E67C52EC02EE1"
@@ -1182,6 +1419,11 @@
 			dependencies: ["6B6F9302A4B96700"]
 			id: "591D6B18FBF49654"
 			optional: true
+			rewards: [{
+				id: "1F451CBF0EAC1274"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "05FDC44F55C0EE63"
@@ -1195,6 +1437,11 @@
 			dependencies: ["591D6B18FBF49654"]
 			id: "2DD806F2E0B09AAD"
 			optional: true
+			rewards: [{
+				id: "6A51CDE149DF16D8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0AD868911678009D"
@@ -1208,6 +1455,11 @@
 			dependencies: ["591D6B18FBF49654"]
 			id: "6DC2C7CD544A4F23"
 			optional: true
+			rewards: [{
+				id: "03E642F35CAC3419"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4F66FED14DD73BB8"
@@ -1221,6 +1473,11 @@
 			dependencies: ["591D6B18FBF49654"]
 			id: "609D19D7C533ECDC"
 			optional: true
+			rewards: [{
+				id: "6B6495A9B8ADD187"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "76EE768839749040"
@@ -1234,6 +1491,11 @@
 			dependencies: ["591D6B18FBF49654"]
 			id: "73802AF8578E1E7C"
 			optional: true
+			rewards: [{
+				id: "19FA8E0623472317"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "161D4CFB67D69BAA"
@@ -1247,6 +1509,11 @@
 			dependencies: ["591D6B18FBF49654"]
 			id: "158EFD3CBBFBC312"
 			optional: true
+			rewards: [{
+				id: "32B6A2DCEEE84612"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "12B4DEE03D5CFE44"
@@ -1260,6 +1527,11 @@
 			dependencies: ["591D6B18FBF49654"]
 			id: "6D5CB6F8C09B5EDF"
 			optional: true
+			rewards: [{
+				id: "4DE3054910DEC452"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "54BC70D83B8C3AF5"
@@ -1276,6 +1548,11 @@
 			]
 			id: "13F457BB792558CD"
 			optional: true
+			rewards: [{
+				id: "16888DBDB4C3A605"
+				item: "ars_additions:lost_codex_entry"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "The Ender Chest of Jars"
 			tasks: [{

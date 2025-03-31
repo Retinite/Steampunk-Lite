@@ -58,6 +58,11 @@
 				}
 			}
 			id: "490C0B8488A369FA"
+			rewards: [{
+				id: "3722BBFDE62C0798"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "75064B4EBA0A5831"
 				item: {
@@ -82,6 +87,11 @@
 			icon: "outer_end:azure_chest"
 			id: "5FA8ABF4789FDE5A"
 			optional: true
+			rewards: [{
+				id: "0DBDB3DA789E907C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "No Uses"
 			tasks: [{
 				id: "1E76FECB0D200601"
@@ -110,6 +120,11 @@
 			]
 			icon: "mysticalagriculture:inferium_essence"
 			id: "01F30431F83ABEFF"
+			rewards: [{
+				id: "505541D2D4171245"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "3D1CA7D4B4CAE2C2"
@@ -155,6 +170,11 @@
 				}
 			}
 			id: "38FC2EEAAC227E35"
+			rewards: [{
+				id: "121B239C411ECCA8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				id: "4ED436ED06400928"
 				item: {
@@ -177,6 +197,11 @@
 			dependencies: ["3665726D37B6B744"]
 			icon: "ars_nouveau:apprentice_spell_book"
 			id: "34410145735574CC"
+			rewards: [{
+				id: "5BF0DFF7B943D448"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "415D77EB72B0F89A"
@@ -222,6 +247,11 @@
 			]
 			icon: "ars_nouveau:enchanting_apparatus"
 			id: "7F847EBB2F976DD8"
+			rewards: [{
+				id: "14FB383C475ACB7E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Ars Nouveau Crafting"
 			tasks: [
 				{
@@ -294,6 +324,11 @@
 			]
 			icon: "ars_elemental:debug"
 			id: "3C96F603225014CD"
+			rewards: [{
+				id: "3DABD0906AA30AA8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "631BC609D679EC51"
@@ -337,6 +372,11 @@
 			]
 			icon: "create:wrench"
 			id: "3C8D994DD8FEDFB8"
+			rewards: [{
+				id: "33400FF7AC200BF0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "2B5F7D2BE736A676"
@@ -390,6 +430,11 @@
 				}
 			}
 			id: "2FEA5D84C2BDC3F0"
+			rewards: [{
+				id: "0866E4C6F040D2C7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Straddleboards"
 			tasks: [
 				{
@@ -474,6 +519,11 @@
 				}
 			}
 			id: "56AEEF20DB1230E8"
+			rewards: [{
+				id: "1BED0842752F02D7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "1D9CBA3CE4A53C4C"
@@ -563,6 +613,11 @@
 			]
 			icon: "enigmaticlegacy:twisted_heart"
 			id: "1A322B30E081196A"
+			rewards: [{
+				id: "6DEC051F0D8FF833"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Legacy \\& Addons"
 			tasks: [
 				{
@@ -637,6 +692,11 @@
 			]
 			icon: "enigmaticaddons:pure_heart"
 			id: "0B8BA44343ED5120"
+			rewards: [{
+				id: "3C18933AACE14BA8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [
 				{
 					id: "60B76273EEBB9D1C"
@@ -712,6 +772,11 @@
 				}
 			}
 			id: "578D9DE3752975B6"
+			rewards: [{
+				id: "0AC6DE8D0B7364B9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Generic Enchantments"
 			tasks: [
 				{
@@ -828,9 +893,9 @@
 				""
 				"&dPerforator&r &c(no rockets and only some microjets)&r allows bullets to travel through multiple enemies."
 				""
-				"&dShell Catcher&r &c(no &oBacktank&r&c guns, no flamethrowers, no flintlock guns, except for the &oRepeating Musket&r&c)&r &cBUGGED - DOES NOT WORK AS OF VERSION 0.4.0+&r increases the number of spent shell casings recovered after firing."
+				"&dShell Catcher&r &c(no &oBacktank&r&c guns, no flamethrowers, no flintlock guns, except for the &oRepeating Musket&r&c)&r increases the number of spent shell casings recovered after firing. &cBUGGED - DOES NOT WORK AS OF VERSION 0.4.0+&r"
 				""
-				"&dTight Seal&r &c(no flintlock guns, no flamethrowers)&r no observable effect???"
+				"&dTight Seal&r &c(no flintlock guns, no flamethrowers)&r &cIN DEVELOPMENT - NO CURRENT EFFECT&r"
 			]
 			icon: {
 				Count: 1
@@ -842,6 +907,11 @@
 				}
 			}
 			id: "4CD5C367A564A74B"
+			rewards: [{
+				id: "162A1EC2A314ED09"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Specific Enchantments"
 			tasks: [
 				{
@@ -968,6 +1038,11 @@
 				}
 			}
 			id: "15594C30389227BB"
+			rewards: [{
+				id: "652ABAEE01D8FDE3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Primordial Caves"
 			tasks: [
 				{
@@ -1034,6 +1109,11 @@
 				}
 			}
 			id: "60E29E6CB06E8573"
+			rewards: [{
+				id: "418F5B7DE2533FD8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Primordial Caves"
 			tasks: [
 				{
@@ -1098,6 +1178,11 @@
 				}
 			}
 			id: "1279F4AD3AACFAFC"
+			rewards: [{
+				id: "42C50B36DB1E28CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Magnetic Caves"
 			tasks: [
 				{
@@ -1150,6 +1235,11 @@
 				}
 			}
 			id: "6B6D856313148307"
+			rewards: [{
+				id: "66E7401CCB6C5D2A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Magnetic Caves"
 			tasks: [
 				{
@@ -1216,6 +1306,11 @@
 				tag: { }
 			}
 			id: "5C4126EFFF80FE35"
+			rewards: [{
+				id: "4933DFE618F94F50"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Toxic Caves"
 			tasks: [
 				{
@@ -1298,6 +1393,11 @@
 				}
 			}
 			id: "4809E1C19D98B8F5"
+			rewards: [{
+				id: "12A75712E5A1E66A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Abyssal Chasm"
 			tasks: [
 				{
@@ -1378,6 +1478,11 @@
 				}
 			}
 			id: "7E29BE4036948D88"
+			rewards: [{
+				id: "5D61C1BA082AB501"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Abyssal Chasm"
 			tasks: [
 				{
@@ -1448,6 +1553,11 @@
 				}
 			}
 			id: "78223EDE664FDAF4"
+			rewards: [{
+				id: "5CC4AB6DA63A06DB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Abyssal Chasm"
 			tasks: [
 				{
@@ -1544,6 +1654,11 @@
 				}
 			}
 			id: "23AFE5AEE406A48C"
+			rewards: [{
+				id: "3A407E97E5C6C277"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Forlorn Hollows"
 			tasks: [
 				{
@@ -1624,6 +1739,11 @@
 				}
 			}
 			id: "60383F27FB4E02C1"
+			rewards: [{
+				id: "338C3B5DED0548FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Forlorn Hollows"
 			tasks: [
 				{
@@ -1694,6 +1814,11 @@
 				}
 			}
 			id: "169ABCF89EAC8900"
+			rewards: [{
+				id: "7A278E0E87DC1B20"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Forlorn Hollows"
 			tasks: [
 				{
@@ -1774,13 +1899,13 @@
 		{
 			dependencies: ["410F29431ECD6B4C"]
 			description: [
-				"&dBouncy Ball&r &cNO DATA AVAILABLE&r"
+				"&dBouncy Ball&r adds 2 extra bounces to the gumball shots per level."
 				""
-				"&dExplosive Flavor&r &cNO DATA AVAILABLE&r"
+				"&dExplosive Flavor&r replaces both fired gumballs with one large, heavy gumball that explodes after several seconds. Does not destroy blocks."
 				""
-				"&dTargeted Ricochet&r &cNO DATA AVAILABLE&r"
+				"&dTargeted Ricochet&r causes each ricochet to veer towards the nearest enemy. Each enemy may only be targeted once, but ricochets can bounce between multiple enemies. Incompatible with &dTriple Split&r."
 				""
-				"&dTriple Split&r &cNO DATA AVAILABLE&r"
+				"&dTriple Split&r causes gumball shots that hit enemies to split into 3 shots. Incompatible with &dTargeted Ricochet&r."
 			]
 			icon: {
 				Count: 1
@@ -1788,6 +1913,11 @@
 				tag: { }
 			}
 			id: "36BECDFF6019B5FC"
+			rewards: [{
+				id: "29CD76040DFF19A7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Candy Cavity"
 			tasks: [
 				{
@@ -1868,6 +1998,11 @@
 				}
 			}
 			id: "1892F994709D9973"
+			rewards: [{
+				id: "7FC9CC281AFACDF7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Candy Cavity"
 			tasks: [
 				{
@@ -1920,15 +2055,15 @@
 		{
 			dependencies: ["410F29431ECD6B4C"]
 			description: [
-				"&dHumungous Hex&r &cNO DATA AVAILABLE&r"
+				"&dHumungous Hex&r &cIN DEVELOPMENT - NO CURRENT EFFECT&r"
 				""
-				"&dMultiple Mint&r &cNO DATA AVAILABLE&r"
+				"&dMultiple Mint&r adds 1 extra summoned candy per level."
 				""
-				"&dPeppermint Punting&r &cNO DATA AVAILABLE&r"
+				"&dPeppermint Punting&r causes summoned candies to spawn in front of you as bouncing projectiles."
 				""
-				"&dSeekcandy&r &cNO DATA AVAILABLE&r"
+				"&dSeekcandy&r causes summoned candies to home in on nearby enemies."
 				""
-				"&dSpell Lasting&r &cNO DATA AVAILABLE&r"
+				"&dSpell Lasting&r &cIN DEVELOPMENT - NO CURRENT EFFECT&r"
 			]
 			icon: {
 				Count: 1
@@ -1938,6 +2073,11 @@
 				}
 			}
 			id: "465743EFB1CBEF37"
+			rewards: [{
+				id: "2E19097557F4485E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Candy Cavity"
 			tasks: [
 				{

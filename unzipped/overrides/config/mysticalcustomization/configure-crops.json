@@ -1,0 +1,26 @@
+{
+	"mysticalagriculture:brass": {
+		"enabled": false
+	},
+	"mysticalagriculture:steel": {
+		"enabled": false
+	},
+	"mysticalagriculture:constantan": {
+		"enabled": false
+	},
+	"mysticalagriculture:electrum": {
+		"enabled": false
+	},
+	"mysticalagriculture:hop_graphite": {
+		"enabled": false
+	},
+	"mysticalagriculture:diamond": {
+		"baseSecondaryChance": 0.0
+	},
+	"mysticalagriculture:emerald": {
+		"baseSecondaryChance": 0.0
+	},
+	"mysticalagriculture:netherite": {
+		"baseSecondaryChance": 0.0
+	}
+}

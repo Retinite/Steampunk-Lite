@@ -4,11 +4,30 @@ import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.resource.ResourceLocation;
-// import mods.immersiveengineering.MetalPress;
 import mods.create.CuttingManager;
 import mods.create.DeployerApplicationManager;
 import mods.farmersdelight.CookingPot;
 import mods.jeitweaker.Jei;
+
+// remove ItemFilters from JEI
+///*
+craftingTable.remove(<item: itemfilters:always_true>);
+Jei.hideIngredient(<item: itemfilters:always_true>);
+Jei.hideIngredient(<item: itemfilters:always_false>);
+Jei.hideIngredient(<item: itemfilters:or>);
+Jei.hideIngredient(<item: itemfilters:and>);
+Jei.hideIngredient(<item: itemfilters:not>);
+Jei.hideIngredient(<item: itemfilters:xor>);
+Jei.hideIngredient(<item: itemfilters:tag>);
+Jei.hideIngredient(<item: itemfilters:mod>);
+Jei.hideIngredient(<item: itemfilters:id_regex>);
+Jei.hideIngredient(<item: itemfilters:damage>);
+Jei.hideIngredient(<item: itemfilters:block>);
+Jei.hideIngredient(<item: itemfilters:max_count>);
+Jei.hideIngredient(<item: itemfilters:strong_nbt>);
+Jei.hideIngredient(<item: itemfilters:weak_nbt>);
+Jei.hideIngredient(<item: itemfilters:custom>);
+//*/
 
 // add Potion of Redemption recipe, as suggested by the MCMod.cn wiki
 <recipetype:farmersdelight:cooking>.addRecipe("enigmaticlegacy.redemption_potion", <item: enigmaticlegacy:redemption_potion>,
@@ -16,15 +35,17 @@ import mods.jeitweaker.Jei;
 	 <item: enigmaticlegacy:astral_dust>, <item: minecraft:fermented_spider_eye>],
 	<constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, <item: minecraft:glass_bottle>, 100.0, 1200);
 
+// add recipe for Bottle of Ichor, since it seems to be missing
+craftingTable.addShaped("enigmaticlegacy.ichor_bottle", <item: enigmaticlegacy:ichor_bottle>,
+	[[<item: enigmaticaddons:ichor_droplet>, <item: enigmaticaddons:ichor_droplet>, <item: enigmaticaddons:ichor_droplet>],
+	 [<item: enigmaticaddons:ichor_droplet>, <item: minecraft:glass_bottle>,        <item: enigmaticaddons:ichor_droplet>],
+	 [<item: enigmaticaddons:ichor_droplet>, <item: enigmaticaddons:ichor_droplet>, <item: enigmaticaddons:ichor_droplet>]]);
+
 // remove duplicate Raw Uranium recipe, add alternate crafting recipe
 craftingTable.removeByName("alexscaves:uranium_shard_from_uranium");
 craftingTable.removeByName("alexscaves:uranium_from_shard");
 craftingTable.removeByName("alexscaves:uranium_from_block");
 craftingTable.removeByName("alexscaves:block_of_uranium");
-craftingTable.addShaped("mysticalagriculture.essence/common/raw_uranium", <item: immersiveengineering:raw_uranium> * 2,
-	[[<item: mysticalagriculture:uranium_essence>, IIngredientEmpty.getInstance(),              <item: mysticalagriculture:uranium_essence>],
-	 [<item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>],
-	 [<item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>]]);
 
 // remove Create: New Age wires & connectors due to bug
 craftingTable.remove(<item: create_new_age:electrical_connector>);
@@ -85,53 +106,7 @@ Jei.hideIngredient(<item: hammerlib:test_machine>);
 <recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/iron>);
 <recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/gold>);
 
-// Mystical Agradditions
-Jei.hideIngredient(<item: mysticalagradditions:molten_inferium_bucket>);
-Jei.hideIngredient(<item: mysticalagradditions:molten_prudentium_bucket>);
-Jei.hideIngredient(<item: mysticalagradditions:molten_tertium_bucket>);
-Jei.hideIngredient(<item: mysticalagradditions:molten_imperium_bucket>);
-Jei.hideIngredient(<item: mysticalagradditions:molten_supremium_bucket>);
-Jei.hideIngredient(<item: mysticalagradditions:molten_soulium_bucket>);
-
-// Mystical Agriculture
-Jei.hideIngredient(<item: mysticalagriculture:rubber_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:rubber_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:silicon_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:silicon_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:apatite_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:apatite_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:tin_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:tin_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:bronze_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:bronze_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:graphite_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:graphite_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:invar_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:invar_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:mithril_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:mithril_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:tungsten_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:tungsten_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:titanium_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:titanium_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:chrome_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:chrome_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:ruby_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:ruby_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:sapphire_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:sapphire_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:peridot_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:peridot_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:platinum_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:platinum_essence>);
-Jei.hideIngredient(<item: mysticalagriculture:iridium_seeds>);
-Jei.hideIngredient(<item: mysticalagriculture:iridium_essence>);
-
-// Add new recipes
-craftingTable.addShaped("mysticalagriculture.essence/sulfur_chunk", <item: scguns:sulfur_chunk> * 4,
-	[[<item: mysticalagriculture:sulfur_essence>, <item: mysticalagriculture:sulfur_essence>],
-	 [<item: mysticalagriculture:sulfur_essence>, <item: mysticalagriculture:sulfur_essence>]]);
-
+// add decompression recipe for Alex's Caves sulfur block
 craftingTable.addShaped("alexscaves.dust_from_sulfur", <item: immersiveengineering:dust_sulfur> * 9,
 	[[<item: alexscaves:sulfur>]]);
 

@@ -1,0 +1,14 @@
+{
+	"name": "Ichor",
+	"type": "mysticalagriculture:resource",
+	"tier": "mysticalagriculture:5",
+	"ingredient": {
+		"item": "enigmaticaddons:ichor_droplet"
+	},
+	"textures": {
+		"flower": "mysticalagriculture:block/ichor_crop",
+		"essence": "mysticalagriculture:item/essence/ichor_essence",
+		"seeds": "mysticalagriculture:item/seeds/ichor_seeds"
+	},
+	"baseSecondaryChance": 0.0
+}

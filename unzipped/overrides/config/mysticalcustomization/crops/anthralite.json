@@ -1,0 +1,13 @@
+{
+	"name": "Anthralite",
+	"type": "mysticalagriculture:resource",
+	"tier": "mysticalagriculture:3",
+	"ingredient": {
+		"item": "scguns:anthralite_ingot"
+	},
+	"textures": {
+		"flower": "mysticalagriculture:block/anthralite_crop",
+		"essence": "mysticalagriculture:item/essence/anthralite_essence",
+		"seeds": "mysticalagriculture:item/seeds/anthralite_seeds"
+	}
+}
