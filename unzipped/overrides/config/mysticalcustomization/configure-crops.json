@@ -22,5 +22,8 @@
 	},
 	"mysticalagriculture:netherite": {
 		"baseSecondaryChance": 0.0
+	},
+	"mysticalagriculture:wither_skeleton": {
+		"baseSecondaryChance": 0.0
 	}
 }

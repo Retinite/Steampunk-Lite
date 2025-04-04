@@ -1109,8 +1109,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: -5.5d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
@@ -1258,7 +1258,7 @@
 					type: "item"
 				}
 				{
-					id: "2372C807AFF01A65"
+					id: "6B6BB07875BF75E3"
 					item: {
 						Count: 1
 						id: "itemfilters:or"
@@ -1278,19 +1278,26 @@
 										Damage: 0
 									}
 								}
+								{
+									Count: 1b
+									id: "createaddition:diamond_grit_sandpaper"
+									tag: {
+										Damage: 0
+									}
+								}
 							]
 						}
 					}
-					title: "Sand Paper"
+					title: "Any Sand Paper"
 					type: "item"
 				}
 				{
-					id: "610CD2BBA6B24D92"
+					id: "4810E99EF9502DBC"
 					item: "create:polished_rose_quartz"
 					type: "item"
 				}
 				{
-					id: "03455734C9397C7E"
+					id: "779B5009FB299E0A"
 					item: "create:electron_tube"
 					type: "item"
 				}
@@ -2414,8 +2421,8 @@
 				item: "create:tree_fertilizer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			id: "17F44209F5DCA4F5"
@@ -2437,7 +2444,7 @@
 				item: "create:crafting_blueprint"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -2462,6 +2469,7 @@
 				"36445D62CD71EE9D"
 				"0765608199335E27"
 			]
+			hide_dependent_lines: true
 			id: "54DFD4A196F7C3C1"
 			rewards: [{
 				id: "0372A36832878E87"
@@ -2473,8 +2481,8 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.5d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1125F214A19CCF0B"]
@@ -3278,6 +3286,70 @@
 			}]
 			x: 3.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["11462C50ED95A75C"]
+			hide_dependency_lines: true
+			id: "35FC48C2E3CAB434"
+			shape: "square"
+			tasks: [{
+				id: "14DB1C3ADD3A1C0B"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11462C50ED95A75C"]
+			hide_dependency_lines: true
+			id: "5BB33C6E656CCBDB"
+			shape: "square"
+			subtitle: "Duplications"
+			tasks: [{
+				id: "06F4AC38E6681434"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49FE19459C03AFB9"]
+			id: "2177E6C8D937E2DC"
+			subtitle: "Blaze Auto-Enchanters"
+			tasks: [{
+				id: "0F085A91DFAA954B"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "74149BAB43F283DD"
+			optional: true
+			shape: "diamond"
+			subtitle: "Backpack Exp Conversion"
+			tasks: [{
+				id: "41CAEECD9B8A3A35"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54DFD4A196F7C3C1"]
+			id: "6092125A77E0995D"
+			shape: "rsquare"
+			tasks: [{
+				id: "61E4342CD0C900BD"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["The Classic"]

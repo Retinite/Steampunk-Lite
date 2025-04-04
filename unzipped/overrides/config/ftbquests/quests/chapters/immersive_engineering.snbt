@@ -119,6 +119,7 @@
 		}
 		{
 			dependencies: ["4B8DAA329FFFB018"]
+			icon: "immersiveengineering:alloy_smelter"
 			id: "78389F626C0EDFC8"
 			rewards: [{
 				id: "26DD6A80D90EBBC4"

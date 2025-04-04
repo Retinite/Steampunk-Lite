@@ -247,6 +247,7 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "7E871EC1639CAE4C"
 					item: "minecraft:dark_oak_sapling"
 					type: "item"

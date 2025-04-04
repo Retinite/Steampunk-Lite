@@ -110,11 +110,6 @@ Jei.hideIngredient(<item: hammerlib:test_machine>);
 craftingTable.addShaped("alexscaves.dust_from_sulfur", <item: immersiveengineering:dust_sulfur> * 9,
 	[[<item: alexscaves:sulfur>]]);
 
-craftingTable.remove(<item: sophisticatedbackpacks:xp_pump_upgrade>);
-Jei.hideIngredient(<item: sophisticatedbackpacks:xp_pump_upgrade>);
-craftingTable.remove(<item: sophisticatedstorage:xp_pump_upgrade>);
-Jei.hideIngredient(<item: sophisticatedstorage:xp_pump_upgrade>);
-
 function addChestRecipe(plank as IIngredient) as void {
 val name = "steampunk_lite.chest_from_"+plank.items[0].registryName.namespace+"."+plank.items[0].registryName.path;
 

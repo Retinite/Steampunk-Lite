@@ -441,7 +441,7 @@
 			size: 3.0d
 			subtitle: "Gather 12 Unique Eyes"
 			tasks: [{
-				dimension: "minecraft:overworld"
+				dimension: "minecraft:the_end"
 				disable_toast: true
 				icon: "minecraft:end_portal_frame"
 				id: "7316D3D97E306025"

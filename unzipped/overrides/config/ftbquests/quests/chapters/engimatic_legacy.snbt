@@ -43,8 +43,8 @@
 				item: "enigmaticaddons:false_justice"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -124,8 +124,8 @@
 				item: "enigmaticaddons:ode_to_living"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -140,13 +140,14 @@
 				item: "enigmaticlegacy:hunter_guidebook"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
 				"317258D39212F619"
 				"7ED2E05F4E493810"
+				"50AC522E4F77BFDB"
 			]
 			id: "2F0F09202CAC7756"
 			optional: true
@@ -162,8 +163,8 @@
 				item: "enigmaticaddons:sanguinary_handbook"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.0d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [

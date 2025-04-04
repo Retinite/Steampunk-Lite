@@ -597,16 +597,24 @@
 			id: "5C5F57FE2519E1DF"
 			optional: true
 			rewards: [{
+				count: 2
 				id: "5A58F6889AE26176"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
 			shape: "diamond"
-			tasks: [{
-				id: "564BFECC8232657A"
-				item: "sophisticatedbackpacks:advanced_pump_upgrade"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "564BFECC8232657A"
+					item: "sophisticatedbackpacks:advanced_pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "1CEE88126C95E62A"
+					item: "sophisticatedbackpacks:xp_pump_upgrade"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -2.5d
 		}
