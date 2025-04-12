@@ -1,0 +1,1441 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_addons"
+	group: "6AE7A4CB14BF3633"
+	icon: "create_new_age:generator_coil"
+	id: "46D93C477872D229"
+	images: [
+		{
+			height: 7.0d
+			image: "ftbquests:item/lootcrate/top_outline"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/composter_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "spyglass_improvements:textures/spyglass_scope_clear.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/composter_top"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "spyglass_improvements:textures/spyglass_scope_clear.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 6.5d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CF32DEA0BCCEAB3"]
+			id: "10A9F6E55B1E04DC"
+			rewards: [{
+				id: "2273C8DD91D97FD0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "155114D3D89FBD02"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10A9F6E55B1E04DC"]
+			icon: "create_new_age:overcharged_iron"
+			id: "77248B043F975183"
+			rewards: [
+				{
+					count: 4
+					id: "553A8B02F6CFF5F7"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0277DC171874FFC6"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "33A92AE6AC908C92"
+					item: "create_new_age:overcharged_diamond"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5FC511F61D6625E2"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					id: "3DF400652B2983C1"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					id: "7034014645CF79B0"
+					item: "create_new_age:overcharged_diamond"
+					type: "item"
+				}
+			]
+			title: "Overcharged Resources"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77248B043F975183"]
+			icon: "create_new_age:energiser_t3"
+			id: "6B358440EF03F638"
+			rewards: [{
+				id: "6A6AEA98F3A30423"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1CB12B787E6CFCF4"
+					item: "create_new_age:energiser_t2"
+					type: "item"
+				}
+				{
+					id: "0D9A21D6B03E6516"
+					item: "create_new_age:energiser_t3"
+					type: "item"
+				}
+			]
+			title: "Better Energizers"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["639B09251903FFF2"]
+			description: [
+				"&oLow current&r specifically means up to 1KFE/t."
+				""
+				"&oHigh current&r specifically means up to 5KFE/t."
+			]
+			icon: "createaddition:connector"
+			id: "32F2B5029676E7A7"
+			rewards: [{
+				count: 2
+				id: "199357D29ADD70AC"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "22E14629B8105D12"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "332AC75AD5811242"
+					item: "createaddition:large_connector"
+					type: "item"
+				}
+			]
+			title: "Connectors"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32F2B5029676E7A7"]
+			description: ["&oSmall Connector with Light&r consumes 1FE/t."]
+			icon: "createaddition:redstone_relay"
+			id: "2172FFA26A8F6738"
+			rewards: [{
+				id: "3D7DF3B9723107AB"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "374D4BDF20D5E318"
+					item: "createaddition:small_light_connector"
+					type: "item"
+				}
+				{
+					id: "3F7089EB149970FE"
+					item: "createaddition:redstone_relay"
+					type: "item"
+				}
+			]
+			title: "Connector Extras"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["639B09251903FFF2"]
+			description: [
+				"&6&oCopper Spools&r can transfer up to 1KFE/t."
+				""
+				"&e&oGold&r and &e&oElectrum Spools&r can each transfer up to 5KFE/t. &e&oGold Spools&r have been removed from this modpack for more compatability with &lImmersive Engineering&r."
+			]
+			hide_dependent_lines: true
+			icon: "createaddition:copper_spool"
+			id: "7EC0CC2296C8B019"
+			rewards: [{
+				count: 16
+				id: "34E124999F6337B0"
+				item: "createaddition:spool"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "55E7341BC4752196"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+				{
+					id: "5D11A65C730FA438"
+					item: "createaddition:electrum_spool"
+					type: "item"
+				}
+				{
+					id: "070CDC5C66208967"
+					item: "createaddition:festive_spool"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Wire"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7EC0CC2296C8B019"
+				"1125F214A19CCF0B"
+				"65D30AAAEBC5C753"
+				"220C373B431363A2"
+			]
+			id: "1A2D3C38A2808937"
+			rewards: [{
+				id: "7F04D858CBE21F25"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "28D17E52C6A21CE2"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"08BE3B7B1078566F"
+				"498C4D94CABA5FB2"
+			]
+			description: [
+				"Note: the &lGenerator Coil&r has an efficiency ranging from &b4%&r to &b92.3%&r when converting &7&ospeed&r into &7FE/t&r depending on the surrounding magnets. Compare this to the &lCreate Crafts \\& Additions&r &lAlternator&r, which has an efficiency of &b66.7%&r."
+				""
+				"A total &oMagnetic Force&r of 48 or higher (all &lLayered Magnets&r or better) is required to achieve an efficiency of &b66.7%&r or better."
+				""
+				"&aAlso: each &lCarbon Brush&r&a can generate power from up to 8 connected &lGenerator Coils&r&a.&r"
+			]
+			icon: "create_new_age:generator_coil"
+			id: "22B604DDBB7E59B6"
+			rewards: [{
+				count: 5
+				id: "2C6A2996A2D76CB8"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Rotation -> Electricity"
+			tasks: [
+				{
+					id: "42E9C2C510406A85"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "1D35CA5D33134556"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The higher the total &oMagnetic Force&r surrounding a single &lGenerator Coil&r, the more efficiently it converts &7&ospeed&r into &7FE/t&r."
+				""
+				"The exact formula is MF/(MF + 24), and the highest possible efficiency is 92.3% with 12 &lNetherite Magnets&r."
+			]
+			icon: "create_new_age:magnetite_block"
+			id: "498C4D94CABA5FB2"
+			rewards: [{
+				count: 4
+				id: "3413EBA4DA34C5DA"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "How do they Work?"
+			tasks: [
+				{
+					id: "20B5A26300907102"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+				{
+					id: "74EE1F80181A9A01"
+					item: "create_new_age:redstone_magnet"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "707E8F76F56BE9CC"
+					item: "create_new_age:layered_magnet"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39F4C3E3097F4A2D"
+					item: "create_new_age:fluxuated_magnetite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "503467CEEE539528"
+					item: "create_new_age:netherite_magnet"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Magnets"
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7611528BE6C6F5F6"]
+			icon: "create_new_age:heat_pipe"
+			id: "2168DD90A98D5A70"
+			rewards: [{
+				count: 8
+				id: "2907044116EEE01C"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "1C466168DCAB487E"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+				{
+					id: "6DB87055AF63BD19"
+					item: "create_new_age:heat_pump"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2168DD90A98D5A70"]
+			id: "5CEFD139268AEC4F"
+			rewards: [{
+				id: "2C398423F3DE5CA5"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Heat -> Blaze Burner"
+			tasks: [{
+				id: "328918330F8615E5"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2168DD90A98D5A70"]
+			id: "3298920DDBCC7294"
+			rewards: [{
+				id: "212E9A61E1360C4D"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Heat -> Rotation"
+			tasks: [{
+				id: "40EAD141E4B343DB"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2168DD90A98D5A70"]
+			icon: "create_new_age:basic_solar_heating_plate"
+			id: "439B90F421A1FD18"
+			rewards: [{
+				id: "33DCEFA63C6B4CA4"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Sunlight -> Heat"
+			tasks: [
+				{
+					id: "7B94935CB26DD5DA"
+					item: "create_new_age:basic_solar_heating_plate"
+					type: "item"
+				}
+				{
+					id: "05CE888A5131E24A"
+					item: "create_new_age:advanced_solar_heating_plate"
+					type: "item"
+				}
+			]
+			title: "Solar Plates"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77248B043F975183"]
+			description: [
+				"Note: the &lStrong Motor&r is roughly equivalent in output and efficiency to the &lElectric Motor&r from &lCreate Crafts \\& Additions&r."
+				""
+				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
+			]
+			icon: "create_new_age:basic_motor"
+			id: "5915B9485B45911F"
+			rewards: [{
+				count: 2
+				id: "6FBF29EE6539512B"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Electricity -> Rotation"
+			tasks: [
+				{
+					id: "33738156C2754612"
+					item: "create_new_age:basic_motor"
+					type: "item"
+				}
+				{
+					id: "12E1495E6EC1D4D0"
+					item: "create_new_age:advanced_motor"
+					type: "item"
+				}
+				{
+					id: "363E2B695F677566"
+					item: "create_new_age:reinforced_motor"
+					type: "item"
+				}
+			]
+			title: "Motors"
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5915B9485B45911F"]
+			icon: "create_new_age:basic_motor_extension"
+			id: "05E3F1FA113A16D9"
+			rewards: [{
+				count: 2
+				id: "04024C8CB4E59D61"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Increase Stress Capacity"
+			tasks: [
+				{
+					id: "2BA3D29F9A4B5757"
+					item: "create_new_age:basic_motor_extension"
+					type: "item"
+				}
+				{
+					id: "0B2C230BE9D50A51"
+					item: "create_new_age:advanced_motor_extension"
+					type: "item"
+				}
+			]
+			title: "Motor Extensions"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2168DD90A98D5A70"
+				"1AC8AD2D0C94F50A"
+				"2D09A3D1E88A1731"
+				"36445D62CD71EE9D"
+			]
+			icon: "create_new_age:nuclear_fuel"
+			id: "6B0BE3E87D94EA5E"
+			rewards: [{
+				count: 8
+				id: "55D23E32D4CDA6C2"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "No Coolant Required!"
+			tasks: [
+				{
+					id: "5DDC2D3420DEBDB4"
+					item: "create_new_age:reactor_rod"
+					type: "item"
+				}
+				{
+					id: "38ED458C0683FA71"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+				{
+					id: "528AADE2CFC29187"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+				{
+					id: "6B81182F519E92D0"
+					item: "create_new_age:reactor_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14D0B179DB4632E4"
+					item: "create_new_age:reactor_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Nuclear Heat"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1125F214A19CCF0B"
+				"7EC0CC2296C8B019"
+			]
+			id: "6393EDCFBE89C54F"
+			rewards: [{
+				id: "57A7BF3D0840683A"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "188D828687226EA9"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7EC0CC2296C8B019"
+				"220C373B431363A2"
+			]
+			description: [
+				"Note: the &lElectric Motor&r is roughly equivalent in output and efficiency to the &lStrong Motor&r from &lCreate: New Age&r."
+				""
+				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
+			]
+			id: "3B996CEF67EA93FB"
+			rewards: [{
+				count: 3
+				id: "1469CA300F312802"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Electricity -> Rotation"
+			tasks: [{
+				id: "4E4252E48E9E9F5D"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7EC0CC2296C8B019"
+				"220C373B431363A2"
+			]
+			description: ["Note: the &lAlternator&r has an efficiency of &b66.7%&r when converting &7&ospeed&r into &7FE/t&r. Compare this to the &lCreate: New Age&r &lGenerator Coil&r, which has an efficiency ranging from &b4%&r to &b92.3%&r depending on the surrounding magnets."]
+			id: "79674A00E39F4384"
+			rewards: [{
+				count: 3
+				id: "117836324DEC1FAD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Rotation -> Electricity"
+			tasks: [{
+				id: "04562B7DA5CA2DD4"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["11462C50ED95A75C"]
+			hide_dependency_lines: true
+			id: "35FC48C2E3CAB434"
+			rewards: [{
+				id: "6BBD2FE99468651C"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "14DB1C3ADD3A1C0B"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["11462C50ED95A75C"]
+			hide_dependency_lines: true
+			id: "5BB33C6E656CCBDB"
+			rewards: [{
+				id: "291D0DD9AA43AD36"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Duplications"
+			tasks: [{
+				id: "06F4AC38E6681434"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["49FE19459C03AFB9"]
+			id: "2177E6C8D937E2DC"
+			rewards: [{
+				id: "24F4776FEC138773"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			subtitle: "Blaze Auto-Enchanters"
+			tasks: [{
+				id: "0F085A91DFAA954B"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "74149BAB43F283DD"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "1EAB57347ADEEA56"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Backpack Exp Conversion"
+			tasks: [{
+				id: "41CAEECD9B8A3A35"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["54DFD4A196F7C3C1"]
+			id: "6092125A77E0995D"
+			rewards: [{
+				count: 16
+				id: "2F89D791A3B0F14E"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "61E4342CD0C900BD"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["49FE19459C03AFB9"]
+			id: "34D3C3975934085E"
+			rewards: [{
+				id: "21E2FE80C91CCB97"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			subtitle: "Automated Cooking Pot"
+			tasks: [{
+				id: "3F7EE4526B8523F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1AC8AD2D0C94F50A"
+				"65D30AAAEBC5C753"
+			]
+			id: "2807E2834E55A782"
+			rewards: [{
+				id: "5DBE126AD57FB77C"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Auto-Trading"
+			tasks: [{
+				id: "1105A4BCD38115EC"
+				item: "trading_floor:trading_depot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2CF32DEA0BCCEAB3"]
+			id: "58A32D8915ED5DBE"
+			rewards: [{
+				count: 2
+				id: "09AC6F3AF967E145"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Found In Random Chunks!"
+			tasks: [{
+				id: "4F48D0E2C9E21CE1"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			title: "Finding Oil"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"58A32D8915ED5DBE"
+				"35D4FCFB4724C630"
+				"76FDD3025201FECA"
+			]
+			description: [
+				"Ponder the components!"
+				""
+				"The pumpjack is a multiblock structure that produces a steady amount of &lCrude Oil&r, but you must connect the &lPumpjack Hole&r to &lBedrock&r with a vertical column of &lPipes&r!"
+				""
+				"The &lPumpjack Crank&r takes speeds up to 64rpm. Any higher, and &nyou will be wasting power&r."
+			]
+			icon: "createdieselgenerators:pumpjack_crank"
+			id: "04202FED33E9EDB7"
+			rewards: [{
+				count: 64
+				id: "1DA5CD29FBB389C2"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Crude Oil"
+			tasks: [
+				{
+					count: 2L
+					id: "78A2A4D9AC58C34D"
+					item: { Count: 2, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "4E184D234CB65B87"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "083B6CC21A60267D"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+				{
+					id: "5F19AEDEB0B59DF1"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+			]
+			title: "Pumpjacks"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"04202FED33E9EDB7"
+				"300061CAA2D14809"
+				"69FA91616D433B13"
+			]
+			id: "5B9F35AE801071DA"
+			rewards: [{
+				id: "26E7890D711C1B4A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Diesel \\& Gasoline"
+			tasks: [{
+				id: "1271E71C856FFF67"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			title: "Oil Processing"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5E11BDEBDA1733A4"
+				"2CF32DEA0BCCEAB3"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "createdieselgenerators:mold"
+				tag: {
+					Mold: "createdieselgenerators:lines"
+				}
+			}
+			id: "0C4805CBF97D878A"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "67A809ACD0BC7748"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "51A199D0B4809DEC"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:bowl"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22052BD4468885BE"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:lines"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0828FA2490BA33"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:chain"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "708C68F3C80EEB81"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:bar"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Molds"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1125F214A19CCF0B"]
+			id: "22BBCE6D8DE43910"
+			rewards: [{
+				id: "79377A2135A3D16D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Fuel -> Blaze Burner"
+			tasks: [{
+				id: "155B5C8C83A11719"
+				item: "createdieselgenerators:burner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"157C5B4DB90477F5"
+				"76FDD3025201FECA"
+			]
+			id: "0B103DDA187B3526"
+			rewards: [{
+				id: "2EBAAF042A3B83EF"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6ECD7978D1D64EE7"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:chemical_sprayer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B103DDA187B3526"]
+			id: "0CA0CD683CB08C60"
+			rewards: [{
+				id: "6FE1D35F53AF7A99"
+				item: "createdieselgenerators:entity_filter"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Optionally Entity-Operated!"
+			tasks: [{
+				id: "4247DE56234DB0B0"
+				item: "createdieselgenerators:chemical_turret"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1125F214A19CCF0B"]
+			id: "653FAE224AF87C5E"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "786FDBB34B5EEDE2"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Refillable Flint \\& Steel"
+			tasks: [{
+				id: "6B03A2ABCDBCC222"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:lighter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2CF32DEA0BCCEAB3"]
+			description: ["The recipe isn't easy to find for whatever reason, but you can combine 100mb &lPlant Oil/Seed Oil&r and 100mb &lEthanol&r to make 200mb &lBiodiesel&r!"]
+			icon: "createdieselgenerators:basin_lid"
+			id: "20CFA1A48B36758A"
+			rewards: [{
+				count: 2
+				id: "3DF690C73B82CF63"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Ethanol -> Biodiesel"
+			tasks: [{
+				id: "6C2024A0C0BB60A2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createdieselgenerators:basin_lid"
+							}
+							{
+								Count: 1b
+								id: "createdieselgenerators:bulk_fermenter"
+							}
+						]
+					}
+				}
+				title: "Either Fermentor"
+				type: "item"
+			}]
+			title: "Fermentors"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2CF32DEA0BCCEAB3"]
+			icon: {
+				Count: 1
+				id: "createdieselgenerators:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E11BDEBDA1733A4"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "1A72E384BA067506"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Manual Mechanical Press"
+			tasks: [
+				{
+					id: "3AB4FC9DE01B113E"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56B41DFC6BCA974E"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:wire_cutters"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "IE Alternatives"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1125F214A19CCF0B"
+				"300061CAA2D14809"
+			]
+			icon: "createdieselgenerators:diesel_engine"
+			id: "67C46B43154A2F35"
+			shape: "square"
+			subtitle: "Liquid Fuel -> Power"
+			tasks: [
+				{
+					id: "64AD660081AC3423"
+					item: "createdieselgenerators:diesel_engine"
+					type: "item"
+				}
+				{
+					id: "5DD48886D6C96141"
+					item: "createdieselgenerators:large_diesel_engine"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1125F214A19CCF0B"
+				"1707720898FA9ECF"
+			]
+			id: "7215B71076238E6B"
+			shape: "square"
+			subtitle: "Liquid Fuel -> Power"
+			tasks: [{
+				id: "5771AC2ADEB70855"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2CF32DEA0BCCEAB3"
+				"76FDD3025201FECA"
+			]
+			description: [
+				"Does not drain fuel any faster, so 4x the efficiency! Hope you don't mind the noise though, as a turbocharged engine cannot be silenced."
+				""
+				"Cannot be applied to &lHuge Diesel Engines&r."
+			]
+			id: "3C2C166D703FECE1"
+			optional: true
+			rewards: [{
+				id: "7868AEDF7A21D5F2"
+				item: "createdieselgenerators:engine_turbocharger"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "4x The Speed!"
+			tasks: [{
+				id: "7EC670BF2B89FD25"
+				item: "createdieselgenerators:engine_turbocharger"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2CF32DEA0BCCEAB3"
+				"76FDD3025201FECA"
+			]
+			id: "655A01B41BB22EBE"
+			optional: true
+			rewards: [{
+				id: "3A9632F2FAAC1DB1"
+				item: "createdieselgenerators:engine_silencer"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Sweet Silence"
+			tasks: [{
+				id: "08BA705387BE0703"
+				item: "createdieselgenerators:engine_silencer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7611528BE6C6F5F6"
+				"5E11BDEBDA1733A4"
+			]
+			dependency_requirement: "one_completed"
+			id: "46ED6805AD66FEE4"
+			rewards: [{
+				id: "12ED74225B958DE2"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:canister"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Fluid Crate"
+			tasks: [{
+				id: "31F4189D1084F810"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:canister"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7611528BE6C6F5F6"
+				"5E11BDEBDA1733A4"
+			]
+			dependency_requirement: "one_completed"
+			id: "7A9699D83D8182F5"
+			rewards: [{
+				id: "306DF9CDB8F58DD7"
+				item: "createdieselgenerators:oil_barrel"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Bulk Fluid Storage"
+			tasks: [{
+				id: "6F3E319C0B2FE221"
+				item: "createdieselgenerators:oil_barrel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D0E521B0763FDE0"
+				"69FA91616D433B13"
+				"0765608199335E27"
+			]
+			id: "0814FC76ECF0C822"
+			optional: true
+			rewards: [{
+				id: "28895FD9E52CD11D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5A94E5EA05C12832"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+				{
+					id: "320978554C75B6BD"
+					item: "create:sweet_roll"
+					type: "item"
+				}
+				{
+					id: "19DAB9CEE68AB214"
+					item: "create:chocolate_glazed_berries"
+					type: "item"
+				}
+				{
+					id: "51AA988B9E0A2370"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+				{
+					id: "0CAC8C587988FECB"
+					item: "create:builders_tea"
+					type: "item"
+				}
+				{
+					id: "7CED8103CBFD4C7A"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "6924DA17E5CB76AD"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+			]
+			title: "New Food!"
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4D0E521B0763FDE0"
+				"69FA91616D433B13"
+			]
+			id: "286BA697AEDC0204"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "747F52BFD17237E5"
+				item: "immersiveengineering:ingot_electrum"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "226CD17E5B90CF79"
+				item: "createaddition:electrum_amulet"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4D0E521B0763FDE0"
+				"69FA91616D433B13"
+			]
+			icon: "createaddition:biomass"
+			id: "270E88651985BDCC"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "223B2D3A29C9E43A"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4BF61E95C95DF407"
+					item: "createaddition:biomass"
+					type: "item"
+				}
+				{
+					id: "395D572467CB5D45"
+					item: "createaddition:biomass_pellet"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"69FA91616D433B13"
+				"639B09251903FFF2"
+			]
+			id: "7A3128F4B7DCC5FA"
+			rewards: [{
+				id: "4B22112CB269ECA8"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			subtitle: "Blaze Burner Fluid Adapter"
+			tasks: [{
+				id: "7CE8D73CEF2F2EAE"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2CF32DEA0BCCEAB3"]
+			id: "2E46A0DB6042C2A2"
+			optional: true
+			rewards: [{
+				id: "3CAE6813EDCA282E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "60CBEA9B4B18161D"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:track_layers_bag"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76FDD3025201FECA"]
+			id: "19864B1ED37F3C0B"
+			rewards: [{
+				count: 3
+				id: "141D809D64CAF917"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Use With Fertilizer!"
+			tasks: [{
+				id: "763AD5097882F4CC"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08BE3B7B1078566F"]
+			id: "555A31944B9D6737"
+			rewards: [{
+				id: "7AE65554EBDEB288"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4052A5BAB690FE8C"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7611528BE6C6F5F6"]
+			hide_dependent_lines: true
+			id: "639B09251903FFF2"
+			rewards: [{
+				count: 3
+				id: "5F17C6D053B2888F"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3094ADFC7AE4F819"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["The Classic Add-Ons"]
+	title: "Create Add-Ons"
+}

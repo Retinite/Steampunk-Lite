@@ -128,6 +128,7 @@
 		}
 		{
 			description: ["Holding '&bRight Click&r' with a &oMandrake&r in hand will cause it to scream, paralyzing nearby mobs for a few seconds."]
+			icon: "hexalia:mandrake"
 			id: "4170614740A6EA70"
 			rewards: [{
 				id: "04D8E350D1DC19BC"
@@ -208,6 +209,13 @@
 				""
 				"Use the &oStone Dagger&r on *almost* any planks block to create a &oRitual Brazier&r."
 			]
+			icon: {
+				Count: 1
+				id: "hexalia:stone_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6FB31EB3B368B6C9"
 			shape: "rsquare"
 			subtitle: "Dark Oak Required"
@@ -281,6 +289,13 @@
 				"0A0189BD55FEB4F3"
 				"6D030675349A264E"
 			]
+			icon: {
+				Count: 1
+				id: "hexalia:ghostveil"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4076BE92A321CA00"
 			optional: true
 			rewards: [{
@@ -374,6 +389,7 @@
 				""
 				"The &lBrew Shelf&r can store up to 27 brews!"
 			]
+			icon: "hexalia:rustic_bottle"
 			id: "7E11FDFA54F333EF"
 			optional: true
 			shape: "diamond"
@@ -495,6 +511,7 @@
 		}
 		{
 			dependencies: ["10EF1F30C98659F1"]
+			icon: "hexalia:moon_berries"
 			id: "717C076CD51E2C35"
 			optional: true
 			shape: "diamond"
@@ -516,6 +533,7 @@
 		}
 		{
 			dependencies: ["10EF1F30C98659F1"]
+			icon: "hexalia:moon_crystal"
 			id: "446E25C49D9663BA"
 			rewards: [
 				{
@@ -556,6 +574,13 @@
 				"50B6683E91798495"
 				"389097A45669F254"
 			]
+			icon: {
+				Count: 1
+				id: "hexalia:kelpweave_blade"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "59674F62596304CF"
 			optional: true
 			rewards: [{
@@ -582,6 +607,7 @@
 					type: "item"
 				}
 			]
+			title: "Kelpweave Blade"
 			x: -3.5d
 			y: -2.0d
 		}
@@ -590,6 +616,7 @@
 				"50B6683E91798495"
 				"2636766DF3A47714"
 			]
+			icon: "hexalia:rabbage"
 			id: "14695DFE82174948"
 			optional: true
 			rewards: [{

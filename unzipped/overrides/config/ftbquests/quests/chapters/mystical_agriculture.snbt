@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mystical_agriculture"
-	group: ""
+	group: "3F97C92F70B34FFC"
 	icon: "mysticalagriculture:inferium_essence"
 	id: "193E4D0BC55AD43E"
 	order_index: 3
@@ -17,6 +17,7 @@
 				"&oBy the way&r, seeds and essences for &oderivative&r resources (like &oBrass&r and &oSteel&r) have been removed to encourage production lines."
 			]
 			hide_dependent_lines: true
+			icon: "mysticalagriculture:infusion_altar"
 			id: "55CCAA5A97349CE6"
 			rewards: [{
 				id: "1144F70EC7C3DB9B"
@@ -48,6 +49,13 @@
 			]
 			description: ["&5Soul Siphon&r is an enchantment for &oSoulium Daggers&r that increases the number of souls harvested by 10\\% per level, up to level V."]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "mysticalagriculture:soulium_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "02C78ABCCBF91F44"
 			rewards: [{
 				count: 4
@@ -80,6 +88,7 @@
 		}
 		{
 			description: ["Farmland can be crafted by combining any &oHoe&r with &lDirt&r in a crafting window. &oEssence&r can also be combined with &lFarmland&r in a crafting window, or by using the &oEssence&r on the &lFarmland&r with '&bRight Click&r'."]
+			icon: "mysticalagriculture:inferium_seeds"
 			id: "7A5F13B96CCD5D4D"
 			rewards: [{
 				id: "7C5A10EFBBF4613D"
@@ -708,13 +717,19 @@
 		}
 		{
 			dependencies: ["7F3CBA01D077AE08"]
+			description: [
+				"The base chance of getting seeds from harvest has been set to 0 for tier 5 seeds."
+				""
+				"You still get a 10% chance of getting seeds from harvesting while on tier 5 farmland!"
+			]
 			id: "3DD346F2D1E6D4D3"
 			rewards: [{
 				id: "07D8BBBF4E75C62C"
 				item: "mysticalagriculture:soulium_seed_base"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "gear"
+			subtitle: "Fewer Seeds!"
 			tasks: [{
 				id: "70F6E30E9DE11993"
 				item: "mysticalagriculture:supremium_essence"
@@ -1112,6 +1127,7 @@
 				"08F46E48A86E4D86"
 				"22BAD67E4AB005AB"
 			]
+			icon: "mysticalagriculture:experience_seeds"
 			id: "37DFB7AEC6A1C07C"
 			rewards: [{
 				id: "79DD317E0506F12E"
@@ -1201,6 +1217,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "mysticalagriculture:soulium_dust"
 			id: "08F46E48A86E4D86"
 			rewards: [{
 				count: 16
@@ -1230,6 +1247,7 @@
 			dependencies: ["08F46E48A86E4D86"]
 			description: ["Functions similarly to the &oInfusion Altar&r, but requires &2Earth&r, &eAir&r, &1Water&r, and &4Fire&r essences in each &oEssence Vessel&r to craft."]
 			hide_dependent_lines: true
+			icon: "mysticalagriculture:awakening_altar"
 			id: "0E8BE0DEA17CDCB5"
 			shape: "square"
 			subtitle: "Not a Replacement"
@@ -1265,6 +1283,7 @@
 				"2289A3CB93E4EF79"
 				"69A33D9317D5B77B"
 			]
+			icon: "mysticalagriculture:awakened_supremium_essence"
 			id: "41316F8F03723267"
 			rewards: [
 				{
@@ -1559,6 +1578,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Crops, Grass, \\& Saplings!"
 			tasks: [
 				{
 					id: "7130F4737D8C33DE"
@@ -2511,6 +2531,7 @@
 		}
 		{
 			dependencies: ["08F46E48A86E4D86"]
+			icon: "mysticalagriculture:tinkering_table"
 			id: "61509009B44A0467"
 			rewards: [{
 				count: 3
@@ -3252,6 +3273,7 @@
 				""
 				"Higher tiers of &oGrowth Crystals&r do &nnot&r have an increased effect, just a larger range. For maximal efficiency, place 12 &aInferium Growth Crystals&r below a crop, then 12 &2Prudentium&r, then 12 &6Tertium&r, 12 &1Imperium&r, and 12 &cSupremium&r at the bottom."
 			]
+			icon: "mysticalagriculture:inferium_growth_accelerator"
 			id: "3EEC1F9D530ECAAC"
 			optional: true
 			rewards: [{
@@ -3298,6 +3320,7 @@
 				""
 				"But, matching the tier of the farmland with the tier of the seed gives you a &b+10\\% chance of extra seeds on harvest!&r Also, the higher tier the farmland, the more &oInferium Essence&r your &oInferium Seeds&r will yield (by +50\\% per tier)."
 			]
+			icon: "mysticalagriculture:inferium_farmland"
 			id: "0858FB49E074E651"
 			rewards: [{
 				id: "32E5B11EBE18B1A4"

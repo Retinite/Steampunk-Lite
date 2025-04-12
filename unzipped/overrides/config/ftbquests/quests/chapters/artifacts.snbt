@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "artifacts"
-	group: ""
+	group: "6DF96F978837F4FA"
 	icon: "artifacts:mimic_spawn_egg"
 	id: "650BB20B67B5090B"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

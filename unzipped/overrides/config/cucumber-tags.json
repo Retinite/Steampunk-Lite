@@ -10,7 +10,7 @@
   "forge:ingots/titanium": "null",
   "forge:gems/apatite": "null",
   "forge:silicon": "null",
-  "forge:ingots/bronze": "null",
+  "forge:ingots/bronze": "alloyed:bronze_ingot",
   "forge:dusts/saltpeter": "immersiveengineering:dust_saltpeter",
   "forge:ingots/tungsten": "null",
   "forge:dusts/niter": "null",

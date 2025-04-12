@@ -484,6 +484,13 @@
 		}
 		{
 			dependencies: ["78EEE4C7A7A2EBDD"]
+			icon: {
+				Count: 1
+				id: "cataclysm:bone_reptile_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "468D508C614EE79D"
 			optional: true
 			rewards: [{
@@ -548,6 +555,7 @@
 		}
 		{
 			dependencies: ["2908B2125440F472"]
+			icon: "cataclysm:cursium_ingot"
 			id: "25226FDC2F25A3EC"
 			shape: "rsquare"
 			tasks: [
@@ -568,6 +576,13 @@
 		}
 		{
 			dependencies: ["25226FDC2F25A3EC"]
+			icon: {
+				Count: 1
+				id: "cataclysm:cursium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5253259E93EA5416"
 			optional: true
 			rewards: [{
@@ -808,6 +823,13 @@
 		{
 			dependencies: ["5C5D51C890424BB5"]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "28E77E6208F189E3"
 			optional: true
 			rewards: [{

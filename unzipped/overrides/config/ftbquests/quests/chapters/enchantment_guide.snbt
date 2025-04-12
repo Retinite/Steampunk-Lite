@@ -14,7 +14,7 @@
 		}
 	}
 	id: "4A69B98027AE9606"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1018,7 +1018,7 @@
 				type: "dimension"
 			}]
 			title: "Alex's Caves"
-			x: 4.5d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -1089,7 +1089,7 @@
 				}
 			]
 			title: "Extinction Spear"
-			x: 3.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -1160,7 +1160,7 @@
 				}
 			]
 			title: "Primitive Club"
-			x: 3.0d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -1215,7 +1215,7 @@
 				}
 			]
 			title: "Resistor Shield"
-			x: 3.5d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
@@ -1286,7 +1286,7 @@
 				}
 			]
 			title: "Galena Gauntlet"
-			x: 3.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -1371,7 +1371,7 @@
 				}
 			]
 			title: "Raygun"
-			x: 2.5d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -1458,7 +1458,7 @@
 				}
 			]
 			title: "Ortholance"
-			x: 7.0d
+			x: 8.0d
 			y: -0.5d
 		}
 		{
@@ -1529,7 +1529,7 @@
 				}
 			]
 			title: "Magic Conch"
-			x: 7.0d
+			x: 8.0d
 			y: 0.5d
 		}
 		{
@@ -1632,7 +1632,7 @@
 				}
 			]
 			title: "Sea Staff"
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -1719,7 +1719,7 @@
 				}
 			]
 			title: "Totem of Possession"
-			x: 5.5d
+			x: 6.5d
 			y: -2.5d
 		}
 		{
@@ -1790,7 +1790,7 @@
 				}
 			]
 			title: "Desolate Dagger"
-			x: 6.5d
+			x: 7.5d
 			y: -2.0d
 		}
 		{
@@ -1893,7 +1893,7 @@
 				}
 			]
 			title: "Dreadbow"
-			x: 5.5d
+			x: 6.5d
 			y: -1.5d
 		}
 		{
@@ -1978,7 +1978,7 @@
 				}
 			]
 			title: "Shot Gum"
-			x: 5.5d
+			x: 6.5d
 			y: 2.5d
 		}
 		{
@@ -2049,7 +2049,7 @@
 				}
 			]
 			title: "Candy Cane Hook"
-			x: 6.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -2152,8 +2152,74 @@
 				}
 			]
 			title: "Sugar Staff"
-			x: 5.5d
+			x: 6.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["3665726D37B6B744"]
+			description: [
+				"&dDistance&r increases the maximum orbital distance of the &oChakram&r (it still moves close to you while orbiting)."
+				""
+				"&dFast Spin&r increases the speed with which the &oChakram&r orbits. Does not decrease the total active time for the &oChakram&r's ability."
+				""
+				"&dMirror&r creates a second &oChakram&r opposite the first."
+			]
+			icon: "aquamirae:rune_of_the_storm"
+			id: "7075A8B3CE0FA4A3"
+			rewards: [{
+				id: "332CD6F3C3DEF096"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "Chakram Enchantments"
+			tasks: [
+				{
+					id: "1A1F2FA2E9005502"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "obscure_api:distance"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9F04EE1AF6388F"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F4E196F385F6D1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "obscure_api:mirror"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obscure API (Aquamirae)"
+			x: 2.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Documentation!"]

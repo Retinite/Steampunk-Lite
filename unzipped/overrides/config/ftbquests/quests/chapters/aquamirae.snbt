@@ -103,6 +103,13 @@
 		}
 		{
 			dependencies: ["18134AED7425367A"]
+			icon: {
+				Count: 1
+				id: "aquamirae:terrible_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6C097C3A37E2E7C1"
 			rewards: [{
 				id: "56222BBDA213A13A"
@@ -267,6 +274,13 @@
 		}
 		{
 			dependencies: ["10070D4CBDA978E4"]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_suit"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2977E11D2BCBF9AF"
 			rewards: [{
 				count: 4
@@ -346,7 +360,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 2.0d
 		}
 		{
@@ -403,6 +417,13 @@
 		}
 		{
 			dependencies: ["5B3BB58A552206ED"]
+			icon: {
+				Count: 1
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0BA6AF8BC0BD8BD3"
 			rewards: [{
 				count: 4
@@ -547,46 +568,6 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"2BEA59809D7486DC"
-				"6BC37C1F55D3D0D5"
-			]
-			description: [
-				"These enchantments, added by &lObscure API&r, can only be applied to the &oPoisoned Chakram&r and the &oMaze Rose&r. It also &oshould be impossible&r to obtain these enchantments on &oEnchanted Books&r, which is why this quest is not located in the &lEnchantment Guide&r chapter."
-				""
-				"&dDistance&r (goes up to level V) increases the maximum orbital distance of the &oChakram&r (it still moves close to you while orbiting)."
-				""
-				"&dFast Spin&r (goes up to level III) increases the speed with which the &oChakram&r orbits. Does not decrease the total active time for the &oChakram&r's ability."
-				""
-				"&dMirror&r creates a second &oChakram&r opposite the first."
-			]
-			id: "7075A8B3CE0FA4A3"
-			optional: true
-			rewards: [{
-				id: "332CD6F3C3DEF096"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "05E5EC0FFC779B36"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:protection"
-							lvl: 4s
-						}]
-					}
-				}
-				type: "item"
-			}]
-			title: "Chakram Enchantments"
-			x: 1.5d
 			y: 2.0d
 		}
 		{

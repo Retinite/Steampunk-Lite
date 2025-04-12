@@ -390,7 +390,7 @@
 		{
 			dependencies: ["318126553F4ED0EC"]
 			description: [
-				"&4&lSpice of Life: Apple Pie Edition&r rewards you with a number of semi-permanent buffs when you &6&ofrequently&r eat &6&odiverse&r and &6&ofilling&r meals."
+				"&c&lSpice of Life: Apple Pie Edition&r rewards you with a number of semi-permanent buffs when you &6&ofrequently&r eat &6&odiverse&r and &6&ofilling&r meals."
 				""
 				"{@pagebreak}"
 				"Every food in the game now displays a Food Diversity score, which is a combination of that food's &6hunger&r and &esaturation&r values. Most Food Diversity scores range from 0 to 5."
@@ -434,7 +434,9 @@
 			description: [
 				"The &oLunchbag&r/&oLunchbox&r gives you several slots to store food. You can open the inventory by '&bShift&r + &bRight Clicking&r'. By \"eating\" the &oLunchbag&r/&oLunchbox&r, you will automatically be eating the food with the highest Food Diversity contained within."
 				""
-				"Although these recipes are disabled in JEI by default, you can in fact craft all 3 of these items."
+				"Although these items are disabled in JEI, you can in fact craft all 3 of these items."
+				""
+				"&aAlso, Seagulls can't steal your &oLunchbags&r&a/&oLunchboxes&r&a!&r"
 			]
 			id: "0F7F7B3F14D8BF63"
 			rewards: [{
@@ -557,6 +559,7 @@
 				"&d&lOcean's Delight&r"
 				"&d&lQuark Delight&r"
 			]
+			icon: "farmersdelight:cooking_pot"
 			id: "53132FC55CC8F52D"
 			rewards: [{
 				id: "685F650F8750DB76"

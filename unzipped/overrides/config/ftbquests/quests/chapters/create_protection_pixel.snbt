@@ -1,0 +1,1524 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_protection_pixel"
+	group: "6DF96F978837F4FA"
+	icon: {
+		Count: 1
+		id: "protection_pixel:hammer_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6278481F0FDBCA48"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["31C1D1E5FC50AA3C"]
+			description: [
+				"'&bRight Shift&r' while standing on it to interact."
+				""
+				"Each time you equip or unequip an armor plate costs 100mb of &lLava&r."
+				""
+				"You can naturally carry a total armor plate weight of 10.0 before being slowed down. Wearing a &oCombustion Reactor&r will increase your carrying capacity!"
+			]
+			id: "4B7A643D7BC4C1B8"
+			rewards: [{
+				id: "527909F0C6A20ACC"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Carrying Capacity Info"
+			tasks: [{
+				id: "51AFC0568221A4C9"
+				item: "protection_pixel:armorloadplatform"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"420545ACB05BD203"
+			]
+			id: "2E32DF44BC8F4878"
+			rewards: [{
+				count: 2
+				id: "15535BB01E388044"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			subtitle: "Armor Plates Only"
+			tasks: [{
+				id: "4BBD833B5C00BF00"
+				item: {
+					Count: 1
+					id: "protection_pixel:armorplatekit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"420545ACB05BD203"
+			]
+			id: "6F7C1DF6F3EF2777"
+			rewards: [{
+				count: 2
+				id: "02569C6E3317E8C8"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			subtitle: "Motor Interface Equipment Only"
+			tasks: [{
+				id: "724FD59F82F7D423"
+				item: {
+					Count: 1
+					id: "protection_pixel:equipmentkit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Supports any armor set!"
+				""
+				"The chestplate &omust&r be applied first, then the leggings, then the boots."
+			]
+			id: "2C16B15F5445C5F3"
+			optional: true
+			rewards: [{
+				id: "680838058626CB17"
+				item: "protection_pixel:armorhanger"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "No Helmets!"
+			tasks: [{
+				id: "33205E213D159A4A"
+				item: "protection_pixel:armorhanger"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["220C373B431363A2"]
+			description: [
+				"&c&lCreate: Protection Pixel&r adds power armor! Almost all recipes require &lMechanical Crafters&r."
+				""
+				"There is only 1 dedicated &oset&r of armor (the Tosaki armor), with everything else being mix-and-match. There is only 1 type of \"boots\" (the socks), and they are required."
+				""
+				"All armor pieces and equipment have special effects and/or bonuses, and all armor pieces have slots for &oarmor plates&r, which is where the bulk of your armor points come from. With 13 armor plate slots total, power armor when fully upgraded ends up being the best armor in this modpack!"
+			]
+			hide_dependent_lines: true
+			icon: "create:mechanical_crafter"
+			id: "31C1D1E5FC50AA3C"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Mod Intro"
+			tasks: [
+				{
+					id: "380FEBC5C20C0A14"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					id: "6FC7E04F396E9397"
+					title: "Click Me"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B7A643D7BC4C1B8"]
+			id: "7FB229104AADC370"
+			rewards: [{
+				count: 2
+				id: "0F254D2452A48818"
+				item: {
+					Count: 1
+					id: "protection_pixel:ironarmorplate"
+					tag: {
+						Damage: 0
+						armor: 1.0d
+						toughness: 0.0d
+						weight: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Cheapest"
+			tasks: [{
+				id: "6FD549C1AFB558C7"
+				item: {
+					Count: 1
+					id: "protection_pixel:ironarmorplate"
+					tag: {
+						Damage: 0
+						armor: 1.0d
+						toughness: 0.0d
+						weight: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B7A643D7BC4C1B8"]
+			id: "12234B4E65700A5C"
+			rewards: [{
+				count: 2
+				id: "01DC0290485352C6"
+				item: {
+					Count: 1
+					id: "protection_pixel:brassarmorplate"
+					tag: {
+						Damage: 0
+						armor: 2.0d
+						toughness: 1.0d
+						weight: 2.0d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Heaviest"
+			tasks: [{
+				id: "0FC6B3C6715537E6"
+				item: {
+					Count: 1
+					id: "protection_pixel:brassarmorplate"
+					tag: {
+						Damage: 0
+						armor: 2.0d
+						toughness: 1.0d
+						weight: 2.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"420545ACB05BD203"
+				"4B7A643D7BC4C1B8"
+			]
+			id: "388BC61B38BB3C29"
+			rewards: [{
+				count: 2
+				id: "36D65499F1979108"
+				item: {
+					Count: 1
+					id: "protection_pixel:alloyarmorplate"
+					tag: {
+						Damage: 0
+						armor: 2.0d
+						toughness: 1.0d
+						weight: 1.5d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Best"
+			tasks: [{
+				id: "591D88C7AE84B013"
+				item: {
+					Count: 1
+					id: "protection_pixel:alloyarmorplate"
+					tag: {
+						Damage: 0
+						armor: 2.0d
+						toughness: 1.0d
+						weight: 1.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The &oCombustion Reactor&r is what actually powers most of the special features of the power armor. A &oDisposable Water Tank&r is required to activate the &oCombustion Reactor&r."
+				""
+				"Each &oFlare Rod&r you add increases both the carrying capacity by 1.0 and the total active time of the &oCombustion Reactor&r (displayed in minutes in the GUI). Both the &oDisposable Water Tank&r and the &oFlare Rods&r lose durability while the &oCombustion Reactor&r is equipped."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 9
+					}
+				}
+				id: "protection_pixel:powerengine"
+			}
+			id: "609E69C050D51522"
+			rewards: [{
+				id: "0B77064004F2E495"
+				item: "protection_pixel:emptywatertank"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Power the Power Armor"
+			tasks: [
+				{
+					id: "1FBFAD48B26DD9CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 9
+							}
+						}
+						id: "protection_pixel:powerengine"
+					}
+					type: "item"
+				}
+				{
+					id: "313023BB0559BF41"
+					item: {
+						Count: 1
+						id: "protection_pixel:watertank"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51A275C6951BF553"
+					item: {
+						Count: 1
+						id: "protection_pixel:flarerod"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"283859D3FCABAB29"
+			]
+			id: "0861115828257074"
+			rewards: [{
+				count: 2
+				id: "3ADA131010609B97"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C1415FB5DF26318"
+				item: {
+					Count: 1
+					id: "protection_pixel:plague_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"283859D3FCABAB29"
+			]
+			id: "39A2591DD0B9B3C1"
+			rewards: [{
+				count: 3
+				id: "62899A46111A4D12"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04BC563CAB41CDE7"
+				item: {
+					Count: 1
+					id: "protection_pixel:lancer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"283859D3FCABAB29"
+			]
+			id: "6F9F655A64FC63EA"
+			rewards: [{
+				count: 6
+				id: "48F8D83AF12D910D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "487BBC3EE05EC246"
+				item: {
+					Count: 1
+					id: "protection_pixel:hammer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"283859D3FCABAB29"
+			]
+			id: "51FEB67676FDF414"
+			rewards: [{
+				count: 4
+				id: "4789FCD93D319661"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04A5C87F4E5E523A"
+				item: {
+					Count: 1
+					id: "protection_pixel:hunter_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"283859D3FCABAB29"
+			]
+			id: "1F3B7E9F7BA60C9A"
+			rewards: [{
+				count: 2
+				id: "50D9CFE1EB96579E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14AFA8472AE96EA6"
+				item: {
+					Count: 1
+					id: "protection_pixel:closed_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"283859D3FCABAB29"
+			]
+			id: "5EF52C5785335EE3"
+			rewards: [{
+				id: "5219683187A188FF"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CEC54D1B84EB524"
+				item: {
+					Count: 1
+					id: "protection_pixel:bloodprisoner_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0861115828257074"
+				"420545ACB05BD203"
+			]
+			id: "7C3864D1D87A2C21"
+			rewards: [{
+				id: "09AA3DA0E89B4002"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76ABFFA62B1228CD"
+				item: {
+					Count: 1
+					id: "protection_pixel:plagueas_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"39A2591DD0B9B3C1"
+				"420545ACB05BD203"
+			]
+			id: "7C916B053B07C5AF"
+			rewards: [{
+				id: "0EB9AC3725121DE6"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EB28B755F4DD84D"
+				item: {
+					Count: 1
+					id: "protection_pixel:lanceras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6F9F655A64FC63EA"
+				"420545ACB05BD203"
+			]
+			id: "356627AF717A56EA"
+			rewards: [{
+				id: "613C09602B8ADD6D"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7640728FE56258DB"
+				item: {
+					Count: 1
+					id: "protection_pixel:hammeras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"51FEB67676FDF414"
+				"420545ACB05BD203"
+			]
+			id: "041C2C636FD2A3C7"
+			rewards: [{
+				id: "4C0BAD2181DFAE4A"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "603F6305B1D19A26"
+				item: {
+					Count: 1
+					id: "protection_pixel:hunteras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1F3B7E9F7BA60C9A"
+				"420545ACB05BD203"
+			]
+			id: "6F84900DF1E772C3"
+			rewards: [{
+				id: "2F24CB269D2E62F4"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15F2D54144A7CAC1"
+				item: {
+					Count: 1
+					id: "protection_pixel:closedas_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5EF52C5785335EE3"
+				"420545ACB05BD203"
+			]
+			id: "627D69E443D6310C"
+			rewards: [{
+				id: "2FF3334EB58793BF"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B6A729FF9F148E2"
+				item: {
+					Count: 1
+					id: "protection_pixel:bloodprisoneras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"66A564097BC72C1D"
+				"420545ACB05BD203"
+				"283859D3FCABAB29"
+			]
+			id: "3C4B2097AF4AC0CF"
+			rewards: [{
+				count: 5
+				id: "2CAC34603C8CBF60"
+				item: "protection_pixel:heatresistantceramicsheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "359D51377C27E950"
+				item: {
+					Count: 1
+					id: "protection_pixel:tosaki_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"66A564097BC72C1D"
+				"420545ACB05BD203"
+			]
+			id: "3ED42712ADA91B4E"
+			rewards: [{
+				count: 4
+				id: "760967447447EEAD"
+				item: "protection_pixel:heatresistantceramicsheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62FEB8392995DA82"
+				item: {
+					Count: 1
+					id: "protection_pixel:tosaki_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0D782E57FF49338F"
+			shape: "rsquare"
+			tasks: [{
+				id: "64ED93050776D1B4"
+				item: "protection_pixel:chestplatelining"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "3554E6E7A6E1283A"
+			rewards: [{
+				count: 4
+				id: "76F2B9FB471FDC77"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E6FA8497CF40DAB"
+				item: {
+					Count: 1
+					id: "protection_pixel:breaker_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "0D89F2EBD3E9427D"
+			rewards: [{
+				count: 4
+				id: "41B3EFDEE45A157E"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D94071207B068D3"
+				item: {
+					Count: 1
+					id: "protection_pixel:wingsofprism_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "7DB541C90AA75B65"
+			rewards: [{
+				count: 6
+				id: "538292B07AB23F0A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1580E0829B5F92DE"
+				item: {
+					Count: 1
+					id: "protection_pixel:workerhornet_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "0C4530912DCEC328"
+			rewards: [{
+				count: 3
+				id: "4CFDDCF708E6DBCD"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62ECA4841B468A9F"
+				item: {
+					Count: 1
+					id: "protection_pixel:magneticstorm_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "26991AB1739AC5A0"
+			rewards: [{
+				count: 4
+				id: "48CDE05555DC5968"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1687BA089CED5053"
+				item: {
+					Count: 1
+					id: "protection_pixel:pioneer_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "4669399B09263B1B"
+			rewards: [{
+				count: 3
+				id: "00F502CBA355AD15"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21C68E3A594F9A18"
+				item: {
+					Count: 1
+					id: "protection_pixel:hellsnake_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "5A25A55C25952D92"
+			rewards: [{
+				count: 4
+				id: "62AD550373A3C9D6"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29D45FC32908ACE1"
+				item: {
+					Count: 1
+					id: "protection_pixel:falconnest_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3554E6E7A6E1283A"
+				"420545ACB05BD203"
+			]
+			id: "3B8370D261DD97B0"
+			rewards: [{
+				id: "7724EE5AA2AAA243"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42E0B1AE714C2937"
+				item: {
+					Count: 1
+					id: "protection_pixel:breakeras_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0D89F2EBD3E9427D"
+				"420545ACB05BD203"
+			]
+			id: "3E3DC4F6B26A001C"
+			rewards: [{
+				id: "0094058609047628"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "423F3010A8E82A61"
+				item: {
+					Count: 1
+					id: "protection_pixel:wingsofprismas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7DB541C90AA75B65"
+				"420545ACB05BD203"
+			]
+			id: "7D90DAE992F4CF69"
+			rewards: [{
+				id: "117B919E94C6FBBC"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A45FE5ADB601DB6"
+				item: {
+					Count: 1
+					id: "protection_pixel:workerhornetas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0C4530912DCEC328"
+				"420545ACB05BD203"
+			]
+			id: "7C556E2CE33A1D2C"
+			rewards: [{
+				id: "2E069F79DD7A75DF"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F4D7BFFBCD29195"
+				item: {
+					Count: 1
+					id: "protection_pixel:magneticstormas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"26991AB1739AC5A0"
+				"420545ACB05BD203"
+			]
+			id: "374F6DC02DBCB7EC"
+			rewards: [{
+				id: "4113D5105CD7F7B9"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DDF8CB93E4D8A42"
+				item: {
+					Count: 1
+					id: "protection_pixel:pioneeras_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4669399B09263B1B"
+				"420545ACB05BD203"
+			]
+			id: "0FCCD7BFC43DD902"
+			rewards: [{
+				id: "666DF091B63E1359"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BB41F78B52BCCBD"
+				item: {
+					Count: 1
+					id: "protection_pixel:hellsnakeas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"5A25A55C25952D92"
+				"420545ACB05BD203"
+			]
+			id: "0D542EC0D213D841"
+			rewards: [{
+				id: "79F49DDD0495B468"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA3D7F5CFE4B8AC"
+				item: {
+					Count: 1
+					id: "protection_pixel:falconnestas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0D782E57FF49338F"
+				"31C1D1E5FC50AA3C"
+				"420545ACB05BD203"
+			]
+			description: [
+				"While powered, slowly charges a shield that can absorb up to 25 points of damage before you take damage."
+				""
+				"Has no armor plate slots though."
+			]
+			id: "60C32AAA7B525FC6"
+			rewards: [{
+				count: 3
+				id: "1AFB9A246D2E89F6"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "100% Damage Reduction"
+			tasks: [{
+				id: "5A1970A628514B25"
+				item: {
+					Count: 1
+					id: "protection_pixel:floatshield_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Prevents slowness, mining fatigue, and weakness while wearing power armor (leggings specifically)."
+				""
+				"You may still be slowed down while over-encumbered, so be sure to fully upgrade your &oCombustion Reactor&r!"
+			]
+			id: "33CA90C7F6A253E2"
+			rewards: [{
+				id: "714AF42126C8A096"
+				item: "protection_pixel:reinforcedfiber"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Necessary!"
+			tasks: [{
+				id: "398AA6061C5EE037"
+				item: {
+					Count: 1
+					id: "protection_pixel:socks_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "2352E919219A33C8"
+			shape: "rsquare"
+			tasks: [{
+				id: "5851ED9D52E0A701"
+				item: "protection_pixel:leggingslining"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2352E919219A33C8"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "2E621435C40BF29F"
+			rewards: [{
+				count: 4
+				id: "7BE98631F2463D15"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "357A1C215CBAE01E"
+				item: {
+					Count: 1
+					id: "protection_pixel:slingshot_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2352E919219A33C8"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "0C23074EAC642176"
+			rewards: [{
+				count: 4
+				id: "298C7231B5A9DA6A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D84CCB938E34D0D"
+				item: {
+					Count: 1
+					id: "protection_pixel:anchorpoint_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2352E919219A33C8"
+				"31C1D1E5FC50AA3C"
+			]
+			id: "7A2BA4067B33B268"
+			rewards: [{
+				count: 4
+				id: "55E63014D9DC9CD1"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46EE1CC05AF935F4"
+				item: {
+					Count: 1
+					id: "protection_pixel:buoyancy_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2E621435C40BF29F"
+				"420545ACB05BD203"
+			]
+			id: "7960C4CEB65A9E02"
+			rewards: [{
+				id: "794F56EC63F29A2E"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00D9BCDF2BD314D8"
+				item: {
+					Count: 1
+					id: "protection_pixel:slingshotas_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0C23074EAC642176"
+				"420545ACB05BD203"
+			]
+			id: "75D571A3B415FF7B"
+			rewards: [{
+				id: "43A4CC470AE8A590"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D065CA30D603CA2"
+				item: {
+					Count: 1
+					id: "protection_pixel:anchorpointas_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7A2BA4067B33B268"
+				"420545ACB05BD203"
+			]
+			id: "53A556758AA26803"
+			rewards: [{
+				id: "29AE8616C5B27A20"
+				item: "protection_pixel:smallnetheritesheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A6BEEC3BEECDD46"
+				item: {
+					Count: 1
+					id: "protection_pixel:buoyancyas_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2352E919219A33C8"
+				"66A564097BC72C1D"
+				"420545ACB05BD203"
+			]
+			id: "43DE4882E459706F"
+			rewards: [{
+				count: 4
+				id: "39F9D2C6B2F5BFD5"
+				item: "protection_pixel:heatresistantceramicsheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BFDE64CC7B58DF4"
+				item: {
+					Count: 1
+					id: "protection_pixel:tosaki_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "66A564097BC72C1D"
+			shape: "rsquare"
+			tasks: [{
+				disable_toast: true
+				id: "30FCE88CF47244AA"
+				item: "protection_pixel:heatresistantceramicsheet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "420545ACB05BD203"
+			shape: "rsquare"
+			tasks: [
+				{
+					disable_toast: true
+					id: "21222F858B91C60C"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "45A160486C5603D5"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "6310581D97551A9F"
+					item: "protection_pixel:smallnetheritesheet"
+					type: "item"
+				}
+			]
+			title: "Advanced Materials"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31C1D1E5FC50AA3C"]
+			id: "203F67145ACF1374"
+			rewards: [{
+				id: "065153A632B8631B"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62D79D57E07D6966"
+				item: {
+					Count: 1
+					id: "protection_pixel:maneuveringwing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"420545ACB05BD203"
+			]
+			id: "59523D65F86D3D86"
+			rewards: [{
+				id: "69838FC5066DFC44"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1650D625DE9033C4"
+				item: {
+					Count: 1
+					id: "protection_pixel:tacticaloxygensupplydevice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"420545ACB05BD203"
+			]
+			id: "5B0FFCFAEC6C94D5"
+			rewards: [{
+				id: "42F713C4D704F9C5"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DB340ED6941EC8E"
+				item: {
+					Count: 1
+					id: "protection_pixel:heatpulsethruster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"420545ACB05BD203"
+			]
+			id: "6EA1E436B693E861"
+			rewards: [{
+				id: "34FE00F2080F93D2"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "279EEDC744E76E07"
+				item: {
+					Count: 1
+					id: "protection_pixel:steambooster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"31C1D1E5FC50AA3C"
+				"420545ACB05BD203"
+			]
+			id: "131F085606EF6FC5"
+			rewards: [{
+				count: 16
+				id: "2D414A8A7EECA3E6"
+				item: "protection_pixel:pneumaticgrenade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CD3D2CA2D7EE116"
+				item: "protection_pixel:pneumaticgrenadelauncharm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31C1D1E5FC50AA3C"]
+			description: [
+				"Yes I know it doesn't actually use a &oPrecision Mechanism&r, but I was at a loss for how to reward you, so here you go."
+				""
+				"Go on, take it."
+			]
+			id: "49566FF7F4B2527B"
+			rewards: [{
+				id: "0430E4AC4F428DEB"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C77A3F56F02BD71"
+				item: {
+					Count: 1
+					id: "protection_pixel:hookcannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "283859D3FCABAB29"
+			tasks: [{
+				disable_toast: true
+				id: "481352111DCFAACC"
+				item: {
+					Count: 1
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Power Armor"]
+	title: "Create: Protection Pixel"
+}

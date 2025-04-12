@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: "create:andesite_alloy"
 			id: "2CF32DEA0BCCEAB3"
 			rewards: [{
 				count: 4
@@ -36,6 +37,7 @@
 			y: 0.0d
 		}
 		{
+			icon: "minecraft:copper_ingot"
 			id: "11462C50ED95A75C"
 			rewards: [{
 				count: 4
@@ -59,8 +61,8 @@
 				}
 			]
 			title: "Copper (Fluids)"
-			x: 0.0d
-			y: -9.0d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -68,6 +70,7 @@
 				"69FA91616D433B13"
 			]
 			hide_dependent_lines: true
+			icon: "create:brass_ingot"
 			id: "1125F214A19CCF0B"
 			rewards: [{
 				count: 4
@@ -100,6 +103,7 @@
 				"0765608199335E27"
 			]
 			hide_dependent_lines: true
+			icon: "create:sturdy_sheet"
 			id: "49FE19459C03AFB9"
 			rewards: [{
 				count: 4
@@ -122,8 +126,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: -9.0d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
@@ -159,7 +163,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -168,6 +172,7 @@
 				"08BE3B7B1078566F"
 			]
 			hide_dependent_lines: true
+			icon: "create:mechanical_mixer"
 			id: "4D0E521B0763FDE0"
 			rewards: [{
 				count: 4
@@ -189,12 +194,13 @@
 					type: "item"
 				}
 			]
-			x: 2.25d
-			y: 2.25d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			hide_dependent_lines: true
+			icon: "create:cogwheel"
 			id: "08BE3B7B1078566F"
 			rewards: [{
 				count: 16
@@ -248,6 +254,7 @@
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
+			icon: "create:speedometer"
 			id: "57AA287B7A5C98BD"
 			rewards: [{
 				id: "427B969806C7EB62"
@@ -269,7 +276,7 @@
 			]
 			title: "Speed \\& Stress"
 			x: 0.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -288,11 +295,12 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7611528BE6C6F5F6"]
+			icon: "create:wrench"
 			id: "19522B38C1264E66"
 			rewards: [{
 				id: "64EDB515DCF59B5D"
@@ -313,11 +321,12 @@
 				}
 			]
 			title: "Essential Equipment"
-			x: -3.75d
-			y: 3.75d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["08BE3B7B1078566F"]
+			icon: "create:large_water_wheel"
 			id: "39DC1CBCEA07A3BB"
 			rewards: [{
 				count: 4
@@ -340,11 +349,12 @@
 			]
 			title: "Water Wheels"
 			x: -1.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			hide_dependent_lines: true
+			icon: "create:blaze_burner"
 			id: "69FA91616D433B13"
 			rewards: [{
 				id: "45FCABF185A6ADD9"
@@ -388,11 +398,14 @@
 				item: { Count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.5d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["7611528BE6C6F5F6"]
+			dependencies: [
+				"7611528BE6C6F5F6"
+				"00D30A9AC748F996"
+			]
 			id: "7ADBC567D9A8ACA1"
 			rewards: [{
 				count: 2
@@ -406,11 +419,14 @@
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -8.0d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["7611528BE6C6F5F6"]
+			dependencies: [
+				"7611528BE6C6F5F6"
+				"00D30A9AC748F996"
+			]
 			id: "4C3D6133BEB7FAFD"
 			rewards: [{
 				count: 3
@@ -424,11 +440,15 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -7.5d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["2CF32DEA0BCCEAB3"]
+			dependencies: [
+				"2CF32DEA0BCCEAB3"
+				"00D30A9AC748F996"
+			]
+			hide_dependency_lines: true
 			id: "61F3D78B132E6393"
 			rewards: [{
 				count: 2
@@ -442,8 +462,8 @@
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.0d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
@@ -459,13 +479,14 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"1125F214A19CCF0B"
 				"65D30AAAEBC5C753"
+				"00D30A9AC748F996"
 			]
 			hide_dependent_lines: true
 			id: "790495EE6636D531"
@@ -480,12 +501,13 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
 			hide_until_deps_complete: false
+			icon: "create:white_sail"
 			id: "6D83C02799C4467B"
 			rewards: [{
 				count: 4
@@ -507,11 +529,14 @@
 				}
 			]
 			title: "Windmills"
-			x: 1.0d
-			y: -3.0d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
-			dependencies: ["36445D62CD71EE9D"]
+			dependencies: [
+				"36445D62CD71EE9D"
+				"00D30A9AC748F996"
+			]
 			id: "47AD9EC8F1540805"
 			rewards: [{
 				id: "36C188B777764994"
@@ -524,11 +549,14 @@
 				item: "create:mechanical_roller"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -6.5d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["7611528BE6C6F5F6"]
+			dependencies: [
+				"7611528BE6C6F5F6"
+				"00D30A9AC748F996"
+			]
 			id: "2B965400E4F18242"
 			rewards: [{
 				id: "75925941AC402F36"
@@ -541,12 +569,13 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -6.5d
+			x: 7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["08BE3B7B1078566F"]
 			hide_dependent_lines: true
+			icon: "create:belt_connector"
 			id: "1AC8AD2D0C94F50A"
 			rewards: [{
 				count: 4
@@ -584,10 +613,11 @@
 			]
 			title: "Logistics"
 			x: -3.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7611528BE6C6F5F6"]
+			icon: "create:item_vault"
 			id: "1A5C700E6135D3B0"
 			rewards: [{
 				count: 4
@@ -608,25 +638,26 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -1.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["427F790DF4A52008"]
 			id: "2C8CA39BAB00F6A4"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "34A38AC085A24835"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			shape: "square"
+			shape: "diamond"
 			tasks: [{
 				id: "13EA51E24A5BD361"
 				item: "create:nozzle"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -646,8 +677,8 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["08BE3B7B1078566F"]
@@ -663,11 +694,12 @@
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -2.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["08BE3B7B1078566F"]
+			icon: "create:mechanical_piston"
 			id: "000A36D512E55FA6"
 			rewards: [{
 				id: "1EEE6FA17A6AD8ED"
@@ -687,11 +719,12 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: -2.5d
+			x: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["08BE3B7B1078566F"]
+			icon: "create:gantry_carriage"
 			id: "33369E85F02DEE43"
 			rewards: [{
 				count: 2
@@ -713,8 +746,8 @@
 				}
 			]
 			title: "Gantry"
-			x: -6.5d
-			y: -2.5d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -725,6 +758,13 @@
 				"42BD8AF407BE6585"
 			]
 			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "00D30A9AC748F996"
 			rewards: [{
 				count: 2
@@ -733,6 +773,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			size: 2.0d
 			tasks: [
 				{
 					id: "0C98F16FCEB5EDE8"
@@ -762,11 +803,14 @@
 				}
 			]
 			title: "Multi-Block Motion"
-			x: -5.5d
-			y: -4.5d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
-			dependencies: ["1AC8AD2D0C94F50A"]
+			dependencies: [
+				"1AC8AD2D0C94F50A"
+				"7611528BE6C6F5F6"
+			]
 			id: "56FD57F917242591"
 			rewards: [{
 				id: "510F874217DCB1BB"
@@ -780,10 +824,11 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["00D30A9AC748F996"]
+			icon: "create:portable_storage_interface"
 			id: "37E6685E23967914"
 			rewards: [{
 				count: 2
@@ -812,12 +857,13 @@
 				}
 			]
 			title: "Basic Mobile Interfaces"
-			x: -4.5d
-			y: -4.5d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["11462C50ED95A75C"]
 			hide_dependent_lines: true
+			icon: "create:fluid_pipe"
 			id: "76FDD3025201FECA"
 			rewards: [{
 				count: 4
@@ -839,8 +885,8 @@
 				}
 			]
 			title: "Pipes \\& Pumps"
-			x: 0.0d
-			y: -6.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -859,8 +905,8 @@
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -7.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -879,62 +925,8 @@
 				item: "create:fluid_valve"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7611528BE6C6F5F6"]
-			hide_dependent_lines: true
-			id: "639B09251903FFF2"
-			rewards: [{
-				count: 3
-				id: "5F17C6D053B2888F"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "3094ADFC7AE4F819"
-				item: "createaddition:rolling_mill"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["08BE3B7B1078566F"]
-			id: "555A31944B9D6737"
-			rewards: [{
-				id: "7AE65554EBDEB288"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "4052A5BAB690FE8C"
-				item: "sliceanddice:slicer"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["76FDD3025201FECA"]
-			id: "19864B1ED37F3C0B"
-			rewards: [{
-				count: 3
-				id: "141D809D64CAF917"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "763AD5097882F4CC"
-				item: "sliceanddice:sprinkler"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -7.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["76FDD3025201FECA"]
@@ -951,8 +943,8 @@
 				item: "create:copper_valve_handle"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["76FDD3025201FECA"]
@@ -969,8 +961,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -992,8 +984,8 @@
 				type: "item"
 			}]
 			title: "Portable Fluids"
-			x: -5.5d
-			y: -5.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["76FDD3025201FECA"]
@@ -1009,8 +1001,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["76FDD3025201FECA"]
@@ -1026,7 +1018,7 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.5d
 			y: -6.0d
 		}
 		{
@@ -1044,8 +1036,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["300061CAA2D14809"]
@@ -1062,27 +1054,11 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 1.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["300061CAA2D14809"]
-			id: "1720AE9F17AE0F0C"
-			rewards: [{
-				id: "64BFEF3A2229DEC6"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "7C3003FEC0845ADA"
-				item: "create:steam_whistle"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.0d
-		}
-		{
+			icon: "create:schematicannon"
 			id: "36CBDB53F8B0330E"
 			optional: true
 			rewards: [{
@@ -1109,8 +1085,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: -3.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
@@ -1127,11 +1103,12 @@
 				item: "create:clipboard"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7611528BE6C6F5F6"]
+			icon: "create:brown_toolbox"
 			id: "72945CCED55E0796"
 			optional: true
 			rewards: [{
@@ -1218,29 +1195,13 @@
 				type: "item"
 			}]
 			title: "Toolboxes"
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2CF32DEA0BCCEAB3"]
-			id: "45D9D6F24EC1476A"
-			rewards: [{
-				id: "34538D91D0632365"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "672D2B6DFB129968"
-				item: "create:cuckoo_clock"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -0.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7611528BE6C6F5F6"]
 			hide_dependent_lines: true
+			icon: "create:electron_tube"
 			id: "65D30AAAEBC5C753"
 			rewards: [{
 				count: 4
@@ -1302,6 +1263,7 @@
 					type: "item"
 				}
 			]
+			title: "Electron Tubes"
 			x: 10.0d
 			y: -1.0d
 		}
@@ -1310,6 +1272,7 @@
 				"08BE3B7B1078566F"
 				"65D30AAAEBC5C753"
 			]
+			icon: "create:clutch"
 			id: "62E37A8C29352509"
 			rewards: [{
 				id: "3D35909D72EF77C6"
@@ -1335,14 +1298,15 @@
 				}
 			]
 			title: "Rotation Control"
-			x: -1.5d
-			y: -1.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"1125F214A19CCF0B"
 				"65D30AAAEBC5C753"
 			]
+			description: ["Okay, there is exactly one recipe that uses 22."]
 			hide_dependent_lines: true
 			id: "220C373B431363A2"
 			rewards: [{
@@ -1353,6 +1317,7 @@
 			}]
 			shape: "square"
 			size: 1.5d
+			subtitle: "You Will Never* Need More Than 21"
 			tasks: [{
 				id: "7385B8A45B7E289D"
 				item: "create:mechanical_crafter"
@@ -1376,8 +1341,8 @@
 				item: "create:flywheel"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.5d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1406,6 +1371,7 @@
 				"1AC8AD2D0C94F50A"
 			]
 			hide_dependent_lines: true
+			icon: "create:brass_funnel"
 			id: "2D09A3D1E88A1731"
 			rewards: [{
 				count: 2
@@ -1440,6 +1406,7 @@
 				"1125F214A19CCF0B"
 				"65D30AAAEBC5C753"
 			]
+			icon: "create:content_observer"
 			id: "4ADE4B5ABA1E24E9"
 			rewards: [{
 				id: "33D674339EC50C2E"
@@ -1487,6 +1454,7 @@
 				"49FE19459C03AFB9"
 				"157C5B4DB90477F5"
 			]
+			icon: "create:controls"
 			id: "02EF99F0722F7ED4"
 			rewards: [{
 				id: "0D31C47BE3BE832A"
@@ -1507,8 +1475,8 @@
 				}
 			]
 			title: "Train Essentials"
-			x: 10.0d
-			y: -8.0d
+			x: 15.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["157C5B4DB90477F5"]
@@ -1525,8 +1493,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.0d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["157C5B4DB90477F5"]
@@ -1542,8 +1510,8 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["157C5B4DB90477F5"]
@@ -1558,7 +1526,7 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.5d
 			y: -5.5d
 		}
 		{
@@ -1581,7 +1549,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -4.5d
 		}
 		{
@@ -1604,7 +1572,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.5d
 			y: -3.5d
 		}
 		{
@@ -1625,10 +1593,13 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -9.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["65D30AAAEBC5C753"]
+			dependencies: [
+				"65D30AAAEBC5C753"
+				"00D30A9AC748F996"
+			]
 			id: "76FA8ABEEC7262DD"
 			rewards: [{
 				id: "28F30F9A0C79FB1A"
@@ -1641,11 +1612,12 @@
 				item: "create:contraption_controls"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -4.5d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
+			icon: "create:redstone_link"
 			id: "7ADBE852D90EB299"
 			optional: true
 			rewards: [{
@@ -1683,8 +1655,8 @@
 				}
 			]
 			title: "New Redstone"
-			x: -1.5d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1125F214A19CCF0B"]
@@ -1705,6 +1677,7 @@
 		}
 		{
 			dependencies: ["1125F214A19CCF0B"]
+			icon: "create:peculiar_bell"
 			id: "2C1244B36847E9AC"
 			rewards: [{
 				count: 5
@@ -1730,6 +1703,7 @@
 		}
 		{
 			dependencies: ["1125F214A19CCF0B"]
+			icon: "create:pulse_repeater"
 			id: "2DF15326287A1F5B"
 			rewards: [{
 				count: 2
@@ -1764,6 +1738,7 @@
 				"65D30AAAEBC5C753"
 				"1125F214A19CCF0B"
 			]
+			icon: "create:display_board"
 			id: "60A4FD22037DDF9E"
 			rewards: [{
 				count: 2
@@ -1812,8 +1787,8 @@
 				item: "create:controller_rail"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1832,11 +1807,12 @@
 				item: "create:clockwork_bearing"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["49FE19459C03AFB9"]
+			icon: "create:schedule"
 			id: "0911D8B6037B1AB5"
 			rewards: [{
 				id: "01FCA373C1E2065F"
@@ -1862,11 +1838,11 @@
 				}
 			]
 			title: "Train Logistics"
-			x: 10.0d
-			y: -10.0d
+			x: 15.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["49FE19459C03AFB9"]
+			dependencies: ["790495EE6636D531"]
 			id: "3EFA53A721193767"
 			rewards: [{
 				count: 32
@@ -1880,11 +1856,18 @@
 				item: "create:track"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -10.0d
+			x: 12.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4F01FC3F5284821F"]
+			icon: {
+				Count: 1
+				id: "create:cardboard_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "071CAA1C41C67340"
 			rewards: [{
 				count: 13
@@ -1945,13 +1928,20 @@
 			]
 			title: "Cardboard Equipment"
 			x: 4.5d
-			y: -10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"08BE3B7B1078566F"
 				"11462C50ED95A75C"
 			]
+			icon: {
+				Count: 1
+				id: "create:copper_backtank"
+				tag: {
+					Air: 900
+				}
+			}
 			id: "79ABBE5578967F09"
 			rewards: [{
 				count: 11
@@ -1995,11 +1985,18 @@
 				}
 			]
 			title: "Backtank \\& Diving Suit"
-			x: 0.0d
-			y: -10.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["79ABBE5578967F09"]
+			icon: {
+				Count: 1
+				id: "create:netherite_backtank"
+				tag: {
+					Air: 900
+				}
+			}
 			id: "6A290478CFD051AE"
 			rewards: [{
 				count: 6
@@ -2043,46 +2040,12 @@
 				}
 			]
 			title: "Netherite Diving Suit"
-			x: 0.0d
-			y: -11.5d
-		}
-		{
-			dependencies: ["2CF32DEA0BCCEAB3"]
-			id: "53A9B7A384FD52EB"
-			rewards: [
-				{
-					count: 16
-					id: "115BD5837FAAC961"
-					item: "create:wooden_bracket"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1916B3A614F63C6F"
-					item: "create:metal_bracket"
-					type: "item"
-				}
-			]
-			shape: "square"
-			subtitle: "Aesthetics!"
-			tasks: [
-				{
-					id: "15BF961D9F929EA9"
-					item: "create:wooden_bracket"
-					type: "item"
-				}
-				{
-					id: "00ABB239A94566CC"
-					item: "create:metal_bracket"
-					type: "item"
-				}
-			]
-			title: "Brackets"
-			x: 1.5d
-			y: 0.0d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4F01FC3F5284821F"]
+			icon: "create:packager"
 			id: "20FD292CA0044D5A"
 			rewards: [{
 				id: "67196042FACA582B"
@@ -2109,10 +2072,11 @@
 			]
 			title: "Packing and Unpacking"
 			x: 4.5d
-			y: -8.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["20FD292CA0044D5A"]
+			icon: "create:factory_gauge"
 			id: "06A035B33451D338"
 			rewards: [{
 				count: 4
@@ -2135,10 +2099,11 @@
 			]
 			title: "Network Peripherals"
 			x: 3.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["20FD292CA0044D5A"]
+			icon: "create:package_frogport"
 			id: "5ABA9EDF95E22C42"
 			rewards: [{
 				id: "17DC8EC93C4B7DF5"
@@ -2160,10 +2125,11 @@
 			]
 			title: "Package Transportation"
 			x: 3.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["20FD292CA0044D5A"]
+			icon: "create:stock_ticker"
 			id: "61FF996DC72928F3"
 			rewards: [{
 				id: "0CC84658EBCFCA09"
@@ -2264,13 +2230,14 @@
 			]
 			title: "Orders \\& Shops"
 			x: 5.5d
-			y: -8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"20FD292CA0044D5A"
 				"49FE19459C03AFB9"
 			]
+			icon: "create:white_postbox"
 			id: "636C42FC149DB227"
 			rewards: [{
 				id: "08D9AB17CA159741"
@@ -2357,7 +2324,7 @@
 			}]
 			title: "Postboxes"
 			x: 5.5d
-			y: -9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1125F214A19CCF0B"]
@@ -2378,6 +2345,7 @@
 		}
 		{
 			dependencies: ["1125F214A19CCF0B"]
+			icon: "create:filter"
 			id: "154395A443BB4D8A"
 			rewards: [{
 				id: "48E65C574439DD73"
@@ -2421,8 +2389,8 @@
 				item: "create:tree_fertilizer"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -2.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			id: "17F44209F5DCA4F5"
@@ -2444,11 +2412,11 @@
 				item: "create:crafting_blueprint"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["2CF32DEA0BCCEAB3"]
+			dependencies: ["7611528BE6C6F5F6"]
 			id: "00009B5949438EA0"
 			rewards: [{
 				id: "6AB527D9BC30186E"
@@ -2461,28 +2429,8 @@
 				item: "create:minecart_coupling"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"36445D62CD71EE9D"
-				"0765608199335E27"
-			]
-			hide_dependent_lines: true
-			id: "54DFD4A196F7C3C1"
-			rewards: [{
-				id: "0372A36832878E87"
-				item: "create:blaze_cake"
-				type: "item"
-			}]
-			tasks: [{
-				id: "160FD4BDC64ECF34"
-				item: "create:blaze_cake"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 5.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1125F214A19CCF0B"]
@@ -2498,11 +2446,11 @@
 				item: "create:elevator_pulley"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["49FE19459C03AFB9"]
+			icon: "create:red_seat"
 			id: "01DD2598FB1A9582"
 			rewards: [{
 				id: "42FD2F4A605F0D99"
@@ -2588,325 +2536,8 @@
 				type: "item"
 			}]
 			title: "Seats"
-			x: 8.0d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"4D0E521B0763FDE0"
-				"69FA91616D433B13"
-				"0765608199335E27"
-			]
-			id: "0814FC76ECF0C822"
-			optional: true
-			rewards: [{
-				id: "28895FD9E52CD11D"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "5A94E5EA05C12832"
-					item: "create:bar_of_chocolate"
-					type: "item"
-				}
-				{
-					id: "320978554C75B6BD"
-					item: "create:sweet_roll"
-					type: "item"
-				}
-				{
-					id: "19DAB9CEE68AB214"
-					item: "create:chocolate_glazed_berries"
-					type: "item"
-				}
-				{
-					id: "51AA988B9E0A2370"
-					item: "create:honeyed_apple"
-					type: "item"
-				}
-				{
-					id: "0CAC8C587988FECB"
-					item: "create:builders_tea"
-					type: "item"
-				}
-				{
-					id: "7CED8103CBFD4C7A"
-					item: "createaddition:chocolate_cake"
-					type: "item"
-				}
-				{
-					id: "6924DA17E5CB76AD"
-					item: "createaddition:honey_cake"
-					type: "item"
-				}
-			]
-			title: "New Food!"
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"4D0E521B0763FDE0"
-				"69FA91616D433B13"
-			]
-			id: "286BA697AEDC0204"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "226CD17E5B90CF79"
-				item: "createaddition:electrum_amulet"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: [
-				"4D0E521B0763FDE0"
-				"69FA91616D433B13"
-			]
-			id: "270E88651985BDCC"
-			optional: true
-			shape: "diamond"
-			tasks: [
-				{
-					id: "4BF61E95C95DF407"
-					item: "createaddition:biomass"
-					type: "item"
-				}
-				{
-					id: "395D572467CB5D45"
-					item: "createaddition:biomass_pellet"
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"69FA91616D433B13"
-				"639B09251903FFF2"
-			]
-			id: "7A3128F4B7DCC5FA"
-			rewards: [{
-				id: "4B22112CB269ECA8"
-				item: "createaddition:straw"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7CE8D73CEF2F2EAE"
-				item: "createaddition:straw"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2CF32DEA0BCCEAB3"]
-			id: "10A9F6E55B1E04DC"
-			rewards: [{
-				id: "2273C8DD91D97FD0"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "155114D3D89FBD02"
-				item: "create_new_age:energiser_t1"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["10A9F6E55B1E04DC"]
-			id: "77248B043F975183"
-			rewards: [
-				{
-					count: 4
-					id: "553A8B02F6CFF5F7"
-					item: "create_new_age:overcharged_iron"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0277DC171874FFC6"
-					item: "create_new_age:overcharged_gold"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "33A92AE6AC908C92"
-					item: "create_new_age:overcharged_diamond"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "5FC511F61D6625E2"
-					item: "create_new_age:overcharged_iron"
-					type: "item"
-				}
-				{
-					id: "3DF400652B2983C1"
-					item: "create_new_age:overcharged_gold"
-					type: "item"
-				}
-				{
-					id: "7034014645CF79B0"
-					item: "create_new_age:overcharged_diamond"
-					type: "item"
-				}
-			]
-			title: "Overcharged Resources"
-			x: 6.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["77248B043F975183"]
-			id: "6B358440EF03F638"
-			rewards: [{
-				id: "6A6AEA98F3A30423"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					id: "1CB12B787E6CFCF4"
-					item: "create_new_age:energiser_t2"
-					type: "item"
-				}
-				{
-					id: "0D9A21D6B03E6516"
-					item: "create_new_age:energiser_t3"
-					type: "item"
-				}
-			]
-			title: "Better Energizers"
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["639B09251903FFF2"]
-			description: [
-				"&oLow current&r specifically means up to 1KFE/t."
-				""
-				"&oHigh current&r specifically means up to 5KFE/t."
-			]
-			id: "32F2B5029676E7A7"
-			rewards: [{
-				count: 2
-				id: "199357D29ADD70AC"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					id: "22E14629B8105D12"
-					item: "createaddition:connector"
-					type: "item"
-				}
-				{
-					id: "332AC75AD5811242"
-					item: "createaddition:large_connector"
-					type: "item"
-				}
-			]
-			title: "Connectors"
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["32F2B5029676E7A7"]
-			description: ["&oSmall Connector with Light&r consumes 1FE/t."]
-			id: "2172FFA26A8F6738"
-			rewards: [{
-				id: "3D7DF3B9723107AB"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					id: "374D4BDF20D5E318"
-					item: "createaddition:small_light_connector"
-					type: "item"
-				}
-				{
-					id: "3F7089EB149970FE"
-					item: "createaddition:redstone_relay"
-					type: "item"
-				}
-			]
-			title: "Connector Extras"
-			x: 3.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["639B09251903FFF2"]
-			description: [
-				"&6&oCopper Spools&r can transfer up to 1KFE/t."
-				""
-				"&e&oGold&r and &e&oElectrum Spools&r can each transfer up to 5KFE/t. &e&oGold Spools&r have been removed from this modpack for more compatability with &lImmersive Engineering&r."
-			]
-			hide_dependent_lines: true
-			id: "7EC0CC2296C8B019"
-			rewards: [{
-				count: 16
-				id: "34E124999F6337B0"
-				item: "createaddition:spool"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					id: "55E7341BC4752196"
-					item: "createaddition:copper_spool"
-					type: "item"
-				}
-				{
-					id: "5D11A65C730FA438"
-					item: "createaddition:electrum_spool"
-					type: "item"
-				}
-				{
-					id: "070CDC5C66208967"
-					item: "createaddition:festive_spool"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Wire"
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"7EC0CC2296C8B019"
-				"1125F214A19CCF0B"
-				"65D30AAAEBC5C753"
-				"220C373B431363A2"
-			]
-			id: "1A2D3C38A2808937"
-			rewards: [{
-				id: "7F04D858CBE21F25"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "28D17E52C6A21CE2"
-				item: "createaddition:tesla_coil"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.0d
+			x: 12.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -2928,428 +2559,28 @@
 				type: "item"
 			}]
 			title: "Portable Energy"
-			x: -5.5d
-			y: -3.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
-				"08BE3B7B1078566F"
-				"498C4D94CABA5FB2"
-			]
-			description: [
-				"Note: the &lGenerator Coil&r has an efficiency ranging from &b4%&r to &b92.3%&r when converting &7&ospeed&r into &7FE/t&r depending on the surrounding magnets. Compare this to the &lCreate Crafts \\& Additions&r &lAlternator&r, which has an efficiency of &b66.7%&r."
-				""
-				"A total &oMagnetic Force&r of 48 or higher (all &lLayered Magnets&r or better) is required to achieve an efficiency of &b66.7%&r or better."
-				""
-				"&aAlso: each &lCarbon Brush&r&a can generate power from up to 8 connected &lGenerator Coils&r&a.&r"
-			]
-			id: "22B604DDBB7E59B6"
-			rewards: [{
-				count: 5
-				id: "2C6A2996A2D76CB8"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Rotation -> Electricity"
-			tasks: [
-				{
-					id: "42E9C2C510406A85"
-					item: "create_new_age:generator_coil"
-					type: "item"
-				}
-				{
-					id: "1D35CA5D33134556"
-					item: "create_new_age:carbon_brushes"
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: 6.5d
-		}
-		{
-			description: [
-				"The higher the total &oMagnetic Force&r surrounding a single &lGenerator Coil&r, the more efficiently it converts &7&ospeed&r into &7FE/t&r."
-				""
-				"The exact formula is MF/(MF + 24), and the highest possible efficiency is 92.3% with 12 &lNetherite Magnets&r."
-			]
-			id: "498C4D94CABA5FB2"
-			rewards: [{
-				count: 4
-				id: "3413EBA4DA34C5DA"
-				item: "create_new_age:magnetite_block"
-				type: "item"
-			}]
-			shape: "rsquare"
-			subtitle: "How do they Work?"
-			tasks: [
-				{
-					id: "20B5A26300907102"
-					item: "create_new_age:magnetite_block"
-					type: "item"
-				}
-				{
-					id: "74EE1F80181A9A01"
-					item: "create_new_age:redstone_magnet"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "707E8F76F56BE9CC"
-					item: "create_new_age:layered_magnet"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "39F4C3E3097F4A2D"
-					item: "create_new_age:fluxuated_magnetite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "503467CEEE539528"
-					item: "create_new_age:netherite_magnet"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Magnets"
-			x: 5.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7611528BE6C6F5F6"]
-			id: "2168DD90A98D5A70"
-			rewards: [{
-				count: 16
-				id: "2907044116EEE01C"
-				item: "create_new_age:heat_pipe"
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [
-				{
-					id: "1C466168DCAB487E"
-					item: "create_new_age:heat_pipe"
-					type: "item"
-				}
-				{
-					id: "6DB87055AF63BD19"
-					item: "create_new_age:heat_pump"
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2168DD90A98D5A70"]
-			id: "5CEFD139268AEC4F"
-			rewards: [{
-				id: "2C398423F3DE5CA5"
-				item: "create_new_age:heater"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Heat -> Blaze Burner"
-			tasks: [{
-				id: "328918330F8615E5"
-				item: "create_new_age:heater"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["2168DD90A98D5A70"]
-			id: "3298920DDBCC7294"
-			rewards: [{
-				id: "212E9A61E1360C4D"
-				item: "create_new_age:stirling_engine"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Heat -> Rotation"
-			tasks: [{
-				id: "40EAD141E4B343DB"
-				item: "create_new_age:stirling_engine"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2168DD90A98D5A70"]
-			id: "439B90F421A1FD18"
-			rewards: [{
-				id: "33DCEFA63C6B4CA4"
-				item: "create_new_age:advanced_solar_heating_plate"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Sunlight -> Heat"
-			tasks: [
-				{
-					id: "7B94935CB26DD5DA"
-					item: "create_new_age:basic_solar_heating_plate"
-					type: "item"
-				}
-				{
-					id: "05CE888A5131E24A"
-					item: "create_new_age:advanced_solar_heating_plate"
-					type: "item"
-				}
-			]
-			title: "Solar Plates"
-			x: 9.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["77248B043F975183"]
-			description: [
-				"Note: the &lStrong Motor&r is roughly equivalent in output and efficiency to the &lElectric Motor&r from &lCreate Crafts \\& Additions&r."
-				""
-				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
-			]
-			id: "5915B9485B45911F"
-			rewards: [{
-				count: 2
-				id: "6FBF29EE6539512B"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Electricity -> Rotation"
-			tasks: [
-				{
-					id: "33738156C2754612"
-					item: "create_new_age:basic_motor"
-					type: "item"
-				}
-				{
-					id: "12E1495E6EC1D4D0"
-					item: "create_new_age:advanced_motor"
-					type: "item"
-				}
-				{
-					id: "363E2B695F677566"
-					item: "create_new_age:reinforced_motor"
-					type: "item"
-				}
-			]
-			title: "Motors"
-			x: 6.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5915B9485B45911F"]
-			id: "05E3F1FA113A16D9"
-			rewards: [{
-				count: 2
-				id: "04024C8CB4E59D61"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Increase Stress Capacity"
-			tasks: [
-				{
-					id: "2BA3D29F9A4B5757"
-					item: "create_new_age:basic_motor_extension"
-					type: "item"
-				}
-				{
-					id: "0B2C230BE9D50A51"
-					item: "create_new_age:advanced_motor_extension"
-					type: "item"
-				}
-			]
-			title: "Motor Extensions"
-			x: 7.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"2168DD90A98D5A70"
-				"1AC8AD2D0C94F50A"
-				"2D09A3D1E88A1731"
 				"36445D62CD71EE9D"
+				"0765608199335E27"
 			]
-			id: "6B0BE3E87D94EA5E"
+			hide_dependent_lines: true
+			id: "54DFD4A196F7C3C1"
 			rewards: [{
-				count: 8
-				id: "55D23E32D4CDA6C2"
-				item: "create_new_age:nuclear_fuel"
+				id: "0372A36832878E87"
+				item: "create:blaze_cake"
 				type: "item"
 			}]
-			shape: "gear"
-			subtitle: "No Coolant Required!"
-			tasks: [
-				{
-					id: "5DDC2D3420DEBDB4"
-					item: "create_new_age:reactor_rod"
-					type: "item"
-				}
-				{
-					id: "38ED458C0683FA71"
-					item: "create_new_age:reactor_fuel_acceptor"
-					type: "item"
-				}
-				{
-					id: "528AADE2CFC29187"
-					item: "create_new_age:reactor_heat_vent"
-					type: "item"
-				}
-				{
-					id: "6B81182F519E92D0"
-					item: "create_new_age:reactor_casing"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "14D0B179DB4632E4"
-					item: "create_new_age:reactor_glass"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Nuclear Heat"
-			x: 10.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"1125F214A19CCF0B"
-				"7EC0CC2296C8B019"
-			]
-			id: "6393EDCFBE89C54F"
-			rewards: [{
-				id: "57A7BF3D0840683A"
-				item: "createaddition:modular_accumulator"
-				type: "item"
-			}]
-			shape: "square"
 			tasks: [{
-				id: "188D828687226EA9"
-				item: "createaddition:modular_accumulator"
+				id: "160FD4BDC64ECF34"
+				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"7EC0CC2296C8B019"
-				"220C373B431363A2"
-			]
-			description: [
-				"Note: the &lElectric Motor&r is roughly equivalent in output and efficiency to the &lStrong Motor&r from &lCreate: New Age&r."
-				""
-				"The &lBasic Motor&r is half as efficient, and the &lReinforced Motor&r is twice as efficient."
-			]
-			id: "3B996CEF67EA93FB"
-			rewards: [{
-				count: 3
-				id: "1469CA300F312802"
-				item: "create:brass_ingot"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Electricity -> Rotation"
-			tasks: [{
-				id: "4E4252E48E9E9F5D"
-				item: "createaddition:electric_motor"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"7EC0CC2296C8B019"
-				"220C373B431363A2"
-			]
-			description: ["Note: the &lAlternator&r has an efficiency of &b66.7%&r when converting &7&ospeed&r into &7FE/t&r. Compare this to the &lCreate: New Age&r &lGenerator Coil&r, which has an efficiency ranging from &b4%&r to &b92.3%&r depending on the surrounding magnets."]
-			id: "79674A00E39F4384"
-			rewards: [{
-				count: 3
-				id: "117836324DEC1FAD"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			shape: "square"
-			subtitle: "Rotation -> Electricity"
-			tasks: [{
-				id: "04562B7DA5CA2DD4"
-				item: "createaddition:alternator"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["11462C50ED95A75C"]
-			hide_dependency_lines: true
-			id: "35FC48C2E3CAB434"
-			shape: "square"
-			tasks: [{
-				id: "14DB1C3ADD3A1C0B"
-				item: "create_enchantment_industry:disenchanter"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["11462C50ED95A75C"]
-			hide_dependency_lines: true
-			id: "5BB33C6E656CCBDB"
-			shape: "square"
-			subtitle: "Duplications"
-			tasks: [{
-				id: "06F4AC38E6681434"
-				item: "create_enchantment_industry:printer"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["49FE19459C03AFB9"]
-			id: "2177E6C8D937E2DC"
-			subtitle: "Blaze Auto-Enchanters"
-			tasks: [{
-				id: "0F085A91DFAA954B"
-				item: "create_enchantment_industry:enchanting_guide"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 6.0d
-		}
-		{
-			id: "74149BAB43F283DD"
-			optional: true
-			shape: "diamond"
-			subtitle: "Backpack Exp Conversion"
-			tasks: [{
-				id: "41CAEECD9B8A3A35"
-				item: "create_enchantment_industry:experience_rotor"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["54DFD4A196F7C3C1"]
-			id: "6092125A77E0995D"
-			shape: "rsquare"
-			tasks: [{
-				id: "61E4342CD0C900BD"
-				item: "create_enchantment_industry:hyper_experience_bottle"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 5.0d
+			x: -1.0d
+			y: 5.5d
 		}
 	]
 	subtitle: ["The Classic"]

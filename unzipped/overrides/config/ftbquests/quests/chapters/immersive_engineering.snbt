@@ -11,10 +11,17 @@
 		}
 	}
 	id: "4ACF37021ABB4A5E"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				Count: 1
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4B8DAA329FFFB018"
 			rewards: [{
 				id: "45E814E7ADC6279C"
@@ -268,8 +275,10 @@
 			y: -1.5d
 		}
 		{
+			icon: "immersiveengineering:hemp_fiber"
 			id: "0B2E407B7F9ACBF5"
 			shape: "rsquare"
+			subtitle: "&o&lIndustrial.&r"
 			tasks: [
 				{
 					id: "55F7AD2AEE95B9C8"
@@ -282,6 +291,7 @@
 					type: "item"
 				}
 			]
+			title: "Industrial Hemp"
 			x: -7.5d
 			y: -1.5d
 		}
@@ -443,6 +453,7 @@
 				"&lRelays&r only serve as intermediate connection points for wires. Each &lRelay&r may connect to many different wires."
 			]
 			hide_dependent_lines: true
+			icon: "immersiveengineering:wirecoil_copper"
 			id: "0E74B67959DF0D91"
 			rewards: [{
 				count: 8
@@ -479,6 +490,7 @@
 				"61B5F005FEAB4AD3"
 			]
 			hide_dependent_lines: true
+			icon: "immersiveengineering:wirecoil_electrum"
 			id: "2E947EF5DBAD37A5"
 			rewards: [{
 				count: 8
@@ -515,6 +527,7 @@
 				"69BF8DC77D2B3DEB"
 				"3D142BA53D3DFA89"
 			]
+			icon: "immersiveengineering:wirecoil_steel"
 			id: "66464C4E5548CE13"
 			rewards: [{
 				count: 8
@@ -550,6 +563,7 @@
 				"0E74B67959DF0D91"
 				"2E947EF5DBAD37A5"
 			]
+			icon: "immersiveengineering:wirecoil_copper_ins"
 			id: "31DC95734F0D2FA0"
 			optional: true
 			rewards: [
@@ -679,6 +693,7 @@
 				"44182A4CB3B6B243"
 				"20359BE0395FB6A7"
 			]
+			icon: "immersiveengineering:conveyor_basic"
 			id: "70D43E3DFA8C52E9"
 			rewards: [{
 				count: 16
@@ -1290,6 +1305,7 @@
 				"5F4E9B7A1B041E80"
 				"32D66C3B6FEC83B3"
 			]
+			icon: "immersiveengineering:ingot_hop_graphite"
 			id: "29F0E4A278B0B713"
 			shape: "rsquare"
 			tasks: [
@@ -1879,6 +1895,7 @@
 				"7BCE239C95D3E1BD"
 				"1C3885AF22DA0853"
 			]
+			description: ["Also accepts &lBiodiesel&r from &c&lCreate: Diesel Generators&r!"]
 			icon: "immersiveengineering:diesel_generator"
 			id: "2A781DAEE2757D11"
 			progression_mode: "linear"
@@ -1889,6 +1906,7 @@
 			}]
 			shape: "square"
 			size: 2.0d
+			subtitle: "Biodiesel \\& Creosote &oOnly&r"
 			tasks: [
 				{
 					count: 9L
@@ -2269,6 +2287,7 @@
 		}
 		{
 			dependencies: ["080354E89C93A17B"]
+			icon: "immersiveengineering:fluid_pump"
 			id: "5D91262DEA7C0482"
 			rewards: [{
 				id: "121B5AB9B5B4CBDC"
@@ -2294,6 +2313,13 @@
 		}
 		{
 			dependencies: ["080354E89C93A17B"]
+			icon: {
+				Count: 1
+				id: "immersiveengineering:survey_tools"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "462615EE3B855253"
 			rewards: [{
 				id: "08A0C3B34D14D92F"
@@ -2398,6 +2424,7 @@
 				{
 					id: "3507B56661F72E3E"
 					item: "immersiveengineering:capacitor_hv"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -2425,6 +2452,28 @@
 			}]
 			x: -3.0d
 			y: 2.0d
+		}
+		{
+			description: [
+				"Cannot pick up fluids from the world directly."
+				""
+				"Otherwise, acts like 10 &oBuckets&r, and can refuel Immersive Engineering equipment by crafting with it in a crafting window!"
+			]
+			id: "7B3B562BDEB7FEAF"
+			rewards: [{
+				count: 8
+				id: "3FEB52EA8589B0F2"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "10 Buckets*"
+			tasks: [{
+				id: "37B18315758FB9EC"
+				item: "immersiveengineering:jerrycan"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["The Other Classic"]

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "scorched_guns"
-	group: ""
+	group: "6DF96F978837F4FA"
 	icon: {
 		Count: 1
 		id: "scguns:flintlock_pistol"
@@ -12,7 +12,7 @@
 		}
 	}
 	id: "484472C0A759DD2B"
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -2629,6 +2629,7 @@
 			y: -2.0d
 		}
 		{
+			icon: "scguns:grenade"
 			id: "27454F22A634C34C"
 			optional: true
 			rewards: [
@@ -2732,6 +2733,7 @@
 			y: 4.5d
 		}
 		{
+			icon: "scguns:basic_poultice"
 			id: "28196A065E7606C9"
 			optional: true
 			rewards: [{
@@ -2786,11 +2788,14 @@
 				"&oEnergy Ammo Box&r stores up to &b12&r stacks of &6&oBlaze Fuel&r, &7&oShock&r, &a&oPlasma&r, and &3&oSculk&r cells."
 				""
 				"&oRocket Ammo Box&r stores up to &b4&r stacks of &7&oMicrojets&r and &7&oRockets&r."
+				""
+				"&oAmmo Box&r is just a stylized chest, and has no particular properties."
 			]
+			icon: "scguns:ammo_box"
 			id: "1FAE0EF9786A7975"
 			optional: true
 			rewards: [{
-				count: 7
+				count: 8
 				id: "2306C3F1B41B3869"
 				item: "minecraft:iron_ingot"
 				type: "item"
@@ -2833,6 +2838,11 @@
 					item: "scguns:rocket_ammo_box"
 					type: "item"
 				}
+				{
+					id: "75E15DE535AD7B68"
+					item: "scguns:ammo_box"
+					type: "item"
+				}
 			]
 			title: "Ammo Boxes"
 			x: -2.5d
@@ -2846,6 +2856,7 @@
 				""
 				"&oRock Pouch&r stores up to &b64&r stacks of &lStone&r, &lCobblestone&r, &lGranite&r, and &lDiorite&r!"
 			]
+			icon: "scguns:empty_casing_pouch"
 			id: "3E2AB7A0AF8A7114"
 			optional: true
 			rewards: [{
@@ -2890,6 +2901,7 @@
 				""
 				"&lPenetrators&r need a redstone signal to activate, and instantly destroy a 3x3x10 tunnel in the direction of the orange face."
 			]
+			icon: "scguns:powder_keg"
 			id: "58DEFFD9C90E6724"
 			optional: true
 			rewards: [
@@ -2955,6 +2967,7 @@
 				""
 				"You can use dye to change their faces!"
 			]
+			icon: "scguns:scamp_package"
 			id: "46308045100166B5"
 			optional: true
 			rewards: [{
@@ -3001,6 +3014,13 @@
 		}
 		{
 			dependencies: ["12703B19755DD9C2"]
+			icon: {
+				Count: 1
+				id: "scguns:long_scope"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "300E7BF7CA2494D8"
 			optional: true
 			rewards: [{
@@ -3066,6 +3086,13 @@
 		}
 		{
 			dependencies: ["12703B19755DD9C2"]
+			icon: {
+				Count: 1
+				id: "scguns:wooden_stock"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2A51752238AA15DB"
 			optional: true
 			rewards: [{
@@ -3118,6 +3145,13 @@
 		{
 			dependencies: ["12703B19755DD9C2"]
 			description: ["&cNote: gunfire draws in nearby hostile mobs. Silencers reduce this effect!&r"]
+			icon: {
+				Count: 1
+				id: "scguns:advanced_silencer"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1928B8A915250825"
 			optional: true
 			rewards: [{
@@ -3178,6 +3212,13 @@
 		}
 		{
 			dependencies: ["12703B19755DD9C2"]
+			icon: {
+				Count: 1
+				id: "scguns:iron_bayonet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4A896403D98E6AEB"
 			optional: true
 			rewards: [{
@@ -3261,6 +3302,13 @@
 		}
 		{
 			dependencies: ["12703B19755DD9C2"]
+			icon: {
+				Count: 1
+				id: "scguns:extended_mag"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "570F2AB4CE92E214"
 			optional: true
 			rewards: [{
@@ -3304,6 +3352,7 @@
 				""
 				"The &lPowered Macerator&r automatically pulls power from adjacent blocks."
 			]
+			icon: "scguns:powered_macerator"
 			id: "394F4F5AD4841AA7"
 			rewards: [{
 				id: "6DCE027F9B50CEB9"
@@ -3342,6 +3391,7 @@
 				""
 				"The &lPowered Stamping Press&r automatically pulls power from adjacent blocks."
 			]
+			icon: "scguns:powered_mechanical_press"
 			id: "6D539DD2489B4F36"
 			rewards: [{
 				id: "225FAEAABBEBC004"
@@ -3429,6 +3479,7 @@
 				""
 				"Why? Why not? ¯\\_(ツ)_/¯"
 			]
+			icon: "scguns:cryoniter"
 			id: "507C87D3D577DF61"
 			optional: true
 			rewards: [{
@@ -3619,6 +3670,7 @@
 				""
 				"'&bShift&r + &bRight Click&r' on an entity to add that entity type to the log (i.e. &nall&r zombies)."
 			]
+			icon: "scguns:enemy_log"
 			id: "62F9DE9EA9A07470"
 			optional: true
 			rewards: [{
@@ -3768,6 +3820,13 @@
 			]
 			description: ["You can also make &oAnthralite Tools&r, which are slightly better than &oIron Tools&r."]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "scguns:anthralite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3BF671C95478697F"
 			optional: true
 			rewards: [{
@@ -3834,6 +3893,13 @@
 				"22C5D0CC9054B4D7"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "scguns:adrien_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3DF3D60C9106E83F"
 			optional: true
 			rewards: [{
@@ -3919,6 +3985,13 @@
 			y: 0.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "scguns:cog_knight_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7FF96D4121C7C155"
 			optional: true
 			rewards: [{
@@ -3983,6 +4056,13 @@
 				"22C5D0CC9054B4D7"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "scguns:treated_brass_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "04E3E49A19A91314"
 			optional: true
 			rewards: [{
@@ -4047,6 +4127,13 @@
 				"22C5D0CC9054B4D7"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "scguns:diamond_steel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4B83C2F46F257795"
 			optional: true
 			rewards: [{
@@ -4157,6 +4244,13 @@
 				"22C5D0CC9054B4D7"
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "scguns:anthralite_respirator"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "68FAF51F302C7403"
 			optional: true
 			rewards: [{

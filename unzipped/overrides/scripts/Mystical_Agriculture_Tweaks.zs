@@ -3,10 +3,16 @@
 import crafttweaker.api.ingredient.type.IIngredientEmpty;
 import mods.jeitweaker.Jei;
 
+// add soulstone recipe
+craftingTable.addShapeless("mysticalagriculture.soulstone_cobble", <item: mysticalagriculture:soulstone_cobble> * 8,
+	[<item: minecraft:cobblestone>, <item: minecraft:cobblestone>,            <item: minecraft:cobblestone>,
+	 <item: minecraft:cobblestone>, <item: mysticalagriculture:soulium_dust>, <item: minecraft:cobblestone>,
+	 <item: minecraft:cobblestone>, <item: minecraft:cobblestone>,            <item: minecraft:cobblestone>]);
+
 // add Mystical Agriculture extra recipes
 craftingTable.addShaped("mysticalagriculture.essence/enigmaticaddons/ichor_droplet", <item: enigmaticaddons:ichor_droplet>,
 	[[<item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>],
-	 [<item: mysticalagriculture:ichor_essence>, IIngredientEmpty.getInstance(),            <item: mysticalagriculture:ichor_essence>],
+	 [<item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>],
 	 [<item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>]]);
 
 craftingTable.addShaped("mysticalagriculture.essence/enigmaticlegacy/etherium_nugget", <item: enigmaticlegacy:etherium_nugget>,
@@ -16,7 +22,7 @@ craftingTable.addShaped("mysticalagriculture.essence/enigmaticlegacy/etherium_nu
 
 craftingTable.addShaped("mysticalagriculture.essence/enigmaticlegacy/astral_dust", <item: enigmaticlegacy:astral_dust>,
 	[[<item: mysticalagriculture:astral_essence>, <item: mysticalagriculture:astral_essence>, <item: mysticalagriculture:astral_essence>],
-	 [<item: mysticalagriculture:astral_essence>, IIngredientEmpty.getInstance(),             <item: mysticalagriculture:astral_essence>],
+	 [<item: mysticalagriculture:astral_essence>, <item: mysticalagriculture:astral_essence>, <item: mysticalagriculture:astral_essence>],
 	 [<item: mysticalagriculture:astral_essence>, <item: mysticalagriculture:astral_essence>, <item: mysticalagriculture:astral_essence>]]);
 
 craftingTable.addShaped("mysticalagriculture.essence/scguns/anthralite_ingot", <item: scguns:anthralite_ingot> * 6,
@@ -34,9 +40,9 @@ craftingTable.addShaped("mysticalagriculture.essence/sulfur_chunk", <item: scgun
 	 [<item: mysticalagriculture:sulfur_essence>, <item: mysticalagriculture:sulfur_essence>]]);
 
 craftingTable.addShaped("mysticalagriculture.essence/common/niter", <item: scguns:niter_dust> * 8,
-	[[IIngredientEmpty.getInstance(),                IIngredientEmpty.getInstance(),                IIngredientEmpty.getInstance()],
-	 [<item: mysticalagriculture:saltpeter_essence>, <item: mysticalagriculture:saltpeter_essence>, <item: mysticalagriculture:saltpeter_essence>],
-	 [IIngredientEmpty.getInstance(),                IIngredientEmpty.getInstance(),                IIngredientEmpty.getInstance()]]);
+	[[IIngredientEmpty.getInstance(), <item: mysticalagriculture:saltpeter_essence>, IIngredientEmpty.getInstance()],
+	 [IIngredientEmpty.getInstance(), <item: mysticalagriculture:saltpeter_essence>, IIngredientEmpty.getInstance()],
+	 [IIngredientEmpty.getInstance(), <item: mysticalagriculture:saltpeter_essence>, IIngredientEmpty.getInstance()]]);
 
 craftingTable.removeByName("mysticalagriculture:essence/minecraft/netherite_ingot");
 craftingTable.addShaped("mysticalagriculture.essence/minecraft/ancient_debris", <item: minecraft:ancient_debris> * 2,

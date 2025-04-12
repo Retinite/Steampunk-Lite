@@ -84,6 +84,11 @@ craftingTable.addShapeless("createaddition.crafting/electrum_spool", <item: crea
 	[<item: createaddition:spool>, <tag:items:forge:wires/electrum>]);
 */
 
+// unimplemented experience pump from Sophisticated Storage
+Jei.hideIngredient(<item: sophisticatedstorage:pump_upgrade>);
+Jei.hideIngredient(<item: sophisticatedstorage:advanced_pump_upgrade>);
+Jei.hideIngredient(<item: sophisticatedstorage:xp_pump_upgrade>);
+
 // HammerLib
 craftingTable.remove(<item: hammerlib:gears/wooden>);
 Jei.hideIngredient(<item: hammerlib:gears/wooden>);
@@ -97,7 +102,7 @@ craftingTable.remove(<item: hammerlib:gears/gold>);
 Jei.hideIngredient(<item: hammerlib:gears/gold>);
 craftingTable.remove(<item: hammerlib:gears/diamond>);
 Jei.hideIngredient(<item: hammerlib:gears/diamond>);
-craftingTable.remove(<item: hammerlib:gears/netherite>);
+smithing.remove(<item: hammerlib:gears/netherite>);
 Jei.hideIngredient(<item: hammerlib:gears/netherite>);
 craftingTable.remove(<item: hammerlib:wrench>);
 Jei.hideIngredient(<item: hammerlib:wrench>);
@@ -105,6 +110,31 @@ Jei.hideIngredient(<item: hammerlib:test_machine>);
 <recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/copper>);
 <recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/iron>);
 <recipetype:immersiveengineering:metal_press>.remove(<item: hammerlib:gears/gold>);
+
+// add Create: Alloyed oxidization recipes
+<recipetype:create:filling>.addRecipe("create_oxidized.alloyed/bronze_block/exposed_bronze_block",
+	<item: alloyed:exposed_bronze_block>, <item: alloyed:bronze_block>, <fluid: minecraft:water> * 250);
+<recipetype:create:filling>.addRecipe("create_oxidized.alloyed/bronze_block/weathered_bronze_block",
+	<item: alloyed:weathered_bronze_block>, <item: alloyed:exposed_bronze_block>, <fluid: minecraft:water> * 250);
+<recipetype:create:filling>.addRecipe("create_oxidized.alloyed/bronze_block/oxidized_bronze_block",
+	<item: alloyed:oxidized_bronze_block>, <item: alloyed:weathered_bronze_block>, <fluid: minecraft:water> * 250);
+
+// Create Deco
+<recipetype:create:pressing>.remove(<item: createdeco:netherite_sheet>);
+Jei.hideIngredient(<item: createdeco:netherite_sheet>);
+
+/* Members not gettable. Guess they must be added to JEI after CraftTweaker scripts.
+// Create: Central Kitchen
+Jei.hideIngredient.remove(<item: create_central_kitchen:mulberry_pie_slice>);
+Jei.hideIngredient.remove(<item: create_central_kitchen:yucca_cake_slice>);
+Jei.hideIngredient.remove(<item: create_central_kitchen:aloe_cake_slice>);
+Jei.hideIngredient.remove(<item: create_central_kitchen:passionfruit_cake_slice>);
+Jei.hideIngredient.remove(<item: create_central_kitchen:pumpkin_cake_slice>);
+Jei.hideIngredient.remove(<item: create_central_kitchen:sweet_berry_cake_slice>);
+*/
+
+// Create: Protection Pixel
+Jei.hideIngredient(<item: protection_pixel:openedmaneuveringwing>);
 
 // add decompression recipe for Alex's Caves sulfur block
 craftingTable.addShaped("alexscaves.dust_from_sulfur", <item: immersiveengineering:dust_sulfur> * 9,

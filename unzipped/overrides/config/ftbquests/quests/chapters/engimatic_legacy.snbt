@@ -534,6 +534,7 @@
 			y: -0.5d
 		}
 		{
+			icon: "enigmaticlegacy:lore_inscriber"
 			id: "60A26E0A7564ED14"
 			rewards: [{
 				id: "051EED2A4DA1AC50"
@@ -1073,6 +1074,7 @@
 		{
 			dependencies: ["50AC522E4F77BFDB"]
 			hide_dependent_lines: true
+			icon: "enigmaticlegacy:etherium_ingot"
 			id: "0DEAC4150E273F5E"
 			rewards: [{
 				id: "3ED6851DE2E3F9DD"
@@ -1098,6 +1100,13 @@
 		}
 		{
 			dependencies: ["0DEAC4150E273F5E"]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3087CD4834C5196B"
 			rewards: [{
 				count: 12
@@ -1160,6 +1169,13 @@
 				"0DEAC4150E273F5E"
 				"4B64EAEC474A7FF9"
 			]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "29E32AEDE8442B42"
 			rewards: [{
 				count: 6
@@ -1495,6 +1511,11 @@
 			y: 1.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:enigmatic_eye"
+				tag: { }
+			}
 			id: "7D464C07D3B82203"
 			rewards: [{
 				id: "0AFEECB27BDFC021"
@@ -2322,6 +2343,13 @@
 				""
 				"&6Potion of Molten Heart&r makes you completely immune to fire and lava, instantly extinguishes you if on fire, and improves your vision while in lava."
 			]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:common_potion"
+				tag: {
+					EnigmaticPotion: "molten_heart"
+				}
+			}
 			id: "46A7857066E44D1F"
 			rewards: [{
 				id: "184F5901A91062F9"
@@ -2338,6 +2366,7 @@
 							EnigmaticPotion: "frozen_heart"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -2349,6 +2378,7 @@
 							EnigmaticPotion: "haste"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 				{
@@ -2360,6 +2390,7 @@
 							EnigmaticPotion: "molten_heart"
 						}
 					}
+					match_nbt: true
 					type: "item"
 				}
 			]

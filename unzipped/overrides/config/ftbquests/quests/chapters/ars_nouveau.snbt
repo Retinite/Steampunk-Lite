@@ -135,6 +135,7 @@
 		}
 		{
 			dependencies: ["3872812432B12EAE"]
+			icon: "ars_elemental:yellow_archwood_sapling"
 			id: "34CD29A8FD6E86DD"
 			optional: true
 			rewards: [{
@@ -253,6 +254,7 @@
 				"Just look up the recipes for &oEnchanted Books&r, and know that you can replace the book in the center of the recipe with &oany&r item or equipment that can accept that enchantment."
 			]
 			hide_dependent_lines: true
+			icon: "ars_nouveau:enchanting_apparatus"
 			id: "6A9CBF3E12B78B26"
 			rewards: [{
 				id: "1955254612C7D998"
@@ -283,6 +285,7 @@
 		}
 		{
 			dependencies: ["6A9CBF3E12B78B26"]
+			icon: "ars_nouveau:magebloom"
 			id: "6D669F3815F78B28"
 			rewards: [{
 				id: "41BAD74C212A6F5C"
@@ -360,6 +363,7 @@
 				""
 				"&lGrass&r and &lDirt&r in the 3x3 below the &lSourcelink&r will gradually convert to &lMycelium&r, and mushrooms will grow nearby if possible."
 			]
+			icon: "ars_nouveau:mycelial_sourcelink"
 			id: "3275E7E061B780DB"
 			optional: true
 			rewards: [{
@@ -418,6 +422,7 @@
 				""
 				"More &5source&r is generated for potions that are longer, stronger, and require more steps to brew. The potion's effect may also vary the amount of &5source&r generated."
 			]
+			icon: "ars_nouveau:alchemical_sourcelink"
 			id: "0BF9308FEF59E326"
 			optional: true
 			rewards: [{
@@ -664,6 +669,7 @@
 				""
 				"And just like with coloring your spellbook, this protection stays with your spellbook even if you upgrade it to a higher level!"
 			]
+			icon: "createdeco:decal_fire_diamond"
 			id: "551A245C70918F32"
 			optional: true
 			rewards: [{
@@ -699,6 +705,11 @@
 					item: "minecraft:netherite_ingot"
 					type: "item"
 				}
+				{
+					id: "78AA4C9B871E9E45"
+					title: "I'm Just Here So You Don't Accidentally Skip This Quest"
+					type: "checkmark"
+				}
 			]
 			title: "Protection of the 4 Elements"
 			x: -0.5d
@@ -706,7 +717,11 @@
 		}
 		{
 			dependencies: ["401D061E9B20ADA8"]
-			description: ["&lSource Jars&r absorb &5source&r from &lSourcelinks&r within 5 blocks, and automatically transfer &5source&r to &lImbuement Chambers&r within 2 blocks."]
+			description: [
+				"&lSource Jars&r absorb &5source&r from &lSourcelinks&r within 5 blocks, and automatically transfer &5source&r to &lImbuement Chambers&r within 2 blocks."
+				""
+				"Each &lSource Jar&r holds 10,000 &5source&r total, for your crafting considerations."
+			]
 			id: "069B8A8EFD3632A8"
 			rewards: [{
 				count: 2
@@ -794,6 +809,7 @@
 		{
 			dependencies: ["5AD9C30195F19E5A"]
 			description: ["Be sure to &oaugment&r the spell with all 3 Wilden drops before activating!"]
+			icon: "ars_nouveau:ritual_wilden_summon"
 			id: "2D99162A9DEB273B"
 			rewards: [{
 				id: "5F127C43D7FAA2DE"
@@ -847,6 +863,7 @@
 		}
 		{
 			dependencies: ["04127D1A9ED6208D"]
+			icon: "ars_nouveau:summon_focus"
 			id: "35327615C6A21E53"
 			rewards: [{
 				id: "69F10104002C151B"
@@ -899,12 +916,25 @@
 				"04127D1A9ED6208D"
 				"57FA6881E72F2171"
 			]
+			description: [
+				"Be sure that you've upgraded your magic armor to tier 3 with &oChorus Fruit&r and &oEnder Pearls&r first!"
+				""
+				"Each elemental armor set provides the same armor and &oThread&r slots, but each full set also offers a different set bonus!"
+			]
+			icon: {
+				Count: 1
+				id: "ars_elemental:fire_robes"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1D4E4BBDF40E9942"
 			rewards: [{
 				id: "4EFBB258E1E279FB"
 				item: "ars_additions:ancient_codex_entry"
 				type: "item"
 			}]
+			subtitle: "Requires Tier 3 Armor!"
 			tasks: [
 				{
 					id: "1F32CB10E4198FB5"
@@ -1077,13 +1107,28 @@
 		}
 		{
 			dependencies: ["6D669F3815F78B28"]
-			description: ["Upgradable with &oThreads&r! Different armor sets have different numbers of &oThread&r slots and may have different magical properties too!"]
+			description: [
+				"All armor sets can be upgraded via the Magic Armor Upgrade recipes in the &lEnchanting Apparatus&r. &oBlaze Rods&r and &oChorus Fruit&r are required for the tier 2 and 3 upgrades, respectively."
+				""
+				"&oThreads&r are modular upgrades that can be added or removed via the &lAlteration Table&r. Some &oThreads&r may &orequire&r high-tier slots to be equipped, while most &oThreads&r yield increased effects when slotted into higher-than-required slot tiers."
+				""
+				"Different armor sets trade off better armor for higher tier &oThread&r slots."
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_robes"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "57FA6881E72F2171"
 			rewards: [{
 				id: "71CFFBE9CEDE9AF5"
 				item: "ars_additions:lost_codex_entry"
 				type: "item"
 			}]
+			shape: "gear"
+			subtitle: "Upgradable \\& Modular"
 			tasks: [
 				{
 					id: "6DB4E5B07699B8D9"
@@ -1225,6 +1270,11 @@
 					id: "3202100B838B80EC"
 					item: "ars_nouveau:blank_thread"
 					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2434B860DECA4169"
+					item: "ars_nouveau:alteration_table"
 					type: "item"
 				}
 			]
