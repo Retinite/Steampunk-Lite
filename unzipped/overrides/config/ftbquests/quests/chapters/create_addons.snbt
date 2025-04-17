@@ -16,35 +16,59 @@
 		}
 		{
 			height: 3.0d
-			image: "minecraft:block/composter_top"
+			image: "quark:block/trough_top"
 			rotation: 0.0d
-			width: 3.0d
-			x: 0.0d
+			width: 1.5d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
 			height: 5.0d
-			image: "spyglass_improvements:textures/spyglass_scope_clear.png"
+			image: "ftbquests:item/lootcrate/top_outline"
 			rotation: 0.0d
-			width: 7.0d
+			width: 8.0d
 			x: -6.5d
 			y: 0.0d
 		}
 		{
-			height: 5.0d
-			image: "minecraft:block/composter_top"
+			height: 3.0d
+			image: "quark:block/trough_top"
 			rotation: 0.0d
-			width: 5.0d
+			width: 3.0d
 			x: 0.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			height: 5.0d
-			image: "spyglass_improvements:textures/spyglass_scope_clear.png"
+			image: "ftbquests:item/lootcrate/top_outline"
 			rotation: 0.0d
-			width: 7.0d
+			width: 8.0d
 			x: 6.5d
 			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "quark:block/trough_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "quark:block/trough_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "quark:block/trough_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.0d
+			y: -4.0d
 		}
 	]
 	order_index: 1
@@ -195,7 +219,7 @@
 				}
 			]
 			title: "Connector Extras"
-			x: 6.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -637,8 +661,8 @@
 				item: "create_enchantment_industry:disenchanter"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11462C50ED95A75C"]
@@ -656,8 +680,8 @@
 				item: "create_enchantment_industry:printer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["49FE19459C03AFB9"]
@@ -673,27 +697,8 @@
 				item: "create_enchantment_industry:enchanting_guide"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			id: "74149BAB43F283DD"
-			optional: true
-			rewards: [{
-				count: 2
-				id: "1EAB57347ADEEA56"
-				item: "create:zinc_ingot"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "Backpack Exp Conversion"
-			tasks: [{
-				id: "41CAEECD9B8A3A35"
-				item: "create_enchantment_industry:experience_rotor"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 5.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["54DFD4A196F7C3C1"]
@@ -710,8 +715,8 @@
 				item: "create_enchantment_industry:hyper_experience_bottle"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["49FE19459C03AFB9"]
@@ -733,7 +738,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -754,7 +759,7 @@
 				item: "trading_floor:trading_depot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
@@ -1305,8 +1310,8 @@
 				item: "createaddition:electrum_amulet"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1335,7 +1340,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 8.5d
 			y: 0.5d
 		}
 		{
@@ -1356,7 +1361,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2CF32DEA0BCCEAB3"]
@@ -1396,8 +1401,8 @@
 				item: "sliceanddice:sprinkler"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.5d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["08BE3B7B1078566F"]
@@ -1413,7 +1418,7 @@
 				item: "sliceanddice:slicer"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -1432,8 +1437,77 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CF32DEA0BCCEAB3"]
+			id: "52B3A74EF5BF8B2C"
+			rewards: [{
+				count: 2
+				id: "5F868AC802022312"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "60rpm, 960su"
+			tasks: [{
+				id: "1DC6DDB4760804DA"
+				item: "create_power_loader:andesite_chunk_loader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"157C5B4DB90477F5"
+				"220C373B431363A2"
+			]
+			description: [
+				"Chunkloads up to 5x5 chunks, but each setting has different speed requirements."
+				""
+				"1x1 = 60rpm (960su)"
+				""
+				"3x3 = 120rpm (1920su)"
+				""
+				"5x5 = 240rpm (3840su)"
+			]
+			id: "4C84812ED657AF1A"
+			rewards: [{
+				count: 2
+				id: "7FF081DFB759D0D4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Configurable"
+			tasks: [{
+				id: "4CD9C41D99BC8BD3"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "71F67516832E0DE2"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "502E3825DE9E09B1"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Backpack Exp Conversion"
+			tasks: [{
+				id: "22B407E122FC3149"
+				item: "create_enchantment_industry:experience_rotor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["The Classic Add-Ons"]

@@ -10,6 +10,11 @@ craftingTable.addShapeless("mysticalagriculture.soulstone_cobble", <item: mystic
 	 <item: minecraft:cobblestone>, <item: minecraft:cobblestone>,            <item: minecraft:cobblestone>]);
 
 // add Mystical Agriculture extra recipes
+craftingTable.addShaped("mysticalagriculture.essence/enigmaticaddons/etyr_ingot", <item: eldritch_end:etyr_ingot>,
+	[[<item: mysticalagriculture:etyr_essence>, <item: mysticalagriculture:etyr_essence>, <item: mysticalagriculture:etyr_essence>],
+	 [<item: mysticalagriculture:etyr_essence>, IIngredientEmpty.getInstance(),           <item: mysticalagriculture:etyr_essence>],
+	 [<item: mysticalagriculture:etyr_essence>, <item: mysticalagriculture:etyr_essence>, <item: mysticalagriculture:etyr_essence>]]);
+
 craftingTable.addShaped("mysticalagriculture.essence/enigmaticaddons/ichor_droplet", <item: enigmaticaddons:ichor_droplet>,
 	[[<item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>],
 	 [<item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>, <item: mysticalagriculture:ichor_essence>],
@@ -29,11 +34,6 @@ craftingTable.addShaped("mysticalagriculture.essence/scguns/anthralite_ingot", <
 	[[<item: mysticalagriculture:anthralite_essence>, <item: mysticalagriculture:anthralite_essence>, <item: mysticalagriculture:anthralite_essence>],
 	 [<item: mysticalagriculture:anthralite_essence>, IIngredientEmpty.getInstance(),                 <item: mysticalagriculture:anthralite_essence>],
 	 [<item: mysticalagriculture:anthralite_essence>, <item: mysticalagriculture:anthralite_essence>, <item: mysticalagriculture:anthralite_essence>]]);
-
-craftingTable.addShaped("mysticalagriculture.essence/common/raw_uranium", <item: immersiveengineering:raw_uranium> * 2,
-	[[<item: mysticalagriculture:uranium_essence>, IIngredientEmpty.getInstance(),              <item: mysticalagriculture:uranium_essence>],
-	 [<item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>],
-	 [<item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>, <item: mysticalagriculture:uranium_essence>]]);
 
 craftingTable.addShaped("mysticalagriculture.essence/sulfur_chunk", <item: scguns:sulfur_chunk> * 4,
 	[[<item: mysticalagriculture:sulfur_essence>, <item: mysticalagriculture:sulfur_essence>],

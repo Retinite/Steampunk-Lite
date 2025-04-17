@@ -3175,7 +3175,7 @@
 			dependencies: ["3E22EEF2DDD153F7"]
 			id: "2B3954BC182F2AD2"
 			rewards: [{
-				count: 3
+				count: 2
 				id: "4F180E27D920C125"
 				item: "minecraft:nether_star"
 				type: "item"
@@ -3199,7 +3199,7 @@
 			dependencies: ["3E22EEF2DDD153F7"]
 			id: "6347145F32EDECF5"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "605BBA967EAB0B6F"
 				item: "mysticalagradditions:dragon_scale"
 				type: "item"
@@ -4069,7 +4069,7 @@
 			dependencies: ["3E22EEF2DDD153F7"]
 			id: "4195D6B158BFB6ED"
 			rewards: [{
-				count: 7
+				count: 2
 				id: "05CA9C5B2DB9B352"
 				item: "enigmaticlegacy:etherium_ingot"
 				type: "item"
@@ -4093,7 +4093,7 @@
 			dependencies: ["3E22EEF2DDD153F7"]
 			id: "284A232766812625"
 			rewards: [{
-				count: 7
+				count: 2
 				id: "2CB90A2E16F970F9"
 				item: "enigmaticlegacy:astral_dust"
 				type: "item"
@@ -4124,6 +4124,22 @@
 			tasks: [{
 				id: "144BAA7B78D47465"
 				item: "mysticalagriculture:ichor_seeds"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2289A3CB93E4EF79"]
+			id: "22A811F42C6AE228"
+			rewards: [{
+				id: "5D87D2B354CC28A7"
+				item: "mysticalagriculture:etyr_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7123AB052DD9ED69"
+				item: "mysticalagriculture:etyr_seeds"
 				type: "item"
 			}]
 			x: 10.5d

@@ -29,6 +29,10 @@ Jei.hideIngredient(<item: itemfilters:weak_nbt>);
 Jei.hideIngredient(<item: itemfilters:custom>);
 //*/
 
+// add IE fuel stats to Create Diesel Generators fluids
+//mods.immersiveengineering.DieselHandler.addFuel(<fluid:createdieselgenerators:diesel>, 500);
+//mods.immersiveengineering.DieselHandler.addFuel(<fluid:gasoline>, 500);
+
 // add Potion of Redemption recipe, as suggested by the MCMod.cn wiki
 <recipetype:farmersdelight:cooking>.addRecipe("enigmaticlegacy.redemption_potion", <item: enigmaticlegacy:redemption_potion>,
 	[<item: minecraft:honey_bottle>, <item: enigmaticlegacy:forbidden_fruit>, <item: enigmaticaddons:ichor_droplet>,
@@ -139,43 +143,3 @@ Jei.hideIngredient(<item: protection_pixel:openedmaneuveringwing>);
 // add decompression recipe for Alex's Caves sulfur block
 craftingTable.addShaped("alexscaves.dust_from_sulfur", <item: immersiveengineering:dust_sulfur> * 9,
 	[[<item: alexscaves:sulfur>]]);
-
-function addChestRecipe(plank as IIngredient) as void {
-val name = "steampunk_lite.chest_from_"+plank.items[0].registryName.namespace+"."+plank.items[0].registryName.path;
-
-craftingTable.addShaped(name, <item: minecraft:chest>,
-	[[plank, plank,                          plank],
-	 [plank, IIngredientEmpty.getInstance(), plank],
-	 [plank, plank,                          plank]]);
-}
-addChestRecipe(<item: alexscaves:pewen_planks>);
-addChestRecipe(<item: alexscaves:thornwood_planks>);
-addChestRecipe(<item: biomeswevegone:aspen_planks>);
-addChestRecipe(<item: biomeswevegone:baobab_planks>);
-addChestRecipe(<item: biomeswevegone:blue_enchanted_planks>);
-addChestRecipe(<item: biomeswevegone:cika_planks>);
-addChestRecipe(<item: biomeswevegone:cypress_planks>);
-addChestRecipe(<item: biomeswevegone:ebony_planks>);
-addChestRecipe(<item: biomeswevegone:fir_planks>);
-addChestRecipe(<item: biomeswevegone:florus_planks>);
-addChestRecipe(<item: biomeswevegone:green_enchanted_planks>);
-addChestRecipe(<item: biomeswevegone:holly_planks>);
-addChestRecipe(<item: biomeswevegone:ironwood_planks>);
-addChestRecipe(<item: biomeswevegone:jacaranda_planks>);
-addChestRecipe(<item: biomeswevegone:mahogany_planks>);
-addChestRecipe(<item: biomeswevegone:maple_planks>);
-addChestRecipe(<item: biomeswevegone:palm_planks>);
-addChestRecipe(<item: biomeswevegone:pine_planks>);
-addChestRecipe(<item: biomeswevegone:rainbow_eucalyptus_planks>);
-addChestRecipe(<item: biomeswevegone:redwood_planks>);
-addChestRecipe(<item: biomeswevegone:sakura_planks>);
-addChestRecipe(<item: biomeswevegone:skyris_planks>);
-addChestRecipe(<item: biomeswevegone:white_mangrove_planks>);
-addChestRecipe(<item: biomeswevegone:willow_planks>);
-addChestRecipe(<item: biomeswevegone:witch_hazel_planks>);
-addChestRecipe(<item: biomeswevegone:zelkova_planks>);
-addChestRecipe(<item: cataclysm:chorus_planks>);
-addChestRecipe(<item: hexalia:cottonwood_planks>);
-addChestRecipe(<item: hexalia:willow_planks>);
-addChestRecipe(<item: eldritch_end:primordial_planks>);
-addChestRecipe(<item: outer_end:azure_planks>);

@@ -1,0 +1,14 @@
+{
+	"name": "Etyr",
+	"type": "mysticalagriculture:resource",
+	"tier": "mysticalagriculture:5",
+	"ingredient": {
+		"item": "eldritch_end:etyr_ingot"
+	},
+	"textures": {
+		"flower": "mysticalagriculture:block/etyr_crop",
+		"essence": "mysticalagriculture:item/essence/etyr_essence",
+		"seeds": "mysticalagriculture:item/seeds/etyr_seeds"
+	},
+	"baseSecondaryChance": 0.0
+}
